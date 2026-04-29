@@ -179,6 +179,16 @@
     "CHS": "乐玩布",
     "JA": "ブロックボンプ"
   },
+  "53021": {
+    "icon": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole45.png",
+    "rank": 3,
+    "codename": "Booltergeist",
+    "EN": "Booltergeist",
+    "desc": "Trick or play!",
+    "KO": "유령부",
+    "CHS": "幽浮布",
+    "JA": "ユウレイボンプ"
+  },
   "54001": {
     "icon": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole07.png",
     "rank": 4,

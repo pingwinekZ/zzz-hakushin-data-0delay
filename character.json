@@ -67,7 +67,7 @@
     },
     "desc": "Database search: Nicole. Returned results:\n\"Boss of the odd-job agency, the Cunning Hares,\" \"Streetwise,\" \"Orphan, parents unknown.\"\nNicole's agency was originally called Gentle House, but due to her reputation of being cunning, it gained the nickname the Cunning Hares.\n\"She's really into money! I don't know what she's doing with it all though, seems like she's doing nothing.\"\n— The above is a quote from a popular post on Inter-Knot: \"Her odd-job agency is outrageous. I've never encountered a boss who knows how to turn everything into profit!\"\nThe individual involved responded, \"This, this is a false accusation! I, Nicole, have never been skilled at making money — mainly because I don't have any money to begin with!\"\nAccording to reliable sources, the Cunning Hares are constantly in debt, and their \"careful budgeting\" seems to have no effect on the organization.",
     "KO": "니콜",
-    "CHS": "妮���",
+    "CHS": "妮可",
     "JA": "ニコ"
   },
   "1041": {
@@ -111,7 +111,7 @@
     },
     "desc": "In addition to her role as an Agent, Yidhari doubles as both a Proxy, and a contributor for Spook Shack.\nTo most, she comes across as laid-back and leisurely, but according to records, it's less \"laziness\" than a shroud of nothingness, leaving her at odds with the world around her.\nPerhaps to most people, this would seem like the usual quirk of someone absorbed in their craft. As a gifted writer of bizarre tales, Yidhari should be more prone than most to immersing herself in the worlds of her own imagination.\nIn truth, however, her unusual behavior stems more from the burden of her own abilities.\nIn the Hollows, she's exposed to vast torrents of information unimaginable to most, tangled with years upon years of memories that have amassed there. That crushing weight of countless pasts constantly batters her sense of reality, until even her emotions are gradually worn dull.\nThe fact that she can bear this burden, turn it into her own strength, and still live life in her own way — that's what sets Yidhari apart as gifted beyond others.",
     "KO": "이드하리",
-    "CHS": "伊德���莉",
+    "CHS": "伊德海莉",
     "JA": "イドリー"
   },
   "1061": {
@@ -196,6 +196,11 @@
         "Name": "Hoshimi Miyabi: Frostgleam Dew",
         "Desc": "A blade that fells the Hollows, a lighthouse that pierces the fog. People hope for a fighter who hones the world and a helmsman who steers the course; for flags that never fall and honor that lives on. Yet power is finite. Only training remains constant.",
         "Image": "IconRole13"
+      },
+      "3110911": {
+        "Name": "Hoshimi Miyabi: Dignified Blossom",
+        "Desc": "...",
+        "Image": "IconRole13_01"
       }
     },
     "desc": "Hoshimi Miyabi, the Chief of Hollow Special Operations Section 6.\nMiyabi goes on a lot of field missions and still doesn't know which floor the regular monthly meeting is on.\nEven if you see Miyabi in the office, it's unlikely she's dealing with paperwork, and more likely polishing her sword.\n\nBeing conferred the title of Void Hunter due to her outstanding contributions, she's an elite amongst elites in Section 6.\nShe has great prestige amongst the citizens.\nOnce, Miyabi accidentally wandered into a \"Miyabi Fan Club\" hosted offline event.\nMiyabi was thought to be a fan with godlike impersonation skills, and that event resulted in a precious visual recording.\n\nHoshimi Miyabi is honest and pragmatic. She is not simply a martial artist obsessed with her art and without care for the world around her.\nAnyone who knows her will realize she's always pursued justice in her heart... even if it may eventually cause a revolution.",
@@ -1193,5 +1198,41 @@
     "KO": "시시아",
     "CHS": "希希芙",
     "JA": "シーシィア"
+  },
+  "1531": {
+    "code": "Starlight - Billy",
+    "rank": 4,
+    "type": 6,
+    "element": 200,
+    "hit": 101,
+    "camp": 1,
+    "icon": "IconRole62",
+    "potential": [],
+    "EN": "Starlight - Billy",
+    "skin": {
+      "3115310": { "Name": "...", "Desc": "...", "Image": "IconRole62" }
+    },
+    "desc": "",
+    "KO": "스타라이트·빌리",
+    "CHS": "星徽·比利",
+    "JA": "スターライト・ビリー"
+  },
+  "1541": {
+    "code": "Promeia",
+    "rank": 4,
+    "type": 3,
+    "element": 202,
+    "hit": 101,
+    "camp": 12,
+    "icon": "IconRole61",
+    "potential": [],
+    "EN": "Promeia",
+    "skin": {
+      "3115410": { "Name": "...", "Desc": "...", "Image": "IconRole61" }
+    },
+    "desc": "...",
+    "KO": "프로미아",
+    "CHS": "普罗米娅",
+    "JA": "プロメイア"
   }
 }
