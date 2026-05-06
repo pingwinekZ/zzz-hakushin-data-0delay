@@ -1782,7 +1782,7 @@
   },
   "Strategy": [
     "07",
-    "<IconMap:Icon_GeneralBuff_Thunder>Electric attribute, versatile Stun",
+    "<IconMap:Icon_GeneralBuff_Thunder>Electric, versatile Stun",
     "Grants Stun DMG buffs",
     "Converts Impact into ATK"
   ],

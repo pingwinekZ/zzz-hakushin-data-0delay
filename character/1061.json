@@ -1750,7 +1750,7 @@
   },
   "Strategy": [
     "03",
-    "<IconMap:Icon_GeneralBuff_PhysDmg>Physical, DMG dealer against Dazed enemies",
+    "<IconMap:Icon_GeneralBuff_PhysDmg>Physical, DMG dealer against Stunned enemies",
     "Increases DMG dealt when hitting Stunned enemies"
   ],
   "Potential": [],

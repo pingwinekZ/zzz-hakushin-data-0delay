@@ -1390,7 +1390,7 @@
   },
   "Strategy": [
     "04",
-    "<IconMap:Icon_GeneralBuff_Thunder>Electric attribute, off-field Support",
+    "<IconMap:Icon_GeneralBuff_Thunder>Electric, off-field Support",
     "Provides PEN Ratio boosts for the squad",
     "Extends Shock duration"
   ],

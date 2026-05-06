@@ -1887,7 +1887,7 @@
   },
   "Strategy": [
     "04",
-    "<IconMap:Icon_GeneralBuff_DungeonBuffEther>Ether attribute, Rupture-based support",
+    "<IconMap:Icon_GeneralBuff_DungeonBuffEther>Ether, Rupture-based support",
     "Activating Ether Veil boosts Max HP",
     "Provides Sheer Force and CRIT DMG Bonus"
   ],

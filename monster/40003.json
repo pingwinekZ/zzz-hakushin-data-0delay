@@ -15,12 +15,12 @@
       ],
       "Type": "Monster",
       "Element": {
-        "Ice": 1,
-        "Fire": -1,
+        "Ice": 0,
+        "Fire": 0,
         "Electric": 0,
         "Ether": 0,
         "Physical": 0,
-        "Wind": 1
+        "Wind": 0
       },
       "Stats": {
         "Hp": 64248,
@@ -265,12 +265,12 @@
   },
   "ImagePath": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_ClonedBlackWolf.png",
   "Name": "Rewritten - Sanguine Sweeper",
-  "Desc": "...",
+  "Desc": "A combat machine produced by Rusty Cliff Corp., modeled after Romeul's appearance and training data.\nEven as a mass-produced model, its individual combat capabilities are in no way inferior to the original. When fighting in groups, their ferocious attack style resembles a wolf pack encircling prey, leaving opponents completely overwhelmed.\nAfter they were hastily deployed to the Outer Ring by TOPS, Youkai briefly seized control of them, attempting to use this steel wolf pack to stop the group from seeking Ramiel.\n\n\"Tch, useless junk. Let me see where I shall find my next toy...\"",
   "Rarity": 4,
   "GroupId": 202,
   "GroupDesc": "Thugs",
   "CardObtain": "[Unidentified] Defeat this monster in Hollow Zero 1 time to obtain its data",
-  "CardQuote": "...",
+  "CardQuote": "— The defeated mecha Romeul muttered to himself as the purple light in his eyes flashed and faded away.",
   "CardSkillDesc": "In combat, the Sweeper inherits the original's fighting prowess while also gaining unique tech abilities through mechanical augmentation. Be careful!",
   "ElementAbnormal": {
     "10001": 600,

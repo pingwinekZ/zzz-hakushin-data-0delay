@@ -1561,7 +1561,7 @@
   },
   "Strategy": [
     "05",
-    "<IconMap:Icon_GeneralBuff_Fire>Fire attribute, Defense Support",
+    "<IconMap:Icon_GeneralBuff_Fire>Fire, defense support",
     "Grants shield Retaliation to all squad members"
   ],
   "Potential": [],

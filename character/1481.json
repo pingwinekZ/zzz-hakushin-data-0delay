@@ -1842,7 +1842,7 @@
   },
   "Strategy": [
     "07",
-    "<IconMap:Icon_GeneralBuff_PhysDmg>Physical, quick-swap Stun",
+    "<IconMap:Icon_GeneralBuff_PhysDmg>Physical, quick-swap Stun triggerer",
     "Increases enemy Stun DMG Multiplier",
     "Can upgrade Chain Attack to Ultimate"
   ],

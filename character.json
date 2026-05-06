@@ -199,7 +199,7 @@
       },
       "3110911": {
         "Name": "Hoshimi Miyabi: Dignified Blossom",
-        "Desc": "...",
+        "Desc": "As blooms first grace the banquet hall and frost dusts the silver courtyard, the young lady would retreat to a quiet corner whenever guests gathered — eyes downcast, book in hand, softly reciting verses from days long past.\nGuests would shower them with praise: the Hoshimi Family still upheld tradition, dignified and cultured as ever.\nOnly Souichirou stood nearby, his eye twitching slightly — he knew better than anyone that his daughter probably didn't grasp half the poem's true meaning.",
         "Image": "IconRole13_01"
       }
     },
@@ -656,7 +656,7 @@
     "desc": "Orphie Magnusson serves in the New Eridu Defense Force's Obsidian Division, Obol Squad. She is the wielder of Magus, an Intelligent Construct in gun form.\n\nMagus is the captain of Obol Squad. She was gravely injured during the fall of the old capital and on the brink of death. After taking part in a military research project, her consciousness was transferred into a weapon, allowing her to survive as an Intelligent Construct. Since the squad's formation, she has remained its heart and soul — hot-tempered and impulsive at times, yet deeply respected and trusted by her comrades.\nOrphie shares an extraordinary bond with Magus — one that goes far beyond that of just \"partners.\" The two have known each other for years, and Magus often acts like a mother, offering guidance and care. In return, Orphie does everything she can to meet Magus' expectations, aspiring to become a strong, independent soldier like her captain.\n\nStrictly speaking, Orphie enjoys many things Magus disapproves of: fancy desserts, cute animals, and overly decorative toys. Her captain sees them as signs of softness, unfit for a soldier. Still, while Magus enforces discipline in public and imposes the expectations of a perfect soldier, she pretends to be in \"sleep mode\" just to turn a blind eye to Orphie's less-than-perfect behavior. According to this supposedly \"strict and impartial\" captain, she's simply following the parenting advice laid out in an online series titled \"Raising a Child Prodigy.\"",
     "KO": "오피&「도깨비불」",
     "CHS": "奥菲丝&「鬼火」",
-    "JA": "オルペウス＆「鬼火」"
+    "JA": "オルペウス&「鬼火」"
   },
   "1311": {
     "code": "Astra",
@@ -1210,12 +1210,16 @@
     "potential": [],
     "EN": "Starlight - Billy",
     "skin": {
-      "3115310": { "Name": "...", "Desc": "...", "Image": "IconRole62" }
+      "3115310": {
+        "Name": "Starlight - Billy: Starlight Armaments",
+        "Desc": "Those who always believe in hope will, in the end, become someone else's hope.",
+        "Image": "IconRole62"
+      }
     },
     "desc": "",
     "KO": "스타라이트·빌리",
     "CHS": "星徽·比利",
-    "JA": "スターライト・ビリー"
+    "JA": "スターライト･ビリー"
   },
   "1541": {
     "code": "Promeia",
@@ -1228,9 +1232,13 @@
     "potential": [],
     "EN": "Promeia",
     "skin": {
-      "3115410": { "Name": "...", "Desc": "...", "Image": "IconRole61" }
+      "3115410": {
+        "Name": "Promeia: Shrouded in Frost",
+        "Desc": "Darkness is a weapon that fits perfectly in my hand. As an executioner, I'm already at home in the night, but carrying heavy shackles, it's easy to lose my way.",
+        "Image": "IconRole61"
+      }
     },
-    "desc": "...",
+    "desc": "Promeia, a Judge of the Krampus Compliance Authority, is primarily responsible for carrying out \"executions.\"\n\nUnlike the other Judges in Krampus, each with their own strong personalities, Promeia feels more like an iceberg lurking beneath the surface. Quiet and reserved, she seems to have no personal interests or hobbies.\n\nFor the majority within the TOPS Alliance, avoiding any involvement with her is a given. If their misdeeds are exposed and they end up under Krampus scrutiny, the first thing those anxious rulebreakers pray for is that Promeia won't be handling their case.\n\nThere's a rumor that circulates quietly within the company, but no one dares talk about it openly. Before joining the Krampus Compliance Authority, Promeia came from the infamous Sweepers, an Outer Ring group that served Calydon and specialized in eliminating \"unstable elements.\"",
     "KO": "프로미아",
     "CHS": "普罗米娅",
     "JA": "プロメイア"
