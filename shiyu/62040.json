@@ -1,0 +1,1060 @@
+{
+  "Id": 62040,
+  "Name": "Critical Node",
+  "Priority": 1,
+  "Zone": {
+    "6204001": {
+      "Name": "Critical Node: First Frontier",
+      "StageNum": 1,
+      "MonsterLevel": 50,
+      "LayerBuff": {
+        "62001401": {
+          "Title": "Fleeting Glory",
+          "Desc": "· While in <color=#FFFFFF>Ether Veil</color>, Agent ATK increases by 25% and CRIT DMG increases by 20%.\n· When Agents hit enemies, they ignore 10% of enemy <color=#F0D12B>Physical RES</color>."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62040011": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11324": {
+              "Id": 10018,
+              "Name": "Poacher",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPoacher.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 252937.4925,
+                "Attack": 1405.6363636363637,
+                "Defence": 473.6,
+                "Stun": 1602,
+                "AttributeInfliction": 0
+              }
+            },
+            "11344": {
+              "Id": 10015,
+              "Name": "Raider",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugRaider.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 297519.33749999997,
+                "Attack": 1639.909090909091,
+                "Defence": 473.6,
+                "Stun": 1602,
+                "AttributeInfliction": 0
+              }
+            },
+            "11354": {
+              "Id": 20017,
+              "Name": "Bulky Enforcer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyEnforcer.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1550048.115,
+                "Attack": 2186.5454545454545,
+                "Defence": 592,
+                "Stun": 5936.3,
+                "AttributeInfliction": 0
+              }
+            },
+            "11363": {
+              "Id": 20015,
+              "Name": "Bulky Intimidator",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyAbuser.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1165023.0899999999,
+                "Attack": 1978.3030303030305,
+                "Defence": 592,
+                "Stun": 4498.06,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "202": "Ice" },
+          "WavesNum": 4
+        },
+        "62040012": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11372": {
+              "Id": 10029,
+              "Name": "Beholder Engine",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_BeholderEngine.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 252937.4925,
+                "Attack": 1405.6363636363637,
+                "Defence": 509.12,
+                "Stun": 1602,
+                "AttributeInfliction": 0
+              }
+            },
+            "11381": {
+              "Id": 20010,
+              "Name": "Tarasque Mixer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_TarasqueMixer.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1627605.7874999999,
+                "Attack": 2290.666666666667,
+                "Defence": 639.36,
+                "Stun": 6233.56,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "203": "Electric", "205": "Ether" },
+          "WavesNum": 4
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6204002": {
+      "Name": "Critical Node: Second Frontier",
+      "StageNum": 2,
+      "MonsterLevel": 55,
+      "LayerBuff": {
+        "62001401": {
+          "Title": "Fleeting Glory",
+          "Desc": "· While in <color=#FFFFFF>Ether Veil</color>, Agent ATK increases by 25% and CRIT DMG increases by 20%.\n· When Agents hit enemies, they ignore 10% of enemy <color=#F0D12B>Physical RES</color>."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62040021": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11322": {
+              "Id": 100181,
+              "Name": "Rustler",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPoacherPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 376438.84249999997,
+                "Attack": 1494,
+                "Defence": 551.1999999999999,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11342": {
+              "Id": 100151,
+              "Name": "Looter",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugRaiderPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 442788.58749999997,
+                "Attack": 1743,
+                "Defence": 551.1999999999999,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11603": {
+              "Id": 200231,
+              "Name": "Doppelganger - Mors",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Mors.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 2802042.9499999997,
+                "Attack": 2628.3333333333335,
+                "Defence": 689,
+                "Stun": 11439.359999999999,
+                "AttributeInfliction": 0
+              }
+            },
+            "11613": {
+              "Id": 200251,
+              "Name": "Doppelganger - Bellum",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Bellum.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 3000818.0124999997,
+                "Attack": 3209.3333333333335,
+                "Defence": 689,
+                "Stun": 13720.32,
+                "AttributeInfliction": 0
+              }
+            },
+            "11623": {
+              "Id": 200241,
+              "Name": "Doppelganger - Pulchra",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Pulchra.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 2802042.9499999997,
+                "Attack": 3209.3333333333335,
+                "Defence": 689,
+                "Stun": 11439.359999999999,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "WavesNum": 3
+        },
+        "62040022": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11104": {
+              "Id": 10001,
+              "Name": "Alpeca",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_CyclopsGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 376438.84249999997,
+                "Attack": 1494,
+                "Defence": 496.08,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11124": {
+              "Id": 20001,
+              "Name": "Hati",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1661211.1774999998,
+                "Attack": 2932.666666666667,
+                "Defence": 744.12,
+                "Stun": 4721.28,
+                "AttributeInfliction": 0
+              }
+            },
+            "11194": {
+              "Id": 20003,
+              "Name": "Armored Hati",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiArmoredGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1779653.6974999998,
+                "Attack": 3209.3333333333335,
+                "Defence": 744.12,
+                "Stun": 5084.16,
+                "AttributeInfliction": 0
+              }
+            },
+            "11204": {
+              "Id": 10003,
+              "Name": "Hoplitai",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Golemgrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 376438.84249999997,
+                "Attack": 1660,
+                "Defence": 633.88,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11294": {
+              "Id": 10014,
+              "Name": "Mandrake",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Mandrake.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 316120.89249999996,
+                "Attack": 1743,
+                "Defence": 496.08,
+                "Stun": 1814.3999999999999,
+                "AttributeInfliction": 0
+              }
+            },
+            "31052": {
+              "Id": 930168,
+              "Name": "Banyrek",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Banyrek.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 2484002.8499999996,
+                "Attack": 3347.666666666667,
+                "Defence": 620.1,
+                "Stun": 8388.48,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "WavesNum": 3
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6204003": {
+      "Name": "Critical Node: Third Frontier",
+      "StageNum": 3,
+      "MonsterLevel": 60,
+      "LayerBuff": {
+        "62001401": {
+          "Title": "Fleeting Glory",
+          "Desc": "· While in <color=#FFFFFF>Ether Veil</color>, Agent ATK increases by 25% and CRIT DMG increases by 20%.\n· When Agents hit enemies, they ignore 10% of enemy <color=#F0D12B>Physical RES</color>."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62040031": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11312": {
+              "Id": 100191,
+              "Name": "Ambusher",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugAssaulterPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 931738.3949999999,
+                "Attack": 1385.2840909090908,
+                "Defence": 635.2,
+                "Stun": 1854,
+                "AttributeInfliction": 0
+              }
+            },
+            "11322": {
+              "Id": 100181,
+              "Name": "Rustler",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPoacherPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 931738.3949999999,
+                "Attack": 1187.3863636363635,
+                "Defence": 635.2,
+                "Stun": 1854,
+                "AttributeInfliction": 0
+              }
+            },
+            "11602": {
+              "Id": 200231,
+              "Name": "Doppelganger - Mors",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Mors.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 6721002.96,
+                "Attack": 1825.056818181818,
+                "Defence": 794,
+                "Stun": 10821.18,
+                "AttributeInfliction": 0
+              }
+            },
+            "11613": {
+              "Id": 200251,
+              "Name": "Doppelganger - Bellum",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Bellum.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 7427441.175,
+                "Attack": 2550.681818181818,
+                "Defence": 794,
+                "Stun": 14720.76,
+                "AttributeInfliction": 0
+              }
+            },
+            "11623": {
+              "Id": 200241,
+              "Name": "Doppelganger - Pulchra",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Pulchra.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 6935445.3,
+                "Attack": 2550.681818181818,
+                "Defence": 794,
+                "Stun": 12273.48,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "WavesNum": 3
+        },
+        "62040032": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11124": {
+              "Id": 20001,
+              "Name": "Hati",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4111728.2849999997,
+                "Attack": 2330.7954545454545,
+                "Defence": 857.5200000000001,
+                "Stun": 5065.54,
+                "AttributeInfliction": 0
+              }
+            },
+            "11155": {
+              "Id": 30000,
+              "Name": "Dullahan",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_DurahanGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4988498.864999999,
+                "Attack": 2440.738636363636,
+                "Defence": 921.0400000000001,
+                "Stun": 8182.320000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "11682": {
+              "Id": 10030,
+              "Name": "Fossor",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Fossor.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1027423.1099999999,
+                "Attack": 1671.1363636363635,
+                "Defence": 635.2,
+                "Stun": 2043.52,
+                "AttributeInfliction": 0
+              }
+            },
+            "11692": {
+              "Id": 10031,
+              "Name": "Sordidus",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Sordidus.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1027423.1099999999,
+                "Attack": 1517.215909090909,
+                "Defence": 635.2,
+                "Stun": 2043.52,
+                "AttributeInfliction": 0
+              }
+            },
+            "31052": {
+              "Id": 930168,
+              "Name": "Banyrek",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Banyrek.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 6148251.899999999,
+                "Attack": 2660.625,
+                "Defence": 714.6,
+                "Stun": 9000.14,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "WavesNum": 3
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6204004": {
+      "Name": "Critical Node: Fourth Frontier",
+      "StageNum": 4,
+      "MonsterLevel": 65,
+      "LayerBuff": {
+        "62001401": {
+          "Title": "Fleeting Glory",
+          "Desc": "· While in <color=#FFFFFF>Ether Veil</color>, Agent ATK increases by 25% and CRIT DMG increases by 20%.\n· When Agents hit enemies, they ignore 10% of enemy <color=#F0D12B>Physical RES</color>."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62040041": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_ThugBulkyEnforcerBoss.png",
+          "MonsterList": {
+            "11311": {
+              "Id": 100191,
+              "Name": "Ambusher",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugAssaulterPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 828588.705,
+                "Attack": 1462.6022727272727,
+                "Defence": 635.2,
+                "Stun": 1320,
+                "AttributeInfliction": 0
+              }
+            },
+            "11321": {
+              "Id": 100181,
+              "Name": "Rustler",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPoacherPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 828588.705,
+                "Attack": 1253.6590909090908,
+                "Defence": 635.2,
+                "Stun": 1320,
+                "AttributeInfliction": 0
+              }
+            },
+            "11353": {
+              "Id": 200172,
+              "Name": "Troublemaker - Wanted Enforcer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyEnforcerBoss.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 15161033.58,
+                "Attack": 2785.909090909091,
+                "Defence": 952.8000000000001,
+                "Stun": 12194.6,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "WavesNum": 2
+        },
+        "62040042": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Avarus.png",
+          "MonsterList": {
+            "31012": {
+              "Id": 930169,
+              "Name": "Miasma Ravager - Avarus",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Avarus.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 22104798.765,
+                "Attack": 3018.0681818181815,
+                "Defence": 952.8000000000001,
+                "Stun": 14498.000000000002,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "201": "Fire", "205": "Ether" },
+          "WavesNum": 1
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6204005": {
+      "Name": "",
+      "StageNum": 5,
+      "MonsterLevel": 0,
+      "LayerBuff": {
+        "62001401": {
+          "Title": "Fleeting Glory",
+          "Desc": "· While in <color=#FFFFFF>Ether Veil</color>, Agent ATK increases by 25% and CRIT DMG increases by 20%.\n· When Agents hit enemies, they ignore 10% of enemy <color=#F0D12B>Physical RES</color>."
+        },
+        "62001402": {
+          "Title": "Piercing Blade Abyss",
+          "Desc": "· Agent <color=#98EFF0>Ice DMG</color> and <color=#F0D12B>Physical DMG</color> increase by 15%.\n· When Agents inflict an Attribute Anomaly on enemies, their DEF is reduced by 10%, and they take 20% more Attribute Anomaly DMG for 10s. Repeated triggers reset the duration."
+        },
+        "62001403": {
+          "Title": "Cleanse the Heart with Fire",
+          "Desc": "· Agent <color=#FF5521>Fire DMG</color> increases by 20%.\n· Agent <color=#FFFFFF>Basic Attack</color> and <color=#FFFFFF>Chain Attack</color> DMG increase by 40%, and CRIT DMG increases by 30%."
+        }
+      },
+      "Child": [62040051, 62040052, 62040053],
+      "LayerRoom": {},
+      "GoalType": 3,
+      "SsRankGoal": 0,
+      "SRankGoal": 1270001003,
+      "ARankGoal": 1270001002,
+      "BRankGoal": 1270001001
+    },
+    "62040051": {
+      "Name": "Room 1",
+      "StageNum": 5,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "62001001": {
+          "Title": "",
+          "Desc": "· In this stage, dealing DMG to enemies earns you <color=#FFAF2C>DMG Score</color>. Defeating a single <color=#FFFFFF>normal/elite enemy</color> will grant you an instance of <color=#FFAF2C>Elimination Score</color>.\n· In this stage, scores earned at different times will receive additional <color=#FFAF2C>multiplier bonuses</color>. The earlier in the challenge, the higher the multiplier. The <color=#FFAF2C>total score cap (including bonus) is 50,000</color>."
+        },
+        "62001002": { "Title": "", "Desc": "" },
+        "62001401": {
+          "Title": "Fleeting Glory",
+          "Desc": "· While in <color=#FFFFFF>Ether Veil</color>, Agent ATK increases by 25% and CRIT DMG increases by 20%.\n· When Agents hit enemies, they ignore 10% of enemy <color=#F0D12B>Physical RES</color>."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62040051": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaIsoldeSlime.png",
+          "MonsterList": {
+            "11158": {
+              "Id": 300001,
+              "Name": "Dullahan - Energized",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_DurahanGreyPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": -1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4009896.99,
+                "Attack": 2714.4545454545455,
+                "Defence": 921.0400000000001,
+                "Stun": 9334.2,
+                "AttributeInfliction": 0
+              }
+            },
+            "31172": {
+              "Id": 20032,
+              "Name": "Ionized - Pugnus",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_IonizedPugnus.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 7386480.09,
+                "Attack": 3105.727272727273,
+                "Defence": 857.5200000000001,
+                "Stun": 15079.95,
+                "AttributeInfliction": 0
+              }
+            },
+            "31214": {
+              "Id": 300372,
+              "Name": "Miasmic - Doppelganger - The Defector",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaIsoldeSlime.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": -1,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 23131354.68,
+                "Attack": 3521.454545454546,
+                "Defence": 952.8000000000001,
+                "Stun": 14327.95,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 2,
+      "SsRankGoal": 0,
+      "SRankGoal": 25000,
+      "ARankGoal": 16000,
+      "BRankGoal": 8000
+    },
+    "62040052": {
+      "Name": "Room 2",
+      "StageNum": 5,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "62001001": {
+          "Title": "",
+          "Desc": "· In this stage, dealing DMG to enemies earns you <color=#FFAF2C>DMG Score</color>. Defeating a single <color=#FFFFFF>normal/elite enemy</color> will grant you an instance of <color=#FFAF2C>Elimination Score</color>.\n· In this stage, scores earned at different times will receive additional <color=#FFAF2C>multiplier bonuses</color>. The earlier in the challenge, the higher the multiplier. The <color=#FFAF2C>total score cap (including bonus) is 50,000</color>."
+        },
+        "62001002": { "Title": "", "Desc": "" },
+        "62001402": {
+          "Title": "Piercing Blade Abyss",
+          "Desc": "· Agent <color=#98EFF0>Ice DMG</color> and <color=#F0D12B>Physical DMG</color> increase by 15%.\n· When Agents inflict an Attribute Anomaly on enemies, their DEF is reduced by 10%, and they take 20% more Attribute Anomaly DMG for 10s. Repeated triggers reset the duration."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62040052": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaJaneSlime.png",
+          "MonsterList": {
+            "11158": {
+              "Id": 300001,
+              "Name": "Dullahan - Energized",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_DurahanGreyPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": -1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4009896.99,
+                "Attack": 2714.4545454545455,
+                "Defence": 921.0400000000001,
+                "Stun": 9334.2,
+                "AttributeInfliction": 0
+              }
+            },
+            "11264": {
+              "Id": 20009,
+              "Name": "Heavy Gunner",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HeavyFirepower.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": -1,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 3732788.07,
+                "Attack": 2592.1818181818185,
+                "Defence": 857.5200000000001,
+                "Stun": 7120.5,
+                "AttributeInfliction": 0
+              }
+            },
+            "31122": {
+              "Id": 930175,
+              "Name": "Miasmic - Jane",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaJaneSlime.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": -1,
+                "Physical": 1,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 27829213.74,
+                "Attack": 3521.454545454546,
+                "Defence": 952.8000000000001,
+                "Stun": 14327.95,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "204": "Wind" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 2,
+      "SsRankGoal": 0,
+      "SRankGoal": 25000,
+      "ARankGoal": 16000,
+      "BRankGoal": 8000
+    },
+    "62040053": {
+      "Name": "Room 3",
+      "StageNum": 5,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "62001001": {
+          "Title": "",
+          "Desc": "· In this stage, dealing DMG to enemies earns you <color=#FFAF2C>DMG Score</color>. Defeating a single <color=#FFFFFF>normal/elite enemy</color> will grant you an instance of <color=#FFAF2C>Elimination Score</color>.\n· In this stage, scores earned at different times will receive additional <color=#FFAF2C>multiplier bonuses</color>. The earlier in the challenge, the higher the multiplier. The <color=#FFAF2C>total score cap (including bonus) is 50,000</color>."
+        },
+        "62001002": { "Title": "", "Desc": "" },
+        "62001403": {
+          "Title": "Cleanse the Heart with Fire",
+          "Desc": "· Agent <color=#FF5521>Fire DMG</color> increases by 20%.\n· Agent <color=#FFFFFF>Basic Attack</color> and <color=#FFFFFF>Chain Attack</color> DMG increase by 40%, and CRIT DMG increases by 30%."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62040053": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HugoVlad_Boss.png",
+          "MonsterList": {
+            "11502": {
+              "Id": 200121,
+              "Name": "Frenzied Maniac",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_FrenziedManiacPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": -1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 3749599.0799999996,
+                "Attack": 2592.1818181818185,
+                "Defence": 794,
+                "Stun": 7111.1,
+                "AttributeInfliction": 0
+              }
+            },
+            "11512": {
+              "Id": 200131,
+              "Name": "Wicked Wraith",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_WickedWraithPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": -1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 5408087.04,
+                "Attack": 2469.909090909091,
+                "Defence": 794,
+                "Stun": 9334.2,
+                "AttributeInfliction": 0
+              }
+            },
+            "11982": {
+              "Id": 300301,
+              "Name": "Doppelganger - Abyssal Enforcer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_HugoVlad_Boss.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 22214336.4,
+                "Attack": 3521.454545454546,
+                "Defence": 952.8000000000001,
+                "Stun": 14327.95,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 2,
+      "SsRankGoal": 0,
+      "SRankGoal": 25000,
+      "ARankGoal": 16000,
+      "BRankGoal": 8000
+    }
+  },
+  "BeginTime": "2026-01-23 04:00:00",
+  "EndTime": "2026-02-06 03:59:59"
+}

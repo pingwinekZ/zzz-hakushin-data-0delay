@@ -1,0 +1,1327 @@
+{
+  "Id": 62027,
+  "Name": "Critical Node",
+  "Priority": 1,
+  "Zone": {
+    "6202701": {
+      "Name": "Critical Node: First Frontier",
+      "StageNum": 1,
+      "MonsterLevel": 50,
+      "LayerBuff": {
+        "62001261": {
+          "Title": "Lone Blade's Pride",
+          "Desc": "· Enemy <color=#FE437E>Ether RES</color> and <color=#F0D12B>Physical RES</color> drop by 15%.\n· After using <color=#FFFFFF>EX Special Attack</color> or <color=#FFFFFF>Chain Attack</color>, for Agents, Attribute Anomaly DMG increases by 15%, CRIT DMG increases by 20%, Sheer DMG increases by 20% for 20s. Repeated triggers refresh duration."
+        },
+        "62001262": { "Title": "", "Desc": "" }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62027011": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11253": {
+              "Id": 10006,
+              "Name": "Light Jaeger",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_LightJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 165505.49399999998,
+                "Attack": 1718,
+                "Defence": 473.6,
+                "Stun": 1068,
+                "AttributeInfliction": 0
+              }
+            },
+            "11274": {
+              "Id": 10007,
+              "Name": "Rookie Jaeger",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster-MeleeJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 202349.99399999998,
+                "Attack": 1718,
+                "Defence": 473.6,
+                "Stun": 1602,
+                "AttributeInfliction": 0
+              }
+            },
+            "11443": {
+              "Id": 20008,
+              "Name": "Lightfoot Rover",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_LightfootRover.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": -1,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1045941.6659999999,
+                "Attack": 2056.3939393939395,
+                "Defence": 639.36,
+                "Stun": 6233.56,
+                "AttributeInfliction": 0
+              }
+            },
+            "11454": {
+              "Id": 20007,
+              "Name": "Heavy Striker",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HeavyStriker.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": -1,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1240038.4919999999,
+                "Attack": 2394.787878787879,
+                "Defence": 639.36,
+                "Stun": 5936.3,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "WavesNum": 3
+        },
+        "62027012": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11096": {
+              "Id": 10000,
+              "Name": "Tyrfing",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ClaymoreGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 11790.24,
+                "Attack": 1249.4545454545455,
+                "Defence": 532.8,
+                "Stun": 0,
+                "AttributeInfliction": 0
+              }
+            },
+            "11103": {
+              "Id": 10001,
+              "Name": "Alpeca",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_CyclopsGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 11790.24,
+                "Attack": 1249.4545454545455,
+                "Defence": 532.8,
+                "Stun": 0,
+                "AttributeInfliction": 0
+              }
+            },
+            "11123": {
+              "Id": 20001,
+              "Name": "Hati",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 868056.4199999999,
+                "Attack": 2394.787878787879,
+                "Defence": 639.36,
+                "Stun": 3859.04,
+                "AttributeInfliction": 0
+              }
+            },
+            "11213": {
+              "Id": 20005,
+              "Name": "Arlaune",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ArlauneGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 722889.09,
+                "Attack": 1379.6060606060607,
+                "Defence": 532.8,
+                "Stun": 4156.3,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "WavesNum": 4
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6202702": {
+      "Name": "Critical Node: Second Frontier",
+      "StageNum": 2,
+      "MonsterLevel": 53,
+      "LayerBuff": {
+        "62001261": {
+          "Title": "Lone Blade's Pride",
+          "Desc": "· Enemy <color=#FE437E>Ether RES</color> and <color=#F0D12B>Physical RES</color> drop by 15%.\n· After using <color=#FFFFFF>EX Special Attack</color> or <color=#FFFFFF>Chain Attack</color>, for Agents, Attribute Anomaly DMG increases by 15%, CRIT DMG increases by 20%, Sheer DMG increases by 20% for 20s. Repeated triggers refresh duration."
+        },
+        "62001262": { "Title": "", "Desc": "" }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62027021": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11324": {
+              "Id": 10018,
+              "Name": "Poacher",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPoacher.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 245503.38399999996,
+                "Attack": 1458.8181818181818,
+                "Defence": 519.2,
+                "Stun": 1674,
+                "AttributeInfliction": 0
+              }
+            },
+            "11344": {
+              "Id": 10015,
+              "Name": "Raider",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugRaider.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 288774.92,
+                "Attack": 1701.9545454545455,
+                "Defence": 519.2,
+                "Stun": 1674,
+                "AttributeInfliction": 0
+              }
+            },
+            "11354": {
+              "Id": 20017,
+              "Name": "Bulky Enforcer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyEnforcer.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1504490.5119999999,
+                "Attack": 2269.2727272727275,
+                "Defence": 649,
+                "Stun": 6203.1,
+                "AttributeInfliction": 0
+              }
+            },
+            "11363": {
+              "Id": 20015,
+              "Name": "Bulky Intimidator",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyAbuser.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1130781.792,
+                "Attack": 2053.151515151515,
+                "Defence": 649,
+                "Stun": 4700.22,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "202": "Ice" },
+          "WavesNum": 4
+        },
+        "62027022": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11114": {
+              "Id": 20000,
+              "Name": "Farbauti",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GiantGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1505026.936,
+                "Attack": 2485.3939393939395,
+                "Defence": 700.9200000000001,
+                "Stun": 7739.46,
+                "AttributeInfliction": 0
+              }
+            },
+            "11192": {
+              "Id": 20003,
+              "Name": "Armored Hati",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiArmoredGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1160642.728,
+                "Attack": 3133.757575757576,
+                "Defence": 700.9200000000001,
+                "Stun": 4925.280000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "11682": {
+              "Id": 10030,
+              "Name": "Fossor",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Fossor.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 270715.312,
+                "Attack": 2053.151515151515,
+                "Defence": 519.2,
+                "Stun": 1845.1200000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "11692": {
+              "Id": 10031,
+              "Name": "Sordidus",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Sordidus.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 270715.312,
+                "Attack": 1864.0454545454545,
+                "Defence": 519.2,
+                "Stun": 1845.1200000000001,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "WavesNum": 4
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6202703": {
+      "Name": "Critical Node: Third Frontier",
+      "StageNum": 3,
+      "MonsterLevel": 55,
+      "LayerBuff": {
+        "62001261": {
+          "Title": "Lone Blade's Pride",
+          "Desc": "· Enemy <color=#FE437E>Ether RES</color> and <color=#F0D12B>Physical RES</color> drop by 15%.\n· After using <color=#FFFFFF>EX Special Attack</color> or <color=#FFFFFF>Chain Attack</color>, for Agents, Attribute Anomaly DMG increases by 15%, CRIT DMG increases by 20%, Sheer DMG increases by 20% for 20s. Repeated triggers refresh duration."
+        },
+        "62001262": { "Title": "", "Desc": "" }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62027031": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11058": {
+              "Id": 30002,
+              "Name": "Guardian",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Guardian.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": -1,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 2241775.363,
+                "Attack": 2545.3333333333335,
+                "Defence": 744.12,
+                "Stun": 7989.12,
+                "AttributeInfliction": 0
+              }
+            },
+            "11164": {
+              "Id": 10005,
+              "Name": "Strike Jaeger",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_StrikeJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 430137.485,
+                "Attack": 1826,
+                "Defence": 551.1999999999999,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11254": {
+              "Id": 10006,
+              "Name": "Light Jaeger",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_LightJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 365683.447,
+                "Attack": 1826,
+                "Defence": 551.1999999999999,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11454": {
+              "Id": 20007,
+              "Name": "Heavy Striker",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HeavyStriker.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": -1,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 2240976.346,
+                "Attack": 2545.3333333333335,
+                "Defence": 744.12,
+                "Stun": 6403.2,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "WavesNum": 4
+        },
+        "62027032": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11097": {
+              "Id": 10000,
+              "Name": "Tyrfing",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ClaymoreGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 365683.447,
+                "Attack": 1826,
+                "Defence": 496.08,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11104": {
+              "Id": 10001,
+              "Name": "Alpeca",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_CyclopsGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 365683.447,
+                "Attack": 1494,
+                "Defence": 496.08,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11124": {
+              "Id": 20001,
+              "Name": "Hati",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1613748.0009999997,
+                "Attack": 2932.666666666667,
+                "Defence": 744.12,
+                "Stun": 4721.28,
+                "AttributeInfliction": 0
+              }
+            },
+            "11204": {
+              "Id": 10003,
+              "Name": "Hoplitai",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Golemgrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 365683.447,
+                "Attack": 1660,
+                "Defence": 633.88,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11224": {
+              "Id": 20004,
+              "Name": "Metro Goblin",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GoblinMetro.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1957857.9889999996,
+                "Attack": 3071,
+                "Defence": 620.1,
+                "Stun": 7626.24,
+                "AttributeInfliction": 0
+              }
+            },
+            "11294": {
+              "Id": 10014,
+              "Name": "Mandrake",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Mandrake.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 307088.86699999997,
+                "Attack": 1743,
+                "Defence": 496.08,
+                "Stun": 1814.3999999999999,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "WavesNum": 3
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6202704": {
+      "Name": "Critical Node: Fourth Frontier",
+      "StageNum": 4,
+      "MonsterLevel": 58,
+      "LayerBuff": {
+        "62001261": {
+          "Title": "Lone Blade's Pride",
+          "Desc": "· Enemy <color=#FE437E>Ether RES</color> and <color=#F0D12B>Physical RES</color> drop by 15%.\n· After using <color=#FFFFFF>EX Special Attack</color> or <color=#FFFFFF>Chain Attack</color>, for Agents, Attribute Anomaly DMG increases by 15%, CRIT DMG increases by 20%, Sheer DMG increases by 20% for 20s. Repeated triggers refresh duration."
+        },
+        "62001262": { "Title": "", "Desc": "" }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62027041": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11324": {
+              "Id": 10018,
+              "Name": "Poacher",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPoacher.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 386363.573,
+                "Attack": 1547.1818181818182,
+                "Defence": 600.8,
+                "Stun": 1800,
+                "AttributeInfliction": 0
+              }
+            },
+            "11344": {
+              "Id": 10015,
+              "Name": "Raider",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugRaider.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 454462.615,
+                "Attack": 1805.0454545454545,
+                "Defence": 600.8,
+                "Stun": 1800,
+                "AttributeInfliction": 0
+              }
+            },
+            "11355": {
+              "Id": 20017,
+              "Name": "Bulky Enforcer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyEnforcer.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 2435525.655,
+                "Attack": 2750.5454545454545,
+                "Defence": 751,
+                "Stun": 7566,
+                "AttributeInfliction": 0
+              }
+            },
+            "11364": {
+              "Id": 20015,
+              "Name": "Bulky Intimidator",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyAbuser.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1833890.317,
+                "Attack": 2464.030303030303,
+                "Defence": 751,
+                "Stun": 5772,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "202": "Ice" },
+          "WavesNum": 3
+        },
+        "62027042": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11104": {
+              "Id": 10001,
+              "Name": "Alpeca",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_CyclopsGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 386363.573,
+                "Attack": 1547.1818181818182,
+                "Defence": 540.72,
+                "Stun": 1800,
+                "AttributeInfliction": 0
+              }
+            },
+            "11114": {
+              "Id": 20000,
+              "Name": "Farbauti",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GiantGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 2368552.217,
+                "Attack": 2635.939393939394,
+                "Defence": 811.0799999999999,
+                "Stun": 8322,
+                "AttributeInfliction": 0
+              }
+            },
+            "11155": {
+              "Id": 30000,
+              "Name": "Dullahan",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_DurahanGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 2068578.751,
+                "Attack": 3180.318181818182,
+                "Defence": 871.16,
+                "Stun": 7944,
+                "AttributeInfliction": 0
+              }
+            },
+            "11204": {
+              "Id": 10003,
+              "Name": "Hoplitai",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Golemgrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 386363.573,
+                "Attack": 1719.0909090909092,
+                "Defence": 690.92,
+                "Stun": 1800,
+                "AttributeInfliction": 0
+              }
+            },
+            "11294": {
+              "Id": 10014,
+              "Name": "Mandrake",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Mandrake.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 324455.353,
+                "Attack": 1805.0454545454545,
+                "Defence": 540.72,
+                "Stun": 1890,
+                "AttributeInfliction": 0
+              }
+            },
+            "31052": {
+              "Id": 930168,
+              "Name": "Banyrek",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Banyrek.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 2549493.06,
+                "Attack": 3466.8333333333335,
+                "Defence": 675.9,
+                "Stun": 8738,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "WavesNum": 3
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6202705": {
+      "Name": "Critical Node: Fifth Frontier",
+      "StageNum": 5,
+      "MonsterLevel": 60,
+      "LayerBuff": {
+        "62001261": {
+          "Title": "Lone Blade's Pride",
+          "Desc": "· Enemy <color=#FE437E>Ether RES</color> and <color=#F0D12B>Physical RES</color> drop by 15%.\n· After using <color=#FFFFFF>EX Special Attack</color> or <color=#FFFFFF>Chain Attack</color>, for Agents, Attribute Anomaly DMG increases by 15%, CRIT DMG increases by 20%, Sheer DMG increases by 20% for 20s. Repeated triggers refresh duration."
+        },
+        "62001262": { "Title": "", "Desc": "" }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62027051": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11312": {
+              "Id": 100191,
+              "Name": "Ambusher",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugAssaulterPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 785322.3615,
+                "Attack": 1847.0454545454545,
+                "Defence": 635.2,
+                "Stun": 1854,
+                "AttributeInfliction": 0
+              }
+            },
+            "11322": {
+              "Id": 100181,
+              "Name": "Rustler",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPoacherPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 785322.3615,
+                "Attack": 1583.181818181818,
+                "Defence": 635.2,
+                "Stun": 1854,
+                "AttributeInfliction": 0
+              }
+            },
+            "11603": {
+              "Id": 200231,
+              "Name": "Doppelganger - Mors",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Mors.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 5845589.609999999,
+                "Attack": 2785.2272727272725,
+                "Defence": 794,
+                "Stun": 12273.48,
+                "AttributeInfliction": 0
+              }
+            },
+            "11613": {
+              "Id": 200251,
+              "Name": "Doppelganger - Bellum",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Bellum.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 6260271.8475,
+                "Attack": 3400.9090909090905,
+                "Defence": 794,
+                "Stun": 14720.76,
+                "AttributeInfliction": 0
+              }
+            },
+            "11623": {
+              "Id": 200241,
+              "Name": "Doppelganger - Pulchra",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Pulchra.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 5845589.609999999,
+                "Attack": 3400.9090909090905,
+                "Defence": 794,
+                "Stun": 12273.48,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "WavesNum": 3
+        },
+        "62027052": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11185": {
+              "Id": 30001,
+              "Name": "Thanatos",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_DeathXIIIGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4678187.6145,
+                "Attack": 2961.1363636363635,
+                "Defence": 857.5200000000001,
+                "Stun": 5728.860000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "11194": {
+              "Id": 20003,
+              "Name": "Armored Hati",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiArmoredGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 3712692.9705,
+                "Attack": 3400.9090909090905,
+                "Defence": 857.5200000000001,
+                "Stun": 5454.88,
+                "AttributeInfliction": 0
+              }
+            },
+            "11226": {
+              "Id": 20002,
+              "Name": "Goblin",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GoblinGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4204591.9004999995,
+                "Attack": 3254.3181818181815,
+                "Defence": 714.6,
+                "Stun": 8182.320000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "11682": {
+              "Id": 10030,
+              "Name": "Fossor",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Fossor.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 865970.907,
+                "Attack": 2228.181818181818,
+                "Defence": 635.2,
+                "Stun": 2043.52,
+                "AttributeInfliction": 0
+              }
+            },
+            "11692": {
+              "Id": 10031,
+              "Name": "Sordidus",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Sordidus.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 865970.907,
+                "Attack": 2022.9545454545453,
+                "Defence": 635.2,
+                "Stun": 2043.52,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "WavesNum": 3
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6202706": {
+      "Name": "Critical Node: Sixth Frontier",
+      "StageNum": 6,
+      "MonsterLevel": 65,
+      "LayerBuff": {
+        "62001261": {
+          "Title": "Lone Blade's Pride",
+          "Desc": "· Enemy <color=#FE437E>Ether RES</color> and <color=#F0D12B>Physical RES</color> drop by 15%.\n· After using <color=#FFFFFF>EX Special Attack</color> or <color=#FFFFFF>Chain Attack</color>, for Agents, Attribute Anomaly DMG increases by 15%, CRIT DMG increases by 20%, Sheer DMG increases by 20% for 20s. Repeated triggers refresh duration."
+        },
+        "62001262": { "Title": "", "Desc": "" }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62027061": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_DubiousHero.png",
+          "MonsterList": {
+            "11352": {
+              "Id": 200171,
+              "Name": "Wanted Enforcer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyEnforcerPro.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 5382453.6225000005,
+                "Attack": 2971.6363636363635,
+                "Defence": 794,
+                "Stun": 8322.6,
+                "AttributeInfliction": 0
+              }
+            },
+            "11362": {
+              "Id": 200151,
+              "Name": "Wanted Intimidator",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyAbuserPro.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4052853.8715000004,
+                "Attack": 2662.090909090909,
+                "Defence": 794,
+                "Stun": 6349.200000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "11671": {
+              "Id": 30019,
+              "Name": "Rampant Brute",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_DubiousHero.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 13564031.8845,
+                "Attack": 4086,
+                "Defence": 952.8000000000001,
+                "Stun": 12194.6,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "WavesNum": 2
+        },
+        "62027062": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HatiArmoredBoss.png",
+          "MonsterList": {
+            "11124": {
+              "Id": 20001,
+              "Name": "Hati",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 3768028.4805,
+                "Attack": 3281.181818181818,
+                "Defence": 857.5200000000001,
+                "Stun": 5409.8,
+                "AttributeInfliction": 0
+              }
+            },
+            "11195": {
+              "Id": 200034,
+              "Name": "Notorious - Armored Hati",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_HatiArmoredBoss.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 9583939.084500002,
+                "Attack": 3714.5454545454545,
+                "Defence": 952.8000000000001,
+                "Stun": 8536,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6202707": {
+      "Name": "Critical Node: Seventh Frontier",
+      "StageNum": 7,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "62001261": {
+          "Title": "Lone Blade's Pride",
+          "Desc": "· Enemy <color=#FE437E>Ether RES</color> and <color=#F0D12B>Physical RES</color> drop by 15%.\n· After using <color=#FFFFFF>EX Special Attack</color> or <color=#FFFFFF>Chain Attack</color>, for Agents, Attribute Anomaly DMG increases by 15%, CRIT DMG increases by 20%, Sheer DMG increases by 20% for 20s. Repeated triggers refresh duration."
+        },
+        "62001262": { "Title": "", "Desc": "" }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62027071": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HereticHunter.png",
+          "MonsterList": {
+            "31112": {
+              "Id": 30035,
+              "Name": "Sacrifice - Heretic Jester",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_HereticHunter.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": -1,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 17027247.194999997,
+                "Attack": 3521.454545454546,
+                "Defence": 952.8000000000001,
+                "Stun": 14327.95,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "203": "Electric" },
+          "WavesNum": 1
+        },
+        "62027072": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Thracian.png",
+          "MonsterList": {
+            "11115": {
+              "Id": 20000,
+              "Name": "Farbauti",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GiantGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 6389969.04,
+                "Attack": 3456.2424242424245,
+                "Defence": 857.5200000000001,
+                "Stun": 11169.550000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "11711": {
+              "Id": 30023,
+              "Name": "Thracian",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Thracian.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 13499687.34,
+                "Attack": 4304,
+                "Defence": 952.8000000000001,
+                "Stun": 13677,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    }
+  },
+  "BeginTime": "2025-08-01 04:00:00",
+  "EndTime": "2025-08-15 03:59:59"
+}

@@ -1,0 +1,1080 @@
+{
+  "Id": 62038,
+  "Name": "Critical Node",
+  "Priority": 1,
+  "Zone": {
+    "6203801": {
+      "Name": "Critical Node: First Frontier",
+      "StageNum": 1,
+      "MonsterLevel": 50,
+      "LayerBuff": {
+        "62001381": {
+          "Title": "Dawn's Guiding Light",
+          "Desc": "· Agent ATK increases by 30%, CRIT DMG increases by 15%.\n· Enemy Stun DMG Multiplier increases by 20%."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62038011": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11324": {
+              "Id": 10018,
+              "Name": "Poacher",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPoacher.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 252937.4925,
+                "Attack": 1405.6363636363637,
+                "Defence": 473.6,
+                "Stun": 1602,
+                "AttributeInfliction": 0
+              }
+            },
+            "11344": {
+              "Id": 10015,
+              "Name": "Raider",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugRaider.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 297519.33749999997,
+                "Attack": 1639.909090909091,
+                "Defence": 473.6,
+                "Stun": 1602,
+                "AttributeInfliction": 0
+              }
+            },
+            "11354": {
+              "Id": 20017,
+              "Name": "Bulky Enforcer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyEnforcer.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1550048.115,
+                "Attack": 2186.5454545454545,
+                "Defence": 592,
+                "Stun": 5936.3,
+                "AttributeInfliction": 0
+              }
+            },
+            "11363": {
+              "Id": 20015,
+              "Name": "Bulky Intimidator",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyAbuser.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1165023.0899999999,
+                "Attack": 1978.3030303030305,
+                "Defence": 592,
+                "Stun": 4498.06,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "202": "Ice" },
+          "WavesNum": 3
+        },
+        "62038012": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11252": {
+              "Id": 100061,
+              "Name": "Scout Jaeger",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_LightJaegerPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 252937.4925,
+                "Attack": 1718,
+                "Defence": 473.6,
+                "Stun": 1602,
+                "AttributeInfliction": 0
+              }
+            },
+            "11261": {
+              "Id": 200091,
+              "Name": "Assault Gunner",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HeavyFirepowerPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1223237.4,
+                "Attack": 2420.818181818182,
+                "Defence": 639.36,
+                "Stun": 4722.34,
+                "AttributeInfliction": 0
+              }
+            },
+            "11282": {
+              "Id": 100081,
+              "Name": "Patrol Jaeger",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_HeavyJaeger_Pro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 252937.4925,
+                "Attack": 1561.818181818182,
+                "Defence": 544.64,
+                "Stun": 1602,
+                "AttributeInfliction": 0
+              }
+            },
+            "11441": {
+              "Id": 200081,
+              "Name": "Lightfoot Rover MK II",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_LightfootRoverPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1307427.0825,
+                "Attack": 2056.3939393939395,
+                "Defence": 639.36,
+                "Stun": 6233.56,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "203": "Electric" },
+          "WavesNum": 4
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6203802": {
+      "Name": "Critical Node: Second Frontier",
+      "StageNum": 2,
+      "MonsterLevel": 55,
+      "LayerBuff": {
+        "62001381": {
+          "Title": "Dawn's Guiding Light",
+          "Desc": "· Agent ATK increases by 30%, CRIT DMG increases by 15%.\n· Enemy Stun DMG Multiplier increases by 20%."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62038021": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11324": {
+              "Id": 10018,
+              "Name": "Poacher",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPoacher.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 376438.84249999997,
+                "Attack": 1494,
+                "Defence": 551.1999999999999,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11344": {
+              "Id": 10015,
+              "Name": "Raider",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugRaider.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 442788.58749999997,
+                "Attack": 1743,
+                "Defence": 551.1999999999999,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11354": {
+              "Id": 20017,
+              "Name": "Bulky Enforcer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyEnforcer.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 2306887.415,
+                "Attack": 2324,
+                "Defence": 689,
+                "Stun": 6403.2,
+                "AttributeInfliction": 0
+              }
+            },
+            "11363": {
+              "Id": 20015,
+              "Name": "Bulky Intimidator",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyAbuser.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1733866.89,
+                "Attack": 2102.666666666667,
+                "Defence": 689,
+                "Stun": 4851.84,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "202": "Ice" },
+          "WavesNum": 4
+        },
+        "62038022": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11046": {
+              "Id": 20020,
+              "Name": "Enraged Sweeper",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_RagingGuy.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": -1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1853131.9274999998,
+                "Attack": 2324,
+                "Defence": 744.12,
+                "Stun": 6403.2,
+                "AttributeInfliction": 0
+              }
+            },
+            "11052": {
+              "Id": 300021,
+              "Name": "Guardian MK II",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GuardianPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 2395170.96,
+                "Attack": 2932.666666666667,
+                "Defence": 744.12,
+                "Stun": 9125.76,
+                "AttributeInfliction": 0
+              }
+            },
+            "11162": {
+              "Id": 100051,
+              "Name": "Harrier Jaeger",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_StrikeJaegerPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 442788.58749999997,
+                "Attack": 1826,
+                "Defence": 551.1999999999999,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11252": {
+              "Id": 100061,
+              "Name": "Scout Jaeger",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_LightJaegerPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 376438.84249999997,
+                "Attack": 1826,
+                "Defence": 551.1999999999999,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11282": {
+              "Id": 100081,
+              "Name": "Patrol Jaeger",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_HeavyJaeger_Pro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 376438.84249999997,
+                "Attack": 1660,
+                "Defence": 633.88,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "203": "Electric" },
+          "WavesNum": 4
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6203803": {
+      "Name": "Critical Node: Third Frontier",
+      "StageNum": 3,
+      "MonsterLevel": 60,
+      "LayerBuff": {
+        "62001381": {
+          "Title": "Dawn's Guiding Light",
+          "Desc": "· Agent ATK increases by 30%, CRIT DMG increases by 15%.\n· Enemy Stun DMG Multiplier increases by 20%."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62038031": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11312": {
+              "Id": 100191,
+              "Name": "Ambusher",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugAssaulterPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 931738.3949999999,
+                "Attack": 1385.2840909090908,
+                "Defence": 635.2,
+                "Stun": 1854,
+                "AttributeInfliction": 0
+              }
+            },
+            "11322": {
+              "Id": 100181,
+              "Name": "Rustler",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPoacherPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 931738.3949999999,
+                "Attack": 1187.3863636363635,
+                "Defence": 635.2,
+                "Stun": 1854,
+                "AttributeInfliction": 0
+              }
+            },
+            "11603": {
+              "Id": 200231,
+              "Name": "Doppelganger - Mors",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Mors.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 6935445.3,
+                "Attack": 2088.9204545454545,
+                "Defence": 794,
+                "Stun": 12273.48,
+                "AttributeInfliction": 0
+              }
+            },
+            "11613": {
+              "Id": 200251,
+              "Name": "Doppelganger - Bellum",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Bellum.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 7427441.175,
+                "Attack": 2550.681818181818,
+                "Defence": 794,
+                "Stun": 14720.76,
+                "AttributeInfliction": 0
+              }
+            },
+            "11623": {
+              "Id": 200241,
+              "Name": "Doppelganger - Pulchra",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Pulchra.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 6935445.3,
+                "Attack": 2550.681818181818,
+                "Defence": 794,
+                "Stun": 12273.48,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "WavesNum": 3
+        },
+        "62038032": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11052": {
+              "Id": 300021,
+              "Name": "Guardian MK II",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GuardianPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 5928380.64,
+                "Attack": 2330.7954545454545,
+                "Defence": 857.5200000000001,
+                "Stun": 9791.18,
+                "AttributeInfliction": 0
+              }
+            },
+            "11161": {
+              "Id": 100051,
+              "Name": "Harrier Jaeger",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_StrikeJaegerPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 841482.6,
+                "Attack": 1451.25,
+                "Defence": 635.2,
+                "Stun": 1236,
+                "AttributeInfliction": 0
+              }
+            },
+            "11262": {
+              "Id": 200091,
+              "Name": "Assault Gunner",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HeavyFirepowerPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4643762.444999999,
+                "Attack": 2330.7954545454545,
+                "Defence": 857.5200000000001,
+                "Stun": 6241.8,
+                "AttributeInfliction": 0
+              }
+            },
+            "11442": {
+              "Id": 200081,
+              "Name": "Lightfoot Rover MK II",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_LightfootRoverPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4988498.864999999,
+                "Attack": 2000.965909090909,
+                "Defence": 857.5200000000001,
+                "Stun": 8182.320000000001,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "203": "Electric" },
+          "WavesNum": 3
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6203804": {
+      "Name": "Critical Node: Fourth Frontier",
+      "StageNum": 4,
+      "MonsterLevel": 65,
+      "LayerBuff": {
+        "62001381": {
+          "Title": "Dawn's Guiding Light",
+          "Desc": "· Agent ATK increases by 30%, CRIT DMG increases by 15%.\n· Enemy Stun DMG Multiplier increases by 20%."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62038041": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Harvester.png",
+          "MonsterList": {
+            "11791": {
+              "Id": 30027,
+              "Name": "Lumberjack",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Harvester.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 14855569.89,
+                "Attack": 3343.090909090909,
+                "Defence": 952.8000000000001,
+                "Stun": 13413.400000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "31152": {
+              "Id": 10033,
+              "Name": "Miasmic Trooper - Shieldguard",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGuardJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1469029.485,
+                "Attack": 1671.5454545454545,
+                "Defence": 730.48,
+                "Stun": 2178,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "203": "Electric" },
+          "WavesNum": 2
+        },
+        "62038042": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MetalGorilla.png",
+          "MonsterList": {
+            "11063": {
+              "Id": 30008,
+              "Name": "Typhon Challenger",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MetalGorilla.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": -1,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 12379395.63,
+                "Attack": 3064.5,
+                "Defence": 952.8000000000001,
+                "Stun": 12194.6,
+                "AttributeInfliction": 0
+              }
+            },
+            "11444": {
+              "Id": 20008,
+              "Name": "Lightfoot Rover",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_LightfootRover.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": -1,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 5423825.085,
+                "Attack": 2112.647727272727,
+                "Defence": 857.5200000000001,
+                "Stun": 8738.400000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "31162": {
+              "Id": 10034,
+              "Name": "Miasmic Trooper - Cannoneer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGrenadierJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1469029.485,
+                "Attack": 1509.0340909090908,
+                "Defence": 635.2,
+                "Stun": 2178,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6203805": {
+      "Name": "",
+      "StageNum": 5,
+      "MonsterLevel": 0,
+      "LayerBuff": {
+        "62001381": {
+          "Title": "Dawn's Guiding Light",
+          "Desc": "· Agent ATK increases by 30%, CRIT DMG increases by 15%.\n· Enemy Stun DMG Multiplier increases by 20%."
+        },
+        "62001382": {
+          "Title": "Accumulating Frost",
+          "Desc": "· Agent <color=#98EFF0>Ice DMG</color> increases by 20%, <color=#FFFFFF>Basic Attack</color> DMG increases by 40%.\n· After an Agent uses an <color=#FFFFFF>EX Special Attack</color>, the Agent's <color=#98EFF0>Ice DMG</color> additionally increases by 20% for 15s, repeated triggers reset the duration."
+        },
+        "62001383": {
+          "Title": "Piercing Thunder Strike",
+          "Desc": "· Agent <color=#2EB6FF>Electric DMG</color> increases by 20%.\n· Agent <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Special Attack</color>, and <color=#FFFFFF>EX Special Attack</color> deal 40% increased DMG and ignore 15% of enemy DEF."
+        }
+      },
+      "Child": [62038051, 62038052, 62038053],
+      "LayerRoom": {},
+      "GoalType": 3,
+      "SsRankGoal": 0,
+      "SRankGoal": 1270001003,
+      "ARankGoal": 1270001002,
+      "BRankGoal": 1270001001
+    },
+    "62038051": {
+      "Name": "Room 1",
+      "StageNum": 5,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "62001001": {
+          "Title": "",
+          "Desc": "· In this stage, dealing DMG to enemies earns you <color=#FFAF2C>DMG Score</color>. Defeating a single <color=#FFFFFF>normal/elite enemy</color> will grant you an instance of <color=#FFAF2C>Elimination Score</color>.\n· In this stage, scores earned at different times will receive additional <color=#FFAF2C>multiplier bonuses</color>. The earlier in the challenge, the higher the multiplier. The <color=#FFAF2C>total score cap (including bonus) is 50,000</color>."
+        },
+        "62001002": { "Title": "", "Desc": "" },
+        "62001381": {
+          "Title": "Dawn's Guiding Light",
+          "Desc": "· Agent ATK increases by 30%, CRIT DMG increases by 15%.\n· Enemy Stun DMG Multiplier increases by 20%."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62038051": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_CovenantGuardian.png",
+          "MonsterList": {
+            "31082": {
+              "Id": 930167,
+              "Name": "Flame Cantor",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_FlameCantor.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": -1,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 6161309.550000001,
+                "Attack": 3105.727272727273,
+                "Defence": 794,
+                "Stun": 9778.35,
+                "AttributeInfliction": 0
+              }
+            },
+            "31322": {
+              "Id": 20031,
+              "Name": "Miasmic - Wicked Wraith",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MiasmaWickedWraith.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": -1,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 9220417.47,
+                "Attack": 3252.454545454546,
+                "Defence": 794,
+                "Stun": 12600.7,
+                "AttributeInfliction": 0
+              }
+            },
+            "31332": {
+              "Id": 30044,
+              "Name": "Sacrifice - Covenant Guardian",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_CovenantGuardian.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": -1
+              },
+              "Stats": {
+                "Hp": 28429054.380000003,
+                "Attack": 3521.454545454546,
+                "Defence": 952.8000000000001,
+                "Stun": 17585.05,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 2,
+      "SsRankGoal": 0,
+      "SRankGoal": 25000,
+      "ARankGoal": 16000,
+      "BRankGoal": 8000
+    },
+    "62038052": {
+      "Name": "Room 2",
+      "StageNum": 5,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "62001001": {
+          "Title": "",
+          "Desc": "· In this stage, dealing DMG to enemies earns you <color=#FFAF2C>DMG Score</color>. Defeating a single <color=#FFFFFF>normal/elite enemy</color> will grant you an instance of <color=#FFAF2C>Elimination Score</color>.\n· In this stage, scores earned at different times will receive additional <color=#FFAF2C>multiplier bonuses</color>. The earlier in the challenge, the higher the multiplier. The <color=#FFAF2C>total score cap (including bonus) is 50,000</color>."
+        },
+        "62001002": { "Title": "", "Desc": "" },
+        "62001383": {
+          "Title": "Piercing Thunder Strike",
+          "Desc": "· Agent <color=#2EB6FF>Electric DMG</color> increases by 20%.\n· Agent <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Special Attack</color>, and <color=#FFFFFF>EX Special Attack</color> deal 40% increased DMG and ignore 15% of enemy DEF."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62038052": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HereticHunter.png",
+          "MonsterList": {
+            "11442": {
+              "Id": 200081,
+              "Name": "Lightfoot Rover MK II",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_LightfootRoverPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4374433.079999999,
+                "Attack": 2225.3636363636365,
+                "Defence": 857.5200000000001,
+                "Stun": 9334.2,
+                "AttributeInfliction": 0
+              }
+            },
+            "11452": {
+              "Id": 200071,
+              "Name": "Heavy Striker MK II",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HeavyStrikerPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 5408087.04,
+                "Attack": 2714.4545454545455,
+                "Defence": 857.5200000000001,
+                "Stun": 9334.2,
+                "AttributeInfliction": 0
+              }
+            },
+            "31112": {
+              "Id": 30035,
+              "Name": "Sacrifice - Heretic Jester",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_HereticHunter.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": -1,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 25701505.2,
+                "Attack": 3521.454545454546,
+                "Defence": 952.8000000000001,
+                "Stun": 14327.95,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "203": "Electric" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 2,
+      "SsRankGoal": 0,
+      "SRankGoal": 25000,
+      "ARankGoal": 16000,
+      "BRankGoal": 8000
+    },
+    "62038053": {
+      "Name": "Room 3",
+      "StageNum": 5,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "62001001": {
+          "Title": "",
+          "Desc": "· In this stage, dealing DMG to enemies earns you <color=#FFAF2C>DMG Score</color>. Defeating a single <color=#FFFFFF>normal/elite enemy</color> will grant you an instance of <color=#FFAF2C>Elimination Score</color>.\n· In this stage, scores earned at different times will receive additional <color=#FFAF2C>multiplier bonuses</color>. The earlier in the challenge, the higher the multiplier. The <color=#FFAF2C>total score cap (including bonus) is 50,000</color>."
+        },
+        "62001002": { "Title": "", "Desc": "" },
+        "62001382": {
+          "Title": "Accumulating Frost",
+          "Desc": "· Agent <color=#98EFF0>Ice DMG</color> increases by 20%, <color=#FFFFFF>Basic Attack</color> DMG increases by 40%.\n· After an Agent uses an <color=#FFFFFF>EX Special Attack</color>, the Agent's <color=#98EFF0>Ice DMG</color> additionally increases by 20% for 15s, repeated triggers reset the duration."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62038053": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaNoranoSlime.png",
+          "MonsterList": {
+            "11104": {
+              "Id": 10001,
+              "Name": "Alpeca",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_CyclopsGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 680870.7,
+                "Attack": 1320.5454545454547,
+                "Defence": 571.6800000000001,
+                "Stun": 2115,
+                "AttributeInfliction": 0
+              }
+            },
+            "11155": {
+              "Id": 30000,
+              "Name": "Dullahan",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_DurahanGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4009896.99,
+                "Attack": 2714.4545454545455,
+                "Defence": 921.0400000000001,
+                "Stun": 9334.2,
+                "AttributeInfliction": 0
+              }
+            },
+            "31072": {
+              "Id": 930172,
+              "Name": "Huskron",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Huskron.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 691284.6,
+                "Attack": 1760.727272727273,
+                "Defence": 635.2,
+                "Stun": 2326.5,
+                "AttributeInfliction": 0
+              }
+            },
+            "31294": {
+              "Id": 300402,
+              "Name": "Miasmic Komano Manato",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaNoranoSlime.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": -1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 23990947.74,
+                "Attack": 3521.454545454546,
+                "Defence": 952.8000000000001,
+                "Stun": 16283.150000000001,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice" },
+          "WavesNum": 3
+        }
+      },
+      "GoalType": 2,
+      "SsRankGoal": 0,
+      "SRankGoal": 25000,
+      "ARankGoal": 16000,
+      "BRankGoal": 8000
+    }
+  },
+  "BeginTime": "2025-12-29 15:00:00",
+  "EndTime": "2026-01-09 03:59:59"
+}

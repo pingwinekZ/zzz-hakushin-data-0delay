@@ -1,0 +1,1100 @@
+{
+  "Id": 62043,
+  "Name": "Critical Node",
+  "Priority": 1,
+  "Zone": {
+    "6204301": {
+      "Name": "Critical Node: First Frontier",
+      "StageNum": 1,
+      "MonsterLevel": 50,
+      "LayerBuff": {
+        "62001433": {
+          "Title": "Mecha Wings",
+          "Desc": "· Agent <color=#FE437E>Ether DMG</color> increases by 20%. \n· While in <color=#FFFFFF>Ether Veil</color>, Agent ATK increases by 30%, and attacks ignore 10% of enemy <color=#FE437E>Ether RES</color>."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62043011": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11381": {
+              "Id": 20010,
+              "Name": "Tarasque Mixer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_TarasqueMixer.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1627605.7874999999,
+                "Attack": 2290.666666666667,
+                "Defence": 639.36,
+                "Stun": 6233.56,
+                "AttributeInfliction": 0
+              }
+            },
+            "31151": {
+              "Id": 10033,
+              "Name": "Miasmic Trooper - Shieldguard",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGuardJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 299914.23,
+                "Attack": 1874.1818181818182,
+                "Defence": 544.64,
+                "Stun": 1174.8,
+                "AttributeInfliction": 0
+              }
+            },
+            "31161": {
+              "Id": 10034,
+              "Name": "Miasmic Trooper - Cannoneer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGrenadierJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 299914.23,
+                "Attack": 1691.969696969697,
+                "Defence": 473.6,
+                "Stun": 1174.8,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "203": "Electric" },
+          "WavesNum": 4
+        },
+        "62043012": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11731": {
+              "Id": 200004,
+              "Name": "Ionized - Farbauti",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GiantEnergy.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1550600.7825,
+                "Attack": 2394.787878787879,
+                "Defence": 532.8,
+                "Stun": 7406.58,
+                "AttributeInfliction": 0
+              }
+            },
+            "11751": {
+              "Id": 300004,
+              "Name": "Ionized - Dullahan",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_DurahanEnergy.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1307427.0825,
+                "Attack": 2524.939393939394,
+                "Defence": 686.72,
+                "Stun": 6233.56,
+                "AttributeInfliction": 0
+              }
+            },
+            "11771": {
+              "Id": 30017,
+              "Name": "Ionized - Cyrtoidea",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Cyrtoidea.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 206881.8675,
+                "Attack": 1561.818181818182,
+                "Defence": 426.24,
+                "Stun": 1068,
+                "AttributeInfliction": 0
+              }
+            },
+            "11781": {
+              "Id": 30018,
+              "Name": "Ionized - Nassellaria",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Nassellaria.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 206881.8675,
+                "Attack": 1561.818181818182,
+                "Defence": 426.24,
+                "Stun": 1068,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "205": "Ether" },
+          "WavesNum": 3
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6204302": {
+      "Name": "Critical Node: Second Frontier",
+      "StageNum": 2,
+      "MonsterLevel": 55,
+      "LayerBuff": {
+        "62001433": {
+          "Title": "Mecha Wings",
+          "Desc": "· Agent <color=#FE437E>Ether DMG</color> increases by 20%. \n· While in <color=#FFFFFF>Ether Veil</color>, Agent ATK increases by 30%, and attacks ignore 10% of enemy <color=#FE437E>Ether RES</color>."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62043021": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11046": {
+              "Id": 20020,
+              "Name": "Enraged Sweeper",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_RagingGuy.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": -1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1853131.9274999998,
+                "Attack": 2324,
+                "Defence": 744.12,
+                "Stun": 6403.2,
+                "AttributeInfliction": 0
+              }
+            },
+            "11052": {
+              "Id": 300021,
+              "Name": "Guardian MK II",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GuardianPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 2395170.96,
+                "Attack": 2932.666666666667,
+                "Defence": 744.12,
+                "Stun": 9125.76,
+                "AttributeInfliction": 0
+              }
+            },
+            "11162": {
+              "Id": 100051,
+              "Name": "Harrier Jaeger",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_StrikeJaegerPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 442788.58749999997,
+                "Attack": 1826,
+                "Defence": 551.1999999999999,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11252": {
+              "Id": 100061,
+              "Name": "Scout Jaeger",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_LightJaegerPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 376438.84249999997,
+                "Attack": 1826,
+                "Defence": 551.1999999999999,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11282": {
+              "Id": 100081,
+              "Name": "Patrol Jaeger",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_HeavyJaeger_Pro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 376438.84249999997,
+                "Attack": 1660,
+                "Defence": 633.88,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "203": "Electric" },
+          "WavesNum": 4
+        },
+        "62043022": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11097": {
+              "Id": 10000,
+              "Name": "Tyrfing",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ClaymoreGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 376438.84249999997,
+                "Attack": 1826,
+                "Defence": 496.08,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11104": {
+              "Id": 10001,
+              "Name": "Alpeca",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_CyclopsGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 376438.84249999997,
+                "Attack": 1494,
+                "Defence": 496.08,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11124": {
+              "Id": 20001,
+              "Name": "Hati",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1661211.1774999998,
+                "Attack": 2932.666666666667,
+                "Defence": 744.12,
+                "Stun": 4721.28,
+                "AttributeInfliction": 0
+              }
+            },
+            "11204": {
+              "Id": 10003,
+              "Name": "Hoplitai",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Golemgrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 376438.84249999997,
+                "Attack": 1660,
+                "Defence": 633.88,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11224": {
+              "Id": 20004,
+              "Name": "Metro Goblin",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GoblinMetro.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 2015442.0474999999,
+                "Attack": 3071,
+                "Defence": 620.1,
+                "Stun": 7626.24,
+                "AttributeInfliction": 0
+              }
+            },
+            "11294": {
+              "Id": 10014,
+              "Name": "Mandrake",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Mandrake.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 316120.89249999996,
+                "Attack": 1743,
+                "Defence": 496.08,
+                "Stun": 1814.3999999999999,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "WavesNum": 3
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6204303": {
+      "Name": "Critical Node: Third Frontier",
+      "StageNum": 3,
+      "MonsterLevel": 60,
+      "LayerBuff": {
+        "62001433": {
+          "Title": "Mecha Wings",
+          "Desc": "· Agent <color=#FE437E>Ether DMG</color> increases by 20%. \n· While in <color=#FFFFFF>Ether Veil</color>, Agent ATK increases by 30%, and attacks ignore 10% of enemy <color=#FE437E>Ether RES</color>."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62043031": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11261": {
+              "Id": 200091,
+              "Name": "Assault Gunner",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HeavyFirepowerPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4506003.6,
+                "Attack": 2044.9431818181818,
+                "Defence": 857.5200000000001,
+                "Stun": 5465.18,
+                "AttributeInfliction": 0
+              }
+            },
+            "11442": {
+              "Id": 200081,
+              "Name": "Lightfoot Rover MK II",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_LightfootRoverPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4988498.864999999,
+                "Attack": 2000.965909090909,
+                "Defence": 857.5200000000001,
+                "Stun": 8182.320000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "11452": {
+              "Id": 200071,
+              "Name": "Heavy Striker MK II",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HeavyStrikerPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 6167253.119999999,
+                "Attack": 2440.738636363636,
+                "Defence": 857.5200000000001,
+                "Stun": 8182.320000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "31151": {
+              "Id": 10033,
+              "Name": "Miasmic Trooper - Shieldguard",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGuardJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1104785.22,
+                "Attack": 1583.181818181818,
+                "Defence": 730.48,
+                "Stun": 1359.6000000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "31161": {
+              "Id": 10034,
+              "Name": "Miasmic Trooper - Cannoneer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGrenadierJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1104785.22,
+                "Attack": 1429.2613636363635,
+                "Defence": 635.2,
+                "Stun": 1359.6000000000001,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "203": "Electric" },
+          "WavesNum": 3
+        },
+        "62043032": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11742": {
+              "Id": 300014,
+              "Name": "Ionized - Thanatos",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_DeathXIIIEnergy.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 5550392.085,
+                "Attack": 2440.738636363636,
+                "Defence": 714.6,
+                "Stun": 5728.860000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "11752": {
+              "Id": 300004,
+              "Name": "Ionized - Dullahan",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_DurahanEnergy.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4988498.864999999,
+                "Attack": 2440.738636363636,
+                "Defence": 921.0400000000001,
+                "Stun": 8182.320000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "11772": {
+              "Id": 30017,
+              "Name": "Ionized - Cyrtoidea",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Cyrtoidea.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 931738.3949999999,
+                "Attack": 1319.3181818181818,
+                "Defence": 571.6800000000001,
+                "Stun": 1854,
+                "AttributeInfliction": 0
+              }
+            },
+            "11782": {
+              "Id": 30018,
+              "Name": "Ionized - Nassellaria",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Nassellaria.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 931738.3949999999,
+                "Attack": 1319.3181818181818,
+                "Defence": 571.6800000000001,
+                "Stun": 1854,
+                "AttributeInfliction": 0
+              }
+            },
+            "31302": {
+              "Id": 20026,
+              "Name": "Miasmic - Frenzied Maniac",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MiasmaFrenziedManiac.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": -1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 6734575.26,
+                "Attack": 2924.488636363636,
+                "Defence": 857.5200000000001,
+                "Stun": 10227.9,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "205": "Ether" },
+          "WavesNum": 3
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6204304": {
+      "Name": "Critical Node: Fourth Frontier",
+      "StageNum": 4,
+      "MonsterLevel": 65,
+      "LayerBuff": {
+        "62001433": {
+          "Title": "Mecha Wings",
+          "Desc": "· Agent <color=#FE437E>Ether DMG</color> increases by 20%. \n· While in <color=#FFFFFF>Ether Veil</color>, Agent ATK increases by 30%, and attacks ignore 10% of enemy <color=#FE437E>Ether RES</color>."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62043041": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Harvester.png",
+          "MonsterList": {
+            "11791": {
+              "Id": 30027,
+              "Name": "Lumberjack",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Harvester.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 14855569.89,
+                "Attack": 3343.090909090909,
+                "Defence": 952.8000000000001,
+                "Stun": 13413.400000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "31152": {
+              "Id": 10033,
+              "Name": "Miasmic Trooper - Shieldguard",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGuardJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1469029.485,
+                "Attack": 1671.5454545454545,
+                "Defence": 730.48,
+                "Stun": 2178,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "203": "Electric" },
+          "WavesNum": 2
+        },
+        "62043042": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HansOverclocked.png",
+          "MonsterList": {
+            "11403": {
+              "Id": 300052,
+              "Name": "Hans - Overclocked",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_HansOverclocked.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": -1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 15880422.705,
+                "Attack": 2785.909090909091,
+                "Defence": 952.8000000000001,
+                "Stun": 15815.800000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "31072": {
+              "Id": 930172,
+              "Name": "Huskron",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Huskron.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1028541.99,
+                "Attack": 1671.5454545454545,
+                "Defence": 635.2,
+                "Stun": 2178,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "205": "Ether" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6204305": {
+      "Name": "",
+      "StageNum": 5,
+      "MonsterLevel": 0,
+      "LayerBuff": {
+        "62001431": {
+          "Title": "Thunder Crimson Blaze",
+          "Desc": "· Agent <color=#F0D12B>Physical DMG</color> and <color=#2EB6FF>Electric DMG</color> increase by 15%, while their CRIT DMG increases by 20%.\n· When an Agent with Attack specialty hits an enemy and crits, enemy DEF drops by 10% for 5s. Repeated triggers reset the duration."
+        },
+        "62001432": {
+          "Title": "Flameheart Lithic Core",
+          "Desc": "· Agent Sheer DMG increases by 10%.\n· While in <color=#FFFFFF>Ether Veil</color>, Agent Sheer DMG further increases by 15%, and attacks ignore 15% of enemy All-DMG RES on hit."
+        },
+        "62001433": {
+          "Title": "Mecha Wings",
+          "Desc": "· Agent <color=#FE437E>Ether DMG</color> increases by 20%. \n· While in <color=#FFFFFF>Ether Veil</color>, Agent ATK increases by 30%, and attacks ignore 10% of enemy <color=#FE437E>Ether RES</color>."
+        }
+      },
+      "Child": [62043051, 62043052, 62043053],
+      "LayerRoom": {},
+      "GoalType": 3,
+      "SsRankGoal": 0,
+      "SRankGoal": 1270001003,
+      "ARankGoal": 1270001002,
+      "BRankGoal": 1270001001
+    },
+    "62043051": {
+      "Name": "Room 1",
+      "StageNum": 5,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "62001001": {
+          "Title": "",
+          "Desc": "· In this stage, dealing DMG to enemies earns you <color=#FFAF2C>DMG Score</color>. Defeating a single <color=#FFFFFF>normal/elite enemy</color> will grant you an instance of <color=#FFAF2C>Elimination Score</color>.\n· In this stage, scores earned at different times will receive additional <color=#FFAF2C>multiplier bonuses</color>. The earlier in the challenge, the higher the multiplier. The <color=#FFAF2C>total score cap (including bonus) is 50,000</color>."
+        },
+        "62001002": { "Title": "", "Desc": "" },
+        "62001431": {
+          "Title": "Thunder Crimson Blaze",
+          "Desc": "· Agent <color=#F0D12B>Physical DMG</color> and <color=#2EB6FF>Electric DMG</color> increase by 15%, while their CRIT DMG increases by 20%.\n· When an Agent with Attack specialty hits an enemy and crits, enemy DEF drops by 10% for 5s. Repeated triggers reset the duration."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62043051": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_BlackMazingerGoldenBomb.png",
+          "MonsterList": {
+            "11442": {
+              "Id": 200081,
+              "Name": "Lightfoot Rover MK II",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_LightfootRoverPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4738969.17,
+                "Attack": 2225.3636363636365,
+                "Defence": 857.5200000000001,
+                "Stun": 9334.2,
+                "AttributeInfliction": 0
+              }
+            },
+            "31152": {
+              "Id": 10033,
+              "Name": "Miasmic Trooper - Shieldguard",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGuardJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1184804.2799999998,
+                "Attack": 1760.727272727273,
+                "Defence": 730.48,
+                "Stun": 2326.5,
+                "AttributeInfliction": 0
+              }
+            },
+            "31162": {
+              "Id": 10034,
+              "Name": "Miasmic Trooper - Cannoneer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGrenadierJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1184804.2799999998,
+                "Attack": 1589.5454545454547,
+                "Defence": 635.2,
+                "Stun": 2326.5,
+                "AttributeInfliction": 0
+              }
+            },
+            "31361": {
+              "Id": 30003,
+              "Name": "Lockspring",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_BlackMazingerGoldenBomb.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": -1,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 30618601.649999995,
+                "Attack": 3521.454545454546,
+                "Defence": 952.8000000000001,
+                "Stun": 18236,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "203": "Electric" },
+          "WavesNum": 3
+        }
+      },
+      "GoalType": 2,
+      "SsRankGoal": 0,
+      "SRankGoal": 25000,
+      "ARankGoal": 16000,
+      "BRankGoal": 8000
+    },
+    "62043052": {
+      "Name": "Room 2",
+      "StageNum": 5,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "62001001": {
+          "Title": "",
+          "Desc": "· In this stage, dealing DMG to enemies earns you <color=#FFAF2C>DMG Score</color>. Defeating a single <color=#FFFFFF>normal/elite enemy</color> will grant you an instance of <color=#FFAF2C>Elimination Score</color>.\n· In this stage, scores earned at different times will receive additional <color=#FFAF2C>multiplier bonuses</color>. The earlier in the challenge, the higher the multiplier. The <color=#FFAF2C>total score cap (including bonus) is 50,000</color>."
+        },
+        "62001002": { "Title": "", "Desc": "" },
+        "62001432": {
+          "Title": "Flameheart Lithic Core",
+          "Desc": "· Agent Sheer DMG increases by 10%.\n· While in <color=#FFFFFF>Ether Veil</color>, Agent Sheer DMG further increases by 15%, and attacks ignore 15% of enemy All-DMG RES on hit."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62043052": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_CovenantGuardian.png",
+          "MonsterList": {
+            "11355": {
+              "Id": 20017,
+              "Name": "Bulky Enforcer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyEnforcer.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 5150417.399999999,
+                "Attack": 2347.636363636364,
+                "Defence": 794,
+                "Stun": 8890.050000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "11364": {
+              "Id": 20015,
+              "Name": "Bulky Intimidator",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_ThugBulkyAbuser.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 3878136.36,
+                "Attack": 2103.0909090909095,
+                "Defence": 794,
+                "Stun": 6782.1,
+                "AttributeInfliction": 0
+              }
+            },
+            "31332": {
+              "Id": 30044,
+              "Name": "Sacrifice - Covenant Guardian",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_CovenantGuardian.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": -1
+              },
+              "Stats": {
+                "Hp": 33167230.110000003,
+                "Attack": 3521.454545454546,
+                "Defence": 952.8000000000001,
+                "Stun": 17585.05,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 2,
+      "SsRankGoal": 0,
+      "SRankGoal": 25000,
+      "ARankGoal": 16000,
+      "BRankGoal": 8000
+    },
+    "62043053": {
+      "Name": "Room 3",
+      "StageNum": 5,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "62001001": {
+          "Title": "",
+          "Desc": "· In this stage, dealing DMG to enemies earns you <color=#FFAF2C>DMG Score</color>. Defeating a single <color=#FFFFFF>normal/elite enemy</color> will grant you an instance of <color=#FFAF2C>Elimination Score</color>.\n· In this stage, scores earned at different times will receive additional <color=#FFAF2C>multiplier bonuses</color>. The earlier in the challenge, the higher the multiplier. The <color=#FFAF2C>total score cap (including bonus) is 50,000</color>."
+        },
+        "62001002": { "Title": "", "Desc": "" },
+        "62001433": {
+          "Title": "Mecha Wings",
+          "Desc": "· Agent <color=#FE437E>Ether DMG</color> increases by 20%. \n· While in <color=#FFFFFF>Ether Veil</color>, Agent ATK increases by 30%, and attacks ignore 10% of enemy <color=#FE437E>Ether RES</color>."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62043053": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaDubiousHero.png",
+          "MonsterList": {
+            "11732": {
+              "Id": 200004,
+              "Name": "Ionized - Farbauti",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GiantEnergy.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 3898964.16,
+                "Attack": 2592.1818181818185,
+                "Defence": 714.6,
+                "Stun": 11169.550000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "11752": {
+              "Id": 300004,
+              "Name": "Ionized - Dullahan",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_DurahanEnergy.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 3280824.81,
+                "Attack": 2714.4545454545455,
+                "Defence": 921.0400000000001,
+                "Stun": 9334.2,
+                "AttributeInfliction": 0
+              }
+            },
+            "31422": {
+              "Id": 30045,
+              "Name": "Miasmic - Rampant Brute",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaDubiousHero.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": -1,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 40435066.125,
+                "Attack": 3521.454545454546,
+                "Defence": 952.8000000000001,
+                "Stun": 14588.800000000001,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "204": "Wind", "205": "Ether" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 2,
+      "SsRankGoal": 0,
+      "SRankGoal": 25000,
+      "ARankGoal": 16000,
+      "BRankGoal": 8000
+    }
+  },
+  "BeginTime": "2026-03-06 04:00:00",
+  "EndTime": "2026-03-20 03:59:59"
+}

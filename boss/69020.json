@@ -1,0 +1,257 @@
+{
+  "Id": 69020,
+  "Name": "Deadly Assault",
+  "Priority": 9,
+  "Zone": {
+    "6902001": {
+      "Name": "The Defiler",
+      "StageNum": 1,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "69011902": {
+          "Title": "",
+          "Desc": "· When an Agent hits The Defiler with Defensive Assist, the whole squad gains 1 stack of <color=#FFFFFF>Adjudication</color>; when an Agent knocks down The Defiler attacking in mid-air, the whole squad gains 4 stacks of <color=#FFFFFF>Adjudication</color>. Adjudication can stack up to 6 times and lasts for 30 seconds. Repeated triggers reset the duration.\n· For each stack of <color=#FFFFFF>Adjudication</color>, the Agent's CRIT DMG <color=#2BAD00>increases by 5%</color>, Physical DMG <color=#2BAD00>increases by 5%</color>, and Electric DMG <color=#2BAD00>increases by 5%</color>.\n· The Defiler receives 25% less Attribute Anomaly DMG."
+        },
+        "69011903": {
+          "Title": "",
+          "Desc": "· When an Agent causes <color=#FFAF2C>Impaired status</color>, they gain <color=#FFAF2C>2500 Performance Points</color>; when an Agent <color=#FFAF2C>shoots down The Defiler while it's attacking in mid-air</color>, they gain <color=#FFAF2C>1500 Performance Points</color>, up to a maximum of 5000 Performance Points."
+        },
+        "69012102": { "Title": "", "Desc": "" }
+      },
+      "LayerRoom": {
+        "69020011": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_IsoldetheDefiler.png",
+          "MonsterList": {
+            "31142": {
+              "Id": 30038,
+              "Name": "The Defiler",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_IsoldetheDefiler.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 11329628.94,
+                "Attack": 2967.1515151515155,
+                "Defence": 952.8000000000001,
+                "Stun": 19977.350000000002,
+                "AttributeInfliction": 10
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "203": "Electric" },
+          "WavesNum": 1
+        }
+      },
+      "GoalType": 2,
+      "SRankGoal": 20000,
+      "ARankGoal": 14000,
+      "BRankGoal": 6000,
+      "SelectableBuff": {
+        "69010301": {
+          "Title": "Aberration",
+          "Desc": "· Increases the Agent's Anomaly Buildup Rate <color=#2BAD00>by 20%</color>.\n· When inflicting <color=#FFFFFF>Attribute Anomaly</color> on enemies, all squad members <color=#2BAD00>gain 60 points of Anomaly Proficiency</color>, and DMG caused by <color=#FFFFFF>Disorder</color> <color=#2BAD00>increases by 40%</color> for 15 seconds."
+        },
+        "69011201": {
+          "Title": "Collapse",
+          "Desc": "· Agent <color=#FFFFFF>Dodge Counter</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increases by 30%</color>.\n· When an Agent hits an enemy that is not Stunned, the Daze dealt <color=#2BAD00>increases by 10%</color>. When hitting a Stunned enemy, CRIT DMG <color=#2BAD00>increases by 30%</color>, and the enemy's Stun DMG Multiplier <color=#2BAD00>increases by 25%</color>."
+        },
+        "69012001": {
+          "Title": "Chasing Blade",
+          "Desc": "· Aftershock DMG <color=#2BAD00> from Agents increases by 30%</color> and their CRIT DMG <color=#2BAD00>increases by 30%</color>.\n· When Agents of Attack specialty hits an enemy with <color=#FFFFFF>EX Special Attack</color> or <color=#FFFFFF>Ultimate</color>, the enemy's all DMG RES is <color=#2BAD00>reduced by 30%</color> for 15 seconds. Repeated triggers reset the duration."
+        }
+      }
+    },
+    "6902002": {
+      "Name": "Notorious - Dead End Butcher",
+      "StageNum": 2,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "69010402": {
+          "Title": "",
+          "Desc": "· DMG dealt to boss enemies by Attribute Anomaly is increased by 50%. While Notorious - Dead End Butcher is in <color=#FFFFFF>Ether Enhanced</color> state, the DMG it takes is reduced by 15%, and the Daze value dealt by Agents to it is reduced by 30%. Triggering <color=#FFFFFF>Disorder</color> on Notorious - Dead End Butcher immediately forces it to exit the <color=#FFFFFF>Ether Enhanced</color> state."
+        },
+        "69011702": {
+          "Title": "",
+          "Desc": "· Successfully <color=#FFAF2C>inflicting Disorder</color> grants <color=#FFAF2C>200 Performance Points</color>, up to a maximum of 5,000."
+        }
+      },
+      "LayerRoom": {
+        "69020021": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NotoriousDeadEndButcher.png",
+          "MonsterList": {
+            "11901": {
+              "Id": 300072,
+              "Name": "Notorious - Dead End Butcher",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_NotoriousDeadEndButcher.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 15369428.7,
+                "Attack": 3286.6909090909094,
+                "Defence": 952.8000000000001,
+                "Stun": 15486.5,
+                "AttributeInfliction": 10
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "WavesNum": 1
+        }
+      },
+      "GoalType": 2,
+      "SRankGoal": 20000,
+      "ARankGoal": 14000,
+      "BRankGoal": 6000,
+      "SelectableBuff": {
+        "69010301": {
+          "Title": "Aberration",
+          "Desc": "· Increases the Agent's Anomaly Buildup Rate <color=#2BAD00>by 20%</color>.\n· When inflicting <color=#FFFFFF>Attribute Anomaly</color> on enemies, all squad members <color=#2BAD00>gain 60 points of Anomaly Proficiency</color>, and DMG caused by <color=#FFFFFF>Disorder</color> <color=#2BAD00>increases by 40%</color> for 15 seconds."
+        },
+        "69011201": {
+          "Title": "Collapse",
+          "Desc": "· Agent <color=#FFFFFF>Dodge Counter</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increases by 30%</color>.\n· When an Agent hits an enemy that is not Stunned, the Daze dealt <color=#2BAD00>increases by 10%</color>. When hitting a Stunned enemy, CRIT DMG <color=#2BAD00>increases by 30%</color>, and the enemy's Stun DMG Multiplier <color=#2BAD00>increases by 25%</color>."
+        },
+        "69012001": {
+          "Title": "Chasing Blade",
+          "Desc": "· Aftershock DMG <color=#2BAD00> from Agents increases by 30%</color> and their CRIT DMG <color=#2BAD00>increases by 30%</color>.\n· When Agents of Attack specialty hits an enemy with <color=#FFFFFF>EX Special Attack</color> or <color=#FFFFFF>Ultimate</color>, the enemy's all DMG RES is <color=#2BAD00>reduced by 30%</color> for 15 seconds. Repeated triggers reset the duration."
+        }
+      }
+    },
+    "6902003": {
+      "Name": "Notorious - Pompey",
+      "StageNum": 3,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "69010503": {
+          "Title": "",
+          "Desc": "· When the Agent <color=#FFAF2C>hits the boss enemy with a Defensive Assist or Chain Attack</color>, they apply 1 stack of <color=#FFFFFF>Weakening</color> to the target, lasting 20s. The duration of each stack is calculated separately. For each stack of <color=#FFFFFF>Weakening</color> on the target, Agent CRIT DMG is <color=#FFAF2C>increased by 15%</color>.\n\nWhen the boss enemy has 4 stacks of <color=#FFFFFF>Weakening</color>, Defensive Assist will deflect the boss enemy's attack, causing a Stagger effect."
+        },
+        "69010802": {
+          "Title": "",
+          "Desc": "· Successfully <color=#FFAF2C>triggering a Perfect Assist</color> grants <color=#FFAF2C>350 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
+        }
+      },
+      "LayerRoom": {
+        "69020031": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NotoriousPompey.png",
+          "MonsterList": {
+            "11881": {
+              "Id": 300211,
+              "Name": "Notorious - Pompey",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_NotoriousPompey.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": -1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 11718077.328,
+                "Attack": 3948.5939393939398,
+                "Defence": 952.8000000000001,
+                "Stun": 16647.4,
+                "AttributeInfliction": 10
+              }
+            }
+          },
+          "MonsterWeakness": { "201": "Fire" },
+          "WavesNum": 1
+        }
+      },
+      "GoalType": 2,
+      "SRankGoal": 20000,
+      "ARankGoal": 14000,
+      "BRankGoal": 6000,
+      "SelectableBuff": {
+        "69010301": {
+          "Title": "Aberration",
+          "Desc": "· Increases the Agent's Anomaly Buildup Rate <color=#2BAD00>by 20%</color>.\n· When inflicting <color=#FFFFFF>Attribute Anomaly</color> on enemies, all squad members <color=#2BAD00>gain 60 points of Anomaly Proficiency</color>, and DMG caused by <color=#FFFFFF>Disorder</color> <color=#2BAD00>increases by 40%</color> for 15 seconds."
+        },
+        "69011201": {
+          "Title": "Collapse",
+          "Desc": "· Agent <color=#FFFFFF>Dodge Counter</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increases by 30%</color>.\n· When an Agent hits an enemy that is not Stunned, the Daze dealt <color=#2BAD00>increases by 10%</color>. When hitting a Stunned enemy, CRIT DMG <color=#2BAD00>increases by 30%</color>, and the enemy's Stun DMG Multiplier <color=#2BAD00>increases by 25%</color>."
+        },
+        "69012001": {
+          "Title": "Chasing Blade",
+          "Desc": "· Aftershock DMG <color=#2BAD00> from Agents increases by 30%</color> and their CRIT DMG <color=#2BAD00>increases by 30%</color>.\n· When Agents of Attack specialty hits an enemy with <color=#FFFFFF>EX Special Attack</color> or <color=#FFFFFF>Ultimate</color>, the enemy's all DMG RES is <color=#2BAD00>reduced by 30%</color> for 15 seconds. Repeated triggers reset the duration."
+        }
+      }
+    }
+  },
+  "BossAdjust": {
+    "1001": { "Hp": 1200, "Atk": 0, "Points": 1000 },
+    "1002": { "Hp": 1200, "Atk": 0, "Points": 1000 },
+    "1003": { "Hp": 1200, "Atk": 0, "Points": 1000 },
+    "1004": { "Hp": 1200, "Atk": 0, "Points": 1000 },
+    "1005": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
+    "1006": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
+    "1007": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
+    "1008": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
+    "1009": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
+    "1010": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
+    "1011": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
+    "1012": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
+    "1013": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
+    "1014": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
+    "1015": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
+    "1016": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
+    "1017": { "Hp": 3000, "Atk": 2500, "Points": 2600 },
+    "1018": { "Hp": 3000, "Atk": 2500, "Points": 2600 },
+    "1019": { "Hp": 3000, "Atk": 2500, "Points": 2600 },
+    "1020": { "Hp": 3000, "Atk": 2500, "Points": 2600 },
+    "1021": { "Hp": 5000, "Atk": 2500, "Points": 2600 },
+    "1022": { "Hp": 5000, "Atk": 2500, "Points": 2600 },
+    "1023": { "Hp": 5000, "Atk": 2500, "Points": 2600 },
+    "1024": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1025": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1026": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1027": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1028": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1029": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "2001": { "Hp": 5000, "Atk": 8000, "Points": 200 },
+    "2002": { "Hp": 16000, "Atk": 11000, "Points": 200 },
+    "2010": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2011": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2012": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2013": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2014": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2015": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2016": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2017": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2018": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2019": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "3011": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3012": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3013": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3014": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3015": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3016": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3017": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3018": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3019": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3020": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3021": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3022": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3023": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3024": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3025": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "900201": { "Hp": 3300, "Atk": 0, "Points": 3300 },
+    "900202": { "Hp": 3300, "Atk": 0, "Points": 3300 },
+    "900203": { "Hp": 3400, "Atk": 0, "Points": 3400 }
+  },
+  "BeginTime": "2025-09-19 04:00:00",
+  "EndTime": "2025-10-03 03:59:59"
+}
