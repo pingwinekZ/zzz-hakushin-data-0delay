@@ -388,5 +388,15 @@
     "KO": "싹싹",
     "CHS": "芽芽",
     "JA": "メメ"
+  },
+  "54022": {
+    "icon": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole47.png",
+    "rank": 4,
+    "codename": "ウルトラジェイク",
+    "EN": "Ultra Jake",
+    "desc": "A super-spec En-Nah tech crystal.",
+    "KO": "울트라 제이크",
+    "CHS": "超极杰克",
+    "JA": "ウルトラネイヴ"
   }
 }

@@ -371,6 +371,18 @@
     "CHS": "光影刻刀",
     "JA": "光と影のカット"
   },
+  "13018": {
+    "icon": "Weapon_A_Common_18",
+    "rank": 3,
+    "type": 3,
+    "EN": "Boisterous Echoes",
+    "atk": 594,
+    "desc": "...",
+    "sub": "Anomaly Proficiency",
+    "KO": "둥둥 메아리",
+    "CHS": "咚哒回声",
+    "JA": "ドンカツエコー"
+  },
   "13019": {
     "icon": "Weapon_A_Common_19",
     "rank": 3,
@@ -586,6 +598,18 @@
     "KO": "리볼버 로터",
     "CHS": "左轮转子",
     "JA": "シックスシューター"
+  },
+  "14004": {
+    "icon": "Weapon_S_Common_04",
+    "rank": 4,
+    "type": 2,
+    "EN": "Item_Weapon_S_Common_04_Name",
+    "atk": 594,
+    "desc": "Item_Weapon_S_Common_04_ShortDesc",
+    "sub": "Impact",
+    "KO": "Item_Weapon_S_Common_04_Name",
+    "CHS": "Item_Weapon_S_Common_04_Name",
+    "JA": "Item_Weapon_S_Common_04_Name"
   },
   "14102": {
     "icon": "Weapon_S_1021",
@@ -1066,5 +1090,41 @@
     "KO": "삭월에 끊어지는 서리",
     "CHS": "朔月裁霜",
     "JA": "フロスト・クレセント"
+  },
+  "14155": {
+    "icon": "Weapon_S_Common_04",
+    "rank": 4,
+    "type": 1,
+    "EN": "Sol Exuvia",
+    "atk": 713,
+    "desc": "...",
+    "sub": "ATK",
+    "KO": "태양의 유체",
+    "CHS": "日冕遗蜕",
+    "JA": "太陽の抜け殻"
+  },
+  "14156": {
+    "icon": "Weapon_S_1561",
+    "rank": 4,
+    "type": 3,
+    "EN": "Joyau Dore",
+    "atk": 713,
+    "desc": "...",
+    "sub": "Energy Regen",
+    "KO": "영롱한 금빛 마음",
+    "CHS": "琳琅鎏心",
+    "JA": "金襴の心"
+  },
+  "14157": {
+    "icon": "Weapon_S_1571",
+    "rank": 4,
+    "type": 2,
+    "EN": "Chief Sidekick",
+    "atk": 713,
+    "desc": "...",
+    "sub": "CRIT Rate",
+    "KO": "수석 조수",
+    "CHS": "首席跟班",
+    "JA": "エースのオトモ"
   }
 }

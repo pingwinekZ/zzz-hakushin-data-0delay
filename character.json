@@ -1242,5 +1242,64 @@
     "KO": "프로미아",
     "CHS": "普罗米娅",
     "JA": "プロメイア"
+  },
+  "1551": {
+    "code": "ピュロイス",
+    "rank": 4,
+    "type": 1,
+    "element": 205,
+    "hit": 101,
+    "camp": 15,
+    "icon": "IconRole63",
+    "potential": [],
+    "EN": "Pyrois",
+    "skin": {
+      "3115510": {
+        "Name": "Pyrois: Dawn's Guardian",
+        "Desc": "The dying heat haze extinguished within the valley will one day be reborn from the sea. The beast that trampled fate beneath its feet will become the chariot that clears the path ahead.",
+        "Image": "IconRole63"
+      }
+    },
+    "desc": "",
+    "KO": "피로이스",
+    "CHS": "佩洛伊斯",
+    "JA": "ピュロイス"
+  },
+  "1561": {
+    "code": "Velina",
+    "rank": 4,
+    "type": 3,
+    "element": 204,
+    "hit": 101,
+    "camp": 16,
+    "icon": "IconRole64",
+    "potential": [],
+    "EN": "Velina",
+    "skin": {
+      "3115610": { "Name": "...", "Desc": "...", "Image": "IconRole64" },
+      "3115611": { "Name": "...", "Desc": "...", "Image": "IconRole64_1" }
+    },
+    "desc": "...",
+    "KO": "벨리나",
+    "CHS": "维琳娜",
+    "JA": "ヴェリナ"
+  },
+  "1571": {
+    "code": "Norma_JP3A",
+    "rank": 4,
+    "type": 2,
+    "element": 201,
+    "hit": 102,
+    "camp": 16,
+    "icon": "IconRole65",
+    "potential": [],
+    "EN": "Norma",
+    "skin": {
+      "3115710": { "Name": "...", "Desc": "...", "Image": "IconRole65" }
+    },
+    "desc": "...",
+    "KO": "노르마",
+    "CHS": "诺姆",
+    "JA": "ノルムー_JP3A"
   }
 }
