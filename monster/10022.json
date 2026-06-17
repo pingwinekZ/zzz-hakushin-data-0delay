@@ -128,7 +128,7 @@
     }
   },
   "ImagePath": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Hacker.png",
-  "Name": "$$$Mutated Hacker Ant%%%",
+  "Name": "Mutant Formicarrier",
   "Desc": "Originally a standard-issue Supplies Storage Crate, this unit was equipped with a high-spec electronic anti-theft system capable of thwarting thieves even without external power.\nA group of smugglers once managed to intercept a shipment, only to discover they couldn't bypass its security permissions. After exhausting every option, they abandoned the crate in a Hollow. To everyone's surprise, several Formicarriers eventually merged with it, transforming it into a mobile nest and taking up residence inside like Hermit Crabs. Veteran Hollow Raiders know the secret to opening it: don't bother hacking the lock, just beat up the Formicarriers living inside first. The incident serves as yet another confirmation of a famous observation by a certain thinker: destruction comes from being broken from the outside, while renewal comes from being broken from within.\nAt least, that's certainly true for this particular crate.\n\n\"Hold on... you're telling me my cargo, and my Dennies, grew legs and walked off?!\"",
   "Rarity": 1,
   "GroupId": 203,

@@ -1,0 +1,1000 @@
+{
+  "Id": 62053,
+  "Name": "Critical Node",
+  "Priority": 1,
+  "Zone": {
+    "6205301": {
+      "Name": "Critical Node: First Frontier",
+      "StageNum": 1,
+      "MonsterLevel": 50,
+      "LayerBuff": {
+        "62001522": {
+          "Title": "Final Concerto",
+          "Desc": "· Agent's <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>Chain Attack</color> DMG increase by 40%.\n· When <color=#FFFFFF>Chain Attack</color> hits an enemy, the enemy's Stun DMG Multiplier increases by 20% and Daze recovery speed slows down by 15% for 15s. Repeated triggers reset the duration."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62053011": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11114": {
+              "Id": 20000,
+              "Name": "Farbauti",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GiantGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1550600.7825,
+                "Attack": 2394.787878787879,
+                "Defence": 639.36,
+                "Stun": 7406.58,
+                "AttributeInfliction": 0
+              }
+            },
+            "11682": {
+              "Id": 10030,
+              "Name": "Fossor",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Fossor.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 278912.865,
+                "Attack": 1978.3030303030305,
+                "Defence": 473.6,
+                "Stun": 1765.76,
+                "AttributeInfliction": 0
+              }
+            },
+            "11692": {
+              "Id": 10031,
+              "Name": "Sordidus",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Sordidus.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 278912.865,
+                "Attack": 1796.0909090909092,
+                "Defence": 473.6,
+                "Stun": 1765.76,
+                "AttributeInfliction": 0
+              }
+            },
+            "31051": {
+              "Id": 930168,
+              "Name": "Banyrek",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Banyrek.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1611394.2075,
+                "Attack": 2759.2121212121215,
+                "Defence": 532.8,
+                "Stun": 6856.56,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "WavesNum": 4
+        },
+        "62053012": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11372": {
+              "Id": 10029,
+              "Name": "Beholder Engine",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_BeholderEngine.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 252937.4925,
+                "Attack": 1405.6363636363637,
+                "Defence": 509.12,
+                "Stun": 1602,
+                "AttributeInfliction": 0
+              }
+            },
+            "11381": {
+              "Id": 20010,
+              "Name": "Tarasque Mixer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_TarasqueMixer.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1627605.7874999999,
+                "Attack": 2290.666666666667,
+                "Defence": 639.36,
+                "Stun": 6233.56,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "203": "Electric", "205": "Ether" },
+          "WavesNum": 4
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6205302": {
+      "Name": "Critical Node: Second Frontier",
+      "StageNum": 2,
+      "MonsterLevel": 55,
+      "LayerBuff": {
+        "62001522": {
+          "Title": "Final Concerto",
+          "Desc": "· Agent's <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>Chain Attack</color> DMG increase by 40%.\n· When <color=#FFFFFF>Chain Attack</color> hits an enemy, the enemy's Stun DMG Multiplier increases by 20% and Daze recovery speed slows down by 15% for 15s. Repeated triggers reset the duration."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62053021": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11155": {
+              "Id": 30000,
+              "Name": "Dullahan",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_DurahanGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 2015442.0474999999,
+                "Attack": 3071,
+                "Defence": 799.24,
+                "Stun": 7626.24,
+                "AttributeInfliction": 0
+              }
+            },
+            "11772": {
+              "Id": 30017,
+              "Name": "Ionized - Cyrtoidea",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Cyrtoidea.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 376438.84249999997,
+                "Attack": 1660,
+                "Defence": 496.08,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11782": {
+              "Id": 30018,
+              "Name": "Ionized - Nassellaria",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Nassellaria.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 376438.84249999997,
+                "Attack": 1660,
+                "Defence": 496.08,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "31302": {
+              "Id": 20026,
+              "Name": "Miasmic - Frenzied Maniac",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MiasmaFrenziedManiac.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": -1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 2720887.8899999997,
+                "Attack": 3679.666666666667,
+                "Defence": 744.12,
+                "Stun": 9532.8,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "205": "Ether" },
+          "WavesNum": 3
+        },
+        "62053022": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11104": {
+              "Id": 10001,
+              "Name": "Alpeca",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_CyclopsGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 376438.84249999997,
+                "Attack": 1494,
+                "Defence": 496.08,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11124": {
+              "Id": 20001,
+              "Name": "Hati",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1661211.1774999998,
+                "Attack": 2932.666666666667,
+                "Defence": 744.12,
+                "Stun": 4721.28,
+                "AttributeInfliction": 0
+              }
+            },
+            "11194": {
+              "Id": 20003,
+              "Name": "Armored Hati",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiArmoredGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1779653.6974999998,
+                "Attack": 3209.3333333333335,
+                "Defence": 744.12,
+                "Stun": 5084.16,
+                "AttributeInfliction": 0
+              }
+            },
+            "11204": {
+              "Id": 10003,
+              "Name": "Hoplitai",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Golemgrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 376438.84249999997,
+                "Attack": 1660,
+                "Defence": 633.88,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11294": {
+              "Id": 10014,
+              "Name": "Mandrake",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Mandrake.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 316120.89249999996,
+                "Attack": 1743,
+                "Defence": 496.08,
+                "Stun": 1814.3999999999999,
+                "AttributeInfliction": 0
+              }
+            },
+            "31052": {
+              "Id": 930168,
+              "Name": "Banyrek",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Banyrek.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 2484002.8499999996,
+                "Attack": 3347.666666666667,
+                "Defence": 620.1,
+                "Stun": 8388.48,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "WavesNum": 3
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6205303": {
+      "Name": "Critical Node: Third Frontier",
+      "StageNum": 3,
+      "MonsterLevel": 60,
+      "LayerBuff": {
+        "62001522": {
+          "Title": "Final Concerto",
+          "Desc": "· Agent's <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>Chain Attack</color> DMG increase by 40%.\n· When <color=#FFFFFF>Chain Attack</color> hits an enemy, the enemy's Stun DMG Multiplier increases by 20% and Daze recovery speed slows down by 15% for 15s. Repeated triggers reset the duration."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62053031": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11682": {
+              "Id": 10030,
+              "Name": "Fossor",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Fossor.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1027423.1099999999,
+                "Attack": 1671.1363636363635,
+                "Defence": 635.2,
+                "Stun": 2043.52,
+                "AttributeInfliction": 0
+              }
+            },
+            "11692": {
+              "Id": 10031,
+              "Name": "Sordidus",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Sordidus.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1027423.1099999999,
+                "Attack": 1517.215909090909,
+                "Defence": 635.2,
+                "Stun": 2043.52,
+                "AttributeInfliction": 0
+              }
+            },
+            "31312": {
+              "Id": 20027,
+              "Name": "Miasmic - Trinox",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MiasmaTrinox.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": -1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 9727946.024999999,
+                "Attack": 2924.488636363636,
+                "Defence": 857.5200000000001,
+                "Stun": 11762.6,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "205": "Ether" },
+          "WavesNum": 2
+        },
+        "62053032": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11312": {
+              "Id": 100191,
+              "Name": "Ambusher",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugAssaulterPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 931738.3949999999,
+                "Attack": 1385.2840909090908,
+                "Defence": 635.2,
+                "Stun": 1854,
+                "AttributeInfliction": 0
+              }
+            },
+            "11322": {
+              "Id": 100181,
+              "Name": "Rustler",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_ThugPoacherPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 931738.3949999999,
+                "Attack": 1187.3863636363635,
+                "Defence": 635.2,
+                "Stun": 1854,
+                "AttributeInfliction": 0
+              }
+            },
+            "11602": {
+              "Id": 200231,
+              "Name": "Doppelganger - Mors",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Mors.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 6721002.96,
+                "Attack": 1825.056818181818,
+                "Defence": 794,
+                "Stun": 10821.18,
+                "AttributeInfliction": 0
+              }
+            },
+            "11613": {
+              "Id": 200251,
+              "Name": "Doppelganger - Bellum",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Bellum.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 7427441.175,
+                "Attack": 2550.681818181818,
+                "Defence": 794,
+                "Stun": 14720.76,
+                "AttributeInfliction": 0
+              }
+            },
+            "11623": {
+              "Id": 200241,
+              "Name": "Doppelganger - Pulchra",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Pulchra.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 6935445.3,
+                "Attack": 2550.681818181818,
+                "Defence": 794,
+                "Stun": 12273.48,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "WavesNum": 3
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6205304": {
+      "Name": "Critical Node: Fourth Frontier",
+      "StageNum": 4,
+      "MonsterLevel": 65,
+      "LayerBuff": {
+        "62001522": {
+          "Title": "Final Concerto",
+          "Desc": "· Agent's <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>Chain Attack</color> DMG increase by 40%.\n· When <color=#FFFFFF>Chain Attack</color> hits an enemy, the enemy's Stun DMG Multiplier increases by 20% and Daze recovery speed slows down by 15% for 15s. Repeated triggers reset the duration."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62053041": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HatiArmoredBoss.png",
+          "MonsterList": {
+            "11124": {
+              "Id": 20001,
+              "Name": "Hati",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HatiGrey.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4470542.265,
+                "Attack": 2460.8863636363635,
+                "Defence": 857.5200000000001,
+                "Stun": 5409.8,
+                "AttributeInfliction": 0
+              }
+            },
+            "11195": {
+              "Id": 200034,
+              "Name": "Notorious - Armored Hati",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_HatiArmoredBoss.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 11370775.185,
+                "Attack": 2785.909090909091,
+                "Defence": 952.8000000000001,
+                "Stun": 8536,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "WavesNum": 2
+        },
+        "62053042": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Sentinel.png",
+          "MonsterList": {
+            "31531": {
+              "Id": 30048,
+              "Name": "Airspace Sentinel",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Sentinel.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": -1,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 22413319.2,
+                "Attack": 4024.090909090909,
+                "Defence": 952.8000000000001,
+                "Stun": 19771.4,
+                "AttributeInfliction": 0
+              }
+            },
+            "31553": {
+              "Id": 20036,
+              "Name": "Metamorphosed - City Guardboo",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_CorruptedBattleMecha.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": -1,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 5969380.284,
+                "Attack": 3590.7272727272725,
+                "Defence": 857.5200000000001,
+                "Stun": 11556.6,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice", "204": "Wind" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6205305": {
+      "Name": "",
+      "StageNum": 5,
+      "MonsterLevel": 0,
+      "LayerBuff": {
+        "62001522": {
+          "Title": "Final Concerto",
+          "Desc": "· Agent's <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>Chain Attack</color> DMG increase by 40%.\n· When <color=#FFFFFF>Chain Attack</color> hits an enemy, the enemy's Stun DMG Multiplier increases by 20% and Daze recovery speed slows down by 15% for 15s. Repeated triggers reset the duration."
+        },
+        "62001532": {
+          "Title": "Chain Circuit",
+          "Desc": "· Agent's Anomaly Proficiency increases by <color=#2BAD00>20 points</color>, and Attribute Anomaly DMG increases by 15%.\n· When there are 1/2 Agents with the <color=#FFFFFF>Anomaly</color> specialty in the squad, Attribute Anomaly DMG dealt to enemies ignores 5%/15% of their All-Attribute RES."
+        },
+        "62001533": {
+          "Title": "Operation Zero",
+          "Desc": "· Agent <color=#98EFF0>Ice DMG</color> and <color=#FE437E>Ether DMG</color> increase by 30%.\n· Agent <color=#FFFFFF>Basic Attack</color> and <color=#FFFFFF>Chain Attack</color> DMG increase by 20%, and CRIT DMG increases by 35%."
+        }
+      },
+      "Child": [62053051, 62053052, 62053053],
+      "LayerRoom": {},
+      "GoalType": 3,
+      "SsRankGoal": 0,
+      "SRankGoal": 1270001003,
+      "ARankGoal": 1270001002,
+      "BRankGoal": 1270001001
+    },
+    "62053051": {
+      "Name": "Room 1",
+      "StageNum": 5,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "62001001": {
+          "Title": "",
+          "Desc": "· In this stage, dealing DMG to enemies earns you <color=#FFAF2C>DMG Score</color>. Defeating a single <color=#FFFFFF>normal/elite enemy</color> will grant you an instance of <color=#FFAF2C>Elimination Score</color>.\n· In this stage, scores earned at different times will receive additional <color=#FFAF2C>multiplier bonuses</color>. The earlier in the challenge, the higher the multiplier. The <color=#FFAF2C>total score cap (including bonus) is 50,000</color>."
+        },
+        "62001002": { "Title": "", "Desc": "" },
+        "62001522": {
+          "Title": "Final Concerto",
+          "Desc": "· Agent's <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>Chain Attack</color> DMG increase by 40%.\n· When <color=#FFFFFF>Chain Attack</color> hits an enemy, the enemy's Stun DMG Multiplier increases by 20% and Daze recovery speed slows down by 15% for 15s. Repeated triggers reset the duration."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62053051": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaIsoldeSlime.png",
+          "MonsterList": {
+            "31214": {
+              "Id": 300372,
+              "Name": "Miasmic - Doppelganger - The Defector",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaIsoldeSlime.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": -1,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 28271655.72,
+                "Attack": 3521.454545454546,
+                "Defence": 952.8000000000001,
+                "Stun": 14327.95,
+                "AttributeInfliction": 0
+              }
+            },
+            "31492": {
+              "Id": 20034,
+              "Name": "Mushussu",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Predator.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 7965170.595,
+                "Attack": 2959.0000000000005,
+                "Defence": 714.6,
+                "Stun": 14001.300000000001,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 2,
+      "SsRankGoal": 0,
+      "SRankGoal": 25000,
+      "ARankGoal": 16000,
+      "BRankGoal": 8000
+    },
+    "62053052": {
+      "Name": "Room 2",
+      "StageNum": 5,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "62001001": {
+          "Title": "",
+          "Desc": "· In this stage, dealing DMG to enemies earns you <color=#FFAF2C>DMG Score</color>. Defeating a single <color=#FFFFFF>normal/elite enemy</color> will grant you an instance of <color=#FFAF2C>Elimination Score</color>.\n· In this stage, scores earned at different times will receive additional <color=#FFAF2C>multiplier bonuses</color>. The earlier in the challenge, the higher the multiplier. The <color=#FFAF2C>total score cap (including bonus) is 50,000</color>."
+        },
+        "62001002": { "Title": "", "Desc": "" },
+        "62001532": {
+          "Title": "Chain Circuit",
+          "Desc": "· Agent's Anomaly Proficiency increases by <color=#2BAD00>20 points</color>, and Attribute Anomaly DMG increases by 15%.\n· When there are 1/2 Agents with the <color=#FFFFFF>Anomaly</color> specialty in the squad, Attribute Anomaly DMG dealt to enemies ignores 5%/15% of their All-Attribute RES."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62053052": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaDubiousHero.png",
+          "MonsterList": {
+            "31303": {
+              "Id": 20026,
+              "Name": "Miasmic - Frenzied Maniac",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MiasmaFrenziedManiac.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": -1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 5226339.6899999995,
+                "Attack": 2836.727272727273,
+                "Defence": 857.5200000000001,
+                "Stun": 10285.95,
+                "AttributeInfliction": 0
+              }
+            },
+            "31313": {
+              "Id": 20027,
+              "Name": "Miasmic - Trinox",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MiasmaTrinox.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": -1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 7549036.11,
+                "Attack": 2836.727272727273,
+                "Defence": 857.5200000000001,
+                "Stun": 11829.9,
+                "AttributeInfliction": 0
+              }
+            },
+            "31422": {
+              "Id": 30045,
+              "Name": "Miasmic - Rampant Brute",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaDubiousHero.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": -1,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 87427170,
+                "Attack": 3521.454545454546,
+                "Defence": 952.8000000000001,
+                "Stun": 14588.800000000001,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "204": "Wind", "205": "Ether" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 2,
+      "SsRankGoal": 0,
+      "SRankGoal": 25000,
+      "ARankGoal": 16000,
+      "BRankGoal": 8000
+    },
+    "62053053": {
+      "Name": "Room 3",
+      "StageNum": 5,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "62001001": {
+          "Title": "",
+          "Desc": "· In this stage, dealing DMG to enemies earns you <color=#FFAF2C>DMG Score</color>. Defeating a single <color=#FFFFFF>normal/elite enemy</color> will grant you an instance of <color=#FFAF2C>Elimination Score</color>.\n· In this stage, scores earned at different times will receive additional <color=#FFAF2C>multiplier bonuses</color>. The earlier in the challenge, the higher the multiplier. The <color=#FFAF2C>total score cap (including bonus) is 50,000</color>."
+        },
+        "62001002": { "Title": "", "Desc": "" },
+        "62001533": {
+          "Title": "Operation Zero",
+          "Desc": "· Agent <color=#98EFF0>Ice DMG</color> and <color=#FE437E>Ether DMG</color> increase by 30%.\n· Agent <color=#FFFFFF>Basic Attack</color> and <color=#FFFFFF>Chain Attack</color> DMG increase by 20%, and CRIT DMG increases by 35%."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62053053": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaNoranoSlime.png",
+          "MonsterList": {
+            "31072": {
+              "Id": 930172,
+              "Name": "Huskron",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Huskron.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 760413.06,
+                "Attack": 1760.727272727273,
+                "Defence": 635.2,
+                "Stun": 2326.5,
+                "AttributeInfliction": 0
+              }
+            },
+            "31182": {
+              "Id": 10032,
+              "Name": "Miasma Spawn",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaSpawn.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1303175.6099999999,
+                "Attack": 1760.727272727273,
+                "Defence": 635.2,
+                "Stun": 2326.5,
+                "AttributeInfliction": 0
+              }
+            },
+            "31294": {
+              "Id": 300402,
+              "Name": "Miasmic Komano Manato",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaNoranoSlime.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": -1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 29322269.46,
+                "Attack": 3521.454545454546,
+                "Defence": 952.8000000000001,
+                "Stun": 16283.150000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "31382": {
+              "Id": 20011,
+              "Name": "Miasmic - Huskron",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Gloomaron.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 1,
+                "Electric": -1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 5110323.885,
+                "Attack": 2812.2727272727275,
+                "Defence": 794,
+                "Stun": 12445.6,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 2,
+      "SsRankGoal": 0,
+      "SRankGoal": 25000,
+      "ARankGoal": 16000,
+      "BRankGoal": 8000
+    }
+  },
+  "BeginTime": "2026-07-24 04:00:00",
+  "EndTime": "2026-08-07 03:59:59"
+}

@@ -129,7 +129,7 @@
   },
   "ImagePath": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Sentinel.png",
   "Name": "Airspace Sentinel",
-  "Desc": "A special heavy combat unit fielded by the Roscaelifer Airspace Patrol. The culmination of the Airspace Patrol's military technology, it is stationed in the Energy Module facilities on the lower levels of Sky Island.\nDuring patrol duty, it remains in a fixed turret configuration, providing thunderous heavy fire support to ground forces. When its stabilized base transforms into a quadrupedal frame, it becomes a highly mobile heavy combat mech capable of dominating the battlefield.\nIt serves as a reliable defensive line against Ethereal incursions caused by Singularity Leakage. However, if affected by Ether Corruption and driven out of control, it becomes a severe threat to the Energy Hub.\n\n\"If any enemy dares to invade, I will deploy in mech form!\"",
+  "Desc": "A special heavy combat unit fielded by the Roscaelifer Airspace Patrol. The culmination of the Airspace Patrol's military technology, it is stationed in the Energy Module facilities on the lower levels of the floating island.\nDuring patrol duty, it remains in a fixed turret configuration, providing thunderous heavy fire support to ground forces. When its stabilized base transforms into a quadrupedal frame, it becomes a highly mobile heavy combat mech capable of dominating the battlefield.\nIt serves as a reliable defensive line against Ethereal incursions caused by Singularity Leakage. However, if affected by Ether Corruption and driven out of control, it becomes a severe threat to the Energy Hub.\n\n\"If any enemy dares to invade, I will deploy in mech form!\"",
   "Rarity": 3,
   "GroupId": 290,
   "GroupDesc": "Special",
