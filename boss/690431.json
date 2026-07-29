@@ -1,0 +1,449 @@
+{
+  "Id": 690431,
+  "Name": "Trial",
+  "Priority": 9,
+  "BossAdjust": {
+    "1001": { "Hp": 1200, "Atk": -5000, "Points": 1000 },
+    "1002": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1003": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1004": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1005": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1006": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1007": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1008": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1009": { "Hp": 2200, "Atk": -1000, "Points": 1800 },
+    "1010": { "Hp": 2200, "Atk": 0, "Points": 1800 },
+    "1011": { "Hp": 2200, "Atk": 800, "Points": 1800 },
+    "1012": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
+    "1013": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
+    "1014": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
+    "1015": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
+    "1016": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
+    "1017": { "Hp": 3000, "Atk": 2500, "Points": 2600 },
+    "1018": { "Hp": 3000, "Atk": 2500, "Points": 2600 },
+    "1019": { "Hp": 3000, "Atk": 2500, "Points": 2600 },
+    "1020": { "Hp": 3000, "Atk": 2500, "Points": 2600 },
+    "1021": { "Hp": 5000, "Atk": 2500, "Points": 2600 },
+    "1022": { "Hp": 5000, "Atk": 2500, "Points": 2600 },
+    "1023": { "Hp": 5000, "Atk": 2500, "Points": 2600 },
+    "1024": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1025": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1026": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1027": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1028": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1029": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1301": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1302": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1303": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1304": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1305": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1306": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1307": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1308": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1309": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1310": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1311": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1312": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1313": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1314": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1315": { "Hp": 8000, "Atk": 2000, "Points": 3500 },
+    "1316": { "Hp": 10000, "Atk": 2000, "Points": 3500 },
+    "1317": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1318": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1319": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1320": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1321": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1322": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1323": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
+    "1324": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
+    "2001": { "Hp": 5000, "Atk": 8000, "Points": 200 },
+    "2002": { "Hp": 16000, "Atk": 11000, "Points": 200 },
+    "2010": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2011": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2012": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2013": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2014": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2015": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2016": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2017": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2018": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2019": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "3011": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3012": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3013": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3014": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3015": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3016": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3017": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3018": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3019": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3020": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3021": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3022": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3023": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3024": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3025": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "400101": { "Hp": 500, "Atk": 0, "Points": 5000 },
+    "400102": { "Hp": 500, "Atk": 0, "Points": 5000 },
+    "400103": { "Hp": 750, "Atk": 0, "Points": 7500 },
+    "400104": { "Hp": 750, "Atk": 0, "Points": 7500 },
+    "400105": { "Hp": 1000, "Atk": 0, "Points": 10000 },
+    "400106": { "Hp": 1000, "Atk": 0, "Points": 10000 },
+    "400107": { "Hp": 1250, "Atk": 0, "Points": 12500 },
+    "400108": { "Hp": 1250, "Atk": 0, "Points": 12500 },
+    "400109": { "Hp": 1500, "Atk": 0, "Points": 15000 },
+    "400110": { "Hp": 1500, "Atk": 0, "Points": 15000 },
+    "400201": { "Hp": 500, "Atk": 0, "Points": 5000 },
+    "400202": { "Hp": 500, "Atk": 0, "Points": 5000 },
+    "400203": { "Hp": 750, "Atk": 0, "Points": 7500 },
+    "400204": { "Hp": 750, "Atk": 0, "Points": 7500 },
+    "400205": { "Hp": 1000, "Atk": 0, "Points": 10000 },
+    "400206": { "Hp": 1000, "Atk": 0, "Points": 10000 },
+    "400207": { "Hp": 1250, "Atk": 0, "Points": 12500 },
+    "400208": { "Hp": 1250, "Atk": 0, "Points": 12500 },
+    "400209": { "Hp": 1500, "Atk": 0, "Points": 15000 },
+    "400210": { "Hp": 1500, "Atk": 0, "Points": 15000 },
+    "400301": { "Hp": 500, "Atk": 0, "Points": 5000 },
+    "400302": { "Hp": 500, "Atk": 0, "Points": 5000 },
+    "400303": { "Hp": 750, "Atk": 0, "Points": 7500 },
+    "400304": { "Hp": 750, "Atk": 0, "Points": 7500 },
+    "400305": { "Hp": 1000, "Atk": 0, "Points": 10000 },
+    "400306": { "Hp": 1000, "Atk": 0, "Points": 10000 },
+    "400307": { "Hp": 1250, "Atk": 0, "Points": 12500 },
+    "400308": { "Hp": 1250, "Atk": 0, "Points": 12500 },
+    "400309": { "Hp": 1500, "Atk": 0, "Points": 15000 },
+    "400310": { "Hp": 1500, "Atk": 0, "Points": 15000 },
+    "401101": { "Hp": 250, "Atk": 0, "Points": 5000 },
+    "401102": { "Hp": 250, "Atk": 0, "Points": 5000 },
+    "401103": { "Hp": 375, "Atk": 0, "Points": 7500 },
+    "401104": { "Hp": 375, "Atk": 0, "Points": 7500 },
+    "401105": { "Hp": 500, "Atk": 0, "Points": 10000 },
+    "401106": { "Hp": 500, "Atk": 0, "Points": 10000 },
+    "401107": { "Hp": 625, "Atk": 0, "Points": 12500 },
+    "401108": { "Hp": 625, "Atk": 0, "Points": 12500 },
+    "401109": { "Hp": 750, "Atk": 0, "Points": 15000 },
+    "401110": { "Hp": 750, "Atk": 0, "Points": 15000 },
+    "401111": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401112": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401113": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401114": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401115": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401201": { "Hp": 250, "Atk": 0, "Points": 5000 },
+    "401202": { "Hp": 250, "Atk": 0, "Points": 5000 },
+    "401203": { "Hp": 375, "Atk": 0, "Points": 7500 },
+    "401204": { "Hp": 375, "Atk": 0, "Points": 7500 },
+    "401205": { "Hp": 500, "Atk": 0, "Points": 10000 },
+    "401206": { "Hp": 500, "Atk": 0, "Points": 10000 },
+    "401207": { "Hp": 625, "Atk": 0, "Points": 12500 },
+    "401208": { "Hp": 625, "Atk": 0, "Points": 12500 },
+    "401209": { "Hp": 750, "Atk": 0, "Points": 15000 },
+    "401210": { "Hp": 750, "Atk": 0, "Points": 15000 },
+    "401211": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401212": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401213": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401214": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401215": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401301": { "Hp": 250, "Atk": 0, "Points": 5000 },
+    "401302": { "Hp": 250, "Atk": 0, "Points": 5000 },
+    "401303": { "Hp": 375, "Atk": 0, "Points": 7500 },
+    "401304": { "Hp": 375, "Atk": 0, "Points": 7500 },
+    "401305": { "Hp": 500, "Atk": 0, "Points": 10000 },
+    "401306": { "Hp": 500, "Atk": 0, "Points": 10000 },
+    "401307": { "Hp": 625, "Atk": 0, "Points": 12500 },
+    "401308": { "Hp": 625, "Atk": 0, "Points": 12500 },
+    "401309": { "Hp": 750, "Atk": 0, "Points": 15000 },
+    "401310": { "Hp": 750, "Atk": 0, "Points": 15000 },
+    "401311": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401312": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401313": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401314": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401315": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "900201": { "Hp": 3300, "Atk": 0, "Points": 3300 },
+    "900202": { "Hp": 3300, "Atk": 0, "Points": 3300 },
+    "900203": { "Hp": 3400, "Atk": 0, "Points": 3400 }
+  },
+  "ZoneType": 1002,
+  "Modes": [
+    {
+      "Id": 690432,
+      "ZoneType": 1002,
+      "Zone": {
+        "69043201": {
+          "Name": "Rewritten - Sanguine Sweeper",
+          "StageNum": 1,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69013304": {
+              "Title": "",
+              "Desc": "· Each successful counter and subsequent trigger of a special stagger against the Boss's attacks grants <color=#FFAF2C>1,000 Performance Points</color>. During the <Term:2000003>Control Skill</Term>, each successful counter against the Boss's attacks grants <color=#FFAF2C>500 Performance Points</color>. Performing a <color=#FFAF2C>Shutdown</color> on the Boss's <color=#FFAF2C>Control Skill</color> grants <color=#FFAF2C>1,500 Performance Points</color>. Maximum obtainable Performance Points: 5,000."
+            },
+            "69014407": {
+              "Title": "69014407_Title",
+              "Desc": "When an Agent lands Shutdown on an enemy, the enemy's All-Attribute RES decreases by 10%, Agents with Attack specialty gain 20% bonus ATK, 25% bonus PEN Ratio, and their Ice and Ether CRIT DMG increases by 60%. \nUpon triggering a special stagger, the whole squad's Anomaly Proficiency increases by 40 pts and their Anomaly DMG increases by 30%."
+            },
+            "69014409": { "Title": "", "Desc": "" }
+          },
+          "LayerRoom": {
+            "690432011": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_ClonedBlackWolf.png",
+              "MonsterList": {
+                "11803": {
+                  "Id": 40003,
+                  "Name": "Rewritten - Sanguine Sweeper",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_ClonedBlackWolf.png",
+                  "Element": {
+                    "Ice": 0,
+                    "Fire": 0,
+                    "Electric": 0,
+                    "Ether": 0,
+                    "Physical": 0,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 46197845.63999999,
+                    "Attack": 2967.1515151515155,
+                    "Defence": 476.40000000000003,
+                    "Stun": 17876.45,
+                    "AttributeInfliction": 10
+                  }
+                }
+              },
+              "MonsterWeakness": { "202": "Ice" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 30000,
+          "ARankGoal": 20000,
+          "BRankGoal": 10000,
+          "SelectableBuff": {
+            "69013604": {
+              "Title": "Breakthrough",
+              "Desc": "· Rupture specialty Agent Sheer DMG <color=#2BAD00>increases by 15%</color>, and reduces Miasma Shield <color=#2BAD00>30% faster</color>.\n· While in Ether Veil, Agent <color=#FE437E>Ether DMG</color> <color=#2BAD00>increases by 25%</color>, and hitting an enemy makes its Stun DMG Multiplier <color=#2BAD00>increase by 25%</color> for 10s. Repeated triggers reset the duration."
+            },
+            "69014201": {
+              "Title": "United Strength",
+              "Desc": "· If there are 2/3 Agents in the squad with <color=#FFFFFF>Anomaly</color> specialty, the whole squad's Anomaly Proficiency <color=#2BAD00>increases by 30/70</color> respectively, and Attribute Anomaly DMG dealt <color=#2BAD00>increases by 10%/25%</color> respectively.\n· After inflicting an <color=#FFFFFF>Attribute Anomaly</color> on an enemy, the enemy's All-Attribute RES is <color=#2BAD00>reduced by 15%</color> for 10s. Repeated triggers reset the duration."
+            },
+            "69014301": {
+              "Title": "Frost Reins",
+              "Desc": "· For Agents with Attack specialty, their ATK <color=#2BAD00>increases by 25%</color>. When their <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>EX Special Attack</color>, or <color=#FFFFFF>Chain Attack</color> hits an enemy, it ignores <color=#2BAD00>30%</color> of the target's <color=#98EFF0>Ice RES</color> and <color=#FE437E>Ether RES</color>.\n· When an Agent hits a Stunned enemy, the target's Stun DMG Multiplier <color=#2BAD00>increases by 40%</color> for 5s. Repeated triggers reset the duration."
+            }
+          }
+        }
+      }
+    },
+    {
+      "Id": 690431,
+      "ZoneType": 1001,
+      "Zone": {
+        "69043101": {
+          "Name": "Girtablullu - Stagnant Aberrant",
+          "StageNum": 1,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69013003": {
+              "Title": "",
+              "Desc": "· Suitable for Agents with <IconMap:Icon_AvatarClass_Anomaly><color=#FFAF2C>Anomaly</color> specialty."
+            },
+            "69014405": {
+              "Title": "69014405_Title",
+              "Desc": "· When an Agent inflicts an Attribute Anomaly on an enemy, the target enemy gains 1 stack of Blight Mark of the corresponding attribute, lasting 30s and stacking up to 2 times. Repeated triggers of same-attribute Blight Mark reset its duration.\n· For every stack of Blight Mark inflicted, the enemies <color=#FFAF2C>take 8% more Attribute Anomaly DMG</color>, and <color=#FFAF2C>DMG taken by <Term:2000001></Term> increases by 8%</color>.\n· When inflicting Impaired or Shutdown on an enemy, <color=#FFAF2C>the whole squad's Anomaly Proficiency increases by 60 pts</color>, lasting 30s. Repeated triggers reset the duration."
+            },
+            "69014406": {
+              "Title": "69014406_Title",
+              "Desc": "· Successfully <color=#FFAF2C>inflicting Impaired</color> grants <color=#FFAF2C>1000 Performance Points</color>; successfully <color=#FFAF2C>countering</color> <Term:2000003></Term> grants <color=#FFAF2C>500 Performance Points</color> each time; <color=#FFAF2C>preventing an enemy's Corruptive Barrier from completing its charge</color> and rendering them Impaired grants <color=#FFAF2C>1500 Performance Points</color>. A maximum of 5000 Performance Points can be obtained."
+            }
+          },
+          "LayerRoom": {
+            "690431011": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_GirReborn.png",
+              "MonsterList": {
+                "31674": {
+                  "Id": 40008,
+                  "Name": "Girtablullu - Stagnant Aberrant",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_GirReborn.png",
+                  "Element": {
+                    "Ice": 0,
+                    "Fire": 0,
+                    "Electric": 0,
+                    "Ether": 0,
+                    "Physical": 0,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 22562954.099999998,
+                    "Attack": 3286.6909090909094,
+                    "Defence": 952.8000000000001,
+                    "Stun": 23276.75,
+                    "AttributeInfliction": 10
+                  }
+                }
+              },
+              "MonsterWeakness": {},
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69013604": {
+              "Title": "Breakthrough",
+              "Desc": "· Rupture specialty Agent Sheer DMG <color=#2BAD00>increases by 15%</color>, and reduces Miasma Shield <color=#2BAD00>30% faster</color>.\n· While in Ether Veil, Agent <color=#FE437E>Ether DMG</color> <color=#2BAD00>increases by 25%</color>, and hitting an enemy makes its Stun DMG Multiplier <color=#2BAD00>increase by 25%</color> for 10s. Repeated triggers reset the duration."
+            },
+            "69014201": {
+              "Title": "United Strength",
+              "Desc": "· If there are 2/3 Agents in the squad with <color=#FFFFFF>Anomaly</color> specialty, the whole squad's Anomaly Proficiency <color=#2BAD00>increases by 30/70</color> respectively, and Attribute Anomaly DMG dealt <color=#2BAD00>increases by 10%/25%</color> respectively.\n· After inflicting an <color=#FFFFFF>Attribute Anomaly</color> on an enemy, the enemy's All-Attribute RES is <color=#2BAD00>reduced by 15%</color> for 10s. Repeated triggers reset the duration."
+            },
+            "69014301": {
+              "Title": "Frost Reins",
+              "Desc": "· For Agents with Attack specialty, their ATK <color=#2BAD00>increases by 25%</color>. When their <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>EX Special Attack</color>, or <color=#FFFFFF>Chain Attack</color> hits an enemy, it ignores <color=#2BAD00>30%</color> of the target's <color=#98EFF0>Ice RES</color> and <color=#FE437E>Ether RES</color>.\n· When an Agent hits a Stunned enemy, the target's Stun DMG Multiplier <color=#2BAD00>increases by 40%</color> for 5s. Repeated triggers reset the duration."
+            }
+          }
+        },
+        "69043102": {
+          "Name": "Ye Shiyuan the Thrall",
+          "StageNum": 2,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69012102": { "Title": "", "Desc": "" },
+            "69012602": {
+              "Title": "",
+              "Desc": "· When Sobek and The Thrall alternate turns, The Thrall gains 1 stack of <color=#FFFFFF>Contract</color> and <color=#FFFFFF>Self-Sacrifice</color>. Contract and Self-Sacrifice can stack up to 3 times. Each stack of Contract increases All-Attribute Anomaly Buildup RES by <color=#FFAF2C>15%</color>, each stack of Self-Sacrifice reduces The Thrall's DEF by <color=#FFAF2C>8%</color>. When The Thrall is Stunned, CRIT DMG taken increases by <color=#FFAF2C>50%</color>."
+            },
+            "69012603": {
+              "Title": "",
+              "Desc": "· When Agents inflict <color=#FFAF2C>Weakened</color> on Sobek and The Thrall, <color=#FFAF2C>1,500 Performance Points</color> will be awarded. When an Agent <color=#FFAF2C>eliminates Sobek</color>, <color=#FFAF2C>2,000 Performance Points</color> will be awarded. Up to a maximum of 5,000 Performance Points can be earned."
+            },
+            "69013004": {
+              "Title": "",
+              "Desc": "· Suitable for Agents with <IconMap:Icon_AvatarClass_Stun><color=#FFAF2C>Stun</color> specialty."
+            }
+          },
+          "LayerRoom": {
+            "690431021": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Awakener.png",
+              "MonsterList": {
+                "31353": {
+                  "Id": 30042,
+                  "Name": "Ye Shiyuan the Thrall",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Awakener.png",
+                  "Element": {
+                    "Ice": 1,
+                    "Fire": 0,
+                    "Electric": -1,
+                    "Ether": 0,
+                    "Physical": 1,
+                    "Wind": 1
+                  },
+                  "Stats": {
+                    "Hp": 24125386.23,
+                    "Attack": 3286.6909090909094,
+                    "Defence": 952.8000000000001,
+                    "Stun": 14068.040000000003,
+                    "AttributeInfliction": 10
+                  }
+                }
+              },
+              "MonsterWeakness": {
+                "200": "Physical",
+                "202": "Ice",
+                "204": "Wind"
+              },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69013604": {
+              "Title": "Breakthrough",
+              "Desc": "· Rupture specialty Agent Sheer DMG <color=#2BAD00>increases by 15%</color>, and reduces Miasma Shield <color=#2BAD00>30% faster</color>.\n· While in Ether Veil, Agent <color=#FE437E>Ether DMG</color> <color=#2BAD00>increases by 25%</color>, and hitting an enemy makes its Stun DMG Multiplier <color=#2BAD00>increase by 25%</color> for 10s. Repeated triggers reset the duration."
+            },
+            "69014201": {
+              "Title": "United Strength",
+              "Desc": "· If there are 2/3 Agents in the squad with <color=#FFFFFF>Anomaly</color> specialty, the whole squad's Anomaly Proficiency <color=#2BAD00>increases by 30/70</color> respectively, and Attribute Anomaly DMG dealt <color=#2BAD00>increases by 10%/25%</color> respectively.\n· After inflicting an <color=#FFFFFF>Attribute Anomaly</color> on an enemy, the enemy's All-Attribute RES is <color=#2BAD00>reduced by 15%</color> for 10s. Repeated triggers reset the duration."
+            },
+            "69014301": {
+              "Title": "Frost Reins",
+              "Desc": "· For Agents with Attack specialty, their ATK <color=#2BAD00>increases by 25%</color>. When their <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>EX Special Attack</color>, or <color=#FFFFFF>Chain Attack</color> hits an enemy, it ignores <color=#2BAD00>30%</color> of the target's <color=#98EFF0>Ice RES</color> and <color=#FE437E>Ether RES</color>.\n· When an Agent hits a Stunned enemy, the target's Stun DMG Multiplier <color=#2BAD00>increases by 40%</color> for 5s. Repeated triggers reset the duration."
+            }
+          }
+        },
+        "69043103": {
+          "Name": "Miasma Priest",
+          "StageNum": 3,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69011302": {
+              "Title": "",
+              "Desc": "· When the Miasma Priest switches phase, their Anomaly Buildup RES increases by 10% and CRIT DMG taken increases by 30%. This effect can stack up to 2 times and is cleared when <Term:2000002>Miasmic Shield</Term> breaks."
+            },
+            "69011303": {
+              "Title": "",
+              "Desc": "· When an Agent successfully performs <color=#FFAF2C>3 Defensive Assists within 3 seconds</color>, earn <color=#FFAF2C>1,000 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
+            },
+            "69012102": { "Title": "", "Desc": "" },
+            "69013002": {
+              "Title": "",
+              "Desc": "· Suitable for Agents with <IconMap:Icon_AvatarClass_Rupture><color=#FFAF2C>Rupture</color> specialty."
+            }
+          },
+          "LayerRoom": {
+            "690431031": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MentorMevorakh.png",
+              "MonsterList": {
+                "31032": {
+                  "Id": 30033,
+                  "Name": "Miasma Priest",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_MentorMevorakh.png",
+                  "Element": {
+                    "Ice": -1,
+                    "Fire": 0,
+                    "Electric": 0,
+                    "Ether": 1,
+                    "Physical": 0,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 20908631.7,
+                    "Attack": 2465.018181818182,
+                    "Defence": 952.8000000000001,
+                    "Stun": 16647.4,
+                    "AttributeInfliction": 10
+                  }
+                }
+              },
+              "MonsterWeakness": { "205": "Ether" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69013604": {
+              "Title": "Breakthrough",
+              "Desc": "· Rupture specialty Agent Sheer DMG <color=#2BAD00>increases by 15%</color>, and reduces Miasma Shield <color=#2BAD00>30% faster</color>.\n· While in Ether Veil, Agent <color=#FE437E>Ether DMG</color> <color=#2BAD00>increases by 25%</color>, and hitting an enemy makes its Stun DMG Multiplier <color=#2BAD00>increase by 25%</color> for 10s. Repeated triggers reset the duration."
+            },
+            "69014201": {
+              "Title": "United Strength",
+              "Desc": "· If there are 2/3 Agents in the squad with <color=#FFFFFF>Anomaly</color> specialty, the whole squad's Anomaly Proficiency <color=#2BAD00>increases by 30/70</color> respectively, and Attribute Anomaly DMG dealt <color=#2BAD00>increases by 10%/25%</color> respectively.\n· After inflicting an <color=#FFFFFF>Attribute Anomaly</color> on an enemy, the enemy's All-Attribute RES is <color=#2BAD00>reduced by 15%</color> for 10s. Repeated triggers reset the duration."
+            },
+            "69014301": {
+              "Title": "Frost Reins",
+              "Desc": "· For Agents with Attack specialty, their ATK <color=#2BAD00>increases by 25%</color>. When their <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>EX Special Attack</color>, or <color=#FFFFFF>Chain Attack</color> hits an enemy, it ignores <color=#2BAD00>30%</color> of the target's <color=#98EFF0>Ice RES</color> and <color=#FE437E>Ether RES</color>.\n· When an Agent hits a Stunned enemy, the target's Stun DMG Multiplier <color=#2BAD00>increases by 40%</color> for 5s. Repeated triggers reset the duration."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "BeginTime": "2026-08-14 04:00:00",
+  "EndTime": "2026-08-28 03:59:59"
+}
