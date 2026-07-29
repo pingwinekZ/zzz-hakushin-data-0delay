@@ -15,8 +15,14 @@
     "FullName": "Jane Doe",
     "Gender": "Female",
     "IconPath": "UI/Sprite/A1DynamicLoad/IconRoleCircle/UnPacker/IconRoleCircle24.png",
+    "InterKnotIcon": "UI/Sprite/A1DynamicLoad/InterKnot/UnPacker/IconInterknotAvatar/IconInterKnotRole0024.png",
     "ImpressionF": "Fairy, you don't have to reiterate anything. We've all come to terms with Jane's name being Jane.",
     "ImpressionM": "I mean, it's far from the worst name we've seen...",
+    "Impressions": [
+      "Impressions of Jane:\n · She seems to always be busy at night...",
+      " · Is Jane a bystander who acted on accident, or a mastermind who planned it all...?",
+      " · To her, \"good night, sweet dreams\" and \"let's have breakfast together\" are two very significant phrases."
+    ],
     "ProfileDesc": "Jane, a criminal behavior specialist, has had a \"colorful\" career as a consultant with Public Security over the years.\nShe is an expert in disguise, infiltration, and other investigative work.\nShe has a bad habit of trolling others and sometimes plays harmless pranks.\nShe's a skilled mimic, able to change her appearance and demeanor at will, making people wonder what the \"real\" Jane is like.\n\nJane has a wealth of life experience and can seamlessly blend into any environment, as though she has dabbled in everything there is to do.\nHowever, if you ask her for any further details, she'll give you a different story every time.\nWho knows which, if any, are true.\n\nNote 1: Jane does not know our true identity. Do not reveal this to her under any circumstances.\nNote 2: Despite \"Jane Doe\" being an obvious alias, we haven't found any information about her real or former name.\nThis is not my problem. My guess is that her true identity has been completely erased due to her special status.\nLet me reiterate: This is not my problem.",
     "RoleIcon": "IconRole/UnPacker/IconRole24",
     "Stature": "170",
@@ -257,6 +263,11 @@
           "Potential": [0]
         },
         {
+          "Name": "Basic Attack: Dancing Blades",
+          "Desc": "Press <IconMap:Icon_Normal> to activate:\nUnleashes up to six consecutive attacks ahead, dealing <color=#F0D12B>Physical DMG</color>.\nThe sixth <color=#FFFFFF>Basic Attack</color> is also treated as a <color=#FFFFFF>Dash Attack</color>, and Anti-Interrupt level is increased while using this skill.",
+          "Potential": [126100, 126101, 126102, 126103, 126104, 126105]
+        },
+        {
           "Name": "Passion",
           "Desc": "When Jane triggers <color=#FFFFFF>Perfect Dodge</color>, <color=#FFFFFF>Defensive Assist</color>, or performs a move that deals DMG to the enemy, she accumulates <color=#FFFFFF>Passion Stream</color>. Upon reaching the maximum <color=#FFFFFF>Passion Stream</color>, Jane enters the <color=#FFFFFF>Passion</color> state.\nWhile in the <color=#FFFFFF>Passion</color> state, Jane's <color=#F0D12B>Physical Anomaly Buildup Rate</color> is increased by 25%. Additionally, if Jane's Anomaly Proficiency exceeds 120, each extra point raises her ATK by 2, up to a maximum of 600.\nIn the <color=#FFFFFF>Passion</color> state, Jane's skills that deal damage consume <color=#FFFFFF>Passion Stream</color>. Activating a <color=#FFFFFF>Perfect Dodge</color> or <color=#FFFFFF>Defensive Assist</color> regenerates <color=#FFFFFF>Passion Stream</color>. Jane exits the <color=#FFFFFF>Passion</color> state when all of her <color=#FFFFFF>Passion Stream</color> is consumed.",
           "Potential": []
@@ -265,6 +276,11 @@
           "Name": "Basic Attack: Salchow Jump",
           "Desc": "Entering the <color=#FFFFFF>Passion</color> state grants Jane one use of <color=#FFFFFF>Basic Attack: Salchow Jump</color>.\nWhen available, hold <IconMap:Icon_Normal> to activate:\nLaunch rapid consecutive attacks forward, followed by a Finishing Move, dealing <color=#F0D12B>Physical DMG</color>.\nHold the button during the consecutive attacks to extend the skill duration. Release <IconMap:Icon_Normal> to trigger the Finishing Move early.\nAnti-Interrupt level is increased during the consecutive attacks, and Jane takes 40% reduced DMG. Jane is invulnerable during the Finishing Move.\nUsing and damaging an enemy with <color=#FFFFFF>Basic Attack: Salchow Jump</color> while in the <color=#FFFFFF>Passion</color> state generates <color=#FFFFFF>Passion Stream</color>.",
           "Potential": [0]
+        },
+        {
+          "Name": "Basic Attack: Salchow Jump",
+          "Desc": "Entering the <color=#FFFFFF>Passion</color> state grants Jane one use of <color=#FFFFFF>Basic Attack: Salchow Jump</color>.\nWhen available, hold <IconMap:Icon_Normal> to activate:\nLaunches rapid consecutive attacks forward, followed by a Finishing Move, dealing <color=#F0D12B>Physical DMG</color>.\nHold the button during the consecutive attacks to greatly extend the skill duration. Release <IconMap:Icon_Normal> to trigger the Finishing Move early.\nAnti-Interrupt level is increased during the consecutive attacks, and Jane takes 40% reduced DMG. Jane is invulnerable during the Finishing Move, which can also trigger a Perfect Dodge upon activation.\nIf a Perfect Dodge is triggered, the Finishing Move restores more <color=#FFFFFF>Passion Stream</color> on hit.\nUsing and damaging an enemy with <color=#FFFFFF>Basic Attack: Salchow Jump</color> while in the <color=#FFFFFF>Passion</color> state generates <color=#FFFFFF>Passion Stream</color>.",
+          "Potential": [126100, 126101, 126102, 126103, 126104, 126105]
         },
         {
           "Name": "Basic Attack: Dancing Blades",
@@ -611,7 +627,33 @@
                   "EtherPurify": 20830
                 }
               },
-              "Potential": []
+              "Potential": [0]
+            },
+            {
+              "Name": "Consecutive Attack DMG Multiplier",
+              "Desc": "{Skill:1261030, Prop:1001}",
+              "Param": {
+                "1261030": {
+                  "Main": 48210,
+                  "Growth": 4390,
+                  "Format": "%",
+                  "DamagePercentage": 48210,
+                  "DamagePercentageGrowth": 4390,
+                  "StunRatio": 32270,
+                  "StunRatioGrowth": 1470,
+                  "SpRecovery": 105600,
+                  "SpRecoveryGrowth": 0,
+                  "FeverRecovery": 806850,
+                  "FeverRecoveryGrowth": 0,
+                  "AttributeInfliction": 36576,
+                  "SpConsume": 0,
+                  "AttackData": [352000, 352000],
+                  "RpRecovery": 0,
+                  "RpRecoveryGrowth": 0,
+                  "EtherPurify": 29334
+                }
+              },
+              "Potential": [126100, 126101, 126102, 126103, 126104, 126105]
             },
             {
               "Name": "Finishing Move DMG Multiplier",
@@ -663,7 +705,33 @@
                   "EtherPurify": 20830
                 }
               },
-              "Potential": []
+              "Potential": [0]
+            },
+            {
+              "Name": "Consecutive Attack Daze Multiplier",
+              "Desc": "{Skill:1261030, Prop:1002}",
+              "Param": {
+                "1261030": {
+                  "Main": 32270,
+                  "Growth": 1470,
+                  "Format": "%",
+                  "DamagePercentage": 48210,
+                  "DamagePercentageGrowth": 4390,
+                  "StunRatio": 32270,
+                  "StunRatioGrowth": 1470,
+                  "SpRecovery": 105600,
+                  "SpRecoveryGrowth": 0,
+                  "FeverRecovery": 806850,
+                  "FeverRecoveryGrowth": 0,
+                  "AttributeInfliction": 36576,
+                  "SpConsume": 0,
+                  "AttackData": [352000, 352000],
+                  "RpRecovery": 0,
+                  "RpRecoveryGrowth": 0,
+                  "EtherPurify": 29334
+                }
+              },
+              "Potential": [126100, 126101, 126102, 126103, 126104, 126105]
             },
             {
               "Name": "Finishing Move Daze Multiplier",
@@ -1102,6 +1170,16 @@
           "Potential": [0]
         },
         {
+          "Name": "EX Special Attack: Aerial Sweep - Clearout",
+          "Desc": "With enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nLeaps into the air to launch multiple consecutive kicks forward, then sweeps across, dealing massive <color=#F0D12B>Physical DMG</color>.\nCharacter is invulnerable while using this skill, which also counts as a <color=#FFFFFF>Dash Attack</color>.",
+          "Potential": [126100, 126101, 126102, 126103, 126104, 126105]
+        },
+        {
+          "Name": "EX Special Attack: Aerial Sweep - Onslaught",
+          "Desc": "While in the Passion state and with enough Energy, press <IconMap:Icon_SpecialReady> to activate:\nLeaps into the air to launch multiple consecutive kicks forward, then sweeps across, dealing massive <color=#F0D12B>Physical DMG</color>.\nCharacter is invulnerable while using this skill, which also counts as a <color=#FFFFFF>Dash Attack</color>.",
+          "Potential": [126100, 126101, 126102, 126103, 126104, 126105]
+        },
+        {
           "Name": "Special Attack: Aerial Sweep",
           "Param": [
             {
@@ -1217,6 +1295,69 @@
             { "Name": "Energy Cost", "Desc": "60", "Potential": [] }
           ],
           "Potential": []
+        },
+        {
+          "Name": "EX Special Attack: Aerial Sweep - Onslaught",
+          "Param": [
+            {
+              "Name": "DMG Multiplier",
+              "Desc": "{Skill:1261031, Prop:1001}",
+              "Param": {
+                "1261031": {
+                  "Main": 59510,
+                  "Growth": 5410,
+                  "Format": "%",
+                  "DamagePercentage": 59510,
+                  "DamagePercentageGrowth": 5410,
+                  "StunRatio": 48720,
+                  "StunRatioGrowth": 2220,
+                  "SpRecovery": 0,
+                  "SpRecoveryGrowth": 0,
+                  "FeverRecovery": 1757800,
+                  "FeverRecoveryGrowth": 0,
+                  "AttributeInfliction": 49191,
+                  "SpConsume": 0,
+                  "AttackData": [442834, 221417],
+                  "RpRecovery": 0,
+                  "RpRecoveryGrowth": 0,
+                  "EtherPurify": 14834
+                }
+              },
+              "Potential": [126100, 126101, 126102, 126103, 126104, 126105]
+            },
+            {
+              "Name": "Daze Multiplier",
+              "Desc": "{Skill:1261031, Prop:1002}",
+              "Param": {
+                "1261031": {
+                  "Main": 48720,
+                  "Growth": 2220,
+                  "Format": "%",
+                  "DamagePercentage": 59510,
+                  "DamagePercentageGrowth": 5410,
+                  "StunRatio": 48720,
+                  "StunRatioGrowth": 2220,
+                  "SpRecovery": 0,
+                  "SpRecoveryGrowth": 0,
+                  "FeverRecovery": 1757800,
+                  "FeverRecoveryGrowth": 0,
+                  "AttributeInfliction": 49191,
+                  "SpConsume": 0,
+                  "AttackData": [442834, 221417],
+                  "RpRecovery": 0,
+                  "RpRecoveryGrowth": 0,
+                  "EtherPurify": 14834
+                }
+              },
+              "Potential": [126100, 126101, 126102, 126103, 126104, 126105]
+            },
+            {
+              "Name": "Energy Cost",
+              "Desc": "60",
+              "Potential": [126100, 126101, 126102, 126103, 126104, 126105]
+            }
+          ],
+          "Potential": [126100, 126101, 126102, 126103, 126104, 126105]
         }
       ],
       "Material": {
@@ -1773,6 +1914,13 @@
       "ElementType": 200,
       "HitType": 101,
       "Potential": []
+    },
+    "1261015": {
+      "Name": "EX Special Attack: Aerial Sweep - Onslaught",
+      "Desc": "<IconMap:Icon_SpecialReady> (Passion State)",
+      "ElementType": 200,
+      "HitType": 101,
+      "Potential": [126100, 126101, 126102, 126103, 126104, 126105]
     }
   },
   "Passive": {
@@ -1906,6 +2054,7 @@
     "Slot4": 32600,
     "Slot2": 31300,
     "SlotSub": 31400,
+    "PartSubList": [31203, 12102],
     "Part4": {
       "Prop": 31203,
       "Name": "Anomaly Proficiency",
@@ -1937,7 +2086,68 @@
     "Increases Physical Anomaly Buildup Rate",
     "Assault DMG has a chance to CRIT"
   ],
-  "Potential": [],
-  "PotentialDetail": {},
+  "Potential": [126100, 126101, 126102, 126103, 126104, 126105],
+  "PotentialDetail": {
+    "126100": {
+      "Id": 126100,
+      "Name": "",
+      "Desc": "",
+      "Image": "Jane",
+      "LevelShowName": "Heartsnatch Tango I",
+      "Level": 1,
+      "AbilityList": [11261401],
+      "PotentialMaterials": [{ "ItemId": 20126, "Number": 1 }]
+    },
+    "126101": {
+      "Id": 126101,
+      "Name": "Awakened Potential: Lethal Dance",
+      "Desc": "When Jane triggers <color=#F0D12B>Assault</color>, the CRIT DMG of that instance of <color=#F0D12B>Assault</color> is additionally increased by <color=#2BAD00>10%</color>.",
+      "Image": "Jane",
+      "LevelShowName": "Heartsnatch Tango II",
+      "Level": 2,
+      "AbilityList": [11261401, 11261501],
+      "PotentialMaterials": [{ "ItemId": 20126, "Number": 1 }]
+    },
+    "126102": {
+      "Id": 126102,
+      "Name": "Awakened Potential: Lethal Dance",
+      "Desc": "When Jane triggers <color=#F0D12B>Assault</color>, the CRIT DMG of that instance of <color=#F0D12B>Assault</color> is additionally increased by <color=#2BAD00>15%</color>.",
+      "Image": "Jane",
+      "LevelShowName": "Heartsnatch Tango III",
+      "Level": 3,
+      "AbilityList": [11261401, 11261502],
+      "PotentialMaterials": [{ "ItemId": 20126, "Number": 1 }]
+    },
+    "126103": {
+      "Id": 126103,
+      "Name": "Awakened Potential: Lethal Dance",
+      "Desc": "When Jane triggers <color=#F0D12B>Assault</color>, the CRIT DMG of that instance of <color=#F0D12B>Assault</color> is additionally increased by <color=#2BAD00>20%</color>.",
+      "Image": "Jane",
+      "LevelShowName": "Heartsnatch Tango IV",
+      "Level": 4,
+      "AbilityList": [11261401, 11261503],
+      "PotentialMaterials": [{ "ItemId": 20126, "Number": 1 }]
+    },
+    "126104": {
+      "Id": 126104,
+      "Name": "Awakened Potential: Lethal Dance",
+      "Desc": "When Jane triggers <color=#F0D12B>Assault</color>, the CRIT DMG of that instance of <color=#F0D12B>Assault</color> is additionally increased by <color=#2BAD00>25</color>%.",
+      "Image": "Jane",
+      "LevelShowName": "Heartsnatch Tango V",
+      "Level": 5,
+      "AbilityList": [11261401, 11261504],
+      "PotentialMaterials": [{ "ItemId": 20126, "Number": 1 }]
+    },
+    "126105": {
+      "Id": 126105,
+      "Name": "Awakened Potential: Lethal Dance",
+      "Desc": "When Jane triggers <color=#F0D12B>Assault</color>, the CRIT DMG of that instance of <color=#F0D12B>Assault</color> is additionally increased by <color=#2BAD00>30%</color>.",
+      "Image": "Jane",
+      "LevelShowName": "Heartsnatch Tango VI",
+      "Level": 6,
+      "AbilityList": [11261401, 11261505],
+      "PotentialMaterials": [{ "ItemId": 20126, "Number": 1 }]
+    }
+  },
   "Live2D": "UISpine_Jian"
 }

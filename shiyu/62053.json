@@ -706,7 +706,7 @@
         },
         "62001532": {
           "Title": "Chain Circuit",
-          "Desc": "· Agent's Anomaly Proficiency increases by <color=#2BAD00>20 points</color>, and Attribute Anomaly DMG increases by 15%.\n· When there are 1/2 Agents with the <color=#FFFFFF>Anomaly</color> specialty in the squad, Attribute Anomaly DMG dealt to enemies ignores 5%/15% of their All-Attribute RES."
+          "Desc": "· Agent's Anomaly Proficiency increases by 20 points, and Attribute Anomaly DMG increases by 15%.\n· When there are 1/2 Agents with the <color=#FFFFFF>Anomaly</color> specialty in the squad, Attribute Anomaly DMG dealt to enemies ignores 5%/15% of their All-Attribute RES."
         },
         "62001533": {
           "Title": "Operation Zero",
@@ -761,7 +761,7 @@
                 "AttributeInfliction": 0
               }
             },
-            "31492": {
+            "31491": {
               "Id": 20034,
               "Name": "Mushussu",
               "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Predator.png",
@@ -774,10 +774,10 @@
                 "Wind": 1
               },
               "Stats": {
-                "Hp": 7965170.595,
-                "Attack": 2959.0000000000005,
+                "Hp": 8024058.719999999,
+                "Attack": 2592.1818181818185,
                 "Defence": 714.6,
-                "Stun": 14001.300000000001,
+                "Stun": 12344.550000000001,
                 "AttributeInfliction": 0
               }
             }
@@ -804,7 +804,7 @@
         "62001002": { "Title": "", "Desc": "" },
         "62001532": {
           "Title": "Chain Circuit",
-          "Desc": "· Agent's Anomaly Proficiency increases by <color=#2BAD00>20 points</color>, and Attribute Anomaly DMG increases by 15%.\n· When there are 1/2 Agents with the <color=#FFFFFF>Anomaly</color> specialty in the squad, Attribute Anomaly DMG dealt to enemies ignores 5%/15% of their All-Attribute RES."
+          "Desc": "· Agent's Anomaly Proficiency increases by 20 points, and Attribute Anomaly DMG increases by 15%.\n· When there are 1/2 Agents with the <color=#FFFFFF>Anomaly</color> specialty in the squad, Attribute Anomaly DMG dealt to enemies ignores 5%/15% of their All-Attribute RES."
         }
       },
       "Child": [],

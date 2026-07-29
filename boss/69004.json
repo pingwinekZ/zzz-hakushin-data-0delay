@@ -1,211 +1,19 @@
 {
   "Id": 69004,
-  "Name": "Deadly Assault",
+  "Name": "Trial",
   "Priority": 9,
-  "Zone": {
-    "6900401": {
-      "Name": "Notorious - Dead End Butcher",
-      "StageNum": 1,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69010402": {
-          "Title": "",
-          "Desc": "· DMG dealt to boss enemies by Attribute Anomaly is increased by 50%. While Notorious - Dead End Butcher is in <color=#FFFFFF>Ether Enhanced</color> state, the DMG it takes is reduced by 15%, and the Daze value dealt by Agents to it is reduced by 30%. Triggering <color=#FFFFFF>Disorder</color> on Notorious - Dead End Butcher immediately forces it to exit the <color=#FFFFFF>Ether Enhanced</color> state."
-        },
-        "69010507": {
-          "Title": "",
-          "Desc": "· Successfully <color=#FFAF2C>triggering Perfect Dodge</color> grants <color=#FFAF2C>200 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
-        }
-      },
-      "LayerRoom": {
-        "69004011": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NotoriousDeadEndButcher.png",
-          "MonsterList": {
-            "11901": {
-              "Id": 300072,
-              "Name": "Notorious - Dead End Butcher",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_NotoriousDeadEndButcher.png",
-              "Element": {
-                "Ice": 1,
-                "Fire": 0,
-                "Electric": 0,
-                "Ether": 1,
-                "Physical": 0,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 9836434.367999999,
-                "Attack": 3051.9272727272732,
-                "Defence": 952.8000000000001,
-                "Stun": 15486.5,
-                "AttributeInfliction": 0
-              }
-            }
-          },
-          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69010103": {
-          "Title": "Interrupt",
-          "Desc": "· <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge Counter</color>, <color=#FFFFFF>EX Special Attack</color>, and <color=#FFFFFF>Dash Attack</color> DMG increases by <color=#2BAD00>30%</color>.\n· After triggering a <color=#FFFFFF>Perfect Dodge</color> or <color=#FFFFFF>Perfect Assist</color>, increases all squad members' ATK by <color=#2BAD00>10%</color> and CRIT DMG by <color=#2BAD00>10%</color> for 15s. Stacks up to 3 times. The duration of each stack is calculated separately."
-        },
-        "69010303": {
-          "Title": "Rapid Aid",
-          "Desc": "· The Agent's Energy generation rate <color=#2BAD00>increases by 25%</color>, and the DMG dealt by <color=#FFFFFF>Quick Assist</color> <color=#2BAD00>increases by 50%</color>.\n· Each use of <color=#FFFFFF>Quick Assist</color> increases all squad members' ATK by <color=#2BAD00>10%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
-        },
-        "69010401": {
-          "Title": "Dazing Force",
-          "Desc": "· The Agent's Daze value dealt <color=#2BAD00>increases by 15%</color>, and the DMG dealt by <color=#FFFFFF>Chain Attack</color> <color=#2BAD00>increases by 60%</color>.\n· Each use of <color=#FFFFFF>Chain Attack</color> increases the all squad members' ATK by <color=#2BAD00>10%</color> for 20 seconds, stacking up to 4 times. The duration of each stack is calculated separately."
-        }
-      }
-    },
-    "6900402": {
-      "Name": "Autonomous Assault Unit - Typhon Destroyer",
-      "StageNum": 2,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69010205": {
-          "Title": "",
-          "Desc": "· Agents inflict <color=#FFFFFF>Overwhelmed</color> when <color=#FFAF2C>landing a Defensive Assist hit</color> against a Boss enemy, and 3 stacks of <color=#FFFFFF>Overwhelmed</color> when accumulating 3 <color=#FFFFFF>Defensive Assist</color> hits and triggering Impaired. Each stack of <color=#FFFFFF>Overwhelmed</color> increases Daze by <color=#FFAF2C>15%</color>, and <color=#FFFFFF>Chain Attack</color> and <color=#FFFFFF>Ultimate</color> DMG taken while Stunned by <color=#FFAF2C>10%</color>. The enemy will fix the impaired parts and reset the impairment level while charging, and will reset its <color=#FFFFFF>Overwhelmed</color> stacks after recovering from Stun."
-        },
-        "69010208": {
-          "Title": "",
-          "Desc": "· Successfully <color=#FFAF2C>impairing an enemy</color> grants <color=#FFAF2C>600 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
-        },
-        "69010308": {
-          "Title": "",
-          "Desc": "· <color=#FFFFFF>Assist Points</color> are not consumed for this battle."
-        }
-      },
-      "LayerRoom": {
-        "69004021": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_TyphonDestroyer.png",
-          "MonsterList": {
-            "11891": {
-              "Id": 300082,
-              "Name": "Autonomous Assault Unit - Typhon Destroyer",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_TyphonDestroyer.png",
-              "Element": {
-                "Ice": 0,
-                "Fire": -1,
-                "Electric": 1,
-                "Ether": 0,
-                "Physical": 0,
-                "Wind": 1
-              },
-              "Stats": {
-                "Hp": 7382413.709999999,
-                "Attack": 3051.9272727272732,
-                "Defence": 952.8000000000001,
-                "Stun": 14327.95,
-                "AttributeInfliction": 0
-              }
-            }
-          },
-          "MonsterWeakness": { "203": "Electric", "204": "Wind" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69010103": {
-          "Title": "Interrupt",
-          "Desc": "· <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge Counter</color>, <color=#FFFFFF>EX Special Attack</color>, and <color=#FFFFFF>Dash Attack</color> DMG increases by <color=#2BAD00>30%</color>.\n· After triggering a <color=#FFFFFF>Perfect Dodge</color> or <color=#FFFFFF>Perfect Assist</color>, increases all squad members' ATK by <color=#2BAD00>10%</color> and CRIT DMG by <color=#2BAD00>10%</color> for 15s. Stacks up to 3 times. The duration of each stack is calculated separately."
-        },
-        "69010303": {
-          "Title": "Rapid Aid",
-          "Desc": "· The Agent's Energy generation rate <color=#2BAD00>increases by 25%</color>, and the DMG dealt by <color=#FFFFFF>Quick Assist</color> <color=#2BAD00>increases by 50%</color>.\n· Each use of <color=#FFFFFF>Quick Assist</color> increases all squad members' ATK by <color=#2BAD00>10%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
-        },
-        "69010401": {
-          "Title": "Dazing Force",
-          "Desc": "· The Agent's Daze value dealt <color=#2BAD00>increases by 15%</color>, and the DMG dealt by <color=#FFFFFF>Chain Attack</color> <color=#2BAD00>increases by 60%</color>.\n· Each use of <color=#FFFFFF>Chain Attack</color> increases the all squad members' ATK by <color=#2BAD00>10%</color> for 20 seconds, stacking up to 4 times. The duration of each stack is calculated separately."
-        }
-      }
-    },
-    "6900403": {
-      "Name": "Notorious - Marionette",
-      "StageNum": 3,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69010106": {
-          "Title": "",
-          "Desc": "· DMG dealt by Boss enemies increases by 25%. When a clone is <color=#FFAF2C>destroyed</color> or when the main body is <color=#FFAF2C>stunned</color>, 1/5 stacks of <color=#FFFFFF>On Thin Ice</color> is inflicted on Boss enemies respectively. Each stack of <color=#FFFFFF>On Thin Ice</color> decreases the DMG dealt by the Boss by 5% and increases the <color=#98EFF0>Ice DMG</color> and <color=#2EB6FF>Electric DMG</color> dealt to the Boss by Agents by <color=#FFAF2C>10%</color>. <color=#FFFFFF>On Thin Ice</color> stacks will be reset when the enemy recovers from Stun."
-        },
-        "69010109": {
-          "Title": "",
-          "Desc": "· Successfully <color=#FFAF2C>destroying a dance partner</color> grants <color=#FFAF2C>200 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
-        }
-      },
-      "LayerRoom": {
-        "69004031": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NotoriousMarionette.png",
-          "MonsterList": {
-            "11861": {
-              "Id": 300121,
-              "Name": "Notorious - Marionette",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_NotoriousMarionette.png",
-              "Element": {
-                "Ice": 1,
-                "Fire": 0,
-                "Electric": 0,
-                "Ether": 1,
-                "Physical": 0,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 7970203.9799999995,
-                "Attack": 3051.9272727272732,
-                "Defence": 952.8000000000001,
-                "Stun": 14327.95,
-                "AttributeInfliction": 0
-              }
-            }
-          },
-          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69010103": {
-          "Title": "Interrupt",
-          "Desc": "· <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge Counter</color>, <color=#FFFFFF>EX Special Attack</color>, and <color=#FFFFFF>Dash Attack</color> DMG increases by <color=#2BAD00>30%</color>.\n· After triggering a <color=#FFFFFF>Perfect Dodge</color> or <color=#FFFFFF>Perfect Assist</color>, increases all squad members' ATK by <color=#2BAD00>10%</color> and CRIT DMG by <color=#2BAD00>10%</color> for 15s. Stacks up to 3 times. The duration of each stack is calculated separately."
-        },
-        "69010303": {
-          "Title": "Rapid Aid",
-          "Desc": "· The Agent's Energy generation rate <color=#2BAD00>increases by 25%</color>, and the DMG dealt by <color=#FFFFFF>Quick Assist</color> <color=#2BAD00>increases by 50%</color>.\n· Each use of <color=#FFFFFF>Quick Assist</color> increases all squad members' ATK by <color=#2BAD00>10%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
-        },
-        "69010401": {
-          "Title": "Dazing Force",
-          "Desc": "· The Agent's Daze value dealt <color=#2BAD00>increases by 15%</color>, and the DMG dealt by <color=#FFFFFF>Chain Attack</color> <color=#2BAD00>increases by 60%</color>.\n· Each use of <color=#FFFFFF>Chain Attack</color> increases the all squad members' ATK by <color=#2BAD00>10%</color> for 20 seconds, stacking up to 4 times. The duration of each stack is calculated separately."
-        }
-      }
-    }
-  },
   "BossAdjust": {
-    "1001": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1002": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1003": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1004": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1005": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1006": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1007": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1008": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1009": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
-    "1010": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
-    "1011": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
+    "1001": { "Hp": 1200, "Atk": -5000, "Points": 1000 },
+    "1002": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1003": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1004": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1005": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1006": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1007": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1008": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1009": { "Hp": 2200, "Atk": -1000, "Points": 1800 },
+    "1010": { "Hp": 2200, "Atk": 0, "Points": 1800 },
+    "1011": { "Hp": 2200, "Atk": 800, "Points": 1800 },
     "1012": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
     "1013": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
     "1014": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
@@ -224,6 +32,30 @@
     "1027": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
     "1028": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
     "1029": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1301": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1302": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1303": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1304": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1305": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1306": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1307": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1308": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1309": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1310": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1311": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1312": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1313": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1314": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1315": { "Hp": 8000, "Atk": 2000, "Points": 3500 },
+    "1316": { "Hp": 10000, "Atk": 2000, "Points": 3500 },
+    "1317": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1318": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1319": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1320": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1321": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1322": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1323": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
+    "1324": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
     "2001": { "Hp": 5000, "Atk": 8000, "Points": 200 },
     "2002": { "Hp": 16000, "Atk": 11000, "Points": 200 },
     "2010": { "Hp": 2500, "Atk": 0, "Points": 3000 },
@@ -330,7 +162,205 @@
     "900202": { "Hp": 3300, "Atk": 0, "Points": 3300 },
     "900203": { "Hp": 3400, "Atk": 0, "Points": 3400 }
   },
+  "ZoneType": 1001,
+  "Modes": [
+    {
+      "Id": 69004,
+      "ZoneType": 1001,
+      "Zone": {
+        "6900401": {
+          "Name": "Notorious - Dead End Butcher",
+          "StageNum": 1,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69010402": {
+              "Title": "",
+              "Desc": "· DMG dealt to boss enemies by Attribute Anomaly is increased by 50%. While Notorious - Dead End Butcher is in <color=#FFFFFF>Ether Enhanced</color> state, the DMG it takes is reduced by 15%, and the Daze value dealt by Agents to it is reduced by 30%. Triggering <color=#FFFFFF>Disorder</color> on Notorious - Dead End Butcher immediately forces it to exit the <color=#FFFFFF>Ether Enhanced</color> state."
+            },
+            "69010507": {
+              "Title": "",
+              "Desc": "· Successfully <color=#FFAF2C>triggering Perfect Dodge</color> grants <color=#FFAF2C>200 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
+            }
+          },
+          "LayerRoom": {
+            "69004011": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NotoriousDeadEndButcher.png",
+              "MonsterList": {
+                "11901": {
+                  "Id": 300072,
+                  "Name": "Notorious - Dead End Butcher",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_NotoriousDeadEndButcher.png",
+                  "Element": {
+                    "Ice": 1,
+                    "Fire": 0,
+                    "Electric": 0,
+                    "Ether": 1,
+                    "Physical": 0,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 9836434.367999999,
+                    "Attack": 3051.9272727272732,
+                    "Defence": 952.8000000000001,
+                    "Stun": 15486.5,
+                    "AttributeInfliction": 0
+                  }
+                }
+              },
+              "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69010103": {
+              "Title": "Interrupt",
+              "Desc": "· <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge Counter</color>, <color=#FFFFFF>EX Special Attack</color>, and <color=#FFFFFF>Dash Attack</color> DMG increases by <color=#2BAD00>30%</color>.\n· After triggering a <color=#FFFFFF>Perfect Dodge</color> or <color=#FFFFFF>Perfect Assist</color>, increases all squad members' ATK by <color=#2BAD00>10%</color> and CRIT DMG by <color=#2BAD00>10%</color> for 15s. Stacks up to 3 times. The duration of each stack is calculated separately."
+            },
+            "69010303": {
+              "Title": "Rapid Aid",
+              "Desc": "· The Agent's Energy generation rate <color=#2BAD00>increases by 25%</color>, and the DMG dealt by <color=#FFFFFF>Quick Assist</color> <color=#2BAD00>increases by 50%</color>.\n· Each use of <color=#FFFFFF>Quick Assist</color> increases all squad members' ATK by <color=#2BAD00>10%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
+            },
+            "69010401": {
+              "Title": "Dazing Force",
+              "Desc": "· The Agent's Daze value dealt <color=#2BAD00>increases by 15%</color>, and the DMG dealt by <color=#FFFFFF>Chain Attack</color> <color=#2BAD00>increases by 60%</color>.\n· Each use of <color=#FFFFFF>Chain Attack</color> increases the all squad members' ATK by <color=#2BAD00>10%</color> for 20 seconds, stacking up to 4 times. The duration of each stack is calculated separately."
+            }
+          }
+        },
+        "6900402": {
+          "Name": "Autonomous Assault Unit - Typhon Destroyer",
+          "StageNum": 2,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69010205": {
+              "Title": "",
+              "Desc": "· Agents inflict <color=#FFFFFF>Overwhelmed</color> when <color=#FFAF2C>landing a Defensive Assist hit</color> against a Boss enemy, and 3 stacks of <color=#FFFFFF>Overwhelmed</color> when accumulating 3 <color=#FFFFFF>Defensive Assist</color> hits and triggering Impaired. Each stack of <color=#FFFFFF>Overwhelmed</color> increases Daze by <color=#FFAF2C>15%</color>, and <color=#FFFFFF>Chain Attack</color> and <color=#FFFFFF>Ultimate</color> DMG taken while Stunned by <color=#FFAF2C>10%</color>. The enemy will fix the impaired parts and reset the impairment level while charging, and will reset its <color=#FFFFFF>Overwhelmed</color> stacks after recovering from Stun."
+            },
+            "69010208": {
+              "Title": "",
+              "Desc": "· Successfully <color=#FFAF2C>impairing an enemy</color> grants <color=#FFAF2C>600 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
+            },
+            "69010308": {
+              "Title": "",
+              "Desc": "· <color=#FFFFFF>Assist Points</color> are not consumed for this battle."
+            }
+          },
+          "LayerRoom": {
+            "69004021": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_TyphonDestroyer.png",
+              "MonsterList": {
+                "11891": {
+                  "Id": 300082,
+                  "Name": "Autonomous Assault Unit - Typhon Destroyer",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_TyphonDestroyer.png",
+                  "Element": {
+                    "Ice": 0,
+                    "Fire": -1,
+                    "Electric": 1,
+                    "Ether": 0,
+                    "Physical": 0,
+                    "Wind": 1
+                  },
+                  "Stats": {
+                    "Hp": 7382413.709999999,
+                    "Attack": 3051.9272727272732,
+                    "Defence": 952.8000000000001,
+                    "Stun": 14327.95,
+                    "AttributeInfliction": 0
+                  }
+                }
+              },
+              "MonsterWeakness": { "203": "Electric", "204": "Wind" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69010103": {
+              "Title": "Interrupt",
+              "Desc": "· <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge Counter</color>, <color=#FFFFFF>EX Special Attack</color>, and <color=#FFFFFF>Dash Attack</color> DMG increases by <color=#2BAD00>30%</color>.\n· After triggering a <color=#FFFFFF>Perfect Dodge</color> or <color=#FFFFFF>Perfect Assist</color>, increases all squad members' ATK by <color=#2BAD00>10%</color> and CRIT DMG by <color=#2BAD00>10%</color> for 15s. Stacks up to 3 times. The duration of each stack is calculated separately."
+            },
+            "69010303": {
+              "Title": "Rapid Aid",
+              "Desc": "· The Agent's Energy generation rate <color=#2BAD00>increases by 25%</color>, and the DMG dealt by <color=#FFFFFF>Quick Assist</color> <color=#2BAD00>increases by 50%</color>.\n· Each use of <color=#FFFFFF>Quick Assist</color> increases all squad members' ATK by <color=#2BAD00>10%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
+            },
+            "69010401": {
+              "Title": "Dazing Force",
+              "Desc": "· The Agent's Daze value dealt <color=#2BAD00>increases by 15%</color>, and the DMG dealt by <color=#FFFFFF>Chain Attack</color> <color=#2BAD00>increases by 60%</color>.\n· Each use of <color=#FFFFFF>Chain Attack</color> increases the all squad members' ATK by <color=#2BAD00>10%</color> for 20 seconds, stacking up to 4 times. The duration of each stack is calculated separately."
+            }
+          }
+        },
+        "6900403": {
+          "Name": "Notorious - Marionette",
+          "StageNum": 3,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69010106": {
+              "Title": "",
+              "Desc": "· DMG dealt by Boss enemies increases by 25%. When a clone is <color=#FFAF2C>destroyed</color> or when the main body is <color=#FFAF2C>stunned</color>, 1/5 stacks of <color=#FFFFFF>On Thin Ice</color> is inflicted on Boss enemies respectively. Each stack of <color=#FFFFFF>On Thin Ice</color> decreases the DMG dealt by the Boss by 5% and increases the <color=#98EFF0>Ice DMG</color> and <color=#2EB6FF>Electric DMG</color> dealt to the Boss by Agents by <color=#FFAF2C>10%</color>. <color=#FFFFFF>On Thin Ice</color> stacks will be reset when the enemy recovers from Stun."
+            },
+            "69010109": {
+              "Title": "",
+              "Desc": "· Successfully <color=#FFAF2C>destroying a dance partner</color> grants <color=#FFAF2C>200 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
+            }
+          },
+          "LayerRoom": {
+            "69004031": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NotoriousMarionette.png",
+              "MonsterList": {
+                "11861": {
+                  "Id": 300121,
+                  "Name": "Notorious - Marionette",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_NotoriousMarionette.png",
+                  "Element": {
+                    "Ice": 1,
+                    "Fire": 0,
+                    "Electric": 0,
+                    "Ether": 1,
+                    "Physical": 0,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 7970203.9799999995,
+                    "Attack": 3051.9272727272732,
+                    "Defence": 952.8000000000001,
+                    "Stun": 14327.95,
+                    "AttributeInfliction": 0
+                  }
+                }
+              },
+              "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69010103": {
+              "Title": "Interrupt",
+              "Desc": "· <color=#FFFFFF>Basic Attack</color>, <color=#FFFFFF>Dodge Counter</color>, <color=#FFFFFF>EX Special Attack</color>, and <color=#FFFFFF>Dash Attack</color> DMG increases by <color=#2BAD00>30%</color>.\n· After triggering a <color=#FFFFFF>Perfect Dodge</color> or <color=#FFFFFF>Perfect Assist</color>, increases all squad members' ATK by <color=#2BAD00>10%</color> and CRIT DMG by <color=#2BAD00>10%</color> for 15s. Stacks up to 3 times. The duration of each stack is calculated separately."
+            },
+            "69010303": {
+              "Title": "Rapid Aid",
+              "Desc": "· The Agent's Energy generation rate <color=#2BAD00>increases by 25%</color>, and the DMG dealt by <color=#FFFFFF>Quick Assist</color> <color=#2BAD00>increases by 50%</color>.\n· Each use of <color=#FFFFFF>Quick Assist</color> increases all squad members' ATK by <color=#2BAD00>10%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
+            },
+            "69010401": {
+              "Title": "Dazing Force",
+              "Desc": "· The Agent's Daze value dealt <color=#2BAD00>increases by 15%</color>, and the DMG dealt by <color=#FFFFFF>Chain Attack</color> <color=#2BAD00>increases by 60%</color>.\n· Each use of <color=#FFFFFF>Chain Attack</color> increases the all squad members' ATK by <color=#2BAD00>10%</color> for 20 seconds, stacking up to 4 times. The duration of each stack is calculated separately."
+            }
+          }
+        }
+      }
+    }
+  ],
   "BeginTime": "2025-02-07 04:00:00",
-  "EndTime": "2025-02-21 03:59:59",
-  "ZoneType": 1001
+  "EndTime": "2025-02-21 03:59:59"
 }

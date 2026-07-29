@@ -1,208 +1,19 @@
 {
   "Id": 69002,
-  "Name": "Deadly Assault",
+  "Name": "Trial",
   "Priority": 9,
-  "Zone": {
-    "6900201": {
-      "Name": "Sacrifice - Bringer",
-      "StageNum": 1,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69010104": {
-          "Title": "",
-          "Desc": "· When inflicting <color=#FFAF2C>an Attribute Anomaly or Disorder</color> on a boss enemy, all squad members gain <color=#FFFFFF>Laser Focus</color>, which stacks up to 6 times. Each stack of <color=#FFFFFF>Laser Focus</color> increases the agent's CRIT Rate by <color=#FFAF2C>5%</color>. When having at least 3 stacks of <color=#FFFFFF>Laser Focus</color>, inflicting an <color=#FFAF2C>Attribute Anomaly</color> will increase its duration by 5s. When Sacrifice - Bringer attacks with his Sacrificial Knife, all squad members' <color=#FFFFFF>Laser Focus</color> stacks will be reset."
-        },
-        "69010107": {
-          "Title": "",
-          "Desc": "· Successfully <color=#FFAF2C>interrupting a chant</color> grants <color=#FFAF2C>2,000 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
-        },
-        "69010110": { "Title": "", "Desc": "" }
-      },
-      "LayerRoom": {
-        "69002011": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_SacrificeBringer.png",
-          "MonsterList": {
-            "11818": {
-              "Id": 30024,
-              "Name": "Sacrifice - Bringer",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_SacrificeBringer.png",
-              "Element": {
-                "Ice": 1,
-                "Fire": 0,
-                "Electric": 0,
-                "Ether": 0,
-                "Physical": -1,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 8737162.92,
-                "Attack": 3948.5939393939398,
-                "Defence": 952.8000000000001,
-                "Stun": 16647.4,
-                "AttributeInfliction": 0
-              }
-            }
-          },
-          "MonsterWeakness": { "202": "Ice" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69010201": {
-          "Title": "Graceful Mastery",
-          "Desc": "· Increases Agent Anomaly Buildup Rate by <color=#2BAD00>25%</color> and Anomaly Proficiency by <color=#2BAD00>40</color>.\n· When an enemy suffers an Attribute Anomaly, Agents recover <color=#2BAD00>500</color> additional Decibels and ATK increases by <color=#2BAD00>30%</color> for 15s. The Decibel recovery effect can trigger once every 15s."
-        },
-        "69010202": {
-          "Title": "Swift Resolution",
-          "Desc": "· Agent ATK <color=#2BAD00>increases by 20%</color>, Decibel Generation Rate <color=#2BAD00>increases by 20%</color>. Upon launching an <color=#FFFFFF>Ultimate</color>, Agent ATK <color=#2BAD00>increases by an additional 15%</color> for 15s. <color=#FFFFFF>Ultimate</color> DMG <color=#2BAD00>increases by 40%</color>, Daze dealt <color=#2BAD00>increases by 20%</color>, and Anomaly Buildup <color=#2BAD00>increases by 20%</color>."
-        },
-        "69010203": {
-          "Title": "Overthrow",
-          "Desc": "· Increases Agent Daze by <color=#2BAD00>25%</color> and <color=#FFFFFF>Chain Attack</color> DMG by <color=#2BAD00>80%</color>.\n· When a <color=#FFFFFF>Chain Attack</color> is triggered, the Agent recovers <color=#2BAD00>20</color> Energy, and DMG increases by <color=#2BAD00>50%</color> for 20s."
-        }
-      }
-    },
-    "6900202": {
-      "Name": "Autonomous Assault Unit - Typhon Destroyer",
-      "StageNum": 2,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69010205": {
-          "Title": "",
-          "Desc": "· Agents inflict <color=#FFFFFF>Overwhelmed</color> when <color=#FFAF2C>landing a Defensive Assist hit</color> against a Boss enemy, and 3 stacks of <color=#FFFFFF>Overwhelmed</color> when accumulating 3 <color=#FFFFFF>Defensive Assist</color> hits and triggering Impaired. Each stack of <color=#FFFFFF>Overwhelmed</color> increases Daze by <color=#FFAF2C>15%</color>, and <color=#FFFFFF>Chain Attack</color> and <color=#FFFFFF>Ultimate</color> DMG taken while Stunned by <color=#FFAF2C>10%</color>. The enemy will fix the impaired parts and reset the impairment level while charging, and will reset its <color=#FFFFFF>Overwhelmed</color> stacks after recovering from Stun."
-        },
-        "69010208": {
-          "Title": "",
-          "Desc": "· Successfully <color=#FFAF2C>impairing an enemy</color> grants <color=#FFAF2C>600 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
-        }
-      },
-      "LayerRoom": {
-        "69002021": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_TyphonDestroyer.png",
-          "MonsterList": {
-            "11891": {
-              "Id": 300082,
-              "Name": "Autonomous Assault Unit - Typhon Destroyer",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_TyphonDestroyer.png",
-              "Element": {
-                "Ice": 0,
-                "Fire": -1,
-                "Electric": 1,
-                "Ether": 0,
-                "Physical": 0,
-                "Wind": 1
-              },
-              "Stats": {
-                "Hp": 6737917.2749999985,
-                "Attack": 3051.9272727272732,
-                "Defence": 952.8000000000001,
-                "Stun": 14327.95,
-                "AttributeInfliction": 0
-              }
-            }
-          },
-          "MonsterWeakness": { "203": "Electric", "204": "Wind" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69010201": {
-          "Title": "Graceful Mastery",
-          "Desc": "· Increases Agent Anomaly Buildup Rate by <color=#2BAD00>25%</color> and Anomaly Proficiency by <color=#2BAD00>40</color>.\n· When an enemy suffers an Attribute Anomaly, Agents recover <color=#2BAD00>500</color> additional Decibels and ATK increases by <color=#2BAD00>30%</color> for 15s. The Decibel recovery effect can trigger once every 15s."
-        },
-        "69010202": {
-          "Title": "Swift Resolution",
-          "Desc": "· Agent ATK <color=#2BAD00>increases by 20%</color>, Decibel Generation Rate <color=#2BAD00>increases by 20%</color>. Upon launching an <color=#FFFFFF>Ultimate</color>, Agent ATK <color=#2BAD00>increases by an additional 15%</color> for 15s. <color=#FFFFFF>Ultimate</color> DMG <color=#2BAD00>increases by 40%</color>, Daze dealt <color=#2BAD00>increases by 20%</color>, and Anomaly Buildup <color=#2BAD00>increases by 20%</color>."
-        },
-        "69010203": {
-          "Title": "Overthrow",
-          "Desc": "· Increases Agent Daze by <color=#2BAD00>25%</color> and <color=#FFFFFF>Chain Attack</color> DMG by <color=#2BAD00>80%</color>.\n· When a <color=#FFFFFF>Chain Attack</color> is triggered, the Agent recovers <color=#2BAD00>20</color> Energy, and DMG increases by <color=#2BAD00>50%</color> for 20s."
-        }
-      }
-    },
-    "6900203": {
-      "Name": "Dead End Butcher",
-      "StageNum": 3,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69010206": {
-          "Title": "",
-          "Desc": "· When <color=#FFAF2C>not in a Stunned state</color>, Boss enemies gain 1 stack of <color=#FFFFFF>All or Nothing</color> every 6s, stacking up to 3 stacks. Each stack of <color=#FFFFFF>All or Nothing</color> increases the damage dealt by the Boss enemy by 10%. When an Agent's attack hits an enemy, the Agent's CRIT DMG <color=#FFAF2C>increases by 25%</color> for each stack of <color=#FFFFFF>All or Nothing</color> the target has. <color=#FFFFFF>All or Nothing</color> stacks will be reset when the enemy recovers from being Stunned."
-        },
-        "69010209": {
-          "Title": "",
-          "Desc": "· Successfully <color=#FFAF2C>triggering Perfect Dodge</color> grants <color=#FFAF2C>150 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
-        }
-      },
-      "LayerRoom": {
-        "69002031": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_CottusGrey.png",
-          "MonsterList": {
-            "11238": {
-              "Id": 30007,
-              "Name": "Dead End Butcher",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_CottusGrey.png",
-              "Element": {
-                "Ice": 1,
-                "Fire": 0,
-                "Electric": 0,
-                "Ether": 1,
-                "Physical": 0,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 6830724.96,
-                "Attack": 2934.545454545455,
-                "Defence": 952.8000000000001,
-                "Stun": 14078.85,
-                "AttributeInfliction": 0
-              }
-            }
-          },
-          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69010201": {
-          "Title": "Graceful Mastery",
-          "Desc": "· Increases Agent Anomaly Buildup Rate by <color=#2BAD00>25%</color> and Anomaly Proficiency by <color=#2BAD00>40</color>.\n· When an enemy suffers an Attribute Anomaly, Agents recover <color=#2BAD00>500</color> additional Decibels and ATK increases by <color=#2BAD00>30%</color> for 15s. The Decibel recovery effect can trigger once every 15s."
-        },
-        "69010202": {
-          "Title": "Swift Resolution",
-          "Desc": "· Agent ATK <color=#2BAD00>increases by 20%</color>, Decibel Generation Rate <color=#2BAD00>increases by 20%</color>. Upon launching an <color=#FFFFFF>Ultimate</color>, Agent ATK <color=#2BAD00>increases by an additional 15%</color> for 15s. <color=#FFFFFF>Ultimate</color> DMG <color=#2BAD00>increases by 40%</color>, Daze dealt <color=#2BAD00>increases by 20%</color>, and Anomaly Buildup <color=#2BAD00>increases by 20%</color>."
-        },
-        "69010203": {
-          "Title": "Overthrow",
-          "Desc": "· Increases Agent Daze by <color=#2BAD00>25%</color> and <color=#FFFFFF>Chain Attack</color> DMG by <color=#2BAD00>80%</color>.\n· When a <color=#FFFFFF>Chain Attack</color> is triggered, the Agent recovers <color=#2BAD00>20</color> Energy, and DMG increases by <color=#2BAD00>50%</color> for 20s."
-        }
-      }
-    }
-  },
   "BossAdjust": {
-    "1001": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1002": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1003": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1004": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1005": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1006": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1007": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1008": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1009": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
-    "1010": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
-    "1011": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
+    "1001": { "Hp": 1200, "Atk": -5000, "Points": 1000 },
+    "1002": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1003": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1004": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1005": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1006": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1007": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1008": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1009": { "Hp": 2200, "Atk": -1000, "Points": 1800 },
+    "1010": { "Hp": 2200, "Atk": 0, "Points": 1800 },
+    "1011": { "Hp": 2200, "Atk": 800, "Points": 1800 },
     "1012": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
     "1013": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
     "1014": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
@@ -221,6 +32,30 @@
     "1027": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
     "1028": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
     "1029": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1301": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1302": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1303": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1304": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1305": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1306": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1307": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1308": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1309": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1310": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1311": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1312": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1313": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1314": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1315": { "Hp": 8000, "Atk": 2000, "Points": 3500 },
+    "1316": { "Hp": 10000, "Atk": 2000, "Points": 3500 },
+    "1317": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1318": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1319": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1320": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1321": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1322": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1323": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
+    "1324": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
     "2001": { "Hp": 5000, "Atk": 8000, "Points": 200 },
     "2002": { "Hp": 16000, "Atk": 11000, "Points": 200 },
     "2010": { "Hp": 2500, "Atk": 0, "Points": 3000 },
@@ -327,7 +162,202 @@
     "900202": { "Hp": 3300, "Atk": 0, "Points": 3300 },
     "900203": { "Hp": 3400, "Atk": 0, "Points": 3400 }
   },
+  "ZoneType": 1001,
+  "Modes": [
+    {
+      "Id": 69002,
+      "ZoneType": 1001,
+      "Zone": {
+        "6900201": {
+          "Name": "Sacrifice - Bringer",
+          "StageNum": 1,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69010104": {
+              "Title": "",
+              "Desc": "· When inflicting <color=#FFAF2C>an Attribute Anomaly or Disorder</color> on a boss enemy, all squad members gain <color=#FFFFFF>Laser Focus</color>, which stacks up to 6 times. Each stack of <color=#FFFFFF>Laser Focus</color> increases the agent's CRIT Rate by <color=#FFAF2C>5%</color>. When having at least 3 stacks of <color=#FFFFFF>Laser Focus</color>, inflicting an <color=#FFAF2C>Attribute Anomaly</color> will increase its duration by 5s. When Sacrifice - Bringer attacks with his Sacrificial Knife, all squad members' <color=#FFFFFF>Laser Focus</color> stacks will be reset."
+            },
+            "69010107": {
+              "Title": "",
+              "Desc": "· Successfully <color=#FFAF2C>interrupting a chant</color> grants <color=#FFAF2C>2,000 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
+            },
+            "69010110": { "Title": "", "Desc": "" }
+          },
+          "LayerRoom": {
+            "69002011": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_SacrificeBringer.png",
+              "MonsterList": {
+                "11818": {
+                  "Id": 30024,
+                  "Name": "Sacrifice - Bringer",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_SacrificeBringer.png",
+                  "Element": {
+                    "Ice": 1,
+                    "Fire": 0,
+                    "Electric": 0,
+                    "Ether": 0,
+                    "Physical": -1,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 8737162.92,
+                    "Attack": 3948.5939393939398,
+                    "Defence": 952.8000000000001,
+                    "Stun": 16647.4,
+                    "AttributeInfliction": 0
+                  }
+                }
+              },
+              "MonsterWeakness": { "202": "Ice" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69010201": {
+              "Title": "Graceful Mastery",
+              "Desc": "· Increases Agent Anomaly Buildup Rate by <color=#2BAD00>25%</color> and Anomaly Proficiency by <color=#2BAD00>40</color>.\n· When an enemy suffers an Attribute Anomaly, Agents recover <color=#2BAD00>500</color> additional Decibels and ATK increases by <color=#2BAD00>30%</color> for 15s. The Decibel recovery effect can trigger once every 15s."
+            },
+            "69010202": {
+              "Title": "Swift Resolution",
+              "Desc": "· Agent ATK <color=#2BAD00>increases by 20%</color>, Decibel Generation Rate <color=#2BAD00>increases by 20%</color>. Upon launching an <color=#FFFFFF>Ultimate</color>, Agent ATK <color=#2BAD00>increases by an additional 15%</color> for 15s. <color=#FFFFFF>Ultimate</color> DMG <color=#2BAD00>increases by 40%</color>, Daze dealt <color=#2BAD00>increases by 20%</color>, and Anomaly Buildup <color=#2BAD00>increases by 20%</color>."
+            },
+            "69010203": {
+              "Title": "Overthrow",
+              "Desc": "· Increases Agent Daze by <color=#2BAD00>25%</color> and <color=#FFFFFF>Chain Attack</color> DMG by <color=#2BAD00>80%</color>.\n· When a <color=#FFFFFF>Chain Attack</color> is triggered, the Agent recovers <color=#2BAD00>20</color> Energy, and DMG increases by <color=#2BAD00>50%</color> for 20s."
+            }
+          }
+        },
+        "6900202": {
+          "Name": "Autonomous Assault Unit - Typhon Destroyer",
+          "StageNum": 2,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69010205": {
+              "Title": "",
+              "Desc": "· Agents inflict <color=#FFFFFF>Overwhelmed</color> when <color=#FFAF2C>landing a Defensive Assist hit</color> against a Boss enemy, and 3 stacks of <color=#FFFFFF>Overwhelmed</color> when accumulating 3 <color=#FFFFFF>Defensive Assist</color> hits and triggering Impaired. Each stack of <color=#FFFFFF>Overwhelmed</color> increases Daze by <color=#FFAF2C>15%</color>, and <color=#FFFFFF>Chain Attack</color> and <color=#FFFFFF>Ultimate</color> DMG taken while Stunned by <color=#FFAF2C>10%</color>. The enemy will fix the impaired parts and reset the impairment level while charging, and will reset its <color=#FFFFFF>Overwhelmed</color> stacks after recovering from Stun."
+            },
+            "69010208": {
+              "Title": "",
+              "Desc": "· Successfully <color=#FFAF2C>impairing an enemy</color> grants <color=#FFAF2C>600 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
+            }
+          },
+          "LayerRoom": {
+            "69002021": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_TyphonDestroyer.png",
+              "MonsterList": {
+                "11891": {
+                  "Id": 300082,
+                  "Name": "Autonomous Assault Unit - Typhon Destroyer",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_TyphonDestroyer.png",
+                  "Element": {
+                    "Ice": 0,
+                    "Fire": -1,
+                    "Electric": 1,
+                    "Ether": 0,
+                    "Physical": 0,
+                    "Wind": 1
+                  },
+                  "Stats": {
+                    "Hp": 6737917.2749999985,
+                    "Attack": 3051.9272727272732,
+                    "Defence": 952.8000000000001,
+                    "Stun": 14327.95,
+                    "AttributeInfliction": 0
+                  }
+                }
+              },
+              "MonsterWeakness": { "203": "Electric", "204": "Wind" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69010201": {
+              "Title": "Graceful Mastery",
+              "Desc": "· Increases Agent Anomaly Buildup Rate by <color=#2BAD00>25%</color> and Anomaly Proficiency by <color=#2BAD00>40</color>.\n· When an enemy suffers an Attribute Anomaly, Agents recover <color=#2BAD00>500</color> additional Decibels and ATK increases by <color=#2BAD00>30%</color> for 15s. The Decibel recovery effect can trigger once every 15s."
+            },
+            "69010202": {
+              "Title": "Swift Resolution",
+              "Desc": "· Agent ATK <color=#2BAD00>increases by 20%</color>, Decibel Generation Rate <color=#2BAD00>increases by 20%</color>. Upon launching an <color=#FFFFFF>Ultimate</color>, Agent ATK <color=#2BAD00>increases by an additional 15%</color> for 15s. <color=#FFFFFF>Ultimate</color> DMG <color=#2BAD00>increases by 40%</color>, Daze dealt <color=#2BAD00>increases by 20%</color>, and Anomaly Buildup <color=#2BAD00>increases by 20%</color>."
+            },
+            "69010203": {
+              "Title": "Overthrow",
+              "Desc": "· Increases Agent Daze by <color=#2BAD00>25%</color> and <color=#FFFFFF>Chain Attack</color> DMG by <color=#2BAD00>80%</color>.\n· When a <color=#FFFFFF>Chain Attack</color> is triggered, the Agent recovers <color=#2BAD00>20</color> Energy, and DMG increases by <color=#2BAD00>50%</color> for 20s."
+            }
+          }
+        },
+        "6900203": {
+          "Name": "Dead End Butcher",
+          "StageNum": 3,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69010206": {
+              "Title": "",
+              "Desc": "· When <color=#FFAF2C>not in a Stunned state</color>, Boss enemies gain 1 stack of <color=#FFFFFF>All or Nothing</color> every 6s, stacking up to 3 stacks. Each stack of <color=#FFFFFF>All or Nothing</color> increases the damage dealt by the Boss enemy by 10%. When an Agent's attack hits an enemy, the Agent's CRIT DMG <color=#FFAF2C>increases by 25%</color> for each stack of <color=#FFFFFF>All or Nothing</color> the target has. <color=#FFFFFF>All or Nothing</color> stacks will be reset when the enemy recovers from being Stunned."
+            },
+            "69010209": {
+              "Title": "",
+              "Desc": "· Successfully <color=#FFAF2C>triggering Perfect Dodge</color> grants <color=#FFAF2C>150 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
+            }
+          },
+          "LayerRoom": {
+            "69002031": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_CottusGrey.png",
+              "MonsterList": {
+                "11238": {
+                  "Id": 30007,
+                  "Name": "Dead End Butcher",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_CottusGrey.png",
+                  "Element": {
+                    "Ice": 1,
+                    "Fire": 0,
+                    "Electric": 0,
+                    "Ether": 1,
+                    "Physical": 0,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 6830724.96,
+                    "Attack": 2934.545454545455,
+                    "Defence": 952.8000000000001,
+                    "Stun": 14078.85,
+                    "AttributeInfliction": 0
+                  }
+                }
+              },
+              "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69010201": {
+              "Title": "Graceful Mastery",
+              "Desc": "· Increases Agent Anomaly Buildup Rate by <color=#2BAD00>25%</color> and Anomaly Proficiency by <color=#2BAD00>40</color>.\n· When an enemy suffers an Attribute Anomaly, Agents recover <color=#2BAD00>500</color> additional Decibels and ATK increases by <color=#2BAD00>30%</color> for 15s. The Decibel recovery effect can trigger once every 15s."
+            },
+            "69010202": {
+              "Title": "Swift Resolution",
+              "Desc": "· Agent ATK <color=#2BAD00>increases by 20%</color>, Decibel Generation Rate <color=#2BAD00>increases by 20%</color>. Upon launching an <color=#FFFFFF>Ultimate</color>, Agent ATK <color=#2BAD00>increases by an additional 15%</color> for 15s. <color=#FFFFFF>Ultimate</color> DMG <color=#2BAD00>increases by 40%</color>, Daze dealt <color=#2BAD00>increases by 20%</color>, and Anomaly Buildup <color=#2BAD00>increases by 20%</color>."
+            },
+            "69010203": {
+              "Title": "Overthrow",
+              "Desc": "· Increases Agent Daze by <color=#2BAD00>25%</color> and <color=#FFFFFF>Chain Attack</color> DMG by <color=#2BAD00>80%</color>.\n· When a <color=#FFFFFF>Chain Attack</color> is triggered, the Agent recovers <color=#2BAD00>20</color> Energy, and DMG increases by <color=#2BAD00>50%</color> for 20s."
+            }
+          }
+        }
+      }
+    }
+  ],
   "BeginTime": "2025-01-10 04:00:00",
-  "EndTime": "2025-01-24 03:59:59",
-  "ZoneType": 1001
+  "EndTime": "2025-01-24 03:59:59"
 }

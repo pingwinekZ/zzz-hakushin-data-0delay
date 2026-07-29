@@ -1,209 +1,19 @@
 {
   "Id": 69012,
-  "Name": "Deadly Assault",
+  "Name": "Trial",
   "Priority": 9,
-  "Zone": {
-    "6901201": {
-      "Name": "Notorious - Marionette",
-      "StageNum": 1,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69010109": {
-          "Title": "",
-          "Desc": "· Successfully <color=#FFAF2C>destroying a dance partner</color> grants <color=#FFAF2C>200 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
-        },
-        "69011204": {
-          "Title": "",
-          "Desc": "· DMG dealt by Boss enemies increases by 25%. When a clone is <color=#FFAF2C>destroyed</color> or when the main body is <color=#FFAF2C>stunned</color>, 1/5 stacks of <color=#FFFFFF>On Thin Ice</color> is inflicted on Boss enemies respectively. Each stack of <color=#FFFFFF>On Thin Ice</color> decreases the DMG dealt by the Boss by 5% and increases the <color=#98EFF0>Ice DMG</color> and <color=#FE437E>Ether DMG</color> dealt to the Boss by Agents by <color=#FFAF2C>10%</color>. <color=#FFFFFF>On Thin Ice</color> stacks will be reset when the enemy recovers from Stun."
-        }
-      },
-      "LayerRoom": {
-        "69012011": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NotoriousMarionette.png",
-          "MonsterList": {
-            "11861": {
-              "Id": 300121,
-              "Name": "Notorious - Marionette",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_NotoriousMarionette.png",
-              "Element": {
-                "Ice": 1,
-                "Fire": 0,
-                "Electric": 0,
-                "Ether": 1,
-                "Physical": 0,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 9630663.1425,
-                "Attack": 3051.9272727272732,
-                "Defence": 952.8000000000001,
-                "Stun": 14327.95,
-                "AttributeInfliction": 0
-              }
-            }
-          },
-          "MonsterWeakness": { "202": "Ice", "205": "Ether" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69010301": {
-          "Title": "Aberration",
-          "Desc": "· Increases the Agent's Anomaly Buildup Rate <color=#2BAD00>by 20%</color>.\n· When inflicting <color=#FFFFFF>Attribute Anomaly</color> on enemies, all squad members <color=#2BAD00>gain 60 points of Anomaly Proficiency</color>, and DMG caused by <color=#FFFFFF>Disorder</color> <color=#2BAD00>increases by 40%</color> for 15 seconds."
-        },
-        "69011201": {
-          "Title": "Collapse",
-          "Desc": "· Agent <color=#FFFFFF>Dodge Counter</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increases by 30%</color>.\n· When an Agent hits an enemy that is not Stunned, the Daze dealt <color=#2BAD00>increases by 10%</color>. When hitting a Stunned enemy, CRIT DMG <color=#2BAD00>increases by 30%</color>, and the enemy's Stun DMG Multiplier <color=#2BAD00>increases by 25%</color>."
-        },
-        "69011202": {
-          "Title": "Sonata",
-          "Desc": "· Agent Decibel Generation Rate <color=#2BAD00>increases by 20%</color>.\n· <color=#FFFFFF>Ultimates</color> and <color=#FFFFFF>EX Special Attacks</color> ignore <color=#2BAD00>20%</color> of DMG RES on hit. After an <color=#FFFFFF>Ultimate</color> hits enemies, Agent <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increase by 50%</color> for 30s, repeated triggers reset the duration."
-        }
-      }
-    },
-    "6901202": {
-      "Name": "Sacrifice - Bringer",
-      "StageNum": 2,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69010107": {
-          "Title": "",
-          "Desc": "· Successfully <color=#FFAF2C>interrupting a chant</color> grants <color=#FFAF2C>2,000 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
-        },
-        "69010505": {
-          "Title": "",
-          "Desc": "· When inflicting <color=#FFAF2C>an Attribute Anomaly or Disorder</color> on a boss enemy, all squad members gain 1 stack of <color=#FFFFFF>Laser Focus</color>, stacking up to 6 times. Each stack of <color=#FFFFFF>Laser Focus</color> increases the Agent's ATK by <color=#FFAF2C>8%</color>. With at least 3 stacks of <color=#FFFFFF>Laser Focus</color>, inflicting an <color=#FFAF2C>Attribute Anomaly</color> will increase its duration by 5s. When Sacrifice - Bringer attacks with his Sacrificial Knife, all squad members' <color=#FFFFFF>Laser Focus</color> stacks will be reset."
-        },
-        "69010506": { "Title": "", "Desc": "" },
-        "69011203": { "Title": "", "Desc": "" }
-      },
-      "LayerRoom": {
-        "69012021": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_SacrificeBringer.png",
-          "MonsterList": {
-            "11818": {
-              "Id": 30024,
-              "Name": "Sacrifice - Bringer",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_SacrificeBringer.png",
-              "Element": {
-                "Ice": 1,
-                "Fire": 0,
-                "Electric": 0,
-                "Ether": 0,
-                "Physical": -1,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 12643188.695999999,
-                "Attack": 3948.5939393939398,
-                "Defence": 952.8000000000001,
-                "Stun": 16647.4,
-                "AttributeInfliction": 0
-              }
-            }
-          },
-          "MonsterWeakness": { "202": "Ice" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69010301": {
-          "Title": "Aberration",
-          "Desc": "· Increases the Agent's Anomaly Buildup Rate <color=#2BAD00>by 20%</color>.\n· When inflicting <color=#FFFFFF>Attribute Anomaly</color> on enemies, all squad members <color=#2BAD00>gain 60 points of Anomaly Proficiency</color>, and DMG caused by <color=#FFFFFF>Disorder</color> <color=#2BAD00>increases by 40%</color> for 15 seconds."
-        },
-        "69011201": {
-          "Title": "Collapse",
-          "Desc": "· Agent <color=#FFFFFF>Dodge Counter</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increases by 30%</color>.\n· When an Agent hits an enemy that is not Stunned, the Daze dealt <color=#2BAD00>increases by 10%</color>. When hitting a Stunned enemy, CRIT DMG <color=#2BAD00>increases by 30%</color>, and the enemy's Stun DMG Multiplier <color=#2BAD00>increases by 25%</color>."
-        },
-        "69011202": {
-          "Title": "Sonata",
-          "Desc": "· Agent Decibel Generation Rate <color=#2BAD00>increases by 20%</color>.\n· <color=#FFFFFF>Ultimates</color> and <color=#FFFFFF>EX Special Attacks</color> ignore <color=#2BAD00>20%</color> of DMG RES on hit. After an <color=#FFFFFF>Ultimate</color> hits enemies, Agent <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increase by 50%</color> for 30s, repeated triggers reset the duration."
-        }
-      }
-    },
-    "6901203": {
-      "Name": "Notorious - Pompey",
-      "StageNum": 3,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69010503": {
-          "Title": "",
-          "Desc": "· When the Agent <color=#FFAF2C>hits the boss enemy with a Defensive Assist or Chain Attack</color>, they apply 1 stack of <color=#FFFFFF>Weakening</color> to the target, lasting 20s. The duration of each stack is calculated separately. For each stack of <color=#FFFFFF>Weakening</color> on the target, Agent CRIT DMG is <color=#FFAF2C>increased by 15%</color>.\n\nWhen the boss enemy has 4 stacks of <color=#FFFFFF>Weakening</color>, Defensive Assist will deflect the boss enemy's attack, causing a Stagger effect."
-        },
-        "69010802": {
-          "Title": "",
-          "Desc": "· Successfully <color=#FFAF2C>triggering a Perfect Assist</color> grants <color=#FFAF2C>350 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
-        }
-      },
-      "LayerRoom": {
-        "69012031": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NotoriousPompey.png",
-          "MonsterList": {
-            "11881": {
-              "Id": 300211,
-              "Name": "Notorious - Pompey",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_NotoriousPompey.png",
-              "Element": {
-                "Ice": 0,
-                "Fire": 1,
-                "Electric": -1,
-                "Ether": 0,
-                "Physical": 0,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 9687971.826,
-                "Attack": 3948.5939393939398,
-                "Defence": 952.8000000000001,
-                "Stun": 16647.4,
-                "AttributeInfliction": 0
-              }
-            }
-          },
-          "MonsterWeakness": { "201": "Fire" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69010301": {
-          "Title": "Aberration",
-          "Desc": "· Increases the Agent's Anomaly Buildup Rate <color=#2BAD00>by 20%</color>.\n· When inflicting <color=#FFFFFF>Attribute Anomaly</color> on enemies, all squad members <color=#2BAD00>gain 60 points of Anomaly Proficiency</color>, and DMG caused by <color=#FFFFFF>Disorder</color> <color=#2BAD00>increases by 40%</color> for 15 seconds."
-        },
-        "69011201": {
-          "Title": "Collapse",
-          "Desc": "· Agent <color=#FFFFFF>Dodge Counter</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increases by 30%</color>.\n· When an Agent hits an enemy that is not Stunned, the Daze dealt <color=#2BAD00>increases by 10%</color>. When hitting a Stunned enemy, CRIT DMG <color=#2BAD00>increases by 30%</color>, and the enemy's Stun DMG Multiplier <color=#2BAD00>increases by 25%</color>."
-        },
-        "69011202": {
-          "Title": "Sonata",
-          "Desc": "· Agent Decibel Generation Rate <color=#2BAD00>increases by 20%</color>.\n· <color=#FFFFFF>Ultimates</color> and <color=#FFFFFF>EX Special Attacks</color> ignore <color=#2BAD00>20%</color> of DMG RES on hit. After an <color=#FFFFFF>Ultimate</color> hits enemies, Agent <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increase by 50%</color> for 30s, repeated triggers reset the duration."
-        }
-      }
-    }
-  },
   "BossAdjust": {
-    "1001": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1002": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1003": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1004": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1005": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1006": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1007": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1008": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1009": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
-    "1010": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
-    "1011": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
+    "1001": { "Hp": 1200, "Atk": -5000, "Points": 1000 },
+    "1002": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1003": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1004": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1005": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1006": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1007": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1008": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1009": { "Hp": 2200, "Atk": -1000, "Points": 1800 },
+    "1010": { "Hp": 2200, "Atk": 0, "Points": 1800 },
+    "1011": { "Hp": 2200, "Atk": 800, "Points": 1800 },
     "1012": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
     "1013": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
     "1014": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
@@ -222,6 +32,30 @@
     "1027": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
     "1028": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
     "1029": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1301": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1302": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1303": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1304": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1305": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1306": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1307": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1308": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1309": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1310": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1311": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1312": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1313": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1314": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1315": { "Hp": 8000, "Atk": 2000, "Points": 3500 },
+    "1316": { "Hp": 10000, "Atk": 2000, "Points": 3500 },
+    "1317": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1318": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1319": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1320": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1321": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1322": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1323": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
+    "1324": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
     "2001": { "Hp": 5000, "Atk": 8000, "Points": 200 },
     "2002": { "Hp": 16000, "Atk": 11000, "Points": 200 },
     "2010": { "Hp": 2500, "Atk": 0, "Points": 3000 },
@@ -328,7 +162,203 @@
     "900202": { "Hp": 3300, "Atk": 0, "Points": 3300 },
     "900203": { "Hp": 3400, "Atk": 0, "Points": 3400 }
   },
+  "ZoneType": 1001,
+  "Modes": [
+    {
+      "Id": 69012,
+      "ZoneType": 1001,
+      "Zone": {
+        "6901201": {
+          "Name": "Notorious - Marionette",
+          "StageNum": 1,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69010109": {
+              "Title": "",
+              "Desc": "· Successfully <color=#FFAF2C>destroying a dance partner</color> grants <color=#FFAF2C>200 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
+            },
+            "69011204": {
+              "Title": "",
+              "Desc": "· DMG dealt by Boss enemies increases by 25%. When a clone is <color=#FFAF2C>destroyed</color> or when the main body is <color=#FFAF2C>stunned</color>, 1/5 stacks of <color=#FFFFFF>On Thin Ice</color> is inflicted on Boss enemies respectively. Each stack of <color=#FFFFFF>On Thin Ice</color> decreases the DMG dealt by the Boss by 5% and increases the <color=#98EFF0>Ice DMG</color> and <color=#FE437E>Ether DMG</color> dealt to the Boss by Agents by <color=#FFAF2C>10%</color>. <color=#FFFFFF>On Thin Ice</color> stacks will be reset when the enemy recovers from Stun."
+            }
+          },
+          "LayerRoom": {
+            "69012011": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NotoriousMarionette.png",
+              "MonsterList": {
+                "11861": {
+                  "Id": 300121,
+                  "Name": "Notorious - Marionette",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_NotoriousMarionette.png",
+                  "Element": {
+                    "Ice": 1,
+                    "Fire": 0,
+                    "Electric": 0,
+                    "Ether": 1,
+                    "Physical": 0,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 9630663.1425,
+                    "Attack": 3051.9272727272732,
+                    "Defence": 952.8000000000001,
+                    "Stun": 14327.95,
+                    "AttributeInfliction": 0
+                  }
+                }
+              },
+              "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69010301": {
+              "Title": "Aberration",
+              "Desc": "· Increases the Agent's Anomaly Buildup Rate <color=#2BAD00>by 20%</color>.\n· When inflicting <color=#FFFFFF>Attribute Anomaly</color> on enemies, all squad members <color=#2BAD00>gain 60 points of Anomaly Proficiency</color>, and DMG caused by <color=#FFFFFF>Disorder</color> <color=#2BAD00>increases by 40%</color> for 15 seconds."
+            },
+            "69011201": {
+              "Title": "Collapse",
+              "Desc": "· Agent <color=#FFFFFF>Dodge Counter</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increases by 30%</color>.\n· When an Agent hits an enemy that is not Stunned, the Daze dealt <color=#2BAD00>increases by 10%</color>. When hitting a Stunned enemy, CRIT DMG <color=#2BAD00>increases by 30%</color>, and the enemy's Stun DMG Multiplier <color=#2BAD00>increases by 25%</color>."
+            },
+            "69011202": {
+              "Title": "Sonata",
+              "Desc": "· Agent Decibel Generation Rate <color=#2BAD00>increases by 20%</color>.\n· <color=#FFFFFF>Ultimates</color> and <color=#FFFFFF>EX Special Attacks</color> ignore <color=#2BAD00>20%</color> of DMG RES on hit. After an <color=#FFFFFF>Ultimate</color> hits enemies, Agent <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increase by 50%</color> for 30s, repeated triggers reset the duration."
+            }
+          }
+        },
+        "6901202": {
+          "Name": "Sacrifice - Bringer",
+          "StageNum": 2,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69010107": {
+              "Title": "",
+              "Desc": "· Successfully <color=#FFAF2C>interrupting a chant</color> grants <color=#FFAF2C>2,000 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
+            },
+            "69010505": {
+              "Title": "",
+              "Desc": "· When inflicting <color=#FFAF2C>an Attribute Anomaly or Disorder</color> on a boss enemy, all squad members gain 1 stack of <color=#FFFFFF>Laser Focus</color>, stacking up to 6 times. Each stack of <color=#FFFFFF>Laser Focus</color> increases the Agent's ATK by <color=#FFAF2C>8%</color>. With at least 3 stacks of <color=#FFFFFF>Laser Focus</color>, inflicting an <color=#FFAF2C>Attribute Anomaly</color> will increase its duration by 5s. When Sacrifice - Bringer attacks with his Sacrificial Knife, all squad members' <color=#FFFFFF>Laser Focus</color> stacks will be reset."
+            },
+            "69010506": { "Title": "", "Desc": "" },
+            "69011203": { "Title": "", "Desc": "" }
+          },
+          "LayerRoom": {
+            "69012021": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_SacrificeBringer.png",
+              "MonsterList": {
+                "11818": {
+                  "Id": 30024,
+                  "Name": "Sacrifice - Bringer",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_SacrificeBringer.png",
+                  "Element": {
+                    "Ice": 1,
+                    "Fire": 0,
+                    "Electric": 0,
+                    "Ether": 0,
+                    "Physical": -1,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 12643188.695999999,
+                    "Attack": 3948.5939393939398,
+                    "Defence": 952.8000000000001,
+                    "Stun": 16647.4,
+                    "AttributeInfliction": 0
+                  }
+                }
+              },
+              "MonsterWeakness": { "202": "Ice" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69010301": {
+              "Title": "Aberration",
+              "Desc": "· Increases the Agent's Anomaly Buildup Rate <color=#2BAD00>by 20%</color>.\n· When inflicting <color=#FFFFFF>Attribute Anomaly</color> on enemies, all squad members <color=#2BAD00>gain 60 points of Anomaly Proficiency</color>, and DMG caused by <color=#FFFFFF>Disorder</color> <color=#2BAD00>increases by 40%</color> for 15 seconds."
+            },
+            "69011201": {
+              "Title": "Collapse",
+              "Desc": "· Agent <color=#FFFFFF>Dodge Counter</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increases by 30%</color>.\n· When an Agent hits an enemy that is not Stunned, the Daze dealt <color=#2BAD00>increases by 10%</color>. When hitting a Stunned enemy, CRIT DMG <color=#2BAD00>increases by 30%</color>, and the enemy's Stun DMG Multiplier <color=#2BAD00>increases by 25%</color>."
+            },
+            "69011202": {
+              "Title": "Sonata",
+              "Desc": "· Agent Decibel Generation Rate <color=#2BAD00>increases by 20%</color>.\n· <color=#FFFFFF>Ultimates</color> and <color=#FFFFFF>EX Special Attacks</color> ignore <color=#2BAD00>20%</color> of DMG RES on hit. After an <color=#FFFFFF>Ultimate</color> hits enemies, Agent <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increase by 50%</color> for 30s, repeated triggers reset the duration."
+            }
+          }
+        },
+        "6901203": {
+          "Name": "Notorious - Pompey",
+          "StageNum": 3,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69010503": {
+              "Title": "",
+              "Desc": "· When the Agent <color=#FFAF2C>hits the boss enemy with a Defensive Assist or Chain Attack</color>, they apply 1 stack of <color=#FFFFFF>Weakening</color> to the target, lasting 20s. The duration of each stack is calculated separately. For each stack of <color=#FFFFFF>Weakening</color> on the target, Agent CRIT DMG is <color=#FFAF2C>increased by 15%</color>.\n\nWhen the boss enemy has 4 stacks of <color=#FFFFFF>Weakening</color>, Defensive Assist will deflect the boss enemy's attack, causing a Stagger effect."
+            },
+            "69010802": {
+              "Title": "",
+              "Desc": "· Successfully <color=#FFAF2C>triggering a Perfect Assist</color> grants <color=#FFAF2C>350 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
+            }
+          },
+          "LayerRoom": {
+            "69012031": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NotoriousPompey.png",
+              "MonsterList": {
+                "11881": {
+                  "Id": 300211,
+                  "Name": "Notorious - Pompey",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_NotoriousPompey.png",
+                  "Element": {
+                    "Ice": 0,
+                    "Fire": 1,
+                    "Electric": -1,
+                    "Ether": 0,
+                    "Physical": 0,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 9687971.826,
+                    "Attack": 3948.5939393939398,
+                    "Defence": 952.8000000000001,
+                    "Stun": 16647.4,
+                    "AttributeInfliction": 0
+                  }
+                }
+              },
+              "MonsterWeakness": { "201": "Fire" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69010301": {
+              "Title": "Aberration",
+              "Desc": "· Increases the Agent's Anomaly Buildup Rate <color=#2BAD00>by 20%</color>.\n· When inflicting <color=#FFFFFF>Attribute Anomaly</color> on enemies, all squad members <color=#2BAD00>gain 60 points of Anomaly Proficiency</color>, and DMG caused by <color=#FFFFFF>Disorder</color> <color=#2BAD00>increases by 40%</color> for 15 seconds."
+            },
+            "69011201": {
+              "Title": "Collapse",
+              "Desc": "· Agent <color=#FFFFFF>Dodge Counter</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increases by 30%</color>.\n· When an Agent hits an enemy that is not Stunned, the Daze dealt <color=#2BAD00>increases by 10%</color>. When hitting a Stunned enemy, CRIT DMG <color=#2BAD00>increases by 30%</color>, and the enemy's Stun DMG Multiplier <color=#2BAD00>increases by 25%</color>."
+            },
+            "69011202": {
+              "Title": "Sonata",
+              "Desc": "· Agent Decibel Generation Rate <color=#2BAD00>increases by 20%</color>.\n· <color=#FFFFFF>Ultimates</color> and <color=#FFFFFF>EX Special Attacks</color> ignore <color=#2BAD00>20%</color> of DMG RES on hit. After an <color=#FFFFFF>Ultimate</color> hits enemies, Agent <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increase by 50%</color> for 30s, repeated triggers reset the duration."
+            }
+          }
+        }
+      }
+    }
+  ],
   "BeginTime": "2025-05-30 04:00:00",
-  "EndTime": "2025-06-13 03:59:59",
-  "ZoneType": 1001
+  "EndTime": "2025-06-13 03:59:59"
 }

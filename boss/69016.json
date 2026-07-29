@@ -1,209 +1,19 @@
 {
   "Id": 69016,
-  "Name": "Deadly Assault",
+  "Name": "Trial",
   "Priority": 9,
-  "Zone": {
-    "6901601": {
-      "Name": "Miasma Priest",
-      "StageNum": 1,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69011302": {
-          "Title": "",
-          "Desc": "· When the Miasma Priest switches phase, their Anomaly Buildup RES increases by 10% and CRIT DMG taken increases by 30%. This effect can stack up to 2 times and is cleared when <color=#FFFFFF>Miasmic Shield</color> breaks."
-        },
-        "69011303": {
-          "Title": "",
-          "Desc": "· When an Agent successfully performs <color=#FFAF2C>3 Defensive Assists within 3 seconds</color>, earn <color=#FFAF2C>1,000 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
-        },
-        "69011502": { "Title": "", "Desc": "" }
-      },
-      "LayerRoom": {
-        "69016011": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MentorMevorakh.png",
-          "MonsterList": {
-            "31032": {
-              "Id": 30033,
-              "Name": "Miasma Priest",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_MentorMevorakh.png",
-              "Element": {
-                "Ice": -1,
-                "Fire": 0,
-                "Electric": 0,
-                "Ether": 1,
-                "Physical": 0,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 10454315.85,
-                "Attack": 2112.8727272727274,
-                "Defence": 952.8000000000001,
-                "Stun": 16647.4,
-                "AttributeInfliction": 10
-              }
-            }
-          },
-          "MonsterWeakness": { "205": "Ether" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69010801": {
-          "Title": "Worn Out",
-          "Desc": "· The Daze dealt by Agents is increased by <color=#2BAD00>10%</color>, and the DMG dealt by Chain Attacks is increased by <color=#2BAD00>50%</color>.\n· When <color=#FFFFFF>Chain Attacks</color> hit an enemy, the enemy's Stun DMG Multiplier is increased by <color=#2BAD00>25%</color>, and all squad members' ATK is increased by <color=#2BAD00>20%</color> for 15s. Repeated triggers reset the duration."
-        },
-        "69011301": {
-          "Title": "Meditation",
-          "Desc": "· Agent Max HP <color=#2BAD00>increases by 30%</color>, Ultimate DMG <color=#2BAD00>increases by 40%</color>.\n· After using an Ultimate, Energy and Adrenaline Generation Rate <color=#2BAD00>increase by 15%</color>, <color=#FE437E>Ether DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 40%</color> for 20s."
-        },
-        "69011601": {
-          "Title": "Artful",
-          "Desc": "· Agent DMG <color=#2BAD00>increases by 20%</color> and <color=#F0D12B>Physical DMG</color> <color=#2BAD00>increases by an additional 20%</color>.\n· After inflicting an Attribute Anomaly on an enemy, the enemy's DEF <color=#2BAD00>decreases by 10%</color> for 10s. After inflicting Disorder on an enemy, the enemy's DEF <color=#2BAD00>further decreases by 25%</color> for 10s. Each effect's duration refreshes individually."
-        }
-      }
-    },
-    "6901602": {
-      "Name": "Miasmic Fiend - Unfathomable",
-      "StageNum": 2,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69011502": { "Title": "", "Desc": "" },
-        "69011602": {
-          "Title": "",
-          "Desc": "· When Miasmic Fiend is affected by <color=#FFAF2C>Attribute Anomaly</color>, it takes 8% bonus Anomaly DMG from Agents, stacking up to 6 times; activating <Term:2000002> clears all stacks, with each stack increasing the reduction efficiency of <color=#FFAF2C>Miasmic Shield</color> by 2.5%."
-        },
-        "69011603": {
-          "Title": "",
-          "Desc": "· When Agents bait Miasmic Fiend's ground attack into <color=#FFAF2C>detonating at least 5 Miasma Pools at once</color> and <color=#FFAF2C>avoid being hit by the attack and pool explosions</color>, they will earn <color=#FFAF2C>1,700 Performance Points</color>, up to a maximum of 5,000."
-        }
-      },
-      "LayerRoom": {
-        "69016021": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NamelessOne.png",
-          "MonsterList": {
-            "31062": {
-              "Id": 30034,
-              "Name": "Miasmic Fiend - Unfathomable",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_NamelessOne.png",
-              "Element": {
-                "Ice": 0,
-                "Fire": -1,
-                "Electric": 0,
-                "Ether": 1,
-                "Physical": 1,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 11647662.007499998,
-                "Attack": 2543.2727272727275,
-                "Defence": 952.8000000000001,
-                "Stun": 16647.4,
-                "AttributeInfliction": 10
-              }
-            }
-          },
-          "MonsterWeakness": { "200": "Physical", "205": "Ether" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69010801": {
-          "Title": "Worn Out",
-          "Desc": "· The Daze dealt by Agents is increased by <color=#2BAD00>10%</color>, and the DMG dealt by Chain Attacks is increased by <color=#2BAD00>50%</color>.\n· When <color=#FFFFFF>Chain Attacks</color> hit an enemy, the enemy's Stun DMG Multiplier is increased by <color=#2BAD00>25%</color>, and all squad members' ATK is increased by <color=#2BAD00>20%</color> for 15s. Repeated triggers reset the duration."
-        },
-        "69011301": {
-          "Title": "Meditation",
-          "Desc": "· Agent Max HP <color=#2BAD00>increases by 30%</color>, Ultimate DMG <color=#2BAD00>increases by 40%</color>.\n· After using an Ultimate, Energy and Adrenaline Generation Rate <color=#2BAD00>increase by 15%</color>, <color=#FE437E>Ether DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 40%</color> for 20s."
-        },
-        "69011601": {
-          "Title": "Artful",
-          "Desc": "· Agent DMG <color=#2BAD00>increases by 20%</color> and <color=#F0D12B>Physical DMG</color> <color=#2BAD00>increases by an additional 20%</color>.\n· After inflicting an Attribute Anomaly on an enemy, the enemy's DEF <color=#2BAD00>decreases by 10%</color> for 10s. After inflicting Disorder on an enemy, the enemy's DEF <color=#2BAD00>further decreases by 25%</color> for 10s. Each effect's duration refreshes individually."
-        }
-      }
-    },
-    "6901603": {
-      "Name": "Notorious - Pompey",
-      "StageNum": 3,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69010503": {
-          "Title": "",
-          "Desc": "· When the Agent <color=#FFAF2C>hits the boss enemy with a Defensive Assist or Chain Attack</color>, they apply 1 stack of <color=#FFFFFF>Weakening</color> to the target, lasting 20s. The duration of each stack is calculated separately. For each stack of <color=#FFFFFF>Weakening</color> on the target, Agent CRIT DMG is <color=#FFAF2C>increased by 15%</color>.\n\nWhen the boss enemy has 4 stacks of <color=#FFFFFF>Weakening</color>, Defensive Assist will deflect the boss enemy's attack, causing a Stagger effect."
-        },
-        "69010802": {
-          "Title": "",
-          "Desc": "· Successfully <color=#FFAF2C>triggering a Perfect Assist</color> grants <color=#FFAF2C>350 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
-        }
-      },
-      "LayerRoom": {
-        "69016031": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NotoriousPompey.png",
-          "MonsterList": {
-            "11881": {
-              "Id": 300211,
-              "Name": "Notorious - Pompey",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_NotoriousPompey.png",
-              "Element": {
-                "Ice": 0,
-                "Fire": 1,
-                "Electric": -1,
-                "Ether": 0,
-                "Physical": 0,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 10279015.2,
-                "Attack": 3948.5939393939398,
-                "Defence": 952.8000000000001,
-                "Stun": 16647.4,
-                "AttributeInfliction": 10
-              }
-            }
-          },
-          "MonsterWeakness": { "201": "Fire" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69010801": {
-          "Title": "Worn Out",
-          "Desc": "· The Daze dealt by Agents is increased by <color=#2BAD00>10%</color>, and the DMG dealt by Chain Attacks is increased by <color=#2BAD00>50%</color>.\n· When <color=#FFFFFF>Chain Attacks</color> hit an enemy, the enemy's Stun DMG Multiplier is increased by <color=#2BAD00>25%</color>, and all squad members' ATK is increased by <color=#2BAD00>20%</color> for 15s. Repeated triggers reset the duration."
-        },
-        "69011301": {
-          "Title": "Meditation",
-          "Desc": "· Agent Max HP <color=#2BAD00>increases by 30%</color>, Ultimate DMG <color=#2BAD00>increases by 40%</color>.\n· After using an Ultimate, Energy and Adrenaline Generation Rate <color=#2BAD00>increase by 15%</color>, <color=#FE437E>Ether DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 40%</color> for 20s."
-        },
-        "69011601": {
-          "Title": "Artful",
-          "Desc": "· Agent DMG <color=#2BAD00>increases by 20%</color> and <color=#F0D12B>Physical DMG</color> <color=#2BAD00>increases by an additional 20%</color>.\n· After inflicting an Attribute Anomaly on an enemy, the enemy's DEF <color=#2BAD00>decreases by 10%</color> for 10s. After inflicting Disorder on an enemy, the enemy's DEF <color=#2BAD00>further decreases by 25%</color> for 10s. Each effect's duration refreshes individually."
-        }
-      }
-    }
-  },
   "BossAdjust": {
-    "1001": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1002": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1003": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1004": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1005": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1006": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1007": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1008": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1009": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
-    "1010": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
-    "1011": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
+    "1001": { "Hp": 1200, "Atk": -5000, "Points": 1000 },
+    "1002": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1003": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1004": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1005": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1006": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1007": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1008": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1009": { "Hp": 2200, "Atk": -1000, "Points": 1800 },
+    "1010": { "Hp": 2200, "Atk": 0, "Points": 1800 },
+    "1011": { "Hp": 2200, "Atk": 800, "Points": 1800 },
     "1012": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
     "1013": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
     "1014": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
@@ -222,6 +32,30 @@
     "1027": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
     "1028": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
     "1029": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1301": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1302": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1303": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1304": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1305": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1306": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1307": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1308": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1309": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1310": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1311": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1312": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1313": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1314": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1315": { "Hp": 8000, "Atk": 2000, "Points": 3500 },
+    "1316": { "Hp": 10000, "Atk": 2000, "Points": 3500 },
+    "1317": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1318": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1319": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1320": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1321": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1322": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1323": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
+    "1324": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
     "2001": { "Hp": 5000, "Atk": 8000, "Points": 200 },
     "2002": { "Hp": 16000, "Atk": 11000, "Points": 200 },
     "2010": { "Hp": 2500, "Atk": 0, "Points": 3000 },
@@ -328,7 +162,203 @@
     "900202": { "Hp": 3300, "Atk": 0, "Points": 3300 },
     "900203": { "Hp": 3400, "Atk": 0, "Points": 3400 }
   },
+  "ZoneType": 1001,
+  "Modes": [
+    {
+      "Id": 69016,
+      "ZoneType": 1001,
+      "Zone": {
+        "6901601": {
+          "Name": "Miasma Priest",
+          "StageNum": 1,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69011302": {
+              "Title": "",
+              "Desc": "· When the Miasma Priest switches phase, their Anomaly Buildup RES increases by 10% and CRIT DMG taken increases by 30%. This effect can stack up to 2 times and is cleared when <Term:2000002>Miasmic Shield</Term> breaks."
+            },
+            "69011303": {
+              "Title": "",
+              "Desc": "· When an Agent successfully performs <color=#FFAF2C>3 Defensive Assists within 3 seconds</color>, earn <color=#FFAF2C>1,000 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
+            },
+            "69011502": { "Title": "", "Desc": "" }
+          },
+          "LayerRoom": {
+            "69016011": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MentorMevorakh.png",
+              "MonsterList": {
+                "31032": {
+                  "Id": 30033,
+                  "Name": "Miasma Priest",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_MentorMevorakh.png",
+                  "Element": {
+                    "Ice": -1,
+                    "Fire": 0,
+                    "Electric": 0,
+                    "Ether": 1,
+                    "Physical": 0,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 10454315.85,
+                    "Attack": 2112.8727272727274,
+                    "Defence": 952.8000000000001,
+                    "Stun": 16647.4,
+                    "AttributeInfliction": 10
+                  }
+                }
+              },
+              "MonsterWeakness": { "205": "Ether" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69010801": {
+              "Title": "Worn Out",
+              "Desc": "· The Daze dealt by Agents is increased by <color=#2BAD00>10%</color>, and the DMG dealt by Chain Attacks is increased by <color=#2BAD00>50%</color>.\n· When <color=#FFFFFF>Chain Attacks</color> hit an enemy, the enemy's Stun DMG Multiplier is increased by <color=#2BAD00>25%</color>, and all squad members' ATK is increased by <color=#2BAD00>20%</color> for 15s. Repeated triggers reset the duration."
+            },
+            "69011301": {
+              "Title": "Meditation",
+              "Desc": "· Agent Max HP <color=#2BAD00>increases by 30%</color>, Ultimate DMG <color=#2BAD00>increases by 40%</color>.\n· After using an Ultimate, Energy and Adrenaline Generation Rate <color=#2BAD00>increase by 15%</color>, <color=#FE437E>Ether DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 40%</color> for 20s."
+            },
+            "69011601": {
+              "Title": "Artful",
+              "Desc": "· Agent DMG <color=#2BAD00>increases by 20%</color> and <color=#F0D12B>Physical DMG</color> <color=#2BAD00>increases by an additional 20%</color>.\n· After inflicting an Attribute Anomaly on an enemy, the enemy's DEF <color=#2BAD00>decreases by 10%</color> for 10s. After inflicting Disorder on an enemy, the enemy's DEF <color=#2BAD00>further decreases by 25%</color> for 10s. Each effect's duration refreshes individually."
+            }
+          }
+        },
+        "6901602": {
+          "Name": "Miasmic Fiend - Unfathomable",
+          "StageNum": 2,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69011502": { "Title": "", "Desc": "" },
+            "69011602": {
+              "Title": "",
+              "Desc": "· When Miasmic Fiend is affected by <color=#FFAF2C>Attribute Anomaly</color>, it takes 8% bonus Anomaly DMG from Agents, stacking up to 6 times; activating <Term:2000002>Miasmic Shield</Term> clears all stacks, with each stack increasing the reduction efficiency of <color=#FFAF2C>Miasmic Shield</color> by 2.5%."
+            },
+            "69011603": {
+              "Title": "",
+              "Desc": "· When Agents bait Miasmic Fiend's ground attack into <color=#FFAF2C>detonating at least 5 Miasma Pools at once</color> and <color=#FFAF2C>avoid being hit by the attack and pool explosions</color>, they will earn <color=#FFAF2C>1,700 Performance Points</color>, up to a maximum of 5,000."
+            }
+          },
+          "LayerRoom": {
+            "69016021": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NamelessOne.png",
+              "MonsterList": {
+                "31062": {
+                  "Id": 30034,
+                  "Name": "Miasmic Fiend - Unfathomable",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_NamelessOne.png",
+                  "Element": {
+                    "Ice": 0,
+                    "Fire": -1,
+                    "Electric": 0,
+                    "Ether": 1,
+                    "Physical": 1,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 11647662.007499998,
+                    "Attack": 2543.2727272727275,
+                    "Defence": 952.8000000000001,
+                    "Stun": 16647.4,
+                    "AttributeInfliction": 10
+                  }
+                }
+              },
+              "MonsterWeakness": { "200": "Physical", "205": "Ether" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69010801": {
+              "Title": "Worn Out",
+              "Desc": "· The Daze dealt by Agents is increased by <color=#2BAD00>10%</color>, and the DMG dealt by Chain Attacks is increased by <color=#2BAD00>50%</color>.\n· When <color=#FFFFFF>Chain Attacks</color> hit an enemy, the enemy's Stun DMG Multiplier is increased by <color=#2BAD00>25%</color>, and all squad members' ATK is increased by <color=#2BAD00>20%</color> for 15s. Repeated triggers reset the duration."
+            },
+            "69011301": {
+              "Title": "Meditation",
+              "Desc": "· Agent Max HP <color=#2BAD00>increases by 30%</color>, Ultimate DMG <color=#2BAD00>increases by 40%</color>.\n· After using an Ultimate, Energy and Adrenaline Generation Rate <color=#2BAD00>increase by 15%</color>, <color=#FE437E>Ether DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 40%</color> for 20s."
+            },
+            "69011601": {
+              "Title": "Artful",
+              "Desc": "· Agent DMG <color=#2BAD00>increases by 20%</color> and <color=#F0D12B>Physical DMG</color> <color=#2BAD00>increases by an additional 20%</color>.\n· After inflicting an Attribute Anomaly on an enemy, the enemy's DEF <color=#2BAD00>decreases by 10%</color> for 10s. After inflicting Disorder on an enemy, the enemy's DEF <color=#2BAD00>further decreases by 25%</color> for 10s. Each effect's duration refreshes individually."
+            }
+          }
+        },
+        "6901603": {
+          "Name": "Notorious - Pompey",
+          "StageNum": 3,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69010503": {
+              "Title": "",
+              "Desc": "· When the Agent <color=#FFAF2C>hits the boss enemy with a Defensive Assist or Chain Attack</color>, they apply 1 stack of <color=#FFFFFF>Weakening</color> to the target, lasting 20s. The duration of each stack is calculated separately. For each stack of <color=#FFFFFF>Weakening</color> on the target, Agent CRIT DMG is <color=#FFAF2C>increased by 15%</color>.\n\nWhen the boss enemy has 4 stacks of <color=#FFFFFF>Weakening</color>, Defensive Assist will deflect the boss enemy's attack, causing a Stagger effect."
+            },
+            "69010802": {
+              "Title": "",
+              "Desc": "· Successfully <color=#FFAF2C>triggering a Perfect Assist</color> grants <color=#FFAF2C>350 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
+            }
+          },
+          "LayerRoom": {
+            "69016031": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NotoriousPompey.png",
+              "MonsterList": {
+                "11881": {
+                  "Id": 300211,
+                  "Name": "Notorious - Pompey",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_NotoriousPompey.png",
+                  "Element": {
+                    "Ice": 0,
+                    "Fire": 1,
+                    "Electric": -1,
+                    "Ether": 0,
+                    "Physical": 0,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 10279015.2,
+                    "Attack": 3948.5939393939398,
+                    "Defence": 952.8000000000001,
+                    "Stun": 16647.4,
+                    "AttributeInfliction": 10
+                  }
+                }
+              },
+              "MonsterWeakness": { "201": "Fire" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69010801": {
+              "Title": "Worn Out",
+              "Desc": "· The Daze dealt by Agents is increased by <color=#2BAD00>10%</color>, and the DMG dealt by Chain Attacks is increased by <color=#2BAD00>50%</color>.\n· When <color=#FFFFFF>Chain Attacks</color> hit an enemy, the enemy's Stun DMG Multiplier is increased by <color=#2BAD00>25%</color>, and all squad members' ATK is increased by <color=#2BAD00>20%</color> for 15s. Repeated triggers reset the duration."
+            },
+            "69011301": {
+              "Title": "Meditation",
+              "Desc": "· Agent Max HP <color=#2BAD00>increases by 30%</color>, Ultimate DMG <color=#2BAD00>increases by 40%</color>.\n· After using an Ultimate, Energy and Adrenaline Generation Rate <color=#2BAD00>increase by 15%</color>, <color=#FE437E>Ether DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 40%</color> for 20s."
+            },
+            "69011601": {
+              "Title": "Artful",
+              "Desc": "· Agent DMG <color=#2BAD00>increases by 20%</color> and <color=#F0D12B>Physical DMG</color> <color=#2BAD00>increases by an additional 20%</color>.\n· After inflicting an Attribute Anomaly on an enemy, the enemy's DEF <color=#2BAD00>decreases by 10%</color> for 10s. After inflicting Disorder on an enemy, the enemy's DEF <color=#2BAD00>further decreases by 25%</color> for 10s. Each effect's duration refreshes individually."
+            }
+          }
+        }
+      }
+    }
+  ],
   "BeginTime": "2025-07-25 04:00:00",
-  "EndTime": "2025-08-08 03:59:59",
-  "ZoneType": 1001
+  "EndTime": "2025-08-08 03:59:59"
 }

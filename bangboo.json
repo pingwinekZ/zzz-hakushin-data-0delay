@@ -398,5 +398,25 @@
     "KO": "울트라 제이크",
     "CHS": "超极杰克",
     "JA": "ウルトラネイヴ"
+  },
+  "54023": {
+    "icon": "UI/Sprite/A1DynamicLoad/BangbooModGarage/UnPacker/BangbooRole/BangbooGarageRole48.png",
+    "rank": 4,
+    "codename": "Ariel",
+    "EN": "Ariel",
+    "desc": "You cannot walk alone in the darkness.",
+    "KO": "아리엘",
+    "CHS": "艾瑞儿",
+    "JA": "アリエル"
+  },
+  "55098": {
+    "icon": "",
+    "rank": 3,
+    "codename": "Eous",
+    "EN": "Eous",
+    "desc": "Eous",
+    "KO": "이아스",
+    "CHS": "伊埃斯",
+    "JA": "イアス"
   }
 }

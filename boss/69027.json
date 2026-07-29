@@ -1,222 +1,19 @@
 {
   "Id": 69027,
-  "Name": "Deadly Assault",
+  "Name": "Trial",
   "Priority": 9,
-  "Zone": {
-    "6902701": {
-      "Name": "Primordial Nightmare - \"The Creator\"",
-      "StageNum": 1,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69012102": { "Title": "", "Desc": "" },
-        "69012704": {
-          "Title": "",
-          "Desc": "· Boss Anomaly DMG taken is <color=#2BAD00>reduced by 30%</color>. When switching from <Term:2000002> state to normal state, or from normal state to <color=#FFAF2C>Miasmic Shield</color> state, Agent CRIT DMG against them is <color=#2BAD00>increased by 20%</color>. This effect can stack up to 3 times and resets when the boss recovers from Stun."
-        },
-        "69012705": {
-          "Title": "",
-          "Desc": "·Triggering <color=#FFAF2C>Miasmic Shield Purification</color> grants <color=#FFAF2C>1,000 Performance Points</color>. During the <Term:2000003>, each successful counter against the Boss's attacks grants <color=#FFAF2C>500 Performance Points</color>. Performing a <color=#FFAF2C>Shutdown</color> on the Boss's <color=#FFAF2C>Control Skill</color> grants <color=#FFAF2C>2,000 Performance Points</color>. Maximum obtainable Performance Points: 5,000."
-        },
-        "69013001": {
-          "Title": "",
-          "Desc": "· Suitable for Agents with <IconMap:Icon_AvatarClass_Attack><color=#FFAF2C>Attack</color> specialty."
-        }
-      },
-      "LayerRoom": {
-        "69027011": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Vessel.png",
-          "MonsterList": {
-            "31412": {
-              "Id": 40000,
-              "Name": "Primordial Nightmare - \"The Creator\"",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Vessel.png",
-              "Element": {
-                "Ice": -1,
-                "Fire": 0,
-                "Electric": 0,
-                "Ether": -1,
-                "Physical": 1,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 24799326.7275,
-                "Attack": 3286.6909090909094,
-                "Defence": 476.40000000000003,
-                "Stun": 18236,
-                "AttributeInfliction": 10
-              }
-            }
-          },
-          "MonsterWeakness": { "200": "Physical" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69011202": {
-          "Title": "Sonata",
-          "Desc": "· Agent Decibel Generation Rate <color=#2BAD00>increases by 20%</color>.\n· <color=#FFFFFF>Ultimates</color> and <color=#FFFFFF>EX Special Attacks</color> ignore <color=#2BAD00>20%</color> of DMG RES on hit. After an <color=#FFFFFF>Ultimate</color> hits enemies, Agent <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increase by 50%</color> for 30s, repeated triggers reset the duration."
-        },
-        "69012301": {
-          "Title": "Dream Delusion",
-          "Desc": "· Agent Anomaly Proficiency <color=#2BAD00>increases by 40</color>.\n· When inflicting Attribute Anomaly on enemies, their DEF is <color=#2BAD00>reduced by 10%</color>, and Agent Anomaly DMG against them <color=#2BAD00>increases by 20%</color> for 10 seconds. Repeated triggers reset the duration."
-        },
-        "69012703": {
-          "Title": "Focus Energy",
-          "Desc": "· Agent ATK <color=#2BAD00>increases by 16%</color>, and enemy Stun DMG Multiplier <color=#2BAD00>increases by 30%</color>.\n· When in Ether Veil, Agent attacks that hit enemies ignore <color=#2BAD00>10%</color> of <color=#F0D12B>Physical RES</color> and <color=#2BAD00>15%</color> of DEF."
-        }
-      }
-    },
-    "6902702": {
-      "Name": "Miasmic Fiend - Unfathomable",
-      "StageNum": 2,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69011602": {
-          "Title": "",
-          "Desc": "· When Miasmic Fiend is affected by <color=#FFAF2C>Attribute Anomaly</color>, it takes 8% bonus Anomaly DMG from Agents, stacking up to 6 times; activating <Term:2000002> clears all stacks, with each stack increasing the reduction efficiency of <color=#FFAF2C>Miasmic Shield</color> by 2.5%."
-        },
-        "69011603": {
-          "Title": "",
-          "Desc": "· When Agents bait Miasmic Fiend's ground attack into <color=#FFAF2C>detonating at least 5 Miasma Pools at once</color> and <color=#FFAF2C>avoid being hit by the attack and pool explosions</color>, they will earn <color=#FFAF2C>1,700 Performance Points</color>, up to a maximum of 5,000."
-        },
-        "69012102": { "Title": "", "Desc": "" },
-        "69013003": {
-          "Title": "",
-          "Desc": "· Suitable for Agents with <IconMap:Icon_AvatarClass_Anomaly><color=#FFAF2C>Anomaly</color> specialty."
-        }
-      },
-      "LayerRoom": {
-        "69027021": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NamelessOne.png",
-          "MonsterList": {
-            "31062": {
-              "Id": 30034,
-              "Name": "Miasmic Fiend - Unfathomable",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_NamelessOne.png",
-              "Element": {
-                "Ice": 0,
-                "Fire": -1,
-                "Electric": 0,
-                "Ether": 1,
-                "Physical": 1,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 17659358.5275,
-                "Attack": 2967.1515151515155,
-                "Defence": 952.8000000000001,
-                "Stun": 16647.4,
-                "AttributeInfliction": 10
-              }
-            }
-          },
-          "MonsterWeakness": { "200": "Physical", "205": "Ether" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69011202": {
-          "Title": "Sonata",
-          "Desc": "· Agent Decibel Generation Rate <color=#2BAD00>increases by 20%</color>.\n· <color=#FFFFFF>Ultimates</color> and <color=#FFFFFF>EX Special Attacks</color> ignore <color=#2BAD00>20%</color> of DMG RES on hit. After an <color=#FFFFFF>Ultimate</color> hits enemies, Agent <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increase by 50%</color> for 30s, repeated triggers reset the duration."
-        },
-        "69012301": {
-          "Title": "Dream Delusion",
-          "Desc": "· Agent Anomaly Proficiency <color=#2BAD00>increases by 40</color>.\n· When inflicting Attribute Anomaly on enemies, their DEF is <color=#2BAD00>reduced by 10%</color>, and Agent Anomaly DMG against them <color=#2BAD00>increases by 20%</color> for 10 seconds. Repeated triggers reset the duration."
-        },
-        "69012703": {
-          "Title": "Focus Energy",
-          "Desc": "· Agent ATK <color=#2BAD00>increases by 16%</color>, and enemy Stun DMG Multiplier <color=#2BAD00>increases by 30%</color>.\n· When in Ether Veil, Agent attacks that hit enemies ignore <color=#2BAD00>10%</color> of <color=#F0D12B>Physical RES</color> and <color=#2BAD00>15%</color> of DEF."
-        }
-      }
-    },
-    "6902703": {
-      "Name": "Wandering Hunter",
-      "StageNum": 3,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69012102": { "Title": "", "Desc": "" },
-        "69012302": {
-          "Title": "",
-          "Desc": "· Wandering Hunter's Base DEF increases by 40% in Miasmic Field; when an Agent hits Wandering Hunter with <color=#FFAF2C>Assist Follow-Up or Dodge Counter</color>, 1 stack of <color=#FFFFFF>Wavering</color> is applied. <color=#FFFFFF>Wavering</color> can stack up to 5 times and lasts 15 seconds. Repeated triggers reset the duration.\n· When an Agent's attacks hit Wandering Hunter, for each stack of Wavering, the Agent's Sheer DMG is <color=#FFAF2C>increased by 7%</color>."
-        },
-        "69012303": {
-          "Title": "",
-          "Desc": "· During the hide-and-seek phase, using <color=#FFAF2C>Perception Technique</color> to break <color=#FFAF2C>Drowned Ideal Lucia's true form</color> will grant <color=#FFAF2C>3,000 Performance Points</color>; Exposing his true form and activating <color=#FFAF2C>Defensive Assist or Assist Follow-Up</color> against Wandering Hunter will grant <color=#FFAF2C>2,000 Performance Points</color>, up to a maximum of 5,000 points."
-        },
-        "69013002": {
-          "Title": "",
-          "Desc": "· Suitable for Agents with <IconMap:Icon_AvatarClass_Rupture><color=#FFAF2C>Rupture</color> specialty."
-        }
-      },
-      "LayerRoom": {
-        "69027031": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_WanderingHunter.png",
-          "MonsterList": {
-            "11842": {
-              "Id": 30041,
-              "Name": "Wandering Hunter",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_WanderingHunter.png",
-              "Element": {
-                "Ice": 1,
-                "Fire": 1,
-                "Electric": 0,
-                "Ether": 0,
-                "Physical": -1,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 17472354.6375,
-                "Attack": 3286.6909090909094,
-                "Defence": 1588,
-                "Stun": 16283.150000000001,
-                "AttributeInfliction": 10
-              }
-            }
-          },
-          "MonsterWeakness": { "201": "Fire", "202": "Ice" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69011202": {
-          "Title": "Sonata",
-          "Desc": "· Agent Decibel Generation Rate <color=#2BAD00>increases by 20%</color>.\n· <color=#FFFFFF>Ultimates</color> and <color=#FFFFFF>EX Special Attacks</color> ignore <color=#2BAD00>20%</color> of DMG RES on hit. After an <color=#FFFFFF>Ultimate</color> hits enemies, Agent <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increase by 50%</color> for 30s, repeated triggers reset the duration."
-        },
-        "69012301": {
-          "Title": "Dream Delusion",
-          "Desc": "· Agent Anomaly Proficiency <color=#2BAD00>increases by 40</color>.\n· When inflicting Attribute Anomaly on enemies, their DEF is <color=#2BAD00>reduced by 10%</color>, and Agent Anomaly DMG against them <color=#2BAD00>increases by 20%</color> for 10 seconds. Repeated triggers reset the duration."
-        },
-        "69012703": {
-          "Title": "Focus Energy",
-          "Desc": "· Agent ATK <color=#2BAD00>increases by 16%</color>, and enemy Stun DMG Multiplier <color=#2BAD00>increases by 30%</color>.\n· When in Ether Veil, Agent attacks that hit enemies ignore <color=#2BAD00>10%</color> of <color=#F0D12B>Physical RES</color> and <color=#2BAD00>15%</color> of DEF."
-        }
-      }
-    }
-  },
   "BossAdjust": {
-    "1001": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1002": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1003": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1004": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1005": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1006": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1007": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1008": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1009": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
-    "1010": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
-    "1011": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
+    "1001": { "Hp": 1200, "Atk": -5000, "Points": 1000 },
+    "1002": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1003": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1004": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1005": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1006": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1007": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1008": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1009": { "Hp": 2200, "Atk": -1000, "Points": 1800 },
+    "1010": { "Hp": 2200, "Atk": 0, "Points": 1800 },
+    "1011": { "Hp": 2200, "Atk": 800, "Points": 1800 },
     "1012": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
     "1013": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
     "1014": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
@@ -235,6 +32,30 @@
     "1027": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
     "1028": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
     "1029": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1301": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1302": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1303": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1304": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1305": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1306": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1307": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1308": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1309": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1310": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1311": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1312": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1313": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1314": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1315": { "Hp": 8000, "Atk": 2000, "Points": 3500 },
+    "1316": { "Hp": 10000, "Atk": 2000, "Points": 3500 },
+    "1317": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1318": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1319": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1320": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1321": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1322": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1323": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
+    "1324": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
     "2001": { "Hp": 5000, "Atk": 8000, "Points": 200 },
     "2002": { "Hp": 16000, "Atk": 11000, "Points": 200 },
     "2010": { "Hp": 2500, "Atk": 0, "Points": 3000 },
@@ -341,7 +162,216 @@
     "900202": { "Hp": 3300, "Atk": 0, "Points": 3300 },
     "900203": { "Hp": 3400, "Atk": 0, "Points": 3400 }
   },
+  "ZoneType": 1001,
+  "Modes": [
+    {
+      "Id": 69027,
+      "ZoneType": 1001,
+      "Zone": {
+        "6902701": {
+          "Name": "Primordial Nightmare - \"The Creator\"",
+          "StageNum": 1,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69012102": { "Title": "", "Desc": "" },
+            "69012704": {
+              "Title": "",
+              "Desc": "· Boss Anomaly DMG taken is <color=#2BAD00>reduced by 30%</color>. When switching from <Term:2000002>Miasmic Shield</Term> state to normal state, or from normal state to <color=#FFAF2C>Miasmic Shield</color> state, Agent CRIT DMG against them is <color=#2BAD00>increased by 20%</color>. This effect can stack up to 3 times and resets when the boss recovers from Stun."
+            },
+            "69012705": {
+              "Title": "",
+              "Desc": "·Triggering <color=#FFAF2C>Miasmic Shield Purification</color> grants <color=#FFAF2C>1,000 Performance Points</color>. During the <Term:2000003>Control Skill</Term>, each successful counter against the Boss's attacks grants <color=#FFAF2C>500 Performance Points</color>. Performing a <color=#FFAF2C>Shutdown</color> on the Boss's <color=#FFAF2C>Control Skill</color> grants <color=#FFAF2C>2,000 Performance Points</color>. Maximum obtainable Performance Points: 5,000."
+            },
+            "69013001": {
+              "Title": "",
+              "Desc": "· Suitable for Agents with <IconMap:Icon_AvatarClass_Attack><color=#FFAF2C>Attack</color> specialty."
+            }
+          },
+          "LayerRoom": {
+            "69027011": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Vessel.png",
+              "MonsterList": {
+                "31412": {
+                  "Id": 40000,
+                  "Name": "Primordial Nightmare - \"The Creator\"",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Vessel.png",
+                  "Element": {
+                    "Ice": -1,
+                    "Fire": 0,
+                    "Electric": 0,
+                    "Ether": -1,
+                    "Physical": 1,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 24799326.7275,
+                    "Attack": 3286.6909090909094,
+                    "Defence": 476.40000000000003,
+                    "Stun": 18236,
+                    "AttributeInfliction": 10
+                  }
+                }
+              },
+              "MonsterWeakness": { "200": "Physical" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69011202": {
+              "Title": "Sonata",
+              "Desc": "· Agent Decibel Generation Rate <color=#2BAD00>increases by 20%</color>.\n· <color=#FFFFFF>Ultimates</color> and <color=#FFFFFF>EX Special Attacks</color> ignore <color=#2BAD00>20%</color> of DMG RES on hit. After an <color=#FFFFFF>Ultimate</color> hits enemies, Agent <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increase by 50%</color> for 30s, repeated triggers reset the duration."
+            },
+            "69012301": {
+              "Title": "Dream Delusion",
+              "Desc": "· Agent Anomaly Proficiency <color=#2BAD00>increases by 40</color>.\n· When inflicting Attribute Anomaly on enemies, their DEF is <color=#2BAD00>reduced by 10%</color>, and Agent Anomaly DMG against them <color=#2BAD00>increases by 20%</color> for 10 seconds. Repeated triggers reset the duration."
+            },
+            "69012703": {
+              "Title": "Focus Energy",
+              "Desc": "· Agent ATK <color=#2BAD00>increases by 16%</color>, and enemy Stun DMG Multiplier <color=#2BAD00>increases by 30%</color>.\n· When in Ether Veil, Agent attacks that hit enemies ignore <color=#2BAD00>10%</color> of <color=#F0D12B>Physical RES</color> and <color=#2BAD00>15%</color> of DEF."
+            }
+          }
+        },
+        "6902702": {
+          "Name": "Miasmic Fiend - Unfathomable",
+          "StageNum": 2,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69011602": {
+              "Title": "",
+              "Desc": "· When Miasmic Fiend is affected by <color=#FFAF2C>Attribute Anomaly</color>, it takes 8% bonus Anomaly DMG from Agents, stacking up to 6 times; activating <Term:2000002>Miasmic Shield</Term> clears all stacks, with each stack increasing the reduction efficiency of <color=#FFAF2C>Miasmic Shield</color> by 2.5%."
+            },
+            "69011603": {
+              "Title": "",
+              "Desc": "· When Agents bait Miasmic Fiend's ground attack into <color=#FFAF2C>detonating at least 5 Miasma Pools at once</color> and <color=#FFAF2C>avoid being hit by the attack and pool explosions</color>, they will earn <color=#FFAF2C>1,700 Performance Points</color>, up to a maximum of 5,000."
+            },
+            "69012102": { "Title": "", "Desc": "" },
+            "69013003": {
+              "Title": "",
+              "Desc": "· Suitable for Agents with <IconMap:Icon_AvatarClass_Anomaly><color=#FFAF2C>Anomaly</color> specialty."
+            }
+          },
+          "LayerRoom": {
+            "69027021": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NamelessOne.png",
+              "MonsterList": {
+                "31062": {
+                  "Id": 30034,
+                  "Name": "Miasmic Fiend - Unfathomable",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_NamelessOne.png",
+                  "Element": {
+                    "Ice": 0,
+                    "Fire": -1,
+                    "Electric": 0,
+                    "Ether": 1,
+                    "Physical": 1,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 17659358.5275,
+                    "Attack": 2967.1515151515155,
+                    "Defence": 952.8000000000001,
+                    "Stun": 16647.4,
+                    "AttributeInfliction": 10
+                  }
+                }
+              },
+              "MonsterWeakness": { "200": "Physical", "205": "Ether" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69011202": {
+              "Title": "Sonata",
+              "Desc": "· Agent Decibel Generation Rate <color=#2BAD00>increases by 20%</color>.\n· <color=#FFFFFF>Ultimates</color> and <color=#FFFFFF>EX Special Attacks</color> ignore <color=#2BAD00>20%</color> of DMG RES on hit. After an <color=#FFFFFF>Ultimate</color> hits enemies, Agent <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increase by 50%</color> for 30s, repeated triggers reset the duration."
+            },
+            "69012301": {
+              "Title": "Dream Delusion",
+              "Desc": "· Agent Anomaly Proficiency <color=#2BAD00>increases by 40</color>.\n· When inflicting Attribute Anomaly on enemies, their DEF is <color=#2BAD00>reduced by 10%</color>, and Agent Anomaly DMG against them <color=#2BAD00>increases by 20%</color> for 10 seconds. Repeated triggers reset the duration."
+            },
+            "69012703": {
+              "Title": "Focus Energy",
+              "Desc": "· Agent ATK <color=#2BAD00>increases by 16%</color>, and enemy Stun DMG Multiplier <color=#2BAD00>increases by 30%</color>.\n· When in Ether Veil, Agent attacks that hit enemies ignore <color=#2BAD00>10%</color> of <color=#F0D12B>Physical RES</color> and <color=#2BAD00>15%</color> of DEF."
+            }
+          }
+        },
+        "6902703": {
+          "Name": "Wandering Hunter",
+          "StageNum": 3,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69012102": { "Title": "", "Desc": "" },
+            "69012302": {
+              "Title": "",
+              "Desc": "· Wandering Hunter's Base DEF increases by 40% in Miasmic Field; when an Agent hits Wandering Hunter with <color=#FFAF2C>Assist Follow-Up or Dodge Counter</color>, 1 stack of <color=#FFFFFF>Wavering</color> is applied. <color=#FFFFFF>Wavering</color> can stack up to 5 times and lasts 15 seconds. Repeated triggers reset the duration.\n· When an Agent's attacks hit Wandering Hunter, for each stack of Wavering, the Agent's Sheer DMG is <color=#FFAF2C>increased by 7%</color>."
+            },
+            "69012303": {
+              "Title": "",
+              "Desc": "· During the hide-and-seek phase, using <color=#FFAF2C>Perception Technique</color> to break <color=#FFAF2C>Drowned Ideal Lucia's true form</color> will grant <color=#FFAF2C>3,000 Performance Points</color>; Exposing his true form and activating <color=#FFAF2C>Defensive Assist or Assist Follow-Up</color> against Wandering Hunter will grant <color=#FFAF2C>2,000 Performance Points</color>, up to a maximum of 5,000 points."
+            },
+            "69013002": {
+              "Title": "",
+              "Desc": "· Suitable for Agents with <IconMap:Icon_AvatarClass_Rupture><color=#FFAF2C>Rupture</color> specialty."
+            }
+          },
+          "LayerRoom": {
+            "69027031": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_WanderingHunter.png",
+              "MonsterList": {
+                "11842": {
+                  "Id": 30041,
+                  "Name": "Wandering Hunter",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_WanderingHunter.png",
+                  "Element": {
+                    "Ice": 1,
+                    "Fire": 1,
+                    "Electric": 0,
+                    "Ether": 0,
+                    "Physical": -1,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 17472354.6375,
+                    "Attack": 3286.6909090909094,
+                    "Defence": 1588,
+                    "Stun": 16283.150000000001,
+                    "AttributeInfliction": 10
+                  }
+                }
+              },
+              "MonsterWeakness": { "201": "Fire", "202": "Ice" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69011202": {
+              "Title": "Sonata",
+              "Desc": "· Agent Decibel Generation Rate <color=#2BAD00>increases by 20%</color>.\n· <color=#FFFFFF>Ultimates</color> and <color=#FFFFFF>EX Special Attacks</color> ignore <color=#2BAD00>20%</color> of DMG RES on hit. After an <color=#FFFFFF>Ultimate</color> hits enemies, Agent <color=#FFFFFF>Ultimate</color> and <color=#FFFFFF>EX Special Attack</color> DMG <color=#2BAD00>increase by 50%</color> for 30s, repeated triggers reset the duration."
+            },
+            "69012301": {
+              "Title": "Dream Delusion",
+              "Desc": "· Agent Anomaly Proficiency <color=#2BAD00>increases by 40</color>.\n· When inflicting Attribute Anomaly on enemies, their DEF is <color=#2BAD00>reduced by 10%</color>, and Agent Anomaly DMG against them <color=#2BAD00>increases by 20%</color> for 10 seconds. Repeated triggers reset the duration."
+            },
+            "69012703": {
+              "Title": "Focus Energy",
+              "Desc": "· Agent ATK <color=#2BAD00>increases by 16%</color>, and enemy Stun DMG Multiplier <color=#2BAD00>increases by 30%</color>.\n· When in Ether Veil, Agent attacks that hit enemies ignore <color=#2BAD00>10%</color> of <color=#F0D12B>Physical RES</color> and <color=#2BAD00>15%</color> of DEF."
+            }
+          }
+        }
+      }
+    }
+  ],
   "BeginTime": "2026-01-02 04:00:00",
-  "EndTime": "2026-01-16 03:59:59",
-  "ZoneType": 1001
+  "EndTime": "2026-01-16 03:59:59"
 }

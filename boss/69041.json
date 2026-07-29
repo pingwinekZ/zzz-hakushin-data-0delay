@@ -1,216 +1,19 @@
 {
   "Id": 69041,
-  "Name": "Deadly Assault",
+  "Name": "Trial",
   "Priority": 9,
-  "Zone": {
-    "6904101": {
-      "Name": "Phaethon of the Scorched Horizon",
-      "StageNum": 1,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69013003": {
-          "Title": "",
-          "Desc": "· Suitable for Agents with <IconMap:Icon_AvatarClass_Anomaly><color=#FFAF2C>Anomaly</color> specialty."
-        },
-        "69013601": {
-          "Title": "",
-          "Desc": "· After Scorched Horizon activates Gale Scorcher, they gain 5 stacks of <color=#FFFFFF>Into Flames</color>. Each stack of <color=#FFFFFF>Into Flames</color> <color=#FFAF2C>increases DMG dealt by 10%</color> and <color=#FFAF2C>reduces CRIT DMG taken by 25%</color>. With <color=#FFFFFF>Into Flames</color> stacks, every time Scorched Horizon is inflicted with an <color=#FFAF2C>Anomaly</color>, one stack of <color=#FFFFFF>Into Flames</color> is lost, and subsequent Abloom DMG taken <color=#FFAF2C>increases by 10%</color> for 15s (max 3 stacks). Repeated triggers reset the duration."
-        },
-        "69013602": {
-          "Title": "",
-          "Desc": "· When Scorched Horizon is in <color=#FFFFFF>Gale Scorcher</color> state, Impairing them grants <color=#FFAF2C>1,250 Performance Points</color>. <color=#FFAF2C>Striking down Scorched Horizon when they're attacking in mid-air</color> grants <color=#FFAF2C>1,500 Performance Points</color>. Performing a <color=#FFAF2C>Shutdown</color> against Scorched Horizon's <Term:2000003> grants <color=#FFAF2C>2,000 Performance Points</color>. Max 5,000 Performance Points."
-        }
-      },
-      "LayerRoom": {
-        "69041011": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Mutant.png",
-          "MonsterList": {
-            "31431": {
-              "Id": 40005,
-              "Name": "Phaethon of the Scorched Horizon",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Mutant.png",
-              "Element": {
-                "Ice": 1,
-                "Fire": 0,
-                "Electric": 0,
-                "Ether": 0,
-                "Physical": -1,
-                "Wind": 1
-              },
-              "Stats": {
-                "Hp": 19081773.2925,
-                "Attack": 2967.1515151515155,
-                "Defence": 952.8000000000001,
-                "Stun": 19540.25,
-                "AttributeInfliction": 10
-              }
-            }
-          },
-          "MonsterWeakness": { "202": "Ice", "204": "Wind" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69014002": {
-          "Title": "Oblivion",
-          "Desc": "· Daze inflicted by the Agent increases by <color=#2BAD00>20%</color>. <color=#FFFFFF>Ultimate</color>/<color=#FFFFFF>Chain Attack</color> ignore <color=#2BAD00>30%</color> of the enemy's All-Attribute RES.\n· After launching a <color=#FFFFFF>Chain Attack</color>, the whole squad's ATK increases by <color=#2BAD00>10%</color> and CRIT DMG increases by <color=#2BAD00>15%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
-        },
-        "69014003": {
-          "Title": "Frostbite Breath",
-          "Desc": "· Agent's <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 20%</color>, and their Anomaly Proficiency <color=#2BAD00>increases by 20</color>.\n· When an <color=#FFFFFF>Attribute Anomaly</color> is inflicted on an enemy, the enemy's All-DMG RES <color=#2BAD00> is reduced by 10%</color>, and Attribute Anomaly DMG dealt by the whole squad <color=#2BAD00>increases by 10%</color> for 15s. Repeated triggers reset the duration."
-        },
-        "69014101": {
-          "Title": "Deconstruction",
-          "Desc": "· Agent Anomaly Proficiency <color=#2BAD00>increases by 45</color>.\n· After inflicting an <color=#FFFFFF>Attribute Anomaly</color> on an enemy, the enemy's DEF <color=#2BAD00>is reduced by 10%</color> for 10s. After triggering <color=#FFFFFF>Disorder</color>, the enemy's DEF <color=#2BAD00>is additionally reduced by 15%</color> for 10s. Repeated triggers reset the duration."
-        }
-      }
-    },
-    "6904102": {
-      "Name": "Notorious - Pompey",
-      "StageNum": 2,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69010802": {
-          "Title": "",
-          "Desc": "· Successfully <color=#FFAF2C>triggering a Perfect Assist</color> grants <color=#FFAF2C>350 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
-        },
-        "69014103": {
-          "Title": "69014103_Title",
-          "Desc": "· When the Agent <color=#FFAF2C>hits the boss enemy with a Defensive Assist or Chain Attack</color>, they apply 1 stack of <color=#FFFFFF>Weakening</color> to the target, lasting 20s. The duration of each stack is calculated separately. For each stack of <color=#FFFFFF>Weakening</color> on the target, Agent CRIT DMG is <color=#FFAF2C>increased by 15%</color>.\n\n· When the boss enemy has 4 stacks of <color=#FFFFFF>Weakening</color>, Defensive Assist will deflect the boss enemy's attack, causing a Stagger effect.\n· Boss enemies take 30% less Attribute Anomaly DMG."
-        }
-      },
-      "LayerRoom": {
-        "69041021": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NotoriousPompey.png",
-          "MonsterList": {
-            "11881": {
-              "Id": 300211,
-              "Name": "Notorious - Pompey",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_NotoriousPompey.png",
-              "Element": {
-                "Ice": 0,
-                "Fire": 1,
-                "Electric": -1,
-                "Ether": 0,
-                "Physical": 0,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 16960375.08,
-                "Attack": 3948.5939393939398,
-                "Defence": 952.8000000000001,
-                "Stun": 16647.4,
-                "AttributeInfliction": 10
-              }
-            }
-          },
-          "MonsterWeakness": { "201": "Fire" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69014002": {
-          "Title": "Oblivion",
-          "Desc": "· Daze inflicted by the Agent increases by <color=#2BAD00>20%</color>. <color=#FFFFFF>Ultimate</color>/<color=#FFFFFF>Chain Attack</color> ignore <color=#2BAD00>30%</color> of the enemy's All-Attribute RES.\n· After launching a <color=#FFFFFF>Chain Attack</color>, the whole squad's ATK increases by <color=#2BAD00>10%</color> and CRIT DMG increases by <color=#2BAD00>15%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
-        },
-        "69014003": {
-          "Title": "Frostbite Breath",
-          "Desc": "· Agent's <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 20%</color>, and their Anomaly Proficiency <color=#2BAD00>increases by 20</color>.\n· When an <color=#FFFFFF>Attribute Anomaly</color> is inflicted on an enemy, the enemy's All-DMG RES <color=#2BAD00> is reduced by 10%</color>, and Attribute Anomaly DMG dealt by the whole squad <color=#2BAD00>increases by 10%</color> for 15s. Repeated triggers reset the duration."
-        },
-        "69014101": {
-          "Title": "Deconstruction",
-          "Desc": "· Agent Anomaly Proficiency <color=#2BAD00>increases by 45</color>.\n· After inflicting an <color=#FFFFFF>Attribute Anomaly</color> on an enemy, the enemy's DEF <color=#2BAD00>is reduced by 10%</color> for 10s. After triggering <color=#FFFFFF>Disorder</color>, the enemy's DEF <color=#2BAD00>is additionally reduced by 15%</color> for 10s. Repeated triggers reset the duration."
-        }
-      }
-    },
-    "6904103": {
-      "Name": "Miasmic Fiend - Unfathomable",
-      "StageNum": 3,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69011602": {
-          "Title": "",
-          "Desc": "· When Miasmic Fiend is affected by <color=#FFAF2C>Attribute Anomaly</color>, it takes 8% bonus Anomaly DMG from Agents, stacking up to 6 times; activating <Term:2000002> clears all stacks, with each stack increasing the reduction efficiency of <color=#FFAF2C>Miasmic Shield</color> by 2.5%."
-        },
-        "69011603": {
-          "Title": "",
-          "Desc": "· When Agents bait Miasmic Fiend's ground attack into <color=#FFAF2C>detonating at least 5 Miasma Pools at once</color> and <color=#FFAF2C>avoid being hit by the attack and pool explosions</color>, they will earn <color=#FFAF2C>1,700 Performance Points</color>, up to a maximum of 5,000."
-        },
-        "69012102": { "Title": "", "Desc": "" },
-        "69013003": {
-          "Title": "",
-          "Desc": "· Suitable for Agents with <IconMap:Icon_AvatarClass_Anomaly><color=#FFAF2C>Anomaly</color> specialty."
-        }
-      },
-      "LayerRoom": {
-        "69041031": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NamelessOne.png",
-          "MonsterList": {
-            "31062": {
-              "Id": 30034,
-              "Name": "Miasmic Fiend - Unfathomable",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_NamelessOne.png",
-              "Element": {
-                "Ice": 0,
-                "Fire": -1,
-                "Electric": 0,
-                "Ether": 1,
-                "Physical": 1,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 21792399.884999998,
-                "Attack": 2967.1515151515155,
-                "Defence": 952.8000000000001,
-                "Stun": 16647.4,
-                "AttributeInfliction": 10
-              }
-            }
-          },
-          "MonsterWeakness": { "200": "Physical", "205": "Ether" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69014002": {
-          "Title": "Oblivion",
-          "Desc": "· Daze inflicted by the Agent increases by <color=#2BAD00>20%</color>. <color=#FFFFFF>Ultimate</color>/<color=#FFFFFF>Chain Attack</color> ignore <color=#2BAD00>30%</color> of the enemy's All-Attribute RES.\n· After launching a <color=#FFFFFF>Chain Attack</color>, the whole squad's ATK increases by <color=#2BAD00>10%</color> and CRIT DMG increases by <color=#2BAD00>15%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
-        },
-        "69014003": {
-          "Title": "Frostbite Breath",
-          "Desc": "· Agent's <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 20%</color>, and their Anomaly Proficiency <color=#2BAD00>increases by 20</color>.\n· When an <color=#FFFFFF>Attribute Anomaly</color> is inflicted on an enemy, the enemy's All-DMG RES <color=#2BAD00> is reduced by 10%</color>, and Attribute Anomaly DMG dealt by the whole squad <color=#2BAD00>increases by 10%</color> for 15s. Repeated triggers reset the duration."
-        },
-        "69014101": {
-          "Title": "Deconstruction",
-          "Desc": "· Agent Anomaly Proficiency <color=#2BAD00>increases by 45</color>.\n· After inflicting an <color=#FFFFFF>Attribute Anomaly</color> on an enemy, the enemy's DEF <color=#2BAD00>is reduced by 10%</color> for 10s. After triggering <color=#FFFFFF>Disorder</color>, the enemy's DEF <color=#2BAD00>is additionally reduced by 15%</color> for 10s. Repeated triggers reset the duration."
-        }
-      }
-    }
-  },
   "BossAdjust": {
-    "1001": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1002": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1003": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1004": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1005": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1006": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1007": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1008": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1009": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
-    "1010": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
-    "1011": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
+    "1001": { "Hp": 1200, "Atk": -5000, "Points": 1000 },
+    "1002": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1003": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1004": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1005": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1006": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1007": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1008": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1009": { "Hp": 2200, "Atk": -1000, "Points": 1800 },
+    "1010": { "Hp": 2200, "Atk": 0, "Points": 1800 },
+    "1011": { "Hp": 2200, "Atk": 800, "Points": 1800 },
     "1012": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
     "1013": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
     "1014": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
@@ -229,6 +32,30 @@
     "1027": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
     "1028": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
     "1029": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1301": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1302": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1303": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1304": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1305": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1306": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1307": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1308": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1309": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1310": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1311": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1312": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1313": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1314": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1315": { "Hp": 8000, "Atk": 2000, "Points": 3500 },
+    "1316": { "Hp": 10000, "Atk": 2000, "Points": 3500 },
+    "1317": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1318": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1319": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1320": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1321": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1322": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1323": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
+    "1324": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
     "2001": { "Hp": 5000, "Atk": 8000, "Points": 200 },
     "2002": { "Hp": 16000, "Atk": 11000, "Points": 200 },
     "2010": { "Hp": 2500, "Atk": 0, "Points": 3000 },
@@ -335,7 +162,210 @@
     "900202": { "Hp": 3300, "Atk": 0, "Points": 3300 },
     "900203": { "Hp": 3400, "Atk": 0, "Points": 3400 }
   },
+  "ZoneType": 1001,
+  "Modes": [
+    {
+      "Id": 69041,
+      "ZoneType": 1001,
+      "Zone": {
+        "6904101": {
+          "Name": "Phaethon of the Scorched Horizon",
+          "StageNum": 1,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69013003": {
+              "Title": "",
+              "Desc": "· Suitable for Agents with <IconMap:Icon_AvatarClass_Anomaly><color=#FFAF2C>Anomaly</color> specialty."
+            },
+            "69013601": {
+              "Title": "",
+              "Desc": "· After Scorched Horizon activates Gale Scorcher, they gain 5 stacks of <color=#FFFFFF>Into Flames</color>. Each stack of <color=#FFFFFF>Into Flames</color> <color=#FFAF2C>increases DMG dealt by 10%</color> and <color=#FFAF2C>reduces CRIT DMG taken by 25%</color>. With <color=#FFFFFF>Into Flames</color> stacks, every time Scorched Horizon is inflicted with an <color=#FFAF2C>Anomaly</color>, one stack of <color=#FFFFFF>Into Flames</color> is lost, and subsequent Abloom DMG taken <color=#FFAF2C>increases by 10%</color> for 15s (max 3 stacks). Repeated triggers reset the duration."
+            },
+            "69013602": {
+              "Title": "",
+              "Desc": "· When Scorched Horizon is in <color=#FFFFFF>Gale Scorcher</color> state, Impairing them grants <color=#FFAF2C>1,250 Performance Points</color>. <color=#FFAF2C>Striking down Scorched Horizon when they're attacking in mid-air</color> grants <color=#FFAF2C>1,500 Performance Points</color>. Performing a <color=#FFAF2C>Shutdown</color> against Scorched Horizon's <Term:2000003>Control Skill</Term> grants <color=#FFAF2C>2,000 Performance Points</color>. Max 5,000 Performance Points."
+            }
+          },
+          "LayerRoom": {
+            "69041011": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Mutant.png",
+              "MonsterList": {
+                "31431": {
+                  "Id": 40005,
+                  "Name": "Phaethon of the Scorched Horizon",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Mutant.png",
+                  "Element": {
+                    "Ice": 1,
+                    "Fire": 0,
+                    "Electric": 0,
+                    "Ether": 0,
+                    "Physical": -1,
+                    "Wind": 1
+                  },
+                  "Stats": {
+                    "Hp": 19081773.2925,
+                    "Attack": 2967.1515151515155,
+                    "Defence": 952.8000000000001,
+                    "Stun": 19540.25,
+                    "AttributeInfliction": 10
+                  }
+                }
+              },
+              "MonsterWeakness": { "202": "Ice", "204": "Wind" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69014002": {
+              "Title": "Oblivion",
+              "Desc": "· Daze inflicted by the Agent increases by <color=#2BAD00>20%</color>. <color=#FFFFFF>Ultimate</color>/<color=#FFFFFF>Chain Attack</color> ignore <color=#2BAD00>30%</color> of the enemy's All-Attribute RES.\n· After launching a <color=#FFFFFF>Chain Attack</color>, the whole squad's ATK increases by <color=#2BAD00>10%</color> and CRIT DMG increases by <color=#2BAD00>15%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
+            },
+            "69014003": {
+              "Title": "Frostbite Breath",
+              "Desc": "· Agent's <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 20%</color>, and their Anomaly Proficiency <color=#2BAD00>increases by 20</color>.\n· When an <color=#FFFFFF>Attribute Anomaly</color> is inflicted on an enemy, the enemy's All-DMG RES <color=#2BAD00> is reduced by 10%</color>, and Attribute Anomaly DMG dealt by the whole squad <color=#2BAD00>increases by 10%</color> for 15s. Repeated triggers reset the duration."
+            },
+            "69014101": {
+              "Title": "Deconstruction",
+              "Desc": "· Agent Anomaly Proficiency <color=#2BAD00>increases by 45</color>.\n· After inflicting an <color=#FFFFFF>Attribute Anomaly</color> on an enemy, the enemy's DEF <color=#2BAD00>is reduced by 10%</color> for 10s. After triggering <color=#FFFFFF>Disorder</color>, the enemy's DEF <color=#2BAD00>is additionally reduced by 15%</color> for 10s. Repeated triggers reset the duration."
+            }
+          }
+        },
+        "6904102": {
+          "Name": "Notorious - Pompey",
+          "StageNum": 2,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69010802": {
+              "Title": "",
+              "Desc": "· Successfully <color=#FFAF2C>triggering a Perfect Assist</color> grants <color=#FFAF2C>350 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
+            },
+            "69014103": {
+              "Title": "69014103_Title",
+              "Desc": "· When the Agent <color=#FFAF2C>hits the boss enemy with a Defensive Assist or Chain Attack</color>, they apply 1 stack of <color=#FFFFFF>Weakening</color> to the target, lasting 20s. The duration of each stack is calculated separately. For each stack of <color=#FFFFFF>Weakening</color> on the target, Agent CRIT DMG is <color=#FFAF2C>increased by 15%</color>.\n\n· When the boss enemy has 4 stacks of <color=#FFFFFF>Weakening</color>, Defensive Assist will deflect the boss enemy's attack, causing a Stagger effect.\n· Boss enemies take 30% less Attribute Anomaly DMG."
+            }
+          },
+          "LayerRoom": {
+            "69041021": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NotoriousPompey.png",
+              "MonsterList": {
+                "11881": {
+                  "Id": 300211,
+                  "Name": "Notorious - Pompey",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_NotoriousPompey.png",
+                  "Element": {
+                    "Ice": 0,
+                    "Fire": 1,
+                    "Electric": -1,
+                    "Ether": 0,
+                    "Physical": 0,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 16960375.08,
+                    "Attack": 3948.5939393939398,
+                    "Defence": 952.8000000000001,
+                    "Stun": 16647.4,
+                    "AttributeInfliction": 10
+                  }
+                }
+              },
+              "MonsterWeakness": { "201": "Fire" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69014002": {
+              "Title": "Oblivion",
+              "Desc": "· Daze inflicted by the Agent increases by <color=#2BAD00>20%</color>. <color=#FFFFFF>Ultimate</color>/<color=#FFFFFF>Chain Attack</color> ignore <color=#2BAD00>30%</color> of the enemy's All-Attribute RES.\n· After launching a <color=#FFFFFF>Chain Attack</color>, the whole squad's ATK increases by <color=#2BAD00>10%</color> and CRIT DMG increases by <color=#2BAD00>15%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
+            },
+            "69014003": {
+              "Title": "Frostbite Breath",
+              "Desc": "· Agent's <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 20%</color>, and their Anomaly Proficiency <color=#2BAD00>increases by 20</color>.\n· When an <color=#FFFFFF>Attribute Anomaly</color> is inflicted on an enemy, the enemy's All-DMG RES <color=#2BAD00> is reduced by 10%</color>, and Attribute Anomaly DMG dealt by the whole squad <color=#2BAD00>increases by 10%</color> for 15s. Repeated triggers reset the duration."
+            },
+            "69014101": {
+              "Title": "Deconstruction",
+              "Desc": "· Agent Anomaly Proficiency <color=#2BAD00>increases by 45</color>.\n· After inflicting an <color=#FFFFFF>Attribute Anomaly</color> on an enemy, the enemy's DEF <color=#2BAD00>is reduced by 10%</color> for 10s. After triggering <color=#FFFFFF>Disorder</color>, the enemy's DEF <color=#2BAD00>is additionally reduced by 15%</color> for 10s. Repeated triggers reset the duration."
+            }
+          }
+        },
+        "6904103": {
+          "Name": "Miasmic Fiend - Unfathomable",
+          "StageNum": 3,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69011602": {
+              "Title": "",
+              "Desc": "· When Miasmic Fiend is affected by <color=#FFAF2C>Attribute Anomaly</color>, it takes 8% bonus Anomaly DMG from Agents, stacking up to 6 times; activating <Term:2000002>Miasmic Shield</Term> clears all stacks, with each stack increasing the reduction efficiency of <color=#FFAF2C>Miasmic Shield</color> by 2.5%."
+            },
+            "69011603": {
+              "Title": "",
+              "Desc": "· When Agents bait Miasmic Fiend's ground attack into <color=#FFAF2C>detonating at least 5 Miasma Pools at once</color> and <color=#FFAF2C>avoid being hit by the attack and pool explosions</color>, they will earn <color=#FFAF2C>1,700 Performance Points</color>, up to a maximum of 5,000."
+            },
+            "69012102": { "Title": "", "Desc": "" },
+            "69013003": {
+              "Title": "",
+              "Desc": "· Suitable for Agents with <IconMap:Icon_AvatarClass_Anomaly><color=#FFAF2C>Anomaly</color> specialty."
+            }
+          },
+          "LayerRoom": {
+            "69041031": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NamelessOne.png",
+              "MonsterList": {
+                "31062": {
+                  "Id": 30034,
+                  "Name": "Miasmic Fiend - Unfathomable",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_NamelessOne.png",
+                  "Element": {
+                    "Ice": 0,
+                    "Fire": -1,
+                    "Electric": 0,
+                    "Ether": 1,
+                    "Physical": 1,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 21792399.884999998,
+                    "Attack": 2967.1515151515155,
+                    "Defence": 952.8000000000001,
+                    "Stun": 16647.4,
+                    "AttributeInfliction": 10
+                  }
+                }
+              },
+              "MonsterWeakness": { "200": "Physical", "205": "Ether" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69014002": {
+              "Title": "Oblivion",
+              "Desc": "· Daze inflicted by the Agent increases by <color=#2BAD00>20%</color>. <color=#FFFFFF>Ultimate</color>/<color=#FFFFFF>Chain Attack</color> ignore <color=#2BAD00>30%</color> of the enemy's All-Attribute RES.\n· After launching a <color=#FFFFFF>Chain Attack</color>, the whole squad's ATK increases by <color=#2BAD00>10%</color> and CRIT DMG increases by <color=#2BAD00>15%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
+            },
+            "69014003": {
+              "Title": "Frostbite Breath",
+              "Desc": "· Agent's <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 20%</color>, and their Anomaly Proficiency <color=#2BAD00>increases by 20</color>.\n· When an <color=#FFFFFF>Attribute Anomaly</color> is inflicted on an enemy, the enemy's All-DMG RES <color=#2BAD00> is reduced by 10%</color>, and Attribute Anomaly DMG dealt by the whole squad <color=#2BAD00>increases by 10%</color> for 15s. Repeated triggers reset the duration."
+            },
+            "69014101": {
+              "Title": "Deconstruction",
+              "Desc": "· Agent Anomaly Proficiency <color=#2BAD00>increases by 45</color>.\n· After inflicting an <color=#FFFFFF>Attribute Anomaly</color> on an enemy, the enemy's DEF <color=#2BAD00>is reduced by 10%</color> for 10s. After triggering <color=#FFFFFF>Disorder</color>, the enemy's DEF <color=#2BAD00>is additionally reduced by 15%</color> for 10s. Repeated triggers reset the duration."
+            }
+          }
+        }
+      }
+    }
+  ],
   "BeginTime": "2026-07-17 04:00:00",
-  "EndTime": "2026-07-29 03:59:59",
-  "ZoneType": 1001
+  "EndTime": "2026-07-29 03:59:59"
 }

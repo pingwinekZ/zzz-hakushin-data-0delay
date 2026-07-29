@@ -1,210 +1,19 @@
 {
   "Id": 69010,
-  "Name": "Deadly Assault",
+  "Name": "Trial",
   "Priority": 9,
-  "Zone": {
-    "6901001": {
-      "Name": "Sacrifice - Bringer",
-      "StageNum": 1,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69010107": {
-          "Title": "",
-          "Desc": "· Successfully <color=#FFAF2C>interrupting a chant</color> grants <color=#FFAF2C>2,000 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
-        },
-        "69010505": {
-          "Title": "",
-          "Desc": "· When inflicting <color=#FFAF2C>an Attribute Anomaly or Disorder</color> on a boss enemy, all squad members gain 1 stack of <color=#FFFFFF>Laser Focus</color>, stacking up to 6 times. Each stack of <color=#FFFFFF>Laser Focus</color> increases the Agent's ATK by <color=#FFAF2C>8%</color>. With at least 3 stacks of <color=#FFFFFF>Laser Focus</color>, inflicting an <color=#FFAF2C>Attribute Anomaly</color> will increase its duration by 5s. When Sacrifice - Bringer attacks with his Sacrificial Knife, all squad members' <color=#FFFFFF>Laser Focus</color> stacks will be reset."
-        },
-        "69010506": { "Title": "", "Desc": "" },
-        "69011203": { "Title": "", "Desc": "" }
-      },
-      "LayerRoom": {
-        "69010011": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_SacrificeBringer.png",
-          "MonsterList": {
-            "11818": {
-              "Id": 30024,
-              "Name": "Sacrifice - Bringer",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_SacrificeBringer.png",
-              "Element": {
-                "Ice": 1,
-                "Fire": 0,
-                "Electric": 0,
-                "Ether": 0,
-                "Physical": -1,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 12643188.695999999,
-                "Attack": 3948.5939393939398,
-                "Defence": 952.8000000000001,
-                "Stun": 16647.4,
-                "AttributeInfliction": 0
-              }
-            }
-          },
-          "MonsterWeakness": { "202": "Ice" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69010303": {
-          "Title": "Rapid Aid",
-          "Desc": "· The Agent's Energy generation rate <color=#2BAD00>increases by 25%</color>, and the DMG dealt by <color=#FFFFFF>Quick Assist</color> <color=#2BAD00>increases by 50%</color>.\n· Each use of <color=#FFFFFF>Quick Assist</color> increases all squad members' ATK by <color=#2BAD00>10%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
-        },
-        "69010701": {
-          "Title": "Swift Advance",
-          "Desc": "· DMG dealt by Agent <color=#FFFFFF>Aftershocks</color> and <color=#FFFFFF>Chain Attacks</color> is <color=#2BAD00>increased by 30%</color>.\n· When an <color=#FFFFFF>Aftershock</color> or <color=#FFFFFF>Dodge Counter</color> hits an enemy, all squad members' ATK is <color=#2BAD00>increased by 15%</color>, and CRIT DMG is <color=#2BAD00>increased by 40%</color> for 20s. Repeated triggers reset the duration."
-        },
-        "69011001": {
-          "Title": "Transformation Charge",
-          "Desc": "· Agent <color=#FE437E>Ether Anomaly Buildup Rate</color> and <color=#F0D12B>Physical Anomaly Buildup Rate</color> is increased by <color=#2BAD00>25%</color>, and Anomaly Proficiency by <color=#2BAD00>60</color> points.\n· When triggering an Attribute Anomaly, the enemy's DEF is reduced by <color=#2BAD00>10%</color>, and the damage they receive from Attribute Anomalies will be increased by <color=#2BAD00>30%</color> for 20s. Repeated triggers reset the duration."
-        }
-      }
-    },
-    "6901002": {
-      "Name": "Unknown Corruption Complex",
-      "StageNum": 2,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69010305": {
-          "Title": "",
-          "Desc": "· When dealing sufficient DMG to the boss enemy's legs, Impaired will be triggered. <color=#FFAF2C>Upon successfully breaking the boss enemy's legs</color>, the Agent restores <color=#FFAF2C>1,000 Decibels</color>, and the boss gains 1 stack of <color=#FFFFFF>Disintegration</color> for 20 seconds, up to a maximum of 4 stacks. When the Agent's attacks hit an enemy, for each stack of <color=#FFFFFF>Disintegration</color> the target has, CRIT DMG is <color=#FFAF2C>increased by 25%</color>."
-        },
-        "69010306": { "Title": "", "Desc": "" },
-        "69010307": {
-          "Title": "",
-          "Desc": "· Successfully <color=#FFAF2C>impairing an enemy</color> grants <color=#FFAF2C>800 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
-        }
-      },
-      "LayerRoom": {
-        "69010021": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_ComplexCorrupted.png",
-          "MonsterList": {
-            "11414": {
-              "Id": 30009,
-              "Name": "Unknown Corruption Complex",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_ComplexCorrupted.png",
-              "Element": {
-                "Ice": 0,
-                "Fire": 0,
-                "Electric": 1,
-                "Ether": 1,
-                "Physical": 0,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 9712263.487499999,
-                "Attack": 2543.2727272727275,
-                "Defence": 952.8000000000001,
-                "Stun": 16894.15,
-                "AttributeInfliction": 0
-              }
-            }
-          },
-          "MonsterWeakness": { "203": "Electric", "205": "Ether" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69010303": {
-          "Title": "Rapid Aid",
-          "Desc": "· The Agent's Energy generation rate <color=#2BAD00>increases by 25%</color>, and the DMG dealt by <color=#FFFFFF>Quick Assist</color> <color=#2BAD00>increases by 50%</color>.\n· Each use of <color=#FFFFFF>Quick Assist</color> increases all squad members' ATK by <color=#2BAD00>10%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
-        },
-        "69010701": {
-          "Title": "Swift Advance",
-          "Desc": "· DMG dealt by Agent <color=#FFFFFF>Aftershocks</color> and <color=#FFFFFF>Chain Attacks</color> is <color=#2BAD00>increased by 30%</color>.\n· When an <color=#FFFFFF>Aftershock</color> or <color=#FFFFFF>Dodge Counter</color> hits an enemy, all squad members' ATK is <color=#2BAD00>increased by 15%</color>, and CRIT DMG is <color=#2BAD00>increased by 40%</color> for 20s. Repeated triggers reset the duration."
-        },
-        "69011001": {
-          "Title": "Transformation Charge",
-          "Desc": "· Agent <color=#FE437E>Ether Anomaly Buildup Rate</color> and <color=#F0D12B>Physical Anomaly Buildup Rate</color> is increased by <color=#2BAD00>25%</color>, and Anomaly Proficiency by <color=#2BAD00>60</color> points.\n· When triggering an Attribute Anomaly, the enemy's DEF is reduced by <color=#2BAD00>10%</color>, and the damage they receive from Attribute Anomalies will be increased by <color=#2BAD00>30%</color> for 20s. Repeated triggers reset the duration."
-        }
-      }
-    },
-    "6901003": {
-      "Name": "Corrupted Overlord - Pompey",
-      "StageNum": 3,
-      "MonsterLevel": 70,
-      "LayerBuff": {
-        "69010105": {
-          "Title": "",
-          "Desc": "· Boss enemies gain 1 stack of <color=#FFFFFF>Battle-Hardened</color> every 10s, increasing their DMG dealt by 20% and stacking up to 3 times. When inflicting <color=#FFAF2C>Attribute Anomaly</color>, removes 1 stack of <color=#FFFFFF>Battle-Hardened</color> and increases their DMG taken by 15% for 20s."
-        },
-        "69010507": {
-          "Title": "",
-          "Desc": "· Successfully <color=#FFAF2C>triggering Perfect Dodge</color> grants <color=#FFAF2C>200 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
-        }
-      },
-      "LayerRoom": {
-        "69010031": {
-          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_TyrantPompey.png",
-          "MonsterList": {
-            "11703": {
-              "Id": 30021,
-              "Name": "Corrupted Overlord - Pompey",
-              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_TyrantPompey.png",
-              "Element": {
-                "Ice": 0,
-                "Fire": 1,
-                "Electric": -1,
-                "Ether": 0,
-                "Physical": 0,
-                "Wind": 0
-              },
-              "Stats": {
-                "Hp": 8994138.299999999,
-                "Attack": 3948.5939393939398,
-                "Defence": 952.8000000000001,
-                "Stun": 16647.4,
-                "AttributeInfliction": 0
-              }
-            }
-          },
-          "MonsterWeakness": { "201": "Fire" },
-          "WavesNum": 1
-        }
-      },
-      "GoalType": 2,
-      "SRankGoal": 20000,
-      "ARankGoal": 14000,
-      "BRankGoal": 6000,
-      "SelectableBuff": {
-        "69010303": {
-          "Title": "Rapid Aid",
-          "Desc": "· The Agent's Energy generation rate <color=#2BAD00>increases by 25%</color>, and the DMG dealt by <color=#FFFFFF>Quick Assist</color> <color=#2BAD00>increases by 50%</color>.\n· Each use of <color=#FFFFFF>Quick Assist</color> increases all squad members' ATK by <color=#2BAD00>10%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
-        },
-        "69010701": {
-          "Title": "Swift Advance",
-          "Desc": "· DMG dealt by Agent <color=#FFFFFF>Aftershocks</color> and <color=#FFFFFF>Chain Attacks</color> is <color=#2BAD00>increased by 30%</color>.\n· When an <color=#FFFFFF>Aftershock</color> or <color=#FFFFFF>Dodge Counter</color> hits an enemy, all squad members' ATK is <color=#2BAD00>increased by 15%</color>, and CRIT DMG is <color=#2BAD00>increased by 40%</color> for 20s. Repeated triggers reset the duration."
-        },
-        "69011001": {
-          "Title": "Transformation Charge",
-          "Desc": "· Agent <color=#FE437E>Ether Anomaly Buildup Rate</color> and <color=#F0D12B>Physical Anomaly Buildup Rate</color> is increased by <color=#2BAD00>25%</color>, and Anomaly Proficiency by <color=#2BAD00>60</color> points.\n· When triggering an Attribute Anomaly, the enemy's DEF is reduced by <color=#2BAD00>10%</color>, and the damage they receive from Attribute Anomalies will be increased by <color=#2BAD00>30%</color> for 20s. Repeated triggers reset the duration."
-        }
-      }
-    }
-  },
   "BossAdjust": {
-    "1001": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1002": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1003": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1004": { "Hp": 1200, "Atk": 0, "Points": 1000 },
-    "1005": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1006": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1007": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1008": { "Hp": 1700, "Atk": 1000, "Points": 1200 },
-    "1009": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
-    "1010": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
-    "1011": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
+    "1001": { "Hp": 1200, "Atk": -5000, "Points": 1000 },
+    "1002": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1003": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1004": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1005": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1006": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1007": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1008": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1009": { "Hp": 2200, "Atk": -1000, "Points": 1800 },
+    "1010": { "Hp": 2200, "Atk": 0, "Points": 1800 },
+    "1011": { "Hp": 2200, "Atk": 800, "Points": 1800 },
     "1012": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
     "1013": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
     "1014": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
@@ -223,6 +32,30 @@
     "1027": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
     "1028": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
     "1029": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1301": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1302": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1303": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1304": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1305": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1306": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1307": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1308": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1309": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1310": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1311": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1312": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1313": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1314": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1315": { "Hp": 8000, "Atk": 2000, "Points": 3500 },
+    "1316": { "Hp": 10000, "Atk": 2000, "Points": 3500 },
+    "1317": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1318": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1319": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1320": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1321": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1322": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1323": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
+    "1324": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
     "2001": { "Hp": 5000, "Atk": 8000, "Points": 200 },
     "2002": { "Hp": 16000, "Atk": 11000, "Points": 200 },
     "2010": { "Hp": 2500, "Atk": 0, "Points": 3000 },
@@ -329,7 +162,204 @@
     "900202": { "Hp": 3300, "Atk": 0, "Points": 3300 },
     "900203": { "Hp": 3400, "Atk": 0, "Points": 3400 }
   },
+  "ZoneType": 1001,
+  "Modes": [
+    {
+      "Id": 69010,
+      "ZoneType": 1001,
+      "Zone": {
+        "6901001": {
+          "Name": "Sacrifice - Bringer",
+          "StageNum": 1,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69010107": {
+              "Title": "",
+              "Desc": "· Successfully <color=#FFAF2C>interrupting a chant</color> grants <color=#FFAF2C>2,000 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
+            },
+            "69010505": {
+              "Title": "",
+              "Desc": "· When inflicting <color=#FFAF2C>an Attribute Anomaly or Disorder</color> on a boss enemy, all squad members gain 1 stack of <color=#FFFFFF>Laser Focus</color>, stacking up to 6 times. Each stack of <color=#FFFFFF>Laser Focus</color> increases the Agent's ATK by <color=#FFAF2C>8%</color>. With at least 3 stacks of <color=#FFFFFF>Laser Focus</color>, inflicting an <color=#FFAF2C>Attribute Anomaly</color> will increase its duration by 5s. When Sacrifice - Bringer attacks with his Sacrificial Knife, all squad members' <color=#FFFFFF>Laser Focus</color> stacks will be reset."
+            },
+            "69010506": { "Title": "", "Desc": "" },
+            "69011203": { "Title": "", "Desc": "" }
+          },
+          "LayerRoom": {
+            "69010011": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_SacrificeBringer.png",
+              "MonsterList": {
+                "11818": {
+                  "Id": 30024,
+                  "Name": "Sacrifice - Bringer",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_SacrificeBringer.png",
+                  "Element": {
+                    "Ice": 1,
+                    "Fire": 0,
+                    "Electric": 0,
+                    "Ether": 0,
+                    "Physical": -1,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 12643188.695999999,
+                    "Attack": 3948.5939393939398,
+                    "Defence": 952.8000000000001,
+                    "Stun": 16647.4,
+                    "AttributeInfliction": 0
+                  }
+                }
+              },
+              "MonsterWeakness": { "202": "Ice" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69010303": {
+              "Title": "Rapid Aid",
+              "Desc": "· The Agent's Energy generation rate <color=#2BAD00>increases by 25%</color>, and the DMG dealt by <color=#FFFFFF>Quick Assist</color> <color=#2BAD00>increases by 50%</color>.\n· Each use of <color=#FFFFFF>Quick Assist</color> increases all squad members' ATK by <color=#2BAD00>10%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
+            },
+            "69010701": {
+              "Title": "Swift Advance",
+              "Desc": "· DMG dealt by Agent <color=#FFFFFF>Aftershocks</color> and <color=#FFFFFF>Chain Attacks</color> is <color=#2BAD00>increased by 30%</color>.\n· When an <color=#FFFFFF>Aftershock</color> or <color=#FFFFFF>Dodge Counter</color> hits an enemy, all squad members' ATK is <color=#2BAD00>increased by 15%</color>, and CRIT DMG is <color=#2BAD00>increased by 40%</color> for 20s. Repeated triggers reset the duration."
+            },
+            "69011001": {
+              "Title": "Transformation Charge",
+              "Desc": "· Agent <color=#FE437E>Ether Anomaly Buildup Rate</color> and <color=#F0D12B>Physical Anomaly Buildup Rate</color> is increased by <color=#2BAD00>25%</color>, and Anomaly Proficiency by <color=#2BAD00>60</color> points.\n· When triggering an Attribute Anomaly, the enemy's DEF is reduced by <color=#2BAD00>10%</color>, and the damage they receive from Attribute Anomalies will be increased by <color=#2BAD00>30%</color> for 20s. Repeated triggers reset the duration."
+            }
+          }
+        },
+        "6901002": {
+          "Name": "Unknown Corruption Complex",
+          "StageNum": 2,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69010305": {
+              "Title": "",
+              "Desc": "· When dealing sufficient DMG to the boss enemy's legs, Impaired will be triggered. <color=#FFAF2C>Upon successfully breaking the boss enemy's legs</color>, the Agent restores <color=#FFAF2C>1,000 Decibels</color>, and the boss gains 1 stack of <color=#FFFFFF>Disintegration</color> for 20 seconds, up to a maximum of 4 stacks. When the Agent's attacks hit an enemy, for each stack of <color=#FFFFFF>Disintegration</color> the target has, CRIT DMG is <color=#FFAF2C>increased by 25%</color>."
+            },
+            "69010306": { "Title": "", "Desc": "" },
+            "69010307": {
+              "Title": "",
+              "Desc": "· Successfully <color=#FFAF2C>impairing an enemy</color> grants <color=#FFAF2C>800 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
+            }
+          },
+          "LayerRoom": {
+            "69010021": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_ComplexCorrupted.png",
+              "MonsterList": {
+                "11414": {
+                  "Id": 30009,
+                  "Name": "Unknown Corruption Complex",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_ComplexCorrupted.png",
+                  "Element": {
+                    "Ice": 0,
+                    "Fire": 0,
+                    "Electric": 1,
+                    "Ether": 1,
+                    "Physical": 0,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 9712263.487499999,
+                    "Attack": 2543.2727272727275,
+                    "Defence": 952.8000000000001,
+                    "Stun": 16894.15,
+                    "AttributeInfliction": 0
+                  }
+                }
+              },
+              "MonsterWeakness": { "203": "Electric", "205": "Ether" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69010303": {
+              "Title": "Rapid Aid",
+              "Desc": "· The Agent's Energy generation rate <color=#2BAD00>increases by 25%</color>, and the DMG dealt by <color=#FFFFFF>Quick Assist</color> <color=#2BAD00>increases by 50%</color>.\n· Each use of <color=#FFFFFF>Quick Assist</color> increases all squad members' ATK by <color=#2BAD00>10%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
+            },
+            "69010701": {
+              "Title": "Swift Advance",
+              "Desc": "· DMG dealt by Agent <color=#FFFFFF>Aftershocks</color> and <color=#FFFFFF>Chain Attacks</color> is <color=#2BAD00>increased by 30%</color>.\n· When an <color=#FFFFFF>Aftershock</color> or <color=#FFFFFF>Dodge Counter</color> hits an enemy, all squad members' ATK is <color=#2BAD00>increased by 15%</color>, and CRIT DMG is <color=#2BAD00>increased by 40%</color> for 20s. Repeated triggers reset the duration."
+            },
+            "69011001": {
+              "Title": "Transformation Charge",
+              "Desc": "· Agent <color=#FE437E>Ether Anomaly Buildup Rate</color> and <color=#F0D12B>Physical Anomaly Buildup Rate</color> is increased by <color=#2BAD00>25%</color>, and Anomaly Proficiency by <color=#2BAD00>60</color> points.\n· When triggering an Attribute Anomaly, the enemy's DEF is reduced by <color=#2BAD00>10%</color>, and the damage they receive from Attribute Anomalies will be increased by <color=#2BAD00>30%</color> for 20s. Repeated triggers reset the duration."
+            }
+          }
+        },
+        "6901003": {
+          "Name": "Corrupted Overlord - Pompey",
+          "StageNum": 3,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69010105": {
+              "Title": "",
+              "Desc": "· Boss enemies gain 1 stack of <color=#FFFFFF>Battle-Hardened</color> every 10s, increasing their DMG dealt by 20% and stacking up to 3 times. When inflicting <color=#FFAF2C>Attribute Anomaly</color>, removes 1 stack of <color=#FFFFFF>Battle-Hardened</color> and increases their DMG taken by 15% for 20s."
+            },
+            "69010507": {
+              "Title": "",
+              "Desc": "· Successfully <color=#FFAF2C>triggering Perfect Dodge</color> grants <color=#FFAF2C>200 Performance Points</color>. A maximum of 5,000 Performance Points can be obtained."
+            }
+          },
+          "LayerRoom": {
+            "69010031": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_TyrantPompey.png",
+              "MonsterList": {
+                "11703": {
+                  "Id": 30021,
+                  "Name": "Corrupted Overlord - Pompey",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_TyrantPompey.png",
+                  "Element": {
+                    "Ice": 0,
+                    "Fire": 1,
+                    "Electric": -1,
+                    "Ether": 0,
+                    "Physical": 0,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 8994138.299999999,
+                    "Attack": 3948.5939393939398,
+                    "Defence": 952.8000000000001,
+                    "Stun": 16647.4,
+                    "AttributeInfliction": 0
+                  }
+                }
+              },
+              "MonsterWeakness": { "201": "Fire" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69010303": {
+              "Title": "Rapid Aid",
+              "Desc": "· The Agent's Energy generation rate <color=#2BAD00>increases by 25%</color>, and the DMG dealt by <color=#FFFFFF>Quick Assist</color> <color=#2BAD00>increases by 50%</color>.\n· Each use of <color=#FFFFFF>Quick Assist</color> increases all squad members' ATK by <color=#2BAD00>10%</color> for 20s, stacking up to 3 times. Repeated triggers reset the duration."
+            },
+            "69010701": {
+              "Title": "Swift Advance",
+              "Desc": "· DMG dealt by Agent <color=#FFFFFF>Aftershocks</color> and <color=#FFFFFF>Chain Attacks</color> is <color=#2BAD00>increased by 30%</color>.\n· When an <color=#FFFFFF>Aftershock</color> or <color=#FFFFFF>Dodge Counter</color> hits an enemy, all squad members' ATK is <color=#2BAD00>increased by 15%</color>, and CRIT DMG is <color=#2BAD00>increased by 40%</color> for 20s. Repeated triggers reset the duration."
+            },
+            "69011001": {
+              "Title": "Transformation Charge",
+              "Desc": "· Agent <color=#FE437E>Ether Anomaly Buildup Rate</color> and <color=#F0D12B>Physical Anomaly Buildup Rate</color> is increased by <color=#2BAD00>25%</color>, and Anomaly Proficiency by <color=#2BAD00>60</color> points.\n· When triggering an Attribute Anomaly, the enemy's DEF is reduced by <color=#2BAD00>10%</color>, and the damage they receive from Attribute Anomalies will be increased by <color=#2BAD00>30%</color> for 20s. Repeated triggers reset the duration."
+            }
+          }
+        }
+      }
+    }
+  ],
   "BeginTime": "2025-05-02 04:00:00",
-  "EndTime": "2025-05-16 03:59:59",
-  "ZoneType": 1001
+  "EndTime": "2025-05-16 03:59:59"
 }

@@ -10,7 +10,7 @@
       "LayerBuff": {
         "62001521": {
           "Title": "Glacial Gale",
-          "Desc": "· Agent <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 10%</color>.\n· When hitting an enemy afflicted with an <color=#FFFFFF>Attribute Anomaly</color>, DMG increases by <color=#2BAD00>15%</color>, and <color=#2BAD00>10%</color> of the enemy's <color=#2BAD00>All-Attribute RES</color> is ignored."
+          "Desc": "· Agent <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> increase by 10%.\n· When hitting an enemy afflicted with an <color=#FFFFFF>Attribute Anomaly</color>, DMG increases by 15%, and 10% of the enemy's All-Attribute RES is ignored."
         }
       },
       "Child": [],
@@ -183,7 +183,7 @@
       "LayerBuff": {
         "62001521": {
           "Title": "Glacial Gale",
-          "Desc": "· Agent <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 10%</color>.\n· When hitting an enemy afflicted with an <color=#FFFFFF>Attribute Anomaly</color>, DMG increases by <color=#2BAD00>15%</color>, and <color=#2BAD00>10%</color> of the enemy's <color=#2BAD00>All-Attribute RES</color> is ignored."
+          "Desc": "· Agent <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> increase by 10%.\n· When hitting an enemy afflicted with an <color=#FFFFFF>Attribute Anomaly</color>, DMG increases by 15%, and 10% of the enemy's All-Attribute RES is ignored."
         }
       },
       "Child": [],
@@ -396,7 +396,7 @@
       "LayerBuff": {
         "62001521": {
           "Title": "Glacial Gale",
-          "Desc": "· Agent <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 10%</color>.\n· When hitting an enemy afflicted with an <color=#FFFFFF>Attribute Anomaly</color>, DMG increases by <color=#2BAD00>15%</color>, and <color=#2BAD00>10%</color> of the enemy's <color=#2BAD00>All-Attribute RES</color> is ignored."
+          "Desc": "· Agent <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> increase by 10%.\n· When hitting an enemy afflicted with an <color=#FFFFFF>Attribute Anomaly</color>, DMG increases by 15%, and 10% of the enemy's All-Attribute RES is ignored."
         }
       },
       "Child": [],
@@ -629,7 +629,7 @@
       "LayerBuff": {
         "62001521": {
           "Title": "Glacial Gale",
-          "Desc": "· Agent <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 10%</color>.\n· When hitting an enemy afflicted with an <color=#FFFFFF>Attribute Anomaly</color>, DMG increases by <color=#2BAD00>15%</color>, and <color=#2BAD00>10%</color> of the enemy's <color=#2BAD00>All-Attribute RES</color> is ignored."
+          "Desc": "· Agent <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> increase by 10%.\n· When hitting an enemy afflicted with an <color=#FFFFFF>Attribute Anomaly</color>, DMG increases by 15%, and 10% of the enemy's All-Attribute RES is ignored."
         }
       },
       "Child": [],
@@ -766,7 +766,7 @@
         },
         "62001521": {
           "Title": "Glacial Gale",
-          "Desc": "· Agent <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 10%</color>.\n· When hitting an enemy afflicted with an <color=#FFFFFF>Attribute Anomaly</color>, DMG increases by <color=#2BAD00>15%</color>, and <color=#2BAD00>10%</color> of the enemy's <color=#2BAD00>All-Attribute RES</color> is ignored."
+          "Desc": "· Agent <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> increase by 10%.\n· When hitting an enemy afflicted with an <color=#FFFFFF>Attribute Anomaly</color>, DMG increases by 15%, and 10% of the enemy's All-Attribute RES is ignored."
         },
         "62001522": {
           "Title": "Final Concerto",
@@ -793,7 +793,7 @@
         "62001002": { "Title": "", "Desc": "" },
         "62001521": {
           "Title": "Glacial Gale",
-          "Desc": "· Agent <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> <color=#2BAD00>increase by 10%</color>.\n· When hitting an enemy afflicted with an <color=#FFFFFF>Attribute Anomaly</color>, DMG increases by <color=#2BAD00>15%</color>, and <color=#2BAD00>10%</color> of the enemy's <color=#2BAD00>All-Attribute RES</color> is ignored."
+          "Desc": "· Agent <color=#A6C5FD>Wind DMG</color> and <color=#98EFF0>Ice DMG</color> increase by 10%.\n· When hitting an enemy afflicted with an <color=#FFFFFF>Attribute Anomaly</color>, DMG increases by 15%, and 10% of the enemy's All-Attribute RES is ignored."
         }
       },
       "Child": [],
