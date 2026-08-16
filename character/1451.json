@@ -1642,6 +1642,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1451001,
+      "AvatarId": 1451,
+      "FirstPriority": [5, 1],
+      "SecondPriority": [3, 0, 6],
+      "ThirdPriority": [2],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1451001": {
       "Name": "Basic Attack: Orbital Combo",

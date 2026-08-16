@@ -1486,6 +1486,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1561001,
+      "AvatarId": 1561,
+      "FirstPriority": [5, 1],
+      "SecondPriority": [3],
+      "ThirdPriority": [0, 6, 2],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1561001": {
       "Name": "Basic Attack: Dancing Fans",

@@ -1464,6 +1464,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1391001,
+      "AvatarId": 1391,
+      "FirstPriority": [5, 3],
+      "SecondPriority": [1, 6],
+      "ThirdPriority": [0, 2],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1391001": {
       "Name": "Basic Attack: Tiger Seven Forms - Flaming Claw (1st, 2nd, and 3rd hit)",

@@ -1527,6 +1527,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1551001,
+      "AvatarId": 1551,
+      "FirstPriority": [5, 3, 0],
+      "SecondPriority": [1],
+      "ThirdPriority": [6, 2],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1551001": {
       "Name": "Basic Attack: Emberglow",

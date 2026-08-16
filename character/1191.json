@@ -1956,6 +1956,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1191001,
+      "AvatarId": 1191,
+      "FirstPriority": [5, 0, 1],
+      "SecondPriority": [3, 2],
+      "ThirdPriority": [6],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1191001": {
       "Name": "Basic Attack: Saw Teeth Trimming",

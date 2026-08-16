@@ -1569,6 +1569,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1481001,
+      "AvatarId": 1481,
+      "FirstPriority": [5, 1],
+      "SecondPriority": [3, 0],
+      "ThirdPriority": [6, 2],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1481001": {
       "Name": "Basic Attack: Happy to Be of Service",

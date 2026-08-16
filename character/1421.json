@@ -1341,6 +1341,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1421001,
+      "AvatarId": 1421,
+      "FirstPriority": [5, 3],
+      "SecondPriority": [1],
+      "ThirdPriority": [6, 0, 2],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1421001": {
       "Name": "Basic Attack: Unyielding Strikes",

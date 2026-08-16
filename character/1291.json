@@ -1676,6 +1676,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1291001,
+      "AvatarId": 1291,
+      "FirstPriority": [5, 1, 3],
+      "SecondPriority": [0],
+      "ThirdPriority": [6, 2],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1291001": {
       "Name": "Basic Attack: Dark Abyss Quartet (1st, 2nd, and 3rd hit)",

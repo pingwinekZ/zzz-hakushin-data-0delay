@@ -1449,6 +1449,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1491001,
+      "AvatarId": 1491,
+      "FirstPriority": [5, 1],
+      "SecondPriority": [3, 0],
+      "ThirdPriority": [6, 2],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1491001": {
       "Name": "Basic Attack: Mischief Meteor Hammer",

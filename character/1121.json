@@ -1316,6 +1316,24 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1121001,
+      "AvatarId": 1121,
+      "FirstPriority": [5, 1],
+      "SecondPriority": [3],
+      "ThirdPriority": [6, 0, 2],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "Id": 1121002,
+      "AvatarId": 1121,
+      "FirstPriority": [5, 1, 0],
+      "SecondPriority": [3],
+      "ThirdPriority": [6, 2],
+      "PotentialLevels": [6]
+    }
+  ],
   "SkillList": {
     "1121001": {
       "Name": "Basic Attack: Debt Reconciliation",

@@ -1939,6 +1939,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1471001,
+      "AvatarId": 1471,
+      "FirstPriority": [5, 1],
+      "SecondPriority": [0, 3],
+      "ThirdPriority": [6, 2],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1471001": {
       "Name": "Basic Attack: Towering Peaks",

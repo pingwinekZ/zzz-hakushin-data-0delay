@@ -1641,6 +1641,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1171001,
+      "AvatarId": 1171,
+      "FirstPriority": [5, 1],
+      "SecondPriority": [0, 3],
+      "ThirdPriority": [6, 2],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1171001": {
       "Name": "Basic Attack: Direct Flame Blend",

@@ -1369,6 +1369,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1511001,
+      "AvatarId": 1511,
+      "FirstPriority": [5, 0],
+      "SecondPriority": [3, 1],
+      "ThirdPriority": [6, 2],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1511001": {
       "Name": "Basic Attack: Shooting Star Step",

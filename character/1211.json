@@ -1368,6 +1368,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1211001,
+      "AvatarId": 1211,
+      "FirstPriority": [5, 1],
+      "SecondPriority": [3],
+      "ThirdPriority": [6, 0, 2],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1211001": {
       "Name": "Basic Attack: Whack the Dimwit",

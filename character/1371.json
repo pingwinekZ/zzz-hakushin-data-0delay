@@ -1758,6 +1758,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1371001,
+      "AvatarId": 1371,
+      "FirstPriority": [5, 3, 1],
+      "SecondPriority": [0],
+      "ThirdPriority": [2, 6],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1371001": {
       "Name": "Basic Attack: Cirrus Strike (1st, 2nd, 3rd, 4th, and 5th hit)",

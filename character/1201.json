@@ -1736,6 +1736,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1201001,
+      "AvatarId": 1201,
+      "FirstPriority": [5, 2],
+      "SecondPriority": [3, 0, 1],
+      "ThirdPriority": [6],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1201001": {
       "Name": "Basic Attack: Cloud Piercer (1st, 2nd, and 3rd hit)",

@@ -1456,6 +1456,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1531001,
+      "AvatarId": 1531,
+      "FirstPriority": [5, 1, 0],
+      "SecondPriority": [3, 2],
+      "ThirdPriority": [6],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1531001": {
       "Name": "Basic Attack: Knight's Technique",

@@ -1593,6 +1593,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1091001,
+      "AvatarId": 1091,
+      "FirstPriority": [5, 0, 3],
+      "SecondPriority": [1],
+      "ThirdPriority": [6, 2],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1091001": {
       "Name": "Basic Attack: Kazahana (1st and 2nd hit)",

@@ -1554,6 +1554,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1581001,
+      "AvatarId": 1581,
+      "FirstPriority": [5, 3, 0],
+      "SecondPriority": [1],
+      "ThirdPriority": [6, 2],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1581001": {
       "Name": "Basic Attack: Leap",

@@ -1515,6 +1515,16 @@
       }
     }
   },
+  "SkillPriority": [
+    {
+      "Id": 1111001,
+      "AvatarId": 1111,
+      "FirstPriority": [5, 0, 3],
+      "SecondPriority": [1],
+      "ThirdPriority": [6, 2],
+      "PotentialLevels": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ],
   "SkillList": {
     "1111001": {
       "Name": "Basic Attack: Enthusiastic Drills",
