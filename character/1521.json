@@ -42,6 +42,7 @@
     "3115210": {
       "Name": "Cissia: Snake & Mouse Game",
       "Desc": "There are two kinds of people in this world, venomous snakes and mice! As for who is what...\nLady Cissia says: Those stronger than me are snakes, and those weaker than me are mice!",
+      "ObtainDesc": "",
       "Image": "IconRole60"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize0"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1621,26 +1625,31 @@
   },
   "FairyRecommend": {
     "Slot4": 33300,
-    "Slot2": 31600,
-    "SlotSub": 33400,
-    "PartSubList": [21103, 20103, 12102],
+    "Slot2": 33400,
+    "SlotSub": 31600,
+    "PartSubList": [20103, 21103, 12102],
+    "AltBuild": [
+      { "SuitList": [33300, 33400], "PartSubList": [20103] },
+      { "SuitList": [33300, 31600], "PartSubList": [31803, 12102] },
+      { "SuitList": [], "PartSubList": [30502] }
+    ],
     "Part4": {
-      "Prop": 30502,
-      "Name": "Energy Regen",
-      "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconSpRecover.png"
-    },
-    "Part5": {
       "Prop": 20103,
       "Name": "CRIT Rate",
       "Format": "{0:0.#%}",
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
     },
-    "Part6": {
-      "Prop": 21103,
-      "Name": "CRIT DMG",
+    "Part5": {
+      "Prop": 30502,
+      "Name": "Energy Regen",
       "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCritDam.png"
+      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconSpRecover.png"
+    },
+    "Part6": {
+      "Prop": 12102,
+      "Name": "ATK",
+      "Format": "{0:0.#%}",
+      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
     },
     "PartSub": {
       "Prop": 31803,

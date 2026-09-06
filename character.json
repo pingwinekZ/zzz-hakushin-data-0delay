@@ -13,6 +13,7 @@
       "3110110": {
         "Name": "Anby: Street Streak",
         "Desc": "These casual clothes were hand-picked and styled for Anby by Nicole. They're designed for easy movement and ideal for moving about the streets. The fabrics and accessories cost a lot more than they seem, so (?) Anby treats the outfit with real care.",
+        "ObtainDesc": "",
         "Image": "IconRole01"
       }
     },
@@ -35,6 +36,7 @@
       "3110210": {
         "Name": "Nekomata: Cat's Gratitude",
         "Desc": "A lost cat doesn't know where to go — only that it has to keep moving.\nShe wandered through the vast streets of New Eridu, her thin clothes offering no protection from the elements, until a tiny odd-job agency finally took her in.",
+        "ObtainDesc": "",
         "Image": "IconRole11"
       }
     },
@@ -57,11 +59,13 @@
       "3110310": {
         "Name": "Nicole: Lil Sassy",
         "Desc": "The classic outfit of the leader of the Cunning Hares, hiding a hint of playful cunning, both mischievous and cute.",
+        "ObtainDesc": "",
         "Image": "IconRole12"
       },
       "3110311": {
         "Name": "Nicole: Cunning Cutie",
         "Desc": "Pink! Pink! Pink! Pink is Nicole's signature color. So are you feeling it?",
+        "ObtainDesc": "",
         "Image": "IconRole12_01"
       }
     },
@@ -84,6 +88,7 @@
       "3110410": {
         "Name": "Soldier 11: Elite Soldier",
         "Desc": "Those warm-toned goggles can't hide her icy, soldier's gaze. Want to see her crack a smile? Pick one: 87.5 one-arm push-ups or a bowl of extra-spicy noodles.",
+        "ObtainDesc": "",
         "Image": "IconRole05"
       }
     },
@@ -106,6 +111,7 @@
       "3110510": {
         "Name": "Yidhari: Stream of Consciousness",
         "Desc": "Past recollections and novel dreams spill over, inviting her to drown in them as they entwine on paper. With a blank page before her, she pens the opening line at the crossroads of reality and illusion.",
+        "ObtainDesc": "",
         "Image": "IconRole52"
       }
     },
@@ -128,6 +134,7 @@
       "3110610": {
         "Name": "Corin: Matcha Profiterole",
         "Desc": "From that small frame bursts surprising strength, her roaring chainsaw drowning out her soft whimpers. The well-behaved, ever-professional maid is always short on confidence... so take a moment to wait for her.",
+        "ObtainDesc": "",
         "Image": "IconRole09"
       }
     },
@@ -150,6 +157,7 @@
       "3110710": {
         "Name": "Caesar: Inferno Joyride",
         "Desc": "A ruler ready to ready to sound the triumphal anthem anew, a hero poised to reignite her legend. The not-yet-seasoned leader has finally met the flames of her coronation, yet she still walks the gritty sands of the Outer Ring.\nA light tap on the piano keys sends her desert-tinged song drifting across this land that bears the weight of hope.",
+        "ObtainDesc": "",
         "Image": "IconRole25"
       }
     },
@@ -172,6 +180,7 @@
       "3110810": {
         "Name": "Billy: Shining Starlight Costume",
         "Desc": "Style is justice, justice is style. That's the eternal creed of a true knight! Though, yeah... those joint screws really do wear down fast...",
+        "ObtainDesc": "",
         "Image": "IconRole10"
       }
     },
@@ -195,11 +204,13 @@
       "3110910": {
         "Name": "Hoshimi Miyabi: Frostgleam Dew",
         "Desc": "A blade that fells the Hollows, a lighthouse that pierces the fog. People hope for a fighter who hones the world and a helmsman who steers the course; for flags that never fall and honor that lives on. Yet power is finite. Only training remains constant.",
+        "ObtainDesc": "",
         "Image": "IconRole13"
       },
       "3110911": {
         "Name": "Hoshimi Miyabi: Dignified Blossom",
         "Desc": "As blooms first grace the banquet hall and frost dusts the silver courtyard, the young lady would retreat to a quiet corner whenever guests gathered — eyes downcast, book in hand, softly reciting verses from days long past.\nGuests would shower them with praise: the Hoshimi Family still upheld tradition, dignified and cultured as ever.\nOnly Souichirou stood nearby, his eye twitching slightly — he knew better than anyone that his daughter probably didn't grasp half the poem's true meaning.",
+        "ObtainDesc": "",
         "Image": "IconRole13_01"
       }
     },
@@ -216,12 +227,13 @@
     "hit": 102,
     "camp": 3,
     "icon": "IconRole14",
-    "potential": [],
+    "potential": [110100, 110101, 110102, 110103, 110104, 110105],
     "EN": "Koleda",
     "skin": {
       "3111010": {
         "Name": "Koleda: Heart & Hammer",
         "Desc": "A crimson figure swings twin hammers as if she could even shatter time itself.\nStill young, her journey is only just beginning. Growing up can wait; in the end, every person becomes their own true self.",
+        "ObtainDesc": "",
         "Image": "IconRole14"
       }
     },
@@ -244,6 +256,7 @@
       "3111110": {
         "Name": "Anton: Earthshaking Axle",
         "Desc": "The jackhammer's bearings rumble without pause, echoing the hot, thunderous beat of its wielder's heart.",
+        "ObtainDesc": "",
         "Image": "IconRole15"
       }
     },
@@ -266,6 +279,7 @@
       "3111210": {
         "Name": "Ben: Fluffy Beastking",
         "Desc": "Ignoring the intimidating look meant to cow outsiders, even the Beast King struggles with grooming his fur and sorting out the bills.",
+        "ObtainDesc": "",
         "Image": "IconRole16"
       }
     },
@@ -288,6 +302,7 @@
       "3111310": {
         "Name": "Soukaku: Dance of Azure Ice",
         "Desc": "Swinging a blade-banner as tall as half a person, and with a stomach rumbling with just as big a sound: fwish fwish fwish fwish fwish — work's done! Time to head home for dinner!",
+        "ObtainDesc": "",
         "Image": "IconRole17"
       }
     },
@@ -310,6 +325,7 @@
       "3111410": {
         "Name": "Lycaon: Moonlight Prowl",
         "Desc": "Under the clear moonlight, the attendant's poise is flawless. Yet with the red moon's ascent, the feral nature hidden beneath this suit emerges with a composure and grace all its own.",
+        "ObtainDesc": "",
         "Image": "IconRole18"
       }
     },
@@ -332,11 +348,13 @@
       "3111510": {
         "Name": "Lucy: Ironfist Gentlewoman",
         "Desc": "Her outfit is considered rather polished by biker standards and said to work wonders in negotiations with outsiders.\nThe runaway princess found her freedom in the Outer Ring, glittering under the starlit night, burning at the edge of dusk, and resting quietly among the grains of sand at her feet.",
+        "ObtainDesc": "",
         "Image": "IconRole27"
       },
       "3111511": {
         "Name": "Lucy: Princess on Holiday",
         "Desc": "A baseball bat obviously has no place in beach volleyball, but it can ensure no one disturbs the princess of the wildlands' holiday fun. Grassy, Woody, Bricky — time to enter vacation combat mode!",
+        "ObtainDesc": "",
         "Image": "IconRole27_01"
       }
     },
@@ -359,6 +377,7 @@
       "3111610": {
         "Name": "Lighter: Everburn Embers",
         "Desc": "The undefeated champion never takes off his sunglasses... or his scarf. Glory stopped mattering long ago, but the countless dusks shared with his companions are still worth waiting for.",
+        "ObtainDesc": "",
         "Image": "IconRole26"
       }
     },
@@ -381,6 +400,7 @@
       "3111710": {
         "Name": "Burnice: Wildfire Rave",
         "Desc": "An outfit hotter than any Nitro-Fuel. Wander into a party in the Outer Ring, and odds are you'll bump into Burnice... but drink her signature cocktails at your own risk...\nWait, you've already taken a sip? Well then — 3, 2, 1... fire!",
+        "ObtainDesc": "",
         "Image": "IconRole32"
       }
     },
@@ -403,6 +423,7 @@
       "3111810": {
         "Name": "Grace: The Iron Witch",
         "Desc": "A clean, no-nonsense work uniform. What the genius mechanic loves most are the many pockets on the outside — big ones, small ones — all perfect for holding screws, gears, and even wrenches of every size.",
+        "ObtainDesc": "",
         "Image": "IconRole20"
       }
     },
@@ -425,11 +446,13 @@
       "3111910": {
         "Name": "Ellen: Ellen Scissorhands",
         "Desc": "The sharp scissors of Victoria Housekeeping, if only she weren't sleeping...",
+        "ObtainDesc": "",
         "Image": "IconRole21"
       },
       "3111911": {
         "Name": "Ellen: On Campus",
         "Desc": "The tail doesn't quite match the school uniform, but with just a little bit of needlework, it can become even cuter!",
+        "ObtainDesc": "",
         "Image": "IconRole21_01"
       }
     },
@@ -452,6 +475,7 @@
       "3112010": {
         "Name": "Asaba Harumasa: Full-Fledged Strings",
         "Desc": "His eyes are brighter than the streak of bright yellow upon his brow. His arrows pierce through deceit and lies and scatter the past like feathers on the wind. Dawn may not have arrived yet, but beyond the horizon, a golden future shimmers faintly.",
+        "ObtainDesc": "",
         "Image": "IconRole35"
       }
     },
@@ -474,6 +498,7 @@
       "3112110": {
         "Name": "Rina: Head Maid's Perfection",
         "Desc": "Her skirt is immaculate and her appearance flawlessly composed — such is the head maid's standard of perfection. Yet in the kitchen, her definition of \"perfect\" appears to be something else entirely...",
+        "ObtainDesc": "",
         "Image": "IconRole22"
       }
     },
@@ -496,6 +521,7 @@
       "3112210": {
         "Name": "Tsukishiro Yanagi: Flowing Moonshade",
         "Desc": "Even reflective lenses can't hide the sharp gleam in the Deputy Chief's eyes. She has to constantly keep watch over a warrior obsessed with training, a scout who slacks off whenever possible, and a little one who's forever getting stomachaches.",
+        "ObtainDesc": "",
         "Image": "IconRole31"
       }
     },
@@ -518,6 +544,7 @@
       "3112410": {
         "Name": "Zhu Yuan: Suppressor of Evil",
         "Desc": "This high-grade anti-riot uniform from Public Security has been specially modified to suit Zhu Yuan's fighting style.\nWinner of the Janus Precinct's combat tournament three years running, the young top Public Security Officer is on call 24/7, ready to arrest any criminal in her path.",
+        "ObtainDesc": "",
         "Image": "IconRole23"
       }
     },
@@ -540,6 +567,7 @@
       "3112510": {
         "Name": "Qingyi: Clarity, Peace, and Joy",
         "Desc": "Keep your teapot close and drink plenty of hot water — that's ancient wisdom passed down from the old civilization. But why would an intelligent construct drink tea? It must be for health purposes... right?",
+        "ObtainDesc": "",
         "Image": "IconRole29"
       }
     },
@@ -562,11 +590,13 @@
       "3112610": {
         "Name": "Jane: Hidden Nightfade",
         "Desc": "Her everyday look when she isn't putting on a disguise. Maybe it's just one of the countless faces she wears. The night becomes her cover, and her mask is the one truth she never sets aside.",
+        "ObtainDesc": "",
         "Image": "IconRole24"
       },
       "3112611": {
         "Name": "Jane: Nocturne of Light",
         "Desc": "Who says sunlight must accompany a seaside stroll? For lurkers with names unknown, the night is their most faithful companion. The anonymous lady says the evening sea holds unspeakable secrets — is this the truth, or another deception?",
+        "ObtainDesc": "",
         "Image": "IconRole24_01"
       }
     },
@@ -589,6 +619,7 @@
       "3112710": {
         "Name": "Seth: Incorruptible Heart",
         "Desc": "He may be slow to pick up on things, slower even than the weight of the shield in his left hand, but his ability to detect evil is keener than the baton in his right.",
+        "ObtainDesc": "",
         "Image": "IconRole30"
       }
     },
@@ -611,6 +642,7 @@
       "3112810": {
         "Name": "Piper: Lazy Speed",
         "Desc": "Don't be fooled by this truck driver's lazy gaze. One tap on the gas is enough to fling every passenger's soul straight into the back seat.",
+        "ObtainDesc": "",
         "Image": "IconRole28"
       }
     },
@@ -633,6 +665,7 @@
       "3112910": {
         "Name": "Hugo: Crownless Rebellion",
         "Desc": "Never be claimed by fate. Defy its clamps, its control, its taunts, its alms, its curses, and its so-called blessings. Once you return from the abyss, it is fate that should kneel to you.",
+        "ObtainDesc": "",
         "Image": "IconRole42"
       }
     },
@@ -655,6 +688,7 @@
       "3113010": {
         "Name": "Orphie & Magus: Two Banks of the River",
         "Desc": "A soul of mirrored halves, having twice crossed the river of the dead. One side forged in fire, the other shaped into ice; one looking back on where it came from, the other watching for a new dawn. They wander on — never lost, never ceasing.",
+        "ObtainDesc": "",
         "Image": "IconRole49"
       }
     },
@@ -677,11 +711,13 @@
       "3113110": {
         "Name": "Astra Yao: Scarlet Rock",
         "Desc": "The bold red is only to ignite the freedom deep within. On stage, nothing can overshadow her brilliance.",
+        "ObtainDesc": "",
         "Image": "IconRole36"
       },
       "3113111": {
         "Name": "Astra Yao: Chandelier",
         "Desc": "The black-and-white dress glimmers in both light and shadows. Every smile of hers seems to sink into the flowing light of the night, becoming a timeless classic.",
+        "ObtainDesc": "",
         "Image": "IconRole36_01"
       }
     },
@@ -704,6 +740,7 @@
       "3113210": {
         "Name": "Evelyn: A Moth to Light",
         "Desc": "A sharp, no-nonsense manager's outfit. Its hidden edges are enough to make onlookers back off. Her yellow-brown hair weaves a fine, delicate net, where a quiet pool of starlight seems to rest.",
+        "ObtainDesc": "",
         "Image": "IconRole37"
       }
     },
@@ -726,11 +763,13 @@
       "3113310": {
         "Name": "Vivian: Fluttering Violet",
         "Desc": "Maintain your elegance, Miss Vivian, from the point of your parasol, right down to your flowing skirt. Maintain your courage, Miss Vivian, through last night's lonely walk, or here today at my side.",
+        "ObtainDesc": "",
         "Image": "IconRole41"
       },
       "3113311": {
         "Name": "Vivian: Iris of the Shore",
         "Desc": "Birds soar into the starlit skies, while irises bloom by the pond. Though this enchanting moonlit night may be brief, please let me see the lingering anticipation in your eyes in the moment I bloom.",
+        "ObtainDesc": "",
         "Image": "IconRole41_01"
       }
     },
@@ -753,6 +792,7 @@
       "3113410": {
         "Name": "Zhao: Cuddly Executor",
         "Desc": "Warm, woolly ears and a small build may invite underestimation, but the Judge of \"Value\" won't think twice about bringing her branch down on anyone who tries.",
+        "ObtainDesc": "",
         "Image": "IconRole56"
       }
     },
@@ -775,6 +815,7 @@
       "3113510": {
         "Name": "Pulchra: Rest for a Weary Tail",
         "Desc": "A wandering mercenary should be out roaming the world, but the sunlight here is warm — perfect for a nap.",
+        "ObtainDesc": "",
         "Image": "IconRole38"
       }
     },
@@ -797,6 +838,7 @@
       "3113610": {
         "Name": "Trigger: Gaze Into the Light",
         "Desc": "In the Hollows, her aim never wavers. She's a teammate one can rely on to cover their back without question. But once she returns to Sixth Street, that constant watchfulness softens, lingering for a moment before disappearing the instant it's sensed.",
+        "ObtainDesc": "",
         "Image": "IconRole39"
       }
     },
@@ -820,11 +862,13 @@
       "3113710": {
         "Name": "Yixuan: Summit of Clouds",
         "Desc": "As the Master of Yunkui Summit, one's fashion and accessories need only be what feels natural. Stay true to one's self.",
+        "ObtainDesc": "",
         "Image": "IconRole44"
       },
       "3113711": {
         "Name": "Yixuan: Trails of Ink",
         "Desc": "A custom attire in shades of ink. Like an elusive shadow, gone in a flash.",
+        "ObtainDesc": "",
         "Image": "IconRole44_01"
       }
     },
@@ -847,6 +891,7 @@
       "3113810": {
         "Name": "Soldier 0 - Anby: Silver Soldier",
         "Desc": "Anby's old Silver Squad uniform, stained with memories that never truly fade.\nWhen the shadows of the past strike without warning, would you stand and face them, or stumble and flee? No matter the choice, home always awaits your return.",
+        "ObtainDesc": "",
         "Image": "IconRole40"
       }
     },
@@ -869,6 +914,7 @@
       "3113910": {
         "Name": "Ju Fufu: Summit's Cute Tiger",
         "Desc": "Dressed like a simple mystic, this senior sister looks like she's tucked all her bravado away, but with a tiger in her heart... she still radiates that heroic fire.",
+        "ObtainDesc": "",
         "Image": "IconRole43"
       }
     },
@@ -891,11 +937,13 @@
       "3114010": {
         "Name": "Alice: Celestian Etiquette",
         "Desc": "The young woman's perfect symmetry is only ever slightly compromised when she wears the school crest — such is the elegant and noble Thymefield spirit.",
+        "ObtainDesc": "",
         "Image": "IconRole46"
       },
       "3114011": {
         "Name": "Alice: Sea of Thyme",
         "Desc": "Though it wasn't completely symmetrical, she did not mind this gift from a dear friend.\nThe girl pushed open the locked door and walked along the pink beach after the sudden downpour, the cool waves brushing over her ankles. There were no unknowns left to frighten her.",
+        "ObtainDesc": "",
         "Image": "IconRole46_01"
       }
     },
@@ -918,11 +966,13 @@
       "3114110": {
         "Name": "Yuzuha: Tanuki Under the Shade",
         "Desc": "Can you tell what the umbrella conceals? A tanuki, a trap, a ghost, or a girl's sly, spirited smile?",
+        "ObtainDesc": "",
         "Image": "IconRole47"
       },
       "3114111": {
         "Name": "Yuzuha: Tanuki in Broad Daylight",
         "Desc": "Ghost stories aren't born only in shadows. Unconvinced? Just lock eyes with that playful young lady splashing in the water. She'll possess your thoughts, while Kama sneaks away with your drink.",
+        "ObtainDesc": "",
         "Image": "IconRole47_01"
       }
     },
@@ -945,11 +995,13 @@
       "3114210": {
         "Name": "Pan Yinhu: Hundred Flavors",
         "Desc": "Yunkui Summit's largest disciple uniform, spacious enough for this senior brother's belly and all his seasonings. And that iron wok on top is a first of its kind. But... putting a pan you just used for stir-frying on your head? Doesn't it burn?",
+        "ObtainDesc": "",
         "Image": "IconRole45"
       },
       "3114211": {
         "Name": "Pan Yinhu: Culinary Jewel",
         "Desc": "Senior Yinhu once dreamed of becoming a renowned chef, but in this day and age, there's always some thug looking to smash your bowl.\n—\"Go on, try smashing one.\"",
+        "ObtainDesc": "",
         "Image": "IconRole45_01"
       }
     },
@@ -973,11 +1025,13 @@
       "3114310": {
         "Name": "Ye Shunguang: Clouddrift Illumination",
         "Desc": "Cloud-woven silk, a blade's gleam reflected in its folds. The attire mirrors the person.\nBut who truly chose this dress? Was it her... or the deeper self within?",
+        "ObtainDesc": "",
         "Image": "IconRole55"
       },
       "3114311": {
         "Name": "Ye Shunguang: Touch of Dawnlight",
         "Desc": "The gentle glow of sunlight and warm breeze seem to welcome your next encounter as you walk down the streets.",
+        "ObtainDesc": "",
         "Image": "IconRole55_01"
       }
     },
@@ -1000,11 +1054,13 @@
       "3114410": {
         "Name": "Komano Manato: Loyal Wild Soul",
         "Desc": "The standard attire of the unofficial mediator in Sailume Bay, enough to intimidate petty thugs.\nStill, it sometimes draws wandering eyes.",
+        "ObtainDesc": "",
         "Image": "IconRole51"
       },
       "3114411": {
         "Name": "Komano Manato: White Heart Silhouette",
         "Desc": "A young Manato made a solitary vow to himself — and from his deep reverie, a lone pale shadow was born.\nMimicking his attire enhances Manato's already exceedingly intimidating presence.",
+        "ObtainDesc": "",
         "Image": "IconRole51_01"
       }
     },
@@ -1027,6 +1083,7 @@
       "3114510": {
         "Name": "Lucia: Whispering Dreams",
         "Desc": "Her cloak is the curtain of night, and beneath her hood rests the world's quiet whispers. She sings for the dusk and speaks in dreams, gathering the thoughts sleepers leave behind and weaving them into halos and riddles across the stars.",
+        "ObtainDesc": "",
         "Image": "IconRole50"
       }
     },
@@ -1049,6 +1106,7 @@
       "3114610": {
         "Name": "Seed: Flower in Bloom",
         "Desc": "A corner of the world blooming in color, a single salty tear, a perfect circle of life — this is where the girl and the construct uncovered the truth of the heart. She never needs to look back; she has already blossomed into her own sea of petals.",
+        "ObtainDesc": "",
         "Image": "IconRole48"
       }
     },
@@ -1071,6 +1129,7 @@
       "3114710": {
         "Name": "Banyue: Blazestone Heart",
         "Desc": "He carries a righteous, unshakable aura — every bit the master he is. Don't judge him by his silence; a stone heart makes no sound, and compassion doesn't speak aloud either.",
+        "ObtainDesc": "",
         "Image": "IconRole53"
       }
     },
@@ -1093,6 +1152,7 @@
       "3114810": {
         "Name": "Dialyn: Ringing Judgment",
         "Desc": "A sweet voice comes from the receiver, and when you lean in to listen, it softens into a gentle whisper, announcing that the verdict has arrived... just kidding, it's just a standard satisfaction survey.",
+        "ObtainDesc": "",
         "Image": "IconRole54"
       }
     },
@@ -1115,12 +1175,20 @@
       "3114910": {
         "Name": "Sunna: Dreams on Loop",
         "Desc": "Put on the outfit she finds cutest, and she can break free from the crowd, slipping into the lingering echoes of delusion.",
+        "ObtainDesc": "",
         "Image": "IconRole58"
       },
       "3114911": {
         "Name": "Sunna: Afternoon Tea Break",
         "Desc": "Freshly baked cake, rich aromatic coffee, and the warm afternoon sun...\nWrapped in moments of softness, it's time to begin today's tea break.",
+        "ObtainDesc": "",
         "Image": "IconRole58_01"
+      },
+      "3114912": {
+        "Name": "...",
+        "Desc": "...",
+        "ObtainDesc": "",
+        "Image": "IconRole58_02"
       }
     },
     "desc": "Sunna is a member of the Angels of Delusion idol group and the composer behind all of the group's music. Maintaining top-tier songwriting while keeping pace with rehearsals and stage performances is anything but easy for her. When the pressure piles up, she occasionally employs the tactic of \"retreat is the best option\" to dodge Captain Nangong Yu's brutal scheduling.\nNote: Reliable intelligence suggests that this tactic works largely because Nangong Yu intentionally lets it slide.\n\nSunna and Nangong Yu, another member of the Angels of Delusion, have known each other since they were young and grew up together. While they appear to always squabble, the two are in fact deeply dependent on one another. When it comes to music, Sunna shares a strong connection with their final member, Aria. As Aria puts it, the two frequently spend whole days in the studio discussing melodies for new songs, only to drift off to sleep without even realizing it, heads resting against each other.\n\nSunna is fairly introverted and prefers spending time alone over group activities. That said, her two teammates know her weaknesses all too well — she finds it hard to say no and can't handle praise — and are helping her gradually overcome her social anxiety through desensitization training (progress: about 25%).\n\nWhile most fans see Sunna's \"hopeless\" side as endearing, she herself seems eager to tear off that label and become a confident, \"proper idol.\" As the creative force behind the music, she often wants to flee the stage — yet in truth, she's not as indifferent to performing as she claims to be.\nEvidence: A sticky note by Sunna's bedside that reads \"I can't disappoint the fans. I need to give them my very best on stage!\"",
@@ -1142,12 +1210,20 @@
       "3115010": {
         "Name": "Aria: Energetic Idol",
         "Desc": "A touch of pink and white, a hint of lights and sound, plus countless days and nights devoted to singing — all of it comes together as a boundless delusion on stage.",
+        "ObtainDesc": "",
         "Image": "IconRole57"
       },
       "3115011": {
         "Name": "Aria: Discordant Note",
         "Desc": "Aria's performance outfit for special shows, worn only a handful of times.\nA pure-white \"angel\" clad in \"demonic\" wings. Take a deep breath, get ready... once the spotlight comes on, it's the Angels of Delusion's time to rebel.",
+        "ObtainDesc": "",
         "Image": "IconRole57_01"
+      },
+      "3115012": {
+        "Name": "...",
+        "Desc": "...",
+        "ObtainDesc": "",
+        "Image": "IconRole57_02"
       }
     },
     "desc": "Aria is the lead vocalist and center of the Angels of Delusion. Bright and full of energy, she always shines on stage, bringing warmth and strength to all Delulus.\nShe has a near-perfect voice, even though she was never professionally trained. At first, Aria only sang because she loved her idol, the retired songstress Cersea, copying her performances and singing along, until she realized she had a gift for song of her own.\nThough Aria's vocal skills are undeniably professional, she lacks a solid foundation in dance. Even with dedicated practice, she can still get flustered when faced with more complex moves. Still, fans deeply appreciate her attitude of \"even if I can't dance well, I'll still give it everything I've got.\"\n\"Pushing herself to the limit, wrestling with her own limbs to try and keep up with the rhythm... that's our Angels of Delusion lead vocalist!\" —One Delulu sobbing after a show.",
@@ -1169,12 +1245,20 @@
       "3115110": {
         "Name": "Nangong Yu: Dreamy Dancer",
         "Desc": "Dreams are both cheap and expensive, always just out of reach. The people on the ground call them stars.\nSo the angel walks among the stars and lifts a sliver of fantasy from the endless galaxy... the very first rainbow light that shone upon her.",
+        "ObtainDesc": "",
         "Image": "IconRole59"
       },
       "3115111": {
         "Name": "Nangong Yu: Rhapsody's Muse",
         "Desc": "Dancing within disordered rhythms, spinning across a stage of wild fantasia.\nThe boundary between angel and demon tilts with the lights, dissolving within her reflection.",
+        "ObtainDesc": "",
         "Image": "IconRole59_01"
+      },
+      "3115112": {
+        "Name": "...",
+        "Desc": "...",
+        "ObtainDesc": "",
+        "Image": "IconRole59_02"
       }
     },
     "desc": "Nangong Yu, the captain and choreographer of the idol group the \"Angels of Delusion,\" is a rare prodigy blessed with exceptional Ether aptitude, a sharp business acumen, and outstanding idol talent.\n\nThough she always presents herself with a laid-back air — teasing her teammates and joking around — she consistently receives the fewest negative reviews in the group. Although she often claims that her dream is merely \"borrowed,\" she pours far more effort and emotion into this small stage than anyone would believe.\n\nNangong possesses a rare gift for making the difficult look effortless — whether it's dancing, rapping, making investments, or reading people. That gift once served as the mask that allowed her to easily play the role of \"captain,\" yet it also kept her isolated from her true desires.\n\nYet whether it started as responsibility toward a close friend or later turned into an irreplaceable love for the stage, beneath the stage lights and the audience's gaze she has already forged those borrowed sparks into a light of her own.",
@@ -1196,6 +1280,7 @@
       "3115210": {
         "Name": "Cissia: Snake & Mouse Game",
         "Desc": "There are two kinds of people in this world, venomous snakes and mice! As for who is what...\nLady Cissia says: Those stronger than me are snakes, and those weaker than me are mice!",
+        "ObtainDesc": "",
         "Image": "IconRole60"
       }
     },
@@ -1218,6 +1303,7 @@
       "3115310": {
         "Name": "Starlight - Billy: Starlight Armaments",
         "Desc": "Those who always believe in hope will, in the end, become someone else's hope.",
+        "ObtainDesc": "",
         "Image": "IconRole62"
       }
     },
@@ -1240,6 +1326,7 @@
       "3115410": {
         "Name": "Promeia: Shrouded in Frost",
         "Desc": "Darkness is a weapon that fits perfectly in my hand. As an executioner, I'm already at home in the night, but carrying heavy shackles, it's easy to lose my way.",
+        "ObtainDesc": "",
         "Image": "IconRole61"
       }
     },
@@ -1262,6 +1349,7 @@
       "3115510": {
         "Name": "Pyrois: Dawn's Guardian",
         "Desc": "The dying heat haze extinguished within the valley will one day be reborn from the sea. The beast that trampled fate beneath its feet will become the chariot that clears the path ahead.",
+        "ObtainDesc": "",
         "Image": "IconRole63"
       }
     },
@@ -1284,11 +1372,13 @@
       "3115610": {
         "Name": "Velina: Elegant Silver Cascade",
         "Desc": "Some busybodies claim the Administrative Director rejected the External Strategy Department's official uniform to show off her prestigious upbringing, but Velina has always had little interest in lavish fashion. Rather than the elaborate glamour of ceremonial wear, she favors simple clothing: sharp, proper, and suited to dealing with never-ending administrative work.",
+        "ObtainDesc": "",
         "Image": "IconRole64"
       },
       "3115611": {
         "Name": "Velina: Shade of Leisure",
         "Desc": "Outside of work, Velina occasionally invites close friends to afternoon tea parties. During such moments, she changes into relatively casual attire to enjoy her free time... though to the Bangboo, it's merely the Grim Reaper in a different terrifying disguise.",
+        "ObtainDesc": "",
         "Image": "IconRole64_01"
       }
     },
@@ -1311,6 +1401,7 @@
       "3115710": {
         "Name": "Norma: Immunity to Fools",
         "Desc": "Rule #1 of Norma's Lab Safety Guidelines: Avoid criticism and advice from idiots and incompetents.",
+        "ObtainDesc": "",
         "Image": "IconRole65"
       }
     },
@@ -1333,21 +1424,25 @@
       "3115810": {
         "Name": "Remielle: Feathered Murmurs",
         "Desc": "An angel of old fell to the mortal world, their feathers drifting down as they sank into silent slumber.\nAwaken from the pale wasteland, beyond the edge of all sound, and begin the journey anew.",
+        "ObtainDesc": "",
         "Image": "IconRole67"
       },
       "3115811": {
         "Name": "Remielle: Moonlight Whispers",
         "Desc": "Since the sun has never shown mercy, let us embrace the fall alongside the moonlit night.\nYou say it's difficult to differentiate between jokes and deception?\nThen let's have another round of our Q&A game, my dear partner in crime.",
+        "ObtainDesc": "",
         "Image": "IconRole67_02"
       },
       "3115812": {
         "Name": "Remielle: Seashade Pas Seul",
         "Desc": "This was originally a solo dance, yet a ray of light has illuminated the secrecy and solitude shrouded in darkness. Now, would you care to join me for a pas de deux, my partner in crime?",
+        "ObtainDesc": "",
         "Image": "IconRole67_01"
       },
       "3115813": {
         "Name": "Remielle: Moonlight Whispers (Veil)",
         "Desc": "Since the sun has never shown mercy, let us embrace the fall alongside the moonlit night.\nYou say it's difficult to differentiate between jokes and deception?\nThen let's have another round of our Q&A game, my dear partner in crime.",
+        "ObtainDesc": "Unlocked after obtaining the\"Moonlight Whispers\" Outfit",
         "Image": "IconRole67_03"
       }
     },
@@ -1370,11 +1465,13 @@
       "3115910": {
         "Name": "Sigrid: Legend of the Sky Island",
         "Desc": "The standard attire of the Airspace Patrol Department's Deputy Administrative Director. It serves as both a symbol of her authority over the department and an iconic figure immortalized in countless stories.",
+        "ObtainDesc": "",
         "Image": "IconRole66"
       },
       "3115911": {
         "Name": "Sigrid: Majestic Wavechaser",
         "Desc": "A knight accustomed to galloping through the skies must now face a new challenge from the waves and the sun!",
+        "ObtainDesc": "",
         "Image": "IconRole66_01"
       }
     },
@@ -1382,5 +1479,51 @@
     "KO": "시그리드",
     "CHS": "希格莉德",
     "JA": "シグリッド"
+  },
+  "1611": {
+    "code": "Claret",
+    "rank": 4,
+    "type": 7,
+    "element": 203,
+    "hit": 101,
+    "camp": 16,
+    "icon": "IconRole1611",
+    "potential": [],
+    "EN": "Claret",
+    "skin": {
+      "3116110": {
+        "Name": "...",
+        "Desc": "...",
+        "ObtainDesc": "",
+        "Image": "IconRole1611"
+      }
+    },
+    "desc": "...",
+    "KO": "클라렛",
+    "CHS": "克拉蕾",
+    "JA": "クラレッタ"
+  },
+  "1621": {
+    "code": "Roxy",
+    "rank": 4,
+    "type": 2,
+    "element": 204,
+    "hit": 102,
+    "camp": 16,
+    "icon": "IconRole68",
+    "potential": [],
+    "EN": "Roxy",
+    "skin": {
+      "3116210": {
+        "Name": "...",
+        "Desc": "...",
+        "ObtainDesc": "",
+        "Image": "IconRole68"
+      }
+    },
+    "desc": "...",
+    "KO": "록시",
+    "CHS": "洛克茜",
+    "JA": "ロクシー"
   }
 }

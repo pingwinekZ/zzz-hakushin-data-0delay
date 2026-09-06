@@ -42,6 +42,7 @@
     "3114510": {
       "Name": "Lucia: Whispering Dreams",
       "Desc": "Her cloak is the curtain of night, and beneath her hood rests the world's quiet whispers. She sings for the dusk and speaks in dreams, gathering the thoughts sleepers leave behind and weaving them into halos and riddles across the stars.",
+      "ObtainDesc": "",
       "Image": "IconRole50"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1874,9 +1878,14 @@
   },
   "FairyRecommend": {
     "Slot4": 33400,
-    "Slot2": 31600,
-    "SlotSub": 33100,
+    "Slot2": 33100,
+    "SlotSub": 31600,
     "PartSubList": [11102, 11103],
+    "AltBuild": [
+      { "SuitList": [33400, 33100], "PartSubList": [11102] },
+      { "SuitList": [33400, 31600], "PartSubList": [11102] },
+      { "SuitList": [], "PartSubList": [11102] }
+    ],
     "Part4": {
       "Prop": 11102,
       "Name": "HP",

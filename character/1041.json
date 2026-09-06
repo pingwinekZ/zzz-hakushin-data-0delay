@@ -42,6 +42,7 @@
     "3110410": {
       "Name": "Soldier 11: Elite Soldier",
       "Desc": "Those warm-toned goggles can't hide her icy, soldier's gaze. Want to see her crack a smile? Pick one: 87.5 one-arm push-ups or a bowl of extra-spicy noodles.",
+      "ObtainDesc": "",
       "Image": "IconRole05"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1914,9 +1918,14 @@
   },
   "FairyRecommend": {
     "Slot4": 32200,
-    "Slot2": 31000,
-    "SlotSub": 31400,
+    "Slot2": 32700,
+    "SlotSub": 31000,
     "PartSubList": [20103, 21103, 12102],
+    "AltBuild": [
+      { "SuitList": [32200, 31000], "PartSubList": [21103, 20103] },
+      { "SuitList": [], "PartSubList": [31603, 12102] },
+      { "SuitList": [], "PartSubList": [12102] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",

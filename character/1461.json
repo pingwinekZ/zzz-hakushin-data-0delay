@@ -42,6 +42,7 @@
     "3114610": {
       "Name": "Seed: Flower in Bloom",
       "Desc": "A corner of the world blooming in color, a single salty tear, a perfect circle of life — this is where the girl and the construct uncovered the truth of the heart. She never needs to look back; she has already blossomed into her own sea of petals.",
+      "ObtainDesc": "",
       "Image": "IconRole48"
     }
   },
@@ -86,7 +87,10 @@
       "EtherEyesSize3"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1678,6 +1682,11 @@
     "Slot2": 31000,
     "SlotSub": 31400,
     "PartSubList": [20103, 21103, 12102],
+    "AltBuild": [
+      { "SuitList": [33300, 31000], "PartSubList": [20103, 21103] },
+      { "SuitList": [33300, 32700], "PartSubList": [31803, 12102] },
+      { "SuitList": [], "PartSubList": [12102] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",

@@ -1,0 +1,1151 @@
+{
+  "Id": 620581,
+  "Name": "Critical Node",
+  "Priority": 1,
+  "Zone": {
+    "6205801": {
+      "Name": "Critical Node: First Frontier",
+      "StageNum": 1,
+      "MonsterLevel": 50,
+      "LayerBuff": {
+        "62001581": {
+          "Title": "Wind-Riding Thunderclaps",
+          "Desc": "· Agent Sharp DMG increases by 20%. After defeating normal enemies, Agents with the <color=#FFFFFF>Stun</color> specialty restore 15 Energy.\n· After hit by an Agent's <color=#FFFFFF>Chain Attack</color> , enemies recover from Stun 15% slower for 15s. Repeated triggers reset the duration."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62058011": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11381": {
+              "Id": 20010,
+              "Name": "Tarasque Mixer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_TarasqueMixer.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 1,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1627605.7874999999,
+                "Attack": 2290.666666666667,
+                "Defence": 639.36,
+                "Stun": 6233.56,
+                "AttributeInfliction": 0
+              }
+            },
+            "31151": {
+              "Id": 10033,
+              "Name": "Miasmic Trooper - Shieldguard",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGuardJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 299914.23,
+                "Attack": 1874.1818181818182,
+                "Defence": 544.64,
+                "Stun": 1174.8,
+                "AttributeInfliction": 0
+              }
+            },
+            "31161": {
+              "Id": 10034,
+              "Name": "Miasmic Trooper - Cannoneer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGrenadierJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 299914.23,
+                "Attack": 1691.969696969697,
+                "Defence": 473.6,
+                "Stun": 1174.8,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "203": "Electric" },
+          "MonsterResistance": {},
+          "WavesNum": 4
+        },
+        "62058012": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "31553": {
+              "Id": 20036,
+              "Name": "Metamorphosed - City Guardboo",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_CorruptedBattleMecha.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": -1,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 2484056.19,
+                "Attack": 3019.5151515151515,
+                "Defence": 639.36,
+                "Stun": 9350.34,
+                "AttributeInfliction": 0
+              }
+            },
+            "31583": {
+              "Id": 10036,
+              "Name": "Kulullu",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Minion.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 375629.6775,
+                "Attack": 1874.1818181818182,
+                "Defence": 426.24,
+                "Stun": 1441.8,
+                "AttributeInfliction": 0
+              }
+            },
+            "31641": {
+              "Id": 20035,
+              "Name": "Metamorphosed - Tarasque Mixer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_MoltTarasqueMixer.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 3092358.885,
+                "Attack": 2759.2121212121215,
+                "Defence": 639.36,
+                "Stun": 9350.34,
+                "AttributeInfliction": 0
+              }
+            },
+            "31744": {
+              "Id": 10042,
+              "Name": "Airspace Patrol Spearguard",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Halberdier.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 431449.095,
+                "Attack": 2056.3939393939395,
+                "Defence": 509.12,
+                "Stun": 1762.2,
+                "AttributeInfliction": 0
+              }
+            },
+            "31752": {
+              "Id": 10043,
+              "Name": "Airspace Patrol Shieldguard",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_RoscaSolider.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 480636.5025,
+                "Attack": 2056.3939393939395,
+                "Defence": 544.64,
+                "Stun": 2403,
+                "AttributeInfliction": 0
+              }
+            },
+            "31762": {
+              "Id": 10041,
+              "Name": "Airspace Patrol Vanguard",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Greatsworder.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 480636.5025,
+                "Attack": 2056.3939393939395,
+                "Defence": 509.12,
+                "Stun": 2403,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "204": "Wind", "205": "Ether" },
+          "MonsterResistance": { "200": "Physical" },
+          "WavesNum": 4
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6205802": {
+      "Name": "Critical Node: Second Frontier",
+      "StageNum": 2,
+      "MonsterLevel": 55,
+      "LayerBuff": {
+        "62001581": {
+          "Title": "Wind-Riding Thunderclaps",
+          "Desc": "· Agent Sharp DMG increases by 20%. After defeating normal enemies, Agents with the <color=#FFFFFF>Stun</color> specialty restore 15 Energy.\n· After hit by an Agent's <color=#FFFFFF>Chain Attack</color> , enemies recover from Stun 15% slower for 15s. Repeated triggers reset the duration."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62058021": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11046": {
+              "Id": 20020,
+              "Name": "Enraged Sweeper",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_RagingGuy.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": -1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1853131.9274999998,
+                "Attack": 2324,
+                "Defence": 744.12,
+                "Stun": 6403.2,
+                "AttributeInfliction": 0
+              }
+            },
+            "11052": {
+              "Id": 300021,
+              "Name": "Guardian MK II",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_GuardianPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 2395170.96,
+                "Attack": 2932.666666666667,
+                "Defence": 744.12,
+                "Stun": 9125.76,
+                "AttributeInfliction": 0
+              }
+            },
+            "11162": {
+              "Id": 100051,
+              "Name": "Harrier Jaeger",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_StrikeJaegerPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 442788.58749999997,
+                "Attack": 1826,
+                "Defence": 551.1999999999999,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11252": {
+              "Id": 100061,
+              "Name": "Scout Jaeger",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_LightJaegerPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 376438.84249999997,
+                "Attack": 1826,
+                "Defence": 551.1999999999999,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            },
+            "11282": {
+              "Id": 100081,
+              "Name": "Patrol Jaeger",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_HeavyJaeger_Pro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 376438.84249999997,
+                "Attack": 1660,
+                "Defence": 633.88,
+                "Stun": 1728,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "203": "Electric" },
+          "MonsterResistance": { "201": "Fire" },
+          "WavesNum": 4
+        },
+        "62058022": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "31492": {
+              "Id": 20034,
+              "Name": "Mushussu",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Predator.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 3829367.3074999996,
+                "Attack": 3347.666666666667,
+                "Defence": 620.1,
+                "Stun": 11439.359999999999,
+                "AttributeInfliction": 0
+              }
+            },
+            "31551": {
+              "Id": 20019,
+              "Name": "City Guardboo",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_BangbooBattleMecha.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 3696941.9899999998,
+                "Attack": 3209.3333333333335,
+                "Defence": 744.12,
+                "Stun": 10085.76,
+                "AttributeInfliction": 0
+              }
+            },
+            "31652": {
+              "Id": 10037,
+              "Name": "Metamorphosed - Beholder Engine",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_EyeEngine.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 715316.0525,
+                "Attack": 1798.3333333333335,
+                "Defence": 592.54,
+                "Stun": 2592,
+                "AttributeInfliction": 0
+              }
+            },
+            "31752": {
+              "Id": 10043,
+              "Name": "Airspace Patrol Shieldguard",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_RoscaSolider.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 715316.0525,
+                "Attack": 2185.666666666667,
+                "Defence": 633.88,
+                "Stun": 2592,
+                "AttributeInfliction": 0
+              }
+            },
+            "31762": {
+              "Id": 10041,
+              "Name": "Airspace Patrol Vanguard",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Greatsworder.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 715316.0525,
+                "Attack": 2185.666666666667,
+                "Defence": 592.54,
+                "Stun": 2592,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "201": "Fire", "204": "Wind" },
+          "MonsterResistance": {},
+          "WavesNum": 4
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6205803": {
+      "Name": "Critical Node: Third Frontier",
+      "StageNum": 3,
+      "MonsterLevel": 60,
+      "LayerBuff": {
+        "62001581": {
+          "Title": "Wind-Riding Thunderclaps",
+          "Desc": "· Agent Sharp DMG increases by 20%. After defeating normal enemies, Agents with the <color=#FFFFFF>Stun</color> specialty restore 15 Energy.\n· After hit by an Agent's <color=#FFFFFF>Chain Attack</color> , enemies recover from Stun 15% slower for 15s. Repeated triggers reset the duration."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62058031": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "11261": {
+              "Id": 200091,
+              "Name": "Assault Gunner",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HeavyFirepowerPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4506003.6,
+                "Attack": 2044.9431818181818,
+                "Defence": 857.5200000000001,
+                "Stun": 5465.18,
+                "AttributeInfliction": 0
+              }
+            },
+            "11442": {
+              "Id": 200081,
+              "Name": "Lightfoot Rover MK II",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_LightfootRoverPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 4988498.864999999,
+                "Attack": 2000.965909090909,
+                "Defence": 857.5200000000001,
+                "Stun": 8182.320000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "11452": {
+              "Id": 200071,
+              "Name": "Heavy Striker MK II",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_HeavyStrikerPro.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 6167253.119999999,
+                "Attack": 2440.738636363636,
+                "Defence": 857.5200000000001,
+                "Stun": 8182.320000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "31151": {
+              "Id": 10033,
+              "Name": "Miasmic Trooper - Shieldguard",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGuardJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1104785.22,
+                "Attack": 1583.181818181818,
+                "Defence": 730.48,
+                "Stun": 1359.6000000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "31161": {
+              "Id": 10034,
+              "Name": "Miasmic Trooper - Cannoneer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGrenadierJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1104785.22,
+                "Attack": 1429.2613636363635,
+                "Defence": 635.2,
+                "Stun": 1359.6000000000001,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "203": "Electric" },
+          "MonsterResistance": { "201": "Fire" },
+          "WavesNum": 3
+        },
+        "62058032": {
+          "MonsterIcon": "",
+          "MonsterList": {
+            "31482": {
+              "Id": 20033,
+              "Name": "Lahmu",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Arbiter.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": -1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 9478215.705,
+                "Attack": 2660.625,
+                "Defence": 714.6,
+                "Stun": 12273.48,
+                "AttributeInfliction": 0
+              }
+            },
+            "31552": {
+              "Id": 20019,
+              "Name": "City Guardboo",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_BangbooBattleMecha.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 9478215.705,
+                "Attack": 2924.488636363636,
+                "Defence": 857.5200000000001,
+                "Stun": 12273.48,
+                "AttributeInfliction": 0
+              }
+            },
+            "31553": {
+              "Id": 20036,
+              "Name": "Metamorphosed - City Guardboo",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_CorruptedBattleMecha.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 1,
+                "Physical": -1,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 9150444.66,
+                "Attack": 2550.681818181818,
+                "Defence": 857.5200000000001,
+                "Stun": 10821.18,
+                "AttributeInfliction": 0
+              }
+            },
+            "31744": {
+              "Id": 10042,
+              "Name": "Airspace Patrol Spearguard",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Halberdier.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 1589316.3299999998,
+                "Attack": 1737.1022727272725,
+                "Defence": 682.84,
+                "Stun": 2039.4,
+                "AttributeInfliction": 0
+              }
+            },
+            "31752": {
+              "Id": 10043,
+              "Name": "Airspace Patrol Shieldguard",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_RoscaSolider.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 1770506.535,
+                "Attack": 1737.1022727272725,
+                "Defence": 730.48,
+                "Stun": 2781,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "203": "Electric", "204": "Wind" },
+          "MonsterResistance": {},
+          "WavesNum": 3
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6205804": {
+      "Name": "Critical Node: Fourth Frontier",
+      "StageNum": 4,
+      "MonsterLevel": 65,
+      "LayerBuff": {
+        "62001581": {
+          "Title": "Wind-Riding Thunderclaps",
+          "Desc": "· Agent Sharp DMG increases by 20%. After defeating normal enemies, Agents with the <color=#FFFFFF>Stun</color> specialty restore 15 Energy.\n· After hit by an Agent's <color=#FFFFFF>Chain Attack</color> , enemies recover from Stun 15% slower for 15s. Repeated triggers reset the duration."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62058041": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_WingedChelonethid.png",
+          "MonsterList": {
+            "31551": {
+              "Id": 20019,
+              "Name": "City Guardboo",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_BangbooBattleMecha.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 6253636.488000001,
+                "Attack": 2693.0454545454545,
+                "Defence": 857.5200000000001,
+                "Stun": 11556.6,
+                "AttributeInfliction": 0
+              }
+            },
+            "31571": {
+              "Id": 30050,
+              "Name": "Metamorphosed - Scorpse",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_WingedChelonethid.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 13123639.254,
+                "Attack": 3343.090909090909,
+                "Defence": 952.8000000000001,
+                "Stun": 18293,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "203": "Electric", "204": "Wind" },
+          "MonsterResistance": { "202": "Ice" },
+          "WavesNum": 2
+        },
+        "62058042": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_WingedAvarus.png",
+          "MonsterList": {
+            "31013": {
+              "Id": 30049,
+              "Name": "Metamorphosed - Avarus",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_WingedAvarus.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": -1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 18946970.37,
+                "Attack": 3018.0681818181815,
+                "Defence": 952.8000000000001,
+                "Stun": 14498.000000000002,
+                "AttributeInfliction": 0
+              }
+            },
+            "31492": {
+              "Id": 20034,
+              "Name": "Mushussu",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Predator.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 8833149.81,
+                "Attack": 2809.125,
+                "Defence": 714.6,
+                "Stun": 13107.6,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "200": "Physical", "204": "Wind" },
+          "MonsterResistance": { "201": "Fire" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 0,
+      "SsRankGoal": 0,
+      "SRankGoal": 300,
+      "ARankGoal": 420,
+      "BRankGoal": 600
+    },
+    "6205805": {
+      "Name": "",
+      "StageNum": 5,
+      "MonsterLevel": 0,
+      "LayerBuff": {
+        "62001581": {
+          "Title": "Wind-Riding Thunderclaps",
+          "Desc": "· Agent Sharp DMG increases by 20%. After defeating normal enemies, Agents with the <color=#FFFFFF>Stun</color> specialty restore 15 Energy.\n· After hit by an Agent's <color=#FFFFFF>Chain Attack</color> , enemies recover from Stun 15% slower for 15s. Repeated triggers reset the duration."
+        },
+        "62001582": {
+          "Title": "Frozen Blade",
+          "Desc": "· Agent <color=#98EFF0>Ice DMG</color> and <color=#FE437E>Ether DMG</color> increase by 25%, and their <color=#98EFF0>Ice</color> and <color=#FE437E>Ether</color> Anomaly Buildup Rate increase by 15%.\n· When an Agent inflicts an <color=#FFFFFF>Attribute Anomaly</color> on an enemy, the enemy's DEF decreases by 10% for 10s. Repeated triggers reset the duration."
+        },
+        "62001583": {
+          "Title": "Ember Dawn",
+          "Desc": "· Agent <color=#FF5521>Fire DMG</color> and <color=#2EB6FF>Electric DMG</color> increase by 35%, and Daze dealt by Agents with the <color=#FFFFFF>Stun</color> specialty increases by 15%.\n· After an Agent stuns an enemy, the enemy's Stun DMG Multiplier increases by 30% and they recover from Stun 15% slower for 20s. Repeated triggers reset the duration."
+        }
+      },
+      "Child": [62058051, 62058052, 62058053],
+      "LayerRoom": {},
+      "GoalType": 3,
+      "SsRankGoal": 0,
+      "SRankGoal": 1270001013,
+      "ARankGoal": 1270001012,
+      "BRankGoal": 1270001011
+    },
+    "62058051": {
+      "Name": "Room 1",
+      "StageNum": 5,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "62001001": {
+          "Title": "",
+          "Desc": "· In this stage, dealing DMG to enemies earns you <color=#FFAF2C>DMG Score</color>. Defeating a single <color=#FFFFFF>normal/elite enemy</color> will grant you an instance of <color=#FFAF2C>Elimination Score</color>.\n· In this stage, scores earned at different times will receive additional <color=#FFAF2C>multiplier bonuses</color>. The earlier in the challenge, the higher the multiplier. The <color=#FFAF2C>total score cap (including bonus) is 50,000</color>."
+        },
+        "62001002": { "Title": "", "Desc": "" },
+        "62001581": {
+          "Title": "Wind-Riding Thunderclaps",
+          "Desc": "· Agent Sharp DMG increases by 20%. After defeating normal enemies, Agents with the <color=#FFFFFF>Stun</color> specialty restore 15 Energy.\n· After hit by an Agent's <color=#FFFFFF>Chain Attack</color> , enemies recover from Stun 15% slower for 15s. Repeated triggers reset the duration."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62058051": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HACMecha.png",
+          "MonsterList": {
+            "31552": {
+              "Id": 20019,
+              "Name": "City Guardboo",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_BangbooBattleMecha.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 7965170.595,
+                "Attack": 3252.454545454546,
+                "Defence": 857.5200000000001,
+                "Stun": 14001.300000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "31612": {
+              "Id": 10035,
+              "Name": "Special Anti-Riotboo",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_Sapper.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 1423183.41,
+                "Attack": 1931.909090909091,
+                "Defence": 682.84,
+                "Stun": 3172.5,
+                "AttributeInfliction": 0
+              }
+            },
+            "31622": {
+              "Id": 10024,
+              "Name": "Airspace Patrolboo",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_BangbooPatrolMecha.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 1423183.41,
+                "Attack": 1589.5454545454547,
+                "Defence": 682.84,
+                "Stun": 3172.5,
+                "AttributeInfliction": 0
+              }
+            },
+            "31721": {
+              "Id": 30055,
+              "Name": "Conqueror",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_HACMecha.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": -1,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 35693592.660000004,
+                "Attack": 2469.909090909091,
+                "Defence": 952.8000000000001,
+                "Stun": 17585.05,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "203": "Electric", "204": "Wind" },
+          "MonsterResistance": { "200": "Physical" },
+          "WavesNum": 3
+        }
+      },
+      "GoalType": 2,
+      "SsRankGoal": 0,
+      "SRankGoal": 25000,
+      "ARankGoal": 16000,
+      "BRankGoal": 8000
+    },
+    "62058052": {
+      "Name": "Room 2",
+      "StageNum": 5,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "62001001": {
+          "Title": "",
+          "Desc": "· In this stage, dealing DMG to enemies earns you <color=#FFAF2C>DMG Score</color>. Defeating a single <color=#FFFFFF>normal/elite enemy</color> will grant you an instance of <color=#FFAF2C>Elimination Score</color>.\n· In this stage, scores earned at different times will receive additional <color=#FFAF2C>multiplier bonuses</color>. The earlier in the challenge, the higher the multiplier. The <color=#FFAF2C>total score cap (including bonus) is 50,000</color>."
+        },
+        "62001002": { "Title": "", "Desc": "" },
+        "62001582": {
+          "Title": "Frozen Blade",
+          "Desc": "· Agent <color=#98EFF0>Ice DMG</color> and <color=#FE437E>Ether DMG</color> increase by 25%, and their <color=#98EFF0>Ice</color> and <color=#FE437E>Ether</color> Anomaly Buildup Rate increase by 15%.\n· When an Agent inflicts an <color=#FFFFFF>Attribute Anomaly</color> on an enemy, the enemy's DEF decreases by 10% for 10s. Repeated triggers reset the duration."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62058052": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_MiasmaNoranoSlime.png",
+          "MonsterList": {
+            "31294": {
+              "Id": 300402,
+              "Name": "Miasmic Komano Manato",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_MiasmaNoranoSlime.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": -1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 41984158.545,
+                "Attack": 3521.454545454546,
+                "Defence": 952.8000000000001,
+                "Stun": 16283.150000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "31482": {
+              "Id": 20033,
+              "Name": "Lahmu",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Arbiter.png",
+              "Element": {
+                "Ice": 1,
+                "Fire": 0,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": -1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 9350417.655,
+                "Attack": 2959.0000000000005,
+                "Defence": 714.6,
+                "Stun": 14001.300000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "31492": {
+              "Id": 20034,
+              "Name": "Mushussu",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv02/Monster_Predator.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 1
+              },
+              "Stats": {
+                "Hp": 9350417.655,
+                "Attack": 2959.0000000000005,
+                "Defence": 714.6,
+                "Stun": 14001.300000000001,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "202": "Ice" },
+          "MonsterResistance": { "200": "Physical" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 2,
+      "SsRankGoal": 0,
+      "SRankGoal": 25000,
+      "ARankGoal": 16000,
+      "BRankGoal": 8000
+    },
+    "62058053": {
+      "Name": "Room 3",
+      "StageNum": 5,
+      "MonsterLevel": 70,
+      "LayerBuff": {
+        "62001001": {
+          "Title": "",
+          "Desc": "· In this stage, dealing DMG to enemies earns you <color=#FFAF2C>DMG Score</color>. Defeating a single <color=#FFFFFF>normal/elite enemy</color> will grant you an instance of <color=#FFAF2C>Elimination Score</color>.\n· In this stage, scores earned at different times will receive additional <color=#FFAF2C>multiplier bonuses</color>. The earlier in the challenge, the higher the multiplier. The <color=#FFAF2C>total score cap (including bonus) is 50,000</color>."
+        },
+        "62001002": { "Title": "", "Desc": "" },
+        "62001583": {
+          "Title": "Ember Dawn",
+          "Desc": "· Agent <color=#FF5521>Fire DMG</color> and <color=#2EB6FF>Electric DMG</color> increase by 35%, and Daze dealt by Agents with the <color=#FFFFFF>Stun</color> specialty increases by 15%.\n· After an Agent stuns an enemy, the enemy's Stun DMG Multiplier increases by 30% and they recover from Stun 15% slower for 20s. Repeated triggers reset the duration."
+        }
+      },
+      "Child": [],
+      "LayerRoom": {
+        "62058053": {
+          "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_InnerKnightSlime.png",
+          "MonsterList": {
+            "11623": {
+              "Id": 200241,
+              "Name": "Doppelganger - Pulchra",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_Doppelganger_Pulchra.png",
+              "Element": {
+                "Ice": -1,
+                "Fire": 1,
+                "Electric": 0,
+                "Ether": 0,
+                "Physical": 1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 5828312.7,
+                "Attack": 2836.727272727273,
+                "Defence": 794,
+                "Stun": 14001.300000000001,
+                "AttributeInfliction": 0
+              }
+            },
+            "31152": {
+              "Id": 10033,
+              "Name": "Miasmic Trooper - Shieldguard",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGuardJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1086070.59,
+                "Attack": 1760.727272727273,
+                "Defence": 730.48,
+                "Stun": 2326.5,
+                "AttributeInfliction": 0
+              }
+            },
+            "31162": {
+              "Id": 10034,
+              "Name": "Miasmic Trooper - Cannoneer",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv01/Monster_MiasmaWalkerGrenadierJaeger.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": 0,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 1086070.59,
+                "Attack": 1589.5454545454547,
+                "Defence": 635.2,
+                "Stun": 2326.5,
+                "AttributeInfliction": 0
+              }
+            },
+            "31462": {
+              "Id": 30051,
+              "Name": "Doppelganger - Starlight - Billy",
+              "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv03/Monster_InnerKnightSlime.png",
+              "Element": {
+                "Ice": 0,
+                "Fire": 1,
+                "Electric": 1,
+                "Ether": 0,
+                "Physical": -1,
+                "Wind": 0
+              },
+              "Stats": {
+                "Hp": 37141323.12,
+                "Attack": 3521.454545454546,
+                "Defence": 952.8000000000001,
+                "Stun": 19540.25,
+                "AttributeInfliction": 0
+              }
+            }
+          },
+          "MonsterWeakness": { "201": "Fire", "203": "Electric" },
+          "MonsterResistance": { "200": "Physical" },
+          "WavesNum": 2
+        }
+      },
+      "GoalType": 2,
+      "SsRankGoal": 0,
+      "SRankGoal": 25000,
+      "ARankGoal": 16000,
+      "BRankGoal": 8000
+    }
+  },
+  "BeginTime": "2026-07-30 04:00:00",
+  "EndTime": "2026-10-01 03:59:59"
+}

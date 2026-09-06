@@ -130,7 +130,7 @@
       "Id": 31382,
       "CodeName": "Monster_Gloomaron",
       "Icon": "",
-      "Tag": ["Ether", "Demote", "Middle", "LittleMonster"],
+      "Tag": ["Ether", "Promote", "Middle", "LittleMonster"],
       "Type": "Monster",
       "Element": {
         "Ice": 1,

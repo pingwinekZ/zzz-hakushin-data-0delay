@@ -43,6 +43,7 @@
     "3113210": {
       "Name": "Evelyn: A Moth to Light",
       "Desc": "A sharp, no-nonsense manager's outfit. Its hidden edges are enough to make onlookers back off. Her yellow-brown hair weaves a fine, delicate net, where a quiet pool of starlight seems to rest.",
+      "ObtainDesc": "",
       "Image": "IconRole37"
     }
   },
@@ -86,7 +87,10 @@
       "EtherEyesSize3"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1829,6 +1833,11 @@
     "Slot2": 32700,
     "SlotSub": 32800,
     "PartSubList": [20103, 12102, 21103],
+    "AltBuild": [
+      { "SuitList": [31000, 32700], "PartSubList": [21103, 20103] },
+      { "SuitList": [], "PartSubList": [31603] },
+      { "SuitList": [], "PartSubList": [12102] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",

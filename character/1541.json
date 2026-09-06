@@ -42,6 +42,7 @@
     "3115410": {
       "Name": "Promeia: Shrouded in Frost",
       "Desc": "Darkness is a weapon that fits perfectly in my hand. As an executioner, I'm already at home in the night, but carrying heavy shackles, it's easy to lose my way.",
+      "ObtainDesc": "",
       "Image": "IconRole61"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize3"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1769,6 +1773,11 @@
     "Slot2": 33000,
     "SlotSub": 31300,
     "PartSubList": [31203, 12102],
+    "AltBuild": [
+      { "SuitList": [33800, 33000], "PartSubList": [31203] },
+      { "SuitList": [], "PartSubList": [31703] },
+      { "SuitList": [], "PartSubList": [31402] }
+    ],
     "Part4": {
       "Prop": 31402,
       "Name": "Anomaly Mastery",

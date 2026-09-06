@@ -42,6 +42,7 @@
     "3112510": {
       "Name": "Qingyi: Clarity, Peace, and Joy",
       "Desc": "Keep your teapot close and drink plenty of hot water — that's ancient wisdom passed down from the old civilization. But why would an intelligent construct drink tea? It must be for health purposes... right?",
+      "ObtainDesc": "",
       "Image": "IconRole29"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize1"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1768,10 +1772,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 31200,
-    "Slot2": 32400,
-    "SlotSub": 31600,
-    "PartSubList": [12102, 20103],
+    "Slot4": 33200,
+    "Slot2": 31200,
+    "SlotSub": 31000,
+    "PartSubList": [20103, 12102],
+    "AltBuild": [
+      { "SuitList": [31200, 32400], "PartSubList": [20103] },
+      { "SuitList": [33200, 31200], "PartSubList": [31803, 12102] },
+      { "SuitList": [], "PartSubList": [12202] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",

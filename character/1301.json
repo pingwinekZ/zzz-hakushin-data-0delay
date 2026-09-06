@@ -42,6 +42,7 @@
     "3113010": {
       "Name": "Orphie & Magus: Two Banks of the River",
       "Desc": "A soul of mirrored halves, having twice crossed the river of the dead. One side forged in fire, the other shaped into ice; one looking back on where it came from, the other watching for a new dawn. They wander on — never lost, never ceasing.",
+      "ObtainDesc": "",
       "Image": "IconRole49"
     }
   },
@@ -86,7 +87,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1811,6 +1815,11 @@
     "Slot2": 31600,
     "SlotSub": 31000,
     "PartSubList": [20103, 21103, 12102],
+    "AltBuild": [
+      { "SuitList": [32900, 33400], "PartSubList": [21103, 20103] },
+      { "SuitList": [32900, 31600], "PartSubList": [31603, 12102] },
+      { "SuitList": [], "PartSubList": [30502] }
+    ],
     "Part4": {
       "Prop": 21103,
       "Name": "CRIT DMG",

@@ -42,12 +42,20 @@
     "3115010": {
       "Name": "Aria: Energetic Idol",
       "Desc": "A touch of pink and white, a hint of lights and sound, plus countless days and nights devoted to singing — all of it comes together as a boundless delusion on stage.",
+      "ObtainDesc": "",
       "Image": "IconRole57"
     },
     "3115011": {
       "Name": "Aria: Discordant Note",
       "Desc": "Aria's performance outfit for special shows, worn only a handful of times.\nA pure-white \"angel\" clad in \"demonic\" wings. Take a deep breath, get ready... once the spotlight comes on, it's the Angels of Delusion's time to rebel.",
+      "ObtainDesc": "",
       "Image": "IconRole57_01"
+    },
+    "3115012": {
+      "Name": "...",
+      "Desc": "...",
+      "ObtainDesc": "",
+      "Image": "IconRole57_02"
     }
   },
   "Stats": {
@@ -90,7 +98,10 @@
       "EtherEyesSize1"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1939,17 +1950,22 @@
     "Slot2": 33000,
     "SlotSub": 31300,
     "PartSubList": [31203, 12102],
+    "AltBuild": [
+      { "SuitList": [33600, 33000], "PartSubList": [31203] },
+      { "SuitList": [33000, 33600], "PartSubList": [31903] },
+      { "SuitList": [], "PartSubList": [31402] }
+    ],
     "Part4": {
-      "Prop": 31402,
-      "Name": "Anomaly Mastery",
-      "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementAbnormalPower.png"
-    },
-    "Part5": {
       "Prop": 31203,
       "Name": "Anomaly Proficiency",
       "Format": "{0:0}",
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementMystery.png"
+    },
+    "Part5": {
+      "Prop": 31402,
+      "Name": "Anomaly Mastery",
+      "Format": "{0:0.#%}",
+      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementAbnormalPower.png"
     },
     "Part6": {
       "Prop": 31903,

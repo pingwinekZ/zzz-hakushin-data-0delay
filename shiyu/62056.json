@@ -100,6 +100,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "MonsterResistance": {},
           "WavesNum": 3
         },
         "62056012": {
@@ -118,10 +119,10 @@
                 "Wind": 0
               },
               "Stats": {
-                "Hp": 14737.8,
-                "Attack": 1249.4545454545455,
-                "Defence": 532.8,
-                "Stun": 0,
+                "Hp": 206881.8675,
+                "Attack": 1718,
+                "Defence": 426.24,
+                "Stun": 1068,
                 "AttributeInfliction": 0
               }
             },
@@ -138,10 +139,10 @@
                 "Wind": 0
               },
               "Stats": {
-                "Hp": 14737.8,
-                "Attack": 1249.4545454545455,
-                "Defence": 532.8,
-                "Stun": 0,
+                "Hp": 206881.8675,
+                "Attack": 1405.6363636363637,
+                "Defence": 426.24,
+                "Stun": 1068,
                 "AttributeInfliction": 0
               }
             },
@@ -187,6 +188,7 @@
             }
           },
           "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "MonsterResistance": {},
           "WavesNum": 4
         }
       },
@@ -293,6 +295,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "MonsterResistance": { "205": "Ether" },
           "WavesNum": 4
         },
         "62056022": {
@@ -380,6 +383,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "202": "Ice" },
+          "MonsterResistance": {},
           "WavesNum": 4
         }
       },
@@ -506,6 +510,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "MonsterResistance": { "202": "Ice" },
           "WavesNum": 3
         },
         "62056032": {
@@ -613,6 +618,7 @@
             }
           },
           "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "MonsterResistance": {},
           "WavesNum": 3
         }
       },
@@ -699,6 +705,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "MonsterResistance": { "202": "Ice" },
           "WavesNum": 2
         },
         "62056042": {
@@ -726,6 +733,7 @@
             }
           },
           "MonsterWeakness": { "201": "Fire", "202": "Ice" },
+          "MonsterResistance": { "203": "Electric" },
           "WavesNum": 1
         }
       },
@@ -750,16 +758,16 @@
         },
         "62001562": {
           "Title": "Lightning Piercer",
-          "Desc": "· On hit, Agent attacks against enemies ignore 20% of their <color=#2EB6FF>Electric RES</color>. \n· After an Agent uses <color=#FFFFFF>EX Special Attack</color>, their CRIT Rate increases by 5% and CRIT DMG increases by 20% for 15s. Repeated triggers reset the duration."
+          "Desc": "· Agent DEF increases by 15%, and attacks against enemies ignore 20% of their <color=#2EB6FF>Electric RES</color>. \n· After an Agent uses <color=#FFFFFF>EX Special Attack</color>, their CRIT Rate increases by 5% and CRIT DMG increases by 20% for 15s. Repeated triggers reset the duration."
         }
       },
       "Child": [62056051, 62056052, 62056053],
       "LayerRoom": {},
       "GoalType": 3,
       "SsRankGoal": 0,
-      "SRankGoal": 1270001003,
-      "ARankGoal": 1270001002,
-      "BRankGoal": 1270001001
+      "SRankGoal": 1270001023,
+      "ARankGoal": 1270001022,
+      "BRankGoal": 1270001021
     },
     "62056051": {
       "Name": "Room 1",
@@ -863,6 +871,7 @@
             }
           },
           "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "MonsterResistance": {},
           "WavesNum": 3
         }
       },
@@ -954,6 +963,7 @@
             }
           },
           "MonsterWeakness": { "202": "Ice", "204": "Wind" },
+          "MonsterResistance": { "205": "Ether" },
           "WavesNum": 2
         }
       },
@@ -975,7 +985,7 @@
         "62001002": { "Title": "", "Desc": "" },
         "62001562": {
           "Title": "Lightning Piercer",
-          "Desc": "· On hit, Agent attacks against enemies ignore 20% of their <color=#2EB6FF>Electric RES</color>. \n· After an Agent uses <color=#FFFFFF>EX Special Attack</color>, their CRIT Rate increases by 5% and CRIT DMG increases by 20% for 15s. Repeated triggers reset the duration."
+          "Desc": "· Agent DEF increases by 15%, and attacks against enemies ignore 20% of their <color=#2EB6FF>Electric RES</color>. \n· After an Agent uses <color=#FFFFFF>EX Special Attack</color>, their CRIT Rate increases by 5% and CRIT DMG increases by 20% for 15s. Repeated triggers reset the duration."
         }
       },
       "Child": [],
@@ -1065,6 +1075,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "203": "Electric" },
+          "MonsterResistance": { "205": "Ether" },
           "WavesNum": 2
         }
       },

@@ -42,11 +42,13 @@
     "3114010": {
       "Name": "Alice: Celestian Etiquette",
       "Desc": "The young woman's perfect symmetry is only ever slightly compromised when she wears the school crest — such is the elegant and noble Thymefield spirit.",
+      "ObtainDesc": "",
       "Image": "IconRole46"
     },
     "3114011": {
       "Name": "Alice: Sea of Thyme",
       "Desc": "Though it wasn't completely symmetrical, she did not mind this gift from a dear friend.\nThe girl pushed open the locked door and walked along the pink beach after the sudden downpour, the cool waves brushing over her ankles. There were no unknowns left to frighten her.",
+      "ObtainDesc": "",
       "Image": "IconRole46_01"
     }
   },
@@ -90,7 +92,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1753,8 +1758,13 @@
   "FairyRecommend": {
     "Slot4": 32600,
     "Slot2": 31300,
-    "SlotSub": 31400,
-    "PartSubList": [31203, 12102],
+    "SlotSub": 33000,
+    "PartSubList": [12102, 31203],
+    "AltBuild": [
+      { "SuitList": [32600, 33000], "PartSubList": [31203] },
+      { "SuitList": [], "PartSubList": [31503] },
+      { "SuitList": [], "PartSubList": [31402] }
+    ],
     "Part4": {
       "Prop": 31203,
       "Name": "Anomaly Proficiency",
@@ -1774,10 +1784,10 @@
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementAbnormalPower.png"
     },
     "PartSub": {
-      "Prop": 20103,
-      "Name": "CRIT Rate",
+      "Prop": 12102,
+      "Name": "ATK",
       "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
+      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
     }
   },
   "Strategy": [

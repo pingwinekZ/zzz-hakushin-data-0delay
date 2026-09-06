@@ -42,11 +42,13 @@
     "3114110": {
       "Name": "Yuzuha: Tanuki Under the Shade",
       "Desc": "Can you tell what the umbrella conceals? A tanuki, a trap, a ghost, or a girl's sly, spirited smile?",
+      "ObtainDesc": "",
       "Image": "IconRole47"
     },
     "3114111": {
       "Name": "Yuzuha: Tanuki in Broad Daylight",
       "Desc": "Ghost stories aren't born only in shadows. Unconvinced? Just lock eyes with that playful young lady splashing in the water. She'll possess your thoughts, while Kama sneaks away with your drink.",
+      "ObtainDesc": "",
       "Image": "IconRole47_01"
     }
   },
@@ -90,7 +92,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1863,10 +1868,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 31600,
+    "Slot4": 33400,
     "Slot2": 33000,
-    "SlotSub": 31300,
+    "SlotSub": 31600,
     "PartSubList": [12102, 31203],
+    "AltBuild": [
+      { "SuitList": [31600, 33000], "PartSubList": [12102] },
+      { "SuitList": [33400, 33000], "PartSubList": [12102] },
+      { "SuitList": [32800, 33000], "PartSubList": [31402] }
+    ],
     "Part4": {
       "Prop": 31402,
       "Name": "Anomaly Mastery",
@@ -1886,10 +1896,10 @@
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconSpRecover.png"
     },
     "PartSub": {
-      "Prop": 20103,
-      "Name": "CRIT Rate",
-      "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
+      "Prop": 31203,
+      "Name": "Anomaly Proficiency",
+      "Format": "{0:0}",
+      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementMystery.png"
     }
   },
   "Strategy": [

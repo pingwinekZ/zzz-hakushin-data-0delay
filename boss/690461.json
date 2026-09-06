@@ -1,0 +1,483 @@
+{
+  "Id": 690461,
+  "Name": "Trial",
+  "Priority": 9,
+  "BossAdjust": {
+    "1001": { "Hp": 1200, "Atk": -5000, "Points": 1000 },
+    "1002": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1003": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1004": { "Hp": 1200, "Atk": -3000, "Points": 1000 },
+    "1005": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1006": { "Hp": 1700, "Atk": -2500, "Points": 1200 },
+    "1007": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1008": { "Hp": 1700, "Atk": -2000, "Points": 1200 },
+    "1009": { "Hp": 2200, "Atk": -1000, "Points": 1800 },
+    "1010": { "Hp": 2200, "Atk": 0, "Points": 1800 },
+    "1011": { "Hp": 2200, "Atk": 800, "Points": 1800 },
+    "1012": { "Hp": 2200, "Atk": 1500, "Points": 1800 },
+    "1013": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
+    "1014": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
+    "1015": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
+    "1016": { "Hp": 2500, "Atk": 2000, "Points": 2400 },
+    "1017": { "Hp": 3000, "Atk": 2500, "Points": 2600 },
+    "1018": { "Hp": 3000, "Atk": 2500, "Points": 2600 },
+    "1019": { "Hp": 3000, "Atk": 2500, "Points": 2600 },
+    "1020": { "Hp": 3000, "Atk": 2500, "Points": 2600 },
+    "1021": { "Hp": 5000, "Atk": 2500, "Points": 2600 },
+    "1022": { "Hp": 5000, "Atk": 2500, "Points": 2600 },
+    "1023": { "Hp": 5000, "Atk": 2500, "Points": 2600 },
+    "1024": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1025": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1026": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1027": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1028": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1029": { "Hp": 5000, "Atk": 2500, "Points": 2700 },
+    "1301": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1302": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1303": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1304": { "Hp": 3600, "Atk": 0, "Points": 750 },
+    "1305": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1306": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1307": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1308": { "Hp": 3600, "Atk": 1300, "Points": 1000 },
+    "1309": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1310": { "Hp": 3600, "Atk": 1500, "Points": 1500 },
+    "1311": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1312": { "Hp": 6000, "Atk": 1500, "Points": 3500 },
+    "1313": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1314": { "Hp": 6000, "Atk": 2000, "Points": 3500 },
+    "1315": { "Hp": 8000, "Atk": 2000, "Points": 3500 },
+    "1316": { "Hp": 10000, "Atk": 2000, "Points": 3500 },
+    "1317": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1318": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1319": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1320": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1321": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1322": { "Hp": 10000, "Atk": 2500, "Points": 3500 },
+    "1323": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
+    "1324": { "Hp": 10000, "Atk": 2500, "Points": 4000 },
+    "2001": { "Hp": 5000, "Atk": 8000, "Points": 200 },
+    "2002": { "Hp": 16000, "Atk": 11000, "Points": 200 },
+    "2010": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2011": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2012": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2013": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2014": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2015": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2016": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2017": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2018": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "2019": { "Hp": 2500, "Atk": 0, "Points": 3000 },
+    "3011": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3012": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3013": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3014": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3015": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3016": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3017": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3018": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3019": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3020": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3021": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3022": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3023": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3024": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "3025": { "Hp": 9000, "Atk": 0, "Points": 1500 },
+    "400101": { "Hp": 500, "Atk": 0, "Points": 5000 },
+    "400102": { "Hp": 500, "Atk": 0, "Points": 5000 },
+    "400103": { "Hp": 750, "Atk": 0, "Points": 7500 },
+    "400104": { "Hp": 750, "Atk": 0, "Points": 7500 },
+    "400105": { "Hp": 1000, "Atk": 0, "Points": 10000 },
+    "400106": { "Hp": 1000, "Atk": 0, "Points": 10000 },
+    "400107": { "Hp": 1250, "Atk": 0, "Points": 12500 },
+    "400108": { "Hp": 1250, "Atk": 0, "Points": 12500 },
+    "400109": { "Hp": 1500, "Atk": 0, "Points": 15000 },
+    "400110": { "Hp": 1500, "Atk": 0, "Points": 15000 },
+    "400201": { "Hp": 500, "Atk": 0, "Points": 5000 },
+    "400202": { "Hp": 500, "Atk": 0, "Points": 5000 },
+    "400203": { "Hp": 750, "Atk": 0, "Points": 7500 },
+    "400204": { "Hp": 750, "Atk": 0, "Points": 7500 },
+    "400205": { "Hp": 1000, "Atk": 0, "Points": 10000 },
+    "400206": { "Hp": 1000, "Atk": 0, "Points": 10000 },
+    "400207": { "Hp": 1250, "Atk": 0, "Points": 12500 },
+    "400208": { "Hp": 1250, "Atk": 0, "Points": 12500 },
+    "400209": { "Hp": 1500, "Atk": 0, "Points": 15000 },
+    "400210": { "Hp": 1500, "Atk": 0, "Points": 15000 },
+    "400301": { "Hp": 500, "Atk": 0, "Points": 5000 },
+    "400302": { "Hp": 500, "Atk": 0, "Points": 5000 },
+    "400303": { "Hp": 750, "Atk": 0, "Points": 7500 },
+    "400304": { "Hp": 750, "Atk": 0, "Points": 7500 },
+    "400305": { "Hp": 1000, "Atk": 0, "Points": 10000 },
+    "400306": { "Hp": 1000, "Atk": 0, "Points": 10000 },
+    "400307": { "Hp": 1250, "Atk": 0, "Points": 12500 },
+    "400308": { "Hp": 1250, "Atk": 0, "Points": 12500 },
+    "400309": { "Hp": 1500, "Atk": 0, "Points": 15000 },
+    "400310": { "Hp": 1500, "Atk": 0, "Points": 15000 },
+    "401101": { "Hp": 250, "Atk": 0, "Points": 5000 },
+    "401102": { "Hp": 250, "Atk": 0, "Points": 5000 },
+    "401103": { "Hp": 375, "Atk": 0, "Points": 7500 },
+    "401104": { "Hp": 375, "Atk": 0, "Points": 7500 },
+    "401105": { "Hp": 500, "Atk": 0, "Points": 10000 },
+    "401106": { "Hp": 500, "Atk": 0, "Points": 10000 },
+    "401107": { "Hp": 625, "Atk": 0, "Points": 12500 },
+    "401108": { "Hp": 625, "Atk": 0, "Points": 12500 },
+    "401109": { "Hp": 750, "Atk": 0, "Points": 15000 },
+    "401110": { "Hp": 750, "Atk": 0, "Points": 15000 },
+    "401111": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401112": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401113": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401114": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401115": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401201": { "Hp": 250, "Atk": 0, "Points": 5000 },
+    "401202": { "Hp": 250, "Atk": 0, "Points": 5000 },
+    "401203": { "Hp": 375, "Atk": 0, "Points": 7500 },
+    "401204": { "Hp": 375, "Atk": 0, "Points": 7500 },
+    "401205": { "Hp": 500, "Atk": 0, "Points": 10000 },
+    "401206": { "Hp": 500, "Atk": 0, "Points": 10000 },
+    "401207": { "Hp": 625, "Atk": 0, "Points": 12500 },
+    "401208": { "Hp": 625, "Atk": 0, "Points": 12500 },
+    "401209": { "Hp": 750, "Atk": 0, "Points": 15000 },
+    "401210": { "Hp": 750, "Atk": 0, "Points": 15000 },
+    "401211": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401212": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401213": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401214": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401215": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401301": { "Hp": 250, "Atk": 0, "Points": 5000 },
+    "401302": { "Hp": 250, "Atk": 0, "Points": 5000 },
+    "401303": { "Hp": 375, "Atk": 0, "Points": 7500 },
+    "401304": { "Hp": 375, "Atk": 0, "Points": 7500 },
+    "401305": { "Hp": 500, "Atk": 0, "Points": 10000 },
+    "401306": { "Hp": 500, "Atk": 0, "Points": 10000 },
+    "401307": { "Hp": 625, "Atk": 0, "Points": 12500 },
+    "401308": { "Hp": 625, "Atk": 0, "Points": 12500 },
+    "401309": { "Hp": 750, "Atk": 0, "Points": 15000 },
+    "401310": { "Hp": 750, "Atk": 0, "Points": 15000 },
+    "401311": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401312": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401313": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401314": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "401315": { "Hp": 1000, "Atk": 0, "Points": 100000 },
+    "900101": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900102": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900103": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900104": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900105": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900106": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900107": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900108": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900109": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900110": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900111": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900112": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900113": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900114": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900115": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900116": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900117": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900118": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900119": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900120": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900121": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900122": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900123": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900124": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900125": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900126": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900127": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900128": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900129": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900130": { "Hp": 3000, "Atk": 0, "Points": 3000 },
+    "900201": { "Hp": 3300, "Atk": 0, "Points": 3300 },
+    "900202": { "Hp": 3300, "Atk": 0, "Points": 3300 },
+    "900203": { "Hp": 3400, "Atk": 0, "Points": 3400 }
+  },
+  "ZoneType": 1002,
+  "Modes": [
+    {
+      "Id": 690462,
+      "ZoneType": 1002,
+      "Zone": {
+        "69046201": {
+          "Name": "Integrated Phaethon of the Scorched Horizon",
+          "StageNum": 1,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69014504": {
+              "Title": "",
+              "Desc": "· When Integrated - Scorched Horizon is Impaired or Shutdown, the whole squad's <color=#FFAF2C>Sharp DMG increases by 40%</color> for 60s. Repeated triggers reset the duration. \n· When an Agent's attack hits an enemy that is not Stunned, Daze dealt <color=#FFAF2C>increases by 15%</color>. While Integrated - Scorched Horizon is Stunned, the Stun DMG Multiplier <color=#FFAF2C>increases by 20%</color>."
+            },
+            "69014505": {
+              "Title": "",
+              "Desc": "· When Integrated - Scorched Horizon is in <color=#FFFFFF>Misty Veil</color> state, using <color=#FFFFFF>Defensive Assist</color> to counter Integrated - Scorched Horizon's attack and impair it grants <color=#FFAF2C>1500 Performance Points</color>; landing a <color=#FFAF2C>Shutdown</color> on Integrated - Scorched Horizon's <Term:2000003></Term> grants <color=#FFAF2C>2000 Performance Points</color>. A maximum of 5000 Performance Points can be obtained."
+            },
+            "69014508": { "Title": "", "Desc": "" }
+          },
+          "LayerRoom": {
+            "690462011": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_HoloMutant.png",
+              "MonsterList": {
+                "31437": {
+                  "Id": 40011,
+                  "Name": "Integrated · Scorched Horizon",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_HoloMutant.png",
+                  "Element": {
+                    "Ice": 0,
+                    "Fire": 0,
+                    "Electric": 0,
+                    "Ether": 0,
+                    "Physical": 0,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 26093067.84,
+                    "Attack": 3286.6909090909094,
+                    "Defence": 952.8000000000001,
+                    "Stun": 17585.05,
+                    "AttributeInfliction": 10
+                  }
+                }
+              },
+              "MonsterWeakness": { "203": "Electric" },
+              "MonsterResistance": { "200": "Physical" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 30000,
+          "ARankGoal": 20000,
+          "BRankGoal": 10000,
+          "SelectableBuff": {
+            "69014501": {
+              "Title": "Ultimate Edge",
+              "Desc": "· Agent Sharp DMG <color=#2BAD00>increases by 15%</color>, and their DEF <color=#2BAD00>increases by 15%</color>.\n· After an Agent uses <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Special Attack]</color>, or <color=#FFFFFF>[Ultimate]</color>, attacks ignore <color=#2BAD00>20%</color> of enemy <color=#2EB6FF>Electric RES</color> on hit for 20s. Repeated triggers reset the duration."
+            },
+            "69014502": {
+              "Title": "Cinders of Corrosion",
+              "Desc": "· If there are 2/3 Agents in the squad with the <color=#FFFFFF>Anomaly</color> specialty, the whole squad's Anomaly Proficiency <color=#2BAD00>increases by 20/60</color> respectively, and Anomaly Buildup Rate <color=#2BAD00>increases by 10%/20%</color> respectively.\n· After an Agent inflicts an <color=#FFFFFF>Attribute Anomaly</color> on an enemy, the enemy's DEF is <color=#2BAD00>reduced by 10%</color> for 10s. Repeated triggers reset the duration."
+            },
+            "69014601": {
+              "Title": "Collapse",
+              "Desc": "· Agent <color=#FE437E>Ether DMG</color> and <color=#F0D12B>Physical DMG</color> <color=#2BAD00>increase by 25%</color>, and Daze dealt by Agents with the <color=#FFFFFF>Stun</color> specialty <color=#2BAD00>increases by 20%</color>.\n· After an Agent stuns an enemy, the enemy's Stun DMG Multiplier <color=#2BAD00>increases by 40%</color> and they recover from Stun <color=#2BAD00>15% slower</color> for 20s. Repeated triggers reset the duration."
+            }
+          }
+        }
+      }
+    },
+    {
+      "Id": 690461,
+      "ZoneType": 1001,
+      "Zone": {
+        "69046101": {
+          "Name": "Kusarikku",
+          "StageNum": 1,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69013005": {
+              "Title": "",
+              "Desc": "· Suitable for Agents with <IconMap:Icon_AvatarClass_Armorer><color=#FFAF2C>Armorer</color> specialty."
+            },
+            "69014506": {
+              "Title": "",
+              "Desc": "· Attribute Anomaly DMG taken by Kusarikku is <color=#FFAF2C>reduced by 40%</color>.\n· When an Agent successfully uses a [Defensive Assist] against Kusarikku's <Term:2000005></Term>, applies 1 stack of [Exposed] to Kusarikku. When Kusarikku becomes Stunned, applies 2 stacks of [Exposed]. Each stack of [Exposed] increases the <color=#FFAF2C>Laceration DMG Kusarikku receives by 10%</color>. [Exposed] can stack up to 4 times and lasts <color=#FFAF2C>30</color>s. Repeated triggers reset the duration."
+            },
+            "69014507": {
+              "Title": "",
+              "Desc": "· After Kusarikku activates Corruptive Barrier, use <color=#FFFFFF>Defensive Assist</color> to counter Kusarikku's <Term:2000005></Term> and leave it Impaired to gain <color=#FFAF2C>1000 Performance Points</color>; successfully countering a <Term:2000005></Term> with <color=#FFFFFF>Defensive Assist</color> grants <color=#FFAF2C>700 Performance Points</color>; executing a <color=#FFAF2C>Shutdown</color> on Kusarikku's <Term:2000003></Term> grants <color=#FFAF2C>2000 Performance Points</color>. A maximum of 5000 Performance Points can be obtained."
+            }
+          },
+          "LayerRoom": {
+            "690461011": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Larval.png",
+              "MonsterList": {
+                "31711": {
+                  "Id": 40010,
+                  "Name": "Kusarikku",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Larval.png",
+                  "Element": {
+                    "Ice": -1,
+                    "Fire": 1,
+                    "Electric": 1,
+                    "Ether": 0,
+                    "Physical": 0,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 22124404.935,
+                    "Attack": 3286.6909090909094,
+                    "Defence": 952.8000000000001,
+                    "Stun": 18933.95,
+                    "AttributeInfliction": 10
+                  }
+                }
+              },
+              "MonsterWeakness": { "201": "Fire", "203": "Electric" },
+              "MonsterResistance": { "202": "Ice" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69014501": {
+              "Title": "Ultimate Edge",
+              "Desc": "· Agent Sharp DMG <color=#2BAD00>increases by 15%</color>, and their DEF <color=#2BAD00>increases by 15%</color>.\n· After an Agent uses <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Special Attack]</color>, or <color=#FFFFFF>[Ultimate]</color>, attacks ignore <color=#2BAD00>20%</color> of enemy <color=#2EB6FF>Electric RES</color> on hit for 20s. Repeated triggers reset the duration."
+            },
+            "69014502": {
+              "Title": "Cinders of Corrosion",
+              "Desc": "· If there are 2/3 Agents in the squad with the <color=#FFFFFF>Anomaly</color> specialty, the whole squad's Anomaly Proficiency <color=#2BAD00>increases by 20/60</color> respectively, and Anomaly Buildup Rate <color=#2BAD00>increases by 10%/20%</color> respectively.\n· After an Agent inflicts an <color=#FFFFFF>Attribute Anomaly</color> on an enemy, the enemy's DEF is <color=#2BAD00>reduced by 10%</color> for 10s. Repeated triggers reset the duration."
+            },
+            "69014601": {
+              "Title": "Collapse",
+              "Desc": "· Agent <color=#FE437E>Ether DMG</color> and <color=#F0D12B>Physical DMG</color> <color=#2BAD00>increase by 25%</color>, and Daze dealt by Agents with the <color=#FFFFFF>Stun</color> specialty <color=#2BAD00>increases by 20%</color>.\n· After an Agent stuns an enemy, the enemy's Stun DMG Multiplier <color=#2BAD00>increases by 40%</color> and they recover from Stun <color=#2BAD00>15% slower</color> for 20s. Repeated triggers reset the duration."
+            }
+          }
+        },
+        "69046102": {
+          "Name": "Miasmic Fiend - Unfathomable",
+          "StageNum": 2,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69011602": {
+              "Title": "",
+              "Desc": "· When Miasmic Fiend is affected by <color=#FFAF2C>Attribute Anomaly</color>, it takes 8% bonus Anomaly DMG from Agents, stacking up to 6 times; activating <Term:2000002>Miasmic Shield</Term> clears all stacks, with each stack increasing the reduction efficiency of <color=#FFAF2C>Miasmic Shield</color> by 2.5%."
+            },
+            "69011603": {
+              "Title": "",
+              "Desc": "· When Agents bait Miasmic Fiend's ground attack into <color=#FFAF2C>detonating at least 5 Miasma Pools at once</color> and <color=#FFAF2C>avoid being hit by the attack and pool explosions</color>, they will earn <color=#FFAF2C>1,700 Performance Points</color>, up to a maximum of 5,000."
+            },
+            "69012102": { "Title": "", "Desc": "" },
+            "69013003": {
+              "Title": "",
+              "Desc": "· Suitable for Agents with <IconMap:Icon_AvatarClass_Anomaly><color=#FFAF2C>Anomaly</color> specialty."
+            }
+          },
+          "LayerRoom": {
+            "690461021": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_NamelessOne.png",
+              "MonsterList": {
+                "31062": {
+                  "Id": 30034,
+                  "Name": "Miasmic Fiend - Unfathomable",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_NamelessOne.png",
+                  "Element": {
+                    "Ice": 0,
+                    "Fire": -1,
+                    "Electric": 0,
+                    "Ether": 1,
+                    "Physical": 1,
+                    "Wind": 0
+                  },
+                  "Stats": {
+                    "Hp": 25549710.21,
+                    "Attack": 2967.1515151515155,
+                    "Defence": 952.8000000000001,
+                    "Stun": 16647.4,
+                    "AttributeInfliction": 10
+                  }
+                }
+              },
+              "MonsterWeakness": { "200": "Physical", "205": "Ether" },
+              "MonsterResistance": { "201": "Fire" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69014501": {
+              "Title": "Ultimate Edge",
+              "Desc": "· Agent Sharp DMG <color=#2BAD00>increases by 15%</color>, and their DEF <color=#2BAD00>increases by 15%</color>.\n· After an Agent uses <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Special Attack]</color>, or <color=#FFFFFF>[Ultimate]</color>, attacks ignore <color=#2BAD00>20%</color> of enemy <color=#2EB6FF>Electric RES</color> on hit for 20s. Repeated triggers reset the duration."
+            },
+            "69014502": {
+              "Title": "Cinders of Corrosion",
+              "Desc": "· If there are 2/3 Agents in the squad with the <color=#FFFFFF>Anomaly</color> specialty, the whole squad's Anomaly Proficiency <color=#2BAD00>increases by 20/60</color> respectively, and Anomaly Buildup Rate <color=#2BAD00>increases by 10%/20%</color> respectively.\n· After an Agent inflicts an <color=#FFFFFF>Attribute Anomaly</color> on an enemy, the enemy's DEF is <color=#2BAD00>reduced by 10%</color> for 10s. Repeated triggers reset the duration."
+            },
+            "69014601": {
+              "Title": "Collapse",
+              "Desc": "· Agent <color=#FE437E>Ether DMG</color> and <color=#F0D12B>Physical DMG</color> <color=#2BAD00>increase by 25%</color>, and Daze dealt by Agents with the <color=#FFFFFF>Stun</color> specialty <color=#2BAD00>increases by 20%</color>.\n· After an Agent stuns an enemy, the enemy's Stun DMG Multiplier <color=#2BAD00>increases by 40%</color> and they recover from Stun <color=#2BAD00>15% slower</color> for 20s. Repeated triggers reset the duration."
+            }
+          }
+        },
+        "69046103": {
+          "Name": "Ye Shiyuan the Thrall",
+          "StageNum": 3,
+          "MonsterLevel": 70,
+          "LayerBuff": {
+            "69012102": { "Title": "", "Desc": "" },
+            "69012602": {
+              "Title": "",
+              "Desc": "· When Sobek and The Thrall alternate turns, The Thrall gains 1 stack of <color=#FFFFFF>Contract</color> and <color=#FFFFFF>Self-Sacrifice</color>. Contract and Self-Sacrifice can stack up to 3 times. Each stack of Contract increases All-Attribute Anomaly Buildup RES by <color=#FFAF2C>15%</color>, each stack of Self-Sacrifice reduces The Thrall's DEF by <color=#FFAF2C>8%</color>. When The Thrall is Stunned, CRIT DMG taken increases by <color=#FFAF2C>50%</color>."
+            },
+            "69012603": {
+              "Title": "",
+              "Desc": "· When Agents inflict <color=#FFAF2C>Weakened</color> on Sobek and The Thrall, <color=#FFAF2C>1,500 Performance Points</color> will be awarded. When an Agent <color=#FFAF2C>eliminates Sobek</color>, <color=#FFAF2C>2,000 Performance Points</color> will be awarded. Up to a maximum of 5,000 Performance Points can be earned."
+            },
+            "69013004": {
+              "Title": "",
+              "Desc": "· Suitable for Agents with <IconMap:Icon_AvatarClass_Stun><color=#FFAF2C>Stun</color> specialty."
+            }
+          },
+          "LayerRoom": {
+            "690461031": {
+              "MonsterIcon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_Awakener.png",
+              "MonsterList": {
+                "31353": {
+                  "Id": 30042,
+                  "Name": "Ye Shiyuan the Thrall",
+                  "Image": "UI/Sprite/A1DynamicLoad/BossCard/UnPacker/BossCardLv04/Monster_Awakener.png",
+                  "Element": {
+                    "Ice": 1,
+                    "Fire": 0,
+                    "Electric": -1,
+                    "Ether": 0,
+                    "Physical": 1,
+                    "Wind": 1
+                  },
+                  "Stats": {
+                    "Hp": 23612080.139999997,
+                    "Attack": 3286.6909090909094,
+                    "Defence": 952.8000000000001,
+                    "Stun": 14068.040000000003,
+                    "AttributeInfliction": 10
+                  }
+                }
+              },
+              "MonsterWeakness": {
+                "200": "Physical",
+                "202": "Ice",
+                "204": "Wind"
+              },
+              "MonsterResistance": { "203": "Electric" },
+              "WavesNum": 1
+            }
+          },
+          "GoalType": 2,
+          "SRankGoal": 20000,
+          "ARankGoal": 14000,
+          "BRankGoal": 6000,
+          "SelectableBuff": {
+            "69014501": {
+              "Title": "Ultimate Edge",
+              "Desc": "· Agent Sharp DMG <color=#2BAD00>increases by 15%</color>, and their DEF <color=#2BAD00>increases by 15%</color>.\n· After an Agent uses <color=#FFFFFF>[EX Special Attack]</color>, <color=#FFFFFF>[Special Attack]</color>, or <color=#FFFFFF>[Ultimate]</color>, attacks ignore <color=#2BAD00>20%</color> of enemy <color=#2EB6FF>Electric RES</color> on hit for 20s. Repeated triggers reset the duration."
+            },
+            "69014502": {
+              "Title": "Cinders of Corrosion",
+              "Desc": "· If there are 2/3 Agents in the squad with the <color=#FFFFFF>Anomaly</color> specialty, the whole squad's Anomaly Proficiency <color=#2BAD00>increases by 20/60</color> respectively, and Anomaly Buildup Rate <color=#2BAD00>increases by 10%/20%</color> respectively.\n· After an Agent inflicts an <color=#FFFFFF>Attribute Anomaly</color> on an enemy, the enemy's DEF is <color=#2BAD00>reduced by 10%</color> for 10s. Repeated triggers reset the duration."
+            },
+            "69014601": {
+              "Title": "Collapse",
+              "Desc": "· Agent <color=#FE437E>Ether DMG</color> and <color=#F0D12B>Physical DMG</color> <color=#2BAD00>increase by 25%</color>, and Daze dealt by Agents with the <color=#FFFFFF>Stun</color> specialty <color=#2BAD00>increases by 20%</color>.\n· After an Agent stuns an enemy, the enemy's Stun DMG Multiplier <color=#2BAD00>increases by 40%</color> and they recover from Stun <color=#2BAD00>15% slower</color> for 20s. Repeated triggers reset the duration."
+            }
+          }
+        }
+      }
+    }
+  ],
+  "BeginTime": "2026-07-30 04:00:00",
+  "EndTime": "2026-10-01 03:59:59"
+}

@@ -100,6 +100,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "202": "Ice" },
+          "MonsterResistance": {},
           "WavesNum": 4
         },
         "62029012": {
@@ -147,6 +148,7 @@
             }
           },
           "MonsterWeakness": { "203": "Electric", "205": "Ether" },
+          "MonsterResistance": {},
           "WavesNum": 4
         }
       },
@@ -253,6 +255,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "MonsterResistance": {},
           "WavesNum": 4
         },
         "62029022": {
@@ -340,6 +343,7 @@
             }
           },
           "MonsterWeakness": { "203": "Electric" },
+          "MonsterResistance": {},
           "WavesNum": 3
         }
       },
@@ -446,6 +450,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "202": "Ice" },
+          "MonsterResistance": {},
           "WavesNum": 4
         },
         "62029032": {
@@ -553,6 +558,7 @@
             }
           },
           "MonsterWeakness": { "203": "Electric" },
+          "MonsterResistance": {},
           "WavesNum": 4
         }
       },
@@ -679,6 +685,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "MonsterResistance": {},
           "WavesNum": 3
         },
         "62029042": {
@@ -786,6 +793,7 @@
             }
           },
           "MonsterWeakness": { "203": "Electric" },
+          "MonsterResistance": {},
           "WavesNum": 3
         }
       },
@@ -892,6 +900,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "202": "Ice" },
+          "MonsterResistance": {},
           "WavesNum": 3
         },
         "62029052": {
@@ -979,6 +988,7 @@
             }
           },
           "MonsterWeakness": { "203": "Electric" },
+          "MonsterResistance": {},
           "WavesNum": 3
         }
       },
@@ -1045,6 +1055,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "MonsterResistance": {},
           "WavesNum": 2
         },
         "62029062": {
@@ -1112,6 +1123,7 @@
             }
           },
           "MonsterWeakness": { "203": "Electric" },
+          "MonsterResistance": {},
           "WavesNum": 2
         }
       },
@@ -1178,6 +1190,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "203": "Electric" },
+          "MonsterResistance": {},
           "WavesNum": 2
         },
         "62029072": {
@@ -1245,6 +1258,7 @@
             }
           },
           "MonsterWeakness": { "203": "Electric" },
+          "MonsterResistance": {},
           "WavesNum": 2
         }
       },

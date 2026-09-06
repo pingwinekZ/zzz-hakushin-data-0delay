@@ -47,11 +47,13 @@
     "3114310": {
       "Name": "Ye Shunguang: Clouddrift Illumination",
       "Desc": "Cloud-woven silk, a blade's gleam reflected in its folds. The attire mirrors the person.\nBut who truly chose this dress? Was it her... or the deeper self within?",
+      "ObtainDesc": "",
       "Image": "IconRole55"
     },
     "3114311": {
       "Name": "Ye Shunguang: Touch of Dawnlight",
       "Desc": "The gentle glow of sunlight and warm breeze seem to welcome your next encounter as you walk down the streets.",
+      "ObtainDesc": "",
       "Image": "IconRole55_01"
     }
   },
@@ -95,7 +97,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -2706,6 +2711,11 @@
     "Slot2": 32700,
     "SlotSub": 31000,
     "PartSubList": [21103, 20103, 12102],
+    "AltBuild": [
+      { "SuitList": [33500, 32700], "PartSubList": [21103] },
+      { "SuitList": [], "PartSubList": [31503, 12102] },
+      { "SuitList": [], "PartSubList": [12102] }
+    ],
     "Part4": {
       "Prop": 21103,
       "Name": "CRIT DMG",

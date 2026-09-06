@@ -42,6 +42,7 @@
     "3112010": {
       "Name": "Asaba Harumasa: Full-Fledged Strings",
       "Desc": "His eyes are brighter than the streak of bright yellow upon his brow. His arrows pierce through deceit and lies and scatter the past like feathers on the wind. Dawn may not have arrived yet, but beyond the horizon, a golden future shimmers faintly.",
+      "ObtainDesc": "",
       "Image": "IconRole35"
     }
   },
@@ -86,7 +87,10 @@
       "EtherEyesSize1"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -2058,10 +2062,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 32400,
+    "Slot4": 32900,
     "Slot2": 31000,
-    "SlotSub": 32900,
+    "SlotSub": 32700,
     "PartSubList": [20103, 12102, 21103],
+    "AltBuild": [
+      { "SuitList": [32400, 31000], "PartSubList": [21103, 20103] },
+      { "SuitList": [], "PartSubList": [31803, 12102] },
+      { "SuitList": [], "PartSubList": [12102] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",

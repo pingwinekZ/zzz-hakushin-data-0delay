@@ -42,6 +42,7 @@
     "3112410": {
       "Name": "Zhu Yuan: Suppressor of Evil",
       "Desc": "This high-grade anti-riot uniform from Public Security has been specially modified to suit Zhu Yuan's fighting style.\nWinner of the Janus Precinct's combat tournament three years running, the young top Public Security Officer is on call 24/7, ready to arrest any criminal in her path.",
+      "ObtainDesc": "",
       "Image": "IconRole23"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize3"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1810,10 +1814,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 32300,
+    "Slot4": 34000,
     "Slot2": 31000,
-    "SlotSub": 31400,
+    "SlotSub": 32700,
     "PartSubList": [20103, 21103, 12102],
+    "AltBuild": [
+      { "SuitList": [32300, 31000], "PartSubList": [21103, 20103] },
+      { "SuitList": [], "PartSubList": [31903, 12102] },
+      { "SuitList": [], "PartSubList": [12102] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",
@@ -1827,16 +1836,16 @@
       "Icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconDungeonBuffEther.png"
     },
     "Part6": {
-      "Prop": 12102,
-      "Name": "ATK",
-      "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
-    },
-    "PartSub": {
       "Prop": 21103,
       "Name": "CRIT DMG",
       "Format": "{0:0.#%}",
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCritDam.png"
+    },
+    "PartSub": {
+      "Prop": 12102,
+      "Name": "ATK",
+      "Format": "{0:0.#%}",
+      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
     }
   },
   "Strategy": [

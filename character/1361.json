@@ -42,6 +42,7 @@
     "3113610": {
       "Name": "Trigger: Gaze Into the Light",
       "Desc": "In the Hollows, her aim never wavers. She's a teammate one can rely on to cover their back without question. But once she returns to Sixth Street, that constant watchfulness softens, lingering for a moment before disappearing the instant it's sensed.",
+      "ObtainDesc": "",
       "Image": "IconRole39"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize3"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1749,10 +1753,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 32900,
+    "Slot4": 33200,
     "Slot2": 31000,
     "SlotSub": 31200,
     "PartSubList": [20103, 12102, 21103],
+    "AltBuild": [
+      { "SuitList": [32900, 31000], "PartSubList": [20103] },
+      { "SuitList": [], "PartSubList": [31803, 12102] },
+      { "SuitList": [], "PartSubList": [12202] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",

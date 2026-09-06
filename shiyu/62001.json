@@ -32,10 +32,10 @@
                 "Wind": 0
               },
               "Stats": {
-                "Hp": 11790.24,
-                "Attack": 1249.4545454545455,
-                "Defence": 532.8,
-                "Stun": 0,
+                "Hp": 165505.49399999998,
+                "Attack": 1718,
+                "Defence": 426.24,
+                "Stun": 1068,
                 "AttributeInfliction": 0
               }
             },
@@ -141,6 +141,7 @@
             }
           },
           "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "MonsterResistance": {},
           "WavesNum": 3
         },
         "62001012": {
@@ -228,6 +229,7 @@
             }
           },
           "MonsterWeakness": { "201": "Fire" },
+          "MonsterResistance": {},
           "WavesNum": 3
         }
       },
@@ -335,6 +337,7 @@
             }
           },
           "MonsterWeakness": { "205": "Ether" },
+          "MonsterResistance": {},
           "WavesNum": 3
         },
         "62001022": {
@@ -422,6 +425,7 @@
             }
           },
           "MonsterWeakness": { "203": "Electric" },
+          "MonsterResistance": {},
           "WavesNum": 3
         }
       },
@@ -529,6 +533,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "MonsterResistance": {},
           "WavesNum": 3
         },
         "62001032": {
@@ -636,6 +641,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "202": "Ice" },
+          "MonsterResistance": {},
           "WavesNum": 3
         }
       },
@@ -763,6 +769,7 @@
             }
           },
           "MonsterWeakness": { "203": "Electric" },
+          "MonsterResistance": {},
           "WavesNum": 3
         },
         "62001042": {
@@ -870,6 +877,7 @@
             }
           },
           "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "MonsterResistance": {},
           "WavesNum": 3
         }
       },
@@ -977,6 +985,7 @@
             }
           },
           "MonsterWeakness": { "201": "Fire" },
+          "MonsterResistance": {},
           "WavesNum": 3
         },
         "62001052": {
@@ -1064,6 +1073,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "202": "Ice" },
+          "MonsterResistance": {},
           "WavesNum": 3
         }
       },
@@ -1131,6 +1141,7 @@
             }
           },
           "MonsterWeakness": { "203": "Electric" },
+          "MonsterResistance": {},
           "WavesNum": 1
         },
         "62001062": {
@@ -1178,6 +1189,7 @@
             }
           },
           "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "MonsterResistance": {},
           "WavesNum": 1
         }
       },
@@ -1285,6 +1297,7 @@
             }
           },
           "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "MonsterResistance": {},
           "WavesNum": 1
         },
         "62001072": {
@@ -1332,6 +1345,7 @@
             }
           },
           "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "MonsterResistance": {},
           "WavesNum": 1
         }
       },
@@ -1342,6 +1356,6 @@
       "BRankGoal": 600
     }
   },
-  "BeginTime": "2024-07-04 04:00:00",
-  "EndTime": "2024-08-01 03:59:59"
+  "BeginTime": "2024-05-07 04:00:00",
+  "EndTime": "2024-05-14 03:59:59"
 }

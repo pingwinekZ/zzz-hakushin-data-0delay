@@ -101,6 +101,7 @@
             }
           },
           "MonsterWeakness": { "201": "Fire" },
+          "MonsterResistance": {},
           "WavesNum": 4
         },
         "62004012": {
@@ -188,6 +189,7 @@
             }
           },
           "MonsterWeakness": { "203": "Electric" },
+          "MonsterResistance": {},
           "WavesNum": 3
         }
       },
@@ -295,6 +297,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "MonsterResistance": {},
           "WavesNum": 4
         },
         "62004022": {
@@ -382,6 +385,7 @@
             }
           },
           "MonsterWeakness": { "205": "Ether" },
+          "MonsterResistance": {},
           "WavesNum": 3
         }
       },
@@ -489,6 +493,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "202": "Ice" },
+          "MonsterResistance": {},
           "WavesNum": 4
         },
         "62004032": {
@@ -576,6 +581,7 @@
             }
           },
           "MonsterWeakness": { "203": "Electric" },
+          "MonsterResistance": {},
           "WavesNum": 4
         }
       },
@@ -614,10 +620,10 @@
                 "Wind": 0
               },
               "Stats": {
-                "Hp": 17215.12,
-                "Attack": 1375.2727272727273,
-                "Defence": 675.9,
-                "Stun": 0,
+                "Hp": 241657.247,
+                "Attack": 1547.1818181818182,
+                "Defence": 540.72,
+                "Stun": 1200,
                 "AttributeInfliction": 0
               }
             },
@@ -723,6 +729,7 @@
             }
           },
           "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "MonsterResistance": {},
           "WavesNum": 4
         },
         "62004042": {
@@ -830,6 +837,7 @@
             }
           },
           "MonsterWeakness": { "205": "Ether" },
+          "MonsterResistance": {},
           "WavesNum": 3
         }
       },
@@ -937,6 +945,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "202": "Ice" },
+          "MonsterResistance": {},
           "WavesNum": 3
         },
         "62004052": {
@@ -1044,6 +1053,7 @@
             }
           },
           "MonsterWeakness": { "203": "Electric" },
+          "MonsterResistance": {},
           "WavesNum": 3
         }
       },
@@ -1082,10 +1092,10 @@
                 "Wind": 0
               },
               "Stats": {
-                "Hp": 21924.24,
-                "Attack": 1485.8181818181818,
-                "Defence": 714.6,
-                "Stun": 0,
+                "Hp": 307761.51900000003,
+                "Attack": 1671.5454545454545,
+                "Defence": 571.6800000000001,
+                "Stun": 1320,
                 "AttributeInfliction": 0
               }
             },
@@ -1131,6 +1141,7 @@
             }
           },
           "MonsterWeakness": { "202": "Ice", "205": "Ether" },
+          "MonsterResistance": {},
           "WavesNum": 2
         },
         "62004062": {
@@ -1198,6 +1209,7 @@
             }
           },
           "MonsterWeakness": { "205": "Ether" },
+          "MonsterResistance": {},
           "WavesNum": 2
         }
       },
@@ -1285,6 +1297,7 @@
             }
           },
           "MonsterWeakness": { "200": "Physical", "201": "Fire" },
+          "MonsterResistance": {},
           "WavesNum": 2
         },
         "62004072": {
@@ -1332,6 +1345,7 @@
             }
           },
           "MonsterWeakness": { "203": "Electric" },
+          "MonsterResistance": {},
           "WavesNum": 2
         }
       },

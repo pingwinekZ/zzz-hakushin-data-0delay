@@ -42,6 +42,7 @@
     "3110510": {
       "Name": "Yidhari: Stream of Consciousness",
       "Desc": "Past recollections and novel dreams spill over, inviting her to drown in them as they entwine on paper. With a blank page before her, she pens the opening line at the crossroads of reality and illusion.",
+      "ObtainDesc": "",
       "Image": "IconRole52"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize3"
     ],
     "RpMax": 120,
-    "RpRecover": 200
+    "RpRecover": 200,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1963,6 +1967,11 @@
     "Slot2": 31000,
     "SlotSub": 32700,
     "PartSubList": [20103, 21103, 11102],
+    "AltBuild": [
+      { "SuitList": [33100, 31000], "PartSubList": [20103, 21103] },
+      { "SuitList": [33100, 31000], "PartSubList": [31703, 11102] },
+      { "SuitList": [], "PartSubList": [11102] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",
@@ -1982,10 +1991,10 @@
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconHpMax.png"
     },
     "PartSub": {
-      "Prop": 11102,
-      "Name": "HP",
+      "Prop": 31703,
+      "Name": "Ice DMG Bonus",
       "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconHpMax.png"
+      "Icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconIce.png"
     }
   },
   "Strategy": [

@@ -42,6 +42,7 @@
     "3110710": {
       "Name": "Caesar: Inferno Joyride",
       "Desc": "A ruler ready to ready to sound the triumphal anthem anew, a hero poised to reignite her legend. The not-yet-seasoned leader has finally met the flames of her coronation, yet she still walks the gritty sands of the Outer Ring.\nA light tap on the piano keys sends her desert-tinged song drifting across this land that bears the weight of hope.",
+      "ObtainDesc": "",
       "Image": "IconRole25"
     }
   },
@@ -86,7 +87,10 @@
       "EtherEyesSize3"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1924,7 +1928,12 @@
     "Slot4": 33700,
     "Slot2": 31900,
     "SlotSub": 31200,
-    "PartSubList": [12102, 20103],
+    "PartSubList": [12102, 20103, 21103],
+    "AltBuild": [
+      { "SuitList": [33700, 31900], "PartSubList": [20103] },
+      { "SuitList": [], "PartSubList": [31503, 12102] },
+      { "SuitList": [], "PartSubList": [12202] }
+    ],
     "Part4": {
       "Prop": 12202,
       "Name": "Impact",
@@ -1951,7 +1960,7 @@
     }
   },
   "Strategy": [
-    "05",
+    "04",
     "<IconMap:Icon_GeneralBuff_PhysDmg>Physical, off-field support",
     "Grants shields and Anti-Interrupt to all squad members",
     "Provides attack boosts to on-field squadmates"

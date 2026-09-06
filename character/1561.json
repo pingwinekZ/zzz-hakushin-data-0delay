@@ -42,11 +42,13 @@
     "3115610": {
       "Name": "Velina: Elegant Silver Cascade",
       "Desc": "Some busybodies claim the Administrative Director rejected the External Strategy Department's official uniform to show off her prestigious upbringing, but Velina has always had little interest in lavish fashion. Rather than the elaborate glamour of ceremonial wear, she favors simple clothing: sharp, proper, and suited to dealing with never-ending administrative work.",
+      "ObtainDesc": "",
       "Image": "IconRole64"
     },
     "3115611": {
       "Name": "Velina: Shade of Leisure",
       "Desc": "Outside of work, Velina occasionally invites close friends to afternoon tea parties. During such moments, she changes into relatively casual attire to enjoy her free time... though to the Bangboo, it's merely the Grim Reaper in a different terrifying disguise.",
+      "ObtainDesc": "",
       "Image": "IconRole64_01"
     }
   },
@@ -90,7 +92,10 @@
       "EtherEyesSize3"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1733,8 +1738,13 @@
   "FairyRecommend": {
     "Slot4": 33900,
     "Slot2": 31600,
-    "SlotSub": 31300,
+    "SlotSub": 33400,
     "PartSubList": [31203, 12102],
+    "AltBuild": [
+      { "SuitList": [33900, 31600], "PartSubList": [31203] },
+      { "SuitList": [33900, 33400], "PartSubList": [32303] },
+      { "SuitList": [], "PartSubList": [30502] }
+    ],
     "Part4": {
       "Prop": 30502,
       "Name": "Energy Regen",

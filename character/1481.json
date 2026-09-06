@@ -42,6 +42,7 @@
     "3114810": {
       "Name": "Dialyn: Ringing Judgment",
       "Desc": "A sweet voice comes from the receiver, and when you lean in to listen, it softens into a gentle whisper, announcing that the verdict has arrived... just kidding, it's just a standard satisfaction survey.",
+      "ObtainDesc": "",
       "Image": "IconRole54"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize1"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1832,6 +1836,11 @@
     "Slot2": 31000,
     "SlotSub": 31200,
     "PartSubList": [20103, 21103, 12102],
+    "AltBuild": [
+      { "SuitList": [33200, 31000], "PartSubList": [20103] },
+      { "SuitList": [], "PartSubList": [12102, 31503] },
+      { "SuitList": [], "PartSubList": [30502] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",
@@ -1851,10 +1860,10 @@
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconBreakStun.png"
     },
     "PartSub": {
-      "Prop": 12102,
-      "Name": "ATK",
+      "Prop": 31503,
+      "Name": "Physical DMG Bonus",
       "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
+      "Icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconPhysDmg.png"
     }
   },
   "Strategy": [

@@ -42,6 +42,7 @@
     "3111610": {
       "Name": "Lighter: Everburn Embers",
       "Desc": "The undefeated champion never takes off his sunglasses... or his scarf. Glory stopped mattering long ago, but the countless dusks shared with his companions are still worth waiting for.",
+      "ObtainDesc": "",
       "Image": "IconRole26"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -2088,10 +2092,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 31200,
-    "Slot2": 32200,
-    "SlotSub": 31600,
-    "PartSubList": [12102, 20103],
+    "Slot4": 33200,
+    "Slot2": 31200,
+    "SlotSub": 31000,
+    "PartSubList": [20103, 12102, 21103],
+    "AltBuild": [
+      { "SuitList": [31200, 31600], "PartSubList": [20103] },
+      { "SuitList": [33200, 31200], "PartSubList": [31603, 12102] },
+      { "SuitList": [], "PartSubList": [12202] }
+    ],
     "Part4": {
       "Prop": 12202,
       "Name": "Impact",
@@ -2105,16 +2114,16 @@
       "Icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconFire.png"
     },
     "Part6": {
-      "Prop": 12102,
-      "Name": "ATK",
-      "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
-    },
-    "PartSub": {
       "Prop": 20103,
       "Name": "CRIT Rate",
       "Format": "{0:0.#%}",
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
+    },
+    "PartSub": {
+      "Prop": 12102,
+      "Name": "ATK",
+      "Format": "{0:0.#%}",
+      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
     }
   },
   "Strategy": [

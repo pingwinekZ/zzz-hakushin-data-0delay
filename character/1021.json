@@ -42,6 +42,7 @@
     "3110210": {
       "Name": "Nekomata: Cat's Gratitude",
       "Desc": "A lost cat doesn't know where to go — only that it has to keep moving.\nShe wandered through the vast streets of New Eridu, her thin clothes offering no protection from the elements, until a tiny odd-job agency finally took her in.",
+      "ObtainDesc": "",
       "Image": "IconRole11"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize1"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1675,10 +1679,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 32600,
-    "Slot2": 31000,
+    "Slot4": 31000,
+    "Slot2": 32600,
     "SlotSub": 31100,
     "PartSubList": [20103, 21103, 12102],
+    "AltBuild": [
+      { "SuitList": [32600, 31000], "PartSubList": [21103, 20103] },
+      { "SuitList": [], "PartSubList": [31503, 12102] },
+      { "SuitList": [], "PartSubList": [12102] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",
@@ -1692,16 +1701,16 @@
       "Icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconPhysDmg.png"
     },
     "Part6": {
-      "Prop": 12102,
-      "Name": "ATK",
-      "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
-    },
-    "PartSub": {
       "Prop": 21103,
       "Name": "CRIT DMG",
       "Format": "{0:0.#%}",
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCritDam.png"
+    },
+    "PartSub": {
+      "Prop": 12102,
+      "Name": "ATK",
+      "Format": "{0:0.#%}",
+      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
     }
   },
   "Strategy": [

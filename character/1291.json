@@ -42,6 +42,7 @@
     "3112910": {
       "Name": "Hugo: Crownless Rebellion",
       "Desc": "Never be claimed by fate. Defy its clamps, its control, its taunts, its alms, its curses, and its so-called blessings. Once you return from the abyss, it is fate that should kneel to you.",
+      "ObtainDesc": "",
       "Image": "IconRole42"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1939,6 +1943,11 @@
     "Slot2": 31000,
     "SlotSub": 32700,
     "PartSubList": [20103, 21103, 12102],
+    "AltBuild": [
+      { "SuitList": [31400, 31000], "PartSubList": [21103, 20103] },
+      { "SuitList": [31400, 32700], "PartSubList": [31703, 12102] },
+      { "SuitList": [], "PartSubList": [12102] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",
@@ -1952,16 +1961,16 @@
       "Icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconIce.png"
     },
     "Part6": {
-      "Prop": 12102,
-      "Name": "ATK",
-      "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
-    },
-    "PartSub": {
       "Prop": 21103,
       "Name": "CRIT DMG",
       "Format": "{0:0.#%}",
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCritDam.png"
+    },
+    "PartSub": {
+      "Prop": 12102,
+      "Name": "ATK",
+      "Format": "{0:0.#%}",
+      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
     }
   },
   "Strategy": [

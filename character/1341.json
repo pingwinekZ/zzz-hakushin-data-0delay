@@ -42,6 +42,7 @@
     "3113410": {
       "Name": "Zhao: Cuddly Executor",
       "Desc": "Warm, woolly ears and a small build may invite underestimation, but the Judge of \"Value\" won't think twice about bringing her branch down on anyone who tries.",
+      "ObtainDesc": "",
       "Image": "IconRole56"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize0"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1674,9 +1678,14 @@
   },
   "FairyRecommend": {
     "Slot4": 33700,
-    "Slot2": 31600,
-    "SlotSub": 33100,
+    "Slot2": 33100,
+    "SlotSub": 31600,
     "PartSubList": [11102, 11103],
+    "AltBuild": [
+      { "SuitList": [33700, 33100], "PartSubList": [11102] },
+      { "SuitList": [], "PartSubList": [11102] },
+      { "SuitList": [], "PartSubList": [11102, 30502] }
+    ],
     "Part4": {
       "Prop": 11102,
       "Name": "HP",
@@ -1703,7 +1712,7 @@
     }
   },
   "Strategy": [
-    "05",
+    "04",
     "<IconMap:Icon_GeneralBuff_Ice>Ice, versatile quick-swap support",
     "Can reliably activate Ether Veil",
     "Boosts all squad members' ATK"

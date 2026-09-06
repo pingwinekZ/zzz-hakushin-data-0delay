@@ -17,6 +17,7 @@
     "3113810": {
       "Name": "Soldier 0 - Anby: Silver Soldier",
       "Desc": "Anby's old Silver Squad uniform, stained with memories that never truly fade.\nWhen the shadows of the past strike without warning, would you stand and face them, or stumble and flee? No matter the choice, home always awaits your return.",
+      "ObtainDesc": "",
       "Image": "IconRole40"
     }
   },
@@ -60,7 +61,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1888,6 +1892,11 @@
     "Slot2": 31000,
     "SlotSub": 32400,
     "PartSubList": [21103, 20103, 12102],
+    "AltBuild": [
+      { "SuitList": [32900, 31000], "PartSubList": [20103, 21103] },
+      { "SuitList": [32900, 31000], "PartSubList": [31803, 12102] },
+      { "SuitList": [], "PartSubList": [12102] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",

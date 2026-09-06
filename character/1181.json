@@ -42,6 +42,7 @@
     "3111810": {
       "Name": "Grace: The Iron Witch",
       "Desc": "A clean, no-nonsense work uniform. What the genius mechanic loves most are the many pockets on the outside — big ones, small ones — all perfect for holding screws, gears, and even wrenches of every size.",
+      "ObtainDesc": "",
       "Image": "IconRole20"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize3"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1613,10 +1617,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 32400,
-    "Slot2": 31300,
-    "SlotSub": 31000,
+    "Slot4": 31300,
+    "Slot2": 32400,
+    "SlotSub": 33000,
     "PartSubList": [12102, 31203],
+    "AltBuild": [
+      { "SuitList": [31300, 32400], "PartSubList": [31203] },
+      { "SuitList": [32400, 31300], "PartSubList": [31803, 12102, 23103] },
+      { "SuitList": [], "PartSubList": [31402] }
+    ],
     "Part4": {
       "Prop": 31203,
       "Name": "Anomaly Proficiency",
@@ -1636,10 +1645,10 @@
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
     },
     "PartSub": {
-      "Prop": 20103,
-      "Name": "CRIT Rate",
+      "Prop": 23103,
+      "Name": "PEN Ratio",
       "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
+      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconPenRatio.png"
     }
   },
   "Strategy": [

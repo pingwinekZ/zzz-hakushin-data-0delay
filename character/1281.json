@@ -42,6 +42,7 @@
     "3112810": {
       "Name": "Piper: Lazy Speed",
       "Desc": "Don't be fooled by this truck driver's lazy gaze. One tap on the gas is enough to fling every passenger's soul straight into the back seat.",
+      "ObtainDesc": "",
       "Image": "IconRole28"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize1"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1649,10 +1653,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 31300,
-    "Slot2": 32600,
-    "SlotSub": 31600,
-    "PartSubList": [31203, 12102],
+    "Slot4": 32600,
+    "Slot2": 31300,
+    "SlotSub": 33000,
+    "PartSubList": [12102, 31203],
+    "AltBuild": [
+      { "SuitList": [31300, 32600], "PartSubList": [31203] },
+      { "SuitList": [32600, 31300], "PartSubList": [12102, 31503] },
+      { "SuitList": [], "PartSubList": [31402] }
+    ],
     "Part4": {
       "Prop": 31203,
       "Name": "Anomaly Proficiency",
@@ -1666,16 +1675,16 @@
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementAbnormalPower.png"
     },
     "Part6": {
+      "Prop": 31503,
+      "Name": "Physical DMG Bonus",
+      "Format": "{0:0.#%}",
+      "Icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconPhysDmg.png"
+    },
+    "PartSub": {
       "Prop": 12102,
       "Name": "ATK",
       "Format": "{0:0.#%}",
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
-    },
-    "PartSub": {
-      "Prop": 20103,
-      "Name": "CRIT Rate",
-      "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
     }
   },
   "Strategy": [

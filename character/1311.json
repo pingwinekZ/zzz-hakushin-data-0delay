@@ -43,11 +43,13 @@
     "3113110": {
       "Name": "Astra Yao: Scarlet Rock",
       "Desc": "The bold red is only to ignite the freedom deep within. On stage, nothing can overshadow her brilliance.",
+      "ObtainDesc": "",
       "Image": "IconRole36"
     },
     "3113111": {
       "Name": "Astra Yao: Chandelier",
       "Desc": "The black-and-white dress glimmers in both light and shadows. Every smile of hers seems to sink into the flowing light of the night, becoming a timeless classic.",
+      "ObtainDesc": "",
       "Image": "IconRole36_01"
     }
   },
@@ -91,7 +93,10 @@
       "EtherEyesSize3"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1811,9 +1816,14 @@
   },
   "FairyRecommend": {
     "Slot4": 32800,
-    "Slot2": 31600,
-    "SlotSub": 31400,
-    "PartSubList": [12102, 31203],
+    "Slot2": 33400,
+    "SlotSub": 31600,
+    "PartSubList": [12102, 12103],
+    "AltBuild": [
+      { "SuitList": [32800, 31600], "PartSubList": [12102] },
+      { "SuitList": [32800, 31400], "PartSubList": [12102] },
+      { "SuitList": [], "PartSubList": [30502, 12102] }
+    ],
     "Part4": {
       "Prop": 30502,
       "Name": "Energy Regen",

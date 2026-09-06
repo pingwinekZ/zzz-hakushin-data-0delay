@@ -42,6 +42,7 @@
     "3111410": {
       "Name": "Lycaon: Moonlight Prowl",
       "Desc": "Under the clear moonlight, the attendant's poise is flawless. Yet with the red moon's ascent, the feral nature hidden beneath this suit emerges with a composure and grace all its own.",
+      "ObtainDesc": "",
       "Image": "IconRole18"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -2195,10 +2199,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 31200,
-    "Slot2": 32500,
-    "SlotSub": 31600,
-    "PartSubList": [12102, 20103],
+    "Slot4": 33200,
+    "Slot2": 31200,
+    "SlotSub": 31000,
+    "PartSubList": [20103, 12102, 21103],
+    "AltBuild": [
+      { "SuitList": [31200, 32500], "PartSubList": [20103] },
+      { "SuitList": [], "PartSubList": [31703, 12102] },
+      { "SuitList": [], "PartSubList": [12202] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",

@@ -42,6 +42,7 @@
     "3112110": {
       "Name": "Rina: Head Maid's Perfection",
       "Desc": "Her skirt is immaculate and her appearance flawlessly composed — such is the head maid's standard of perfection. Yet in the kitchen, her definition of \"perfect\" appears to be something else entirely...",
+      "ObtainDesc": "",
       "Image": "IconRole22"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize3"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1606,10 +1610,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 31300,
+    "Slot4": 33400,
     "Slot2": 31100,
-    "SlotSub": 32400,
+    "SlotSub": 31600,
     "PartSubList": [12102, 31203],
+    "AltBuild": [
+      { "SuitList": [31600, 31100], "PartSubList": [31203] },
+      { "SuitList": [], "PartSubList": [23103] },
+      { "SuitList": [], "PartSubList": [30502] }
+    ],
     "Part4": {
       "Prop": 23103,
       "Name": "PEN Ratio",
@@ -1623,16 +1632,16 @@
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconSpRecover.png"
     },
     "Part6": {
-      "Prop": 20103,
-      "Name": "CRIT Rate",
-      "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
-    },
-    "PartSub": {
       "Prop": 12102,
       "Name": "ATK",
       "Format": "{0:0.#%}",
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
+    },
+    "PartSub": {
+      "Prop": 31203,
+      "Name": "Anomaly Proficiency",
+      "Format": "{0:0}",
+      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementMystery.png"
     }
   },
   "Strategy": [

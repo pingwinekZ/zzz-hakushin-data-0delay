@@ -42,12 +42,20 @@
     "3114910": {
       "Name": "Sunna: Dreams on Loop",
       "Desc": "Put on the outfit she finds cutest, and she can break free from the crowd, slipping into the lingering echoes of delusion.",
+      "ObtainDesc": "",
       "Image": "IconRole58"
     },
     "3114911": {
       "Name": "Sunna: Afternoon Tea Break",
       "Desc": "Freshly baked cake, rich aromatic coffee, and the warm afternoon sun...\nWrapped in moments of softness, it's time to begin today's tea break.",
+      "ObtainDesc": "",
       "Image": "IconRole58_01"
+    },
+    "3114912": {
+      "Name": "...",
+      "Desc": "...",
+      "ObtainDesc": "",
+      "Image": "IconRole58_02"
     }
   },
   "Stats": {
@@ -90,7 +98,10 @@
       "EtherEyesSize1"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1695,9 +1706,14 @@
   },
   "FairyRecommend": {
     "Slot4": 33400,
-    "Slot2": 32800,
-    "SlotSub": 31600,
+    "Slot2": 31600,
+    "SlotSub": 32800,
     "PartSubList": [12102, 12103],
+    "AltBuild": [
+      { "SuitList": [33400, 31600], "PartSubList": [12102] },
+      { "SuitList": [33400, 32800], "PartSubList": [12102] },
+      { "SuitList": [], "PartSubList": [30502] }
+    ],
     "Part4": {
       "Prop": 30502,
       "Name": "Energy Regen",

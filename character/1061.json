@@ -42,6 +42,7 @@
     "3110610": {
       "Name": "Corin: Matcha Profiterole",
       "Desc": "From that small frame bursts surprising strength, her roaring chainsaw drowning out her soft whimpers. The well-behaved, ever-professional maid is always short on confidence... so take a moment to wait for her.",
+      "ObtainDesc": "",
       "Image": "IconRole09"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize1"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1736,10 +1740,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 32600,
+    "Slot4": 31400,
     "Slot2": 31000,
-    "SlotSub": 31400,
+    "SlotSub": 32600,
     "PartSubList": [12102, 20103, 21103],
+    "AltBuild": [
+      { "SuitList": [32600, 31000], "PartSubList": [20103, 21103] },
+      { "SuitList": [], "PartSubList": [31503, 12102] },
+      { "SuitList": [], "PartSubList": [12102] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",

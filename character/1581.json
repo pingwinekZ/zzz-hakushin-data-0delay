@@ -42,21 +42,25 @@
     "3115810": {
       "Name": "Remielle: Feathered Murmurs",
       "Desc": "An angel of old fell to the mortal world, their feathers drifting down as they sank into silent slumber.\nAwaken from the pale wasteland, beyond the edge of all sound, and begin the journey anew.",
+      "ObtainDesc": "",
       "Image": "IconRole67"
     },
     "3115811": {
       "Name": "Remielle: Moonlight Whispers",
       "Desc": "Since the sun has never shown mercy, let us embrace the fall alongside the moonlit night.\nYou say it's difficult to differentiate between jokes and deception?\nThen let's have another round of our Q&A game, my dear partner in crime.",
+      "ObtainDesc": "",
       "Image": "IconRole67_02"
     },
     "3115812": {
       "Name": "Remielle: Seashade Pas Seul",
       "Desc": "This was originally a solo dance, yet a ray of light has illuminated the secrecy and solitude shrouded in darkness. Now, would you care to join me for a pas de deux, my partner in crime?",
+      "ObtainDesc": "",
       "Image": "IconRole67_01"
     },
     "3115813": {
       "Name": "Remielle: Moonlight Whispers (Veil)",
       "Desc": "Since the sun has never shown mercy, let us embrace the fall alongside the moonlit night.\nYou say it's difficult to differentiate between jokes and deception?\nThen let's have another round of our Q&A game, my dear partner in crime.",
+      "ObtainDesc": "Unlocked after obtaining the\"Moonlight Whispers\" Outfit",
       "Image": "IconRole67_03"
     }
   },
@@ -100,7 +104,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1824,6 +1831,11 @@
     "Slot2": 31300,
     "SlotSub": 31800,
     "PartSubList": [12102, 31203, 12103],
+    "AltBuild": [
+      { "SuitList": [34100, 31300], "PartSubList": [31203] },
+      { "SuitList": [], "PartSubList": [12102] },
+      { "SuitList": [], "PartSubList": [12102] }
+    ],
     "Part4": {
       "Prop": 31203,
       "Name": "Anomaly Proficiency",

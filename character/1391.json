@@ -42,6 +42,7 @@
     "3113910": {
       "Name": "Ju Fufu: Summit's Cute Tiger",
       "Desc": "Dressed like a simple mystic, this senior sister looks like she's tucked all her bravado away, but with a tiger in her heart... she still radiates that heroic fire.",
+      "ObtainDesc": "",
       "Image": "IconRole43"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize1"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1711,8 +1715,13 @@
   "FairyRecommend": {
     "Slot4": 33200,
     "Slot2": 31000,
-    "SlotSub": 31400,
-    "PartSubList": [12102, 20103],
+    "SlotSub": 31200,
+    "PartSubList": [20103, 12102, 21103],
+    "AltBuild": [
+      { "SuitList": [33200, 32800], "PartSubList": [12102, 20103] },
+      { "SuitList": [], "PartSubList": [12102] },
+      { "SuitList": [], "PartSubList": [12102, 12202] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",
@@ -1732,10 +1741,10 @@
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconSpRecover.png"
     },
     "PartSub": {
-      "Prop": 21103,
-      "Name": "CRIT DMG",
+      "Prop": 12202,
+      "Name": "Impact",
       "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCritDam.png"
+      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconBreakStun.png"
     }
   },
   "Strategy": [

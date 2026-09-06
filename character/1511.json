@@ -42,12 +42,20 @@
     "3115110": {
       "Name": "Nangong Yu: Dreamy Dancer",
       "Desc": "Dreams are both cheap and expensive, always just out of reach. The people on the ground call them stars.\nSo the angel walks among the stars and lifts a sliver of fantasy from the endless galaxy... the very first rainbow light that shone upon her.",
+      "ObtainDesc": "",
       "Image": "IconRole59"
     },
     "3115111": {
       "Name": "Nangong Yu: Rhapsody's Muse",
       "Desc": "Dancing within disordered rhythms, spinning across a stage of wild fantasia.\nThe boundary between angel and demon tilts with the lights, dissolving within her reflection.",
+      "ObtainDesc": "",
       "Image": "IconRole59_01"
+    },
+    "3115112": {
+      "Name": "...",
+      "Desc": "...",
+      "ObtainDesc": "",
+      "Image": "IconRole59_02"
     }
   },
   "Stats": {
@@ -90,7 +98,10 @@
       "EtherEyesSize1"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1607,10 +1618,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 33000,
-    "Slot2": 31300,
-    "SlotSub": 33600,
+    "Slot4": 33600,
+    "Slot2": 33000,
+    "SlotSub": 33200,
     "PartSubList": [31203, 12102],
+    "AltBuild": [
+      { "SuitList": [33000, 31300], "PartSubList": [31203] },
+      { "SuitList": [], "PartSubList": [31903] },
+      { "SuitList": [], "PartSubList": [31402] }
+    ],
     "Part4": {
       "Prop": 31402,
       "Name": "Anomaly Mastery",

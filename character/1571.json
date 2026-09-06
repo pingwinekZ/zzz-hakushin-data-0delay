@@ -42,6 +42,7 @@
     "3115710": {
       "Name": "Norma: Immunity to Fools",
       "Desc": "Rule #1 of Norma's Lab Safety Guidelines: Avoid criticism and advice from idiots and incompetents.",
+      "ObtainDesc": "",
       "Image": "IconRole65"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1913,6 +1917,11 @@
     "Slot2": 31000,
     "SlotSub": 31200,
     "PartSubList": [20103, 21103, 12102],
+    "AltBuild": [
+      { "SuitList": [33200, 31000], "PartSubList": [20103] },
+      { "SuitList": [], "PartSubList": [31603, 12102] },
+      { "SuitList": [], "PartSubList": [30502] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",

@@ -41,6 +41,7 @@
     "3110810": {
       "Name": "Billy: Shining Starlight Costume",
       "Desc": "Style is justice, justice is style. That's the eternal creed of a true knight! Though, yeah... those joint screws really do wear down fast...",
+      "ObtainDesc": "",
       "Image": "IconRole10"
     }
   },
@@ -84,7 +85,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1572,10 +1576,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 32600,
+    "Slot4": 31400,
     "Slot2": 31000,
-    "SlotSub": 31400,
+    "SlotSub": 32600,
     "PartSubList": [12102, 20103, 21103],
+    "AltBuild": [
+      { "SuitList": [32600, 31000], "PartSubList": [21103, 20103] },
+      { "SuitList": [], "PartSubList": [31503, 12102] },
+      { "SuitList": [], "PartSubList": [12102] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",

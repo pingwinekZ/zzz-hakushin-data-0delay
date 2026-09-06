@@ -42,11 +42,13 @@
     "3112610": {
       "Name": "Jane: Hidden Nightfade",
       "Desc": "Her everyday look when she isn't putting on a disguise. Maybe it's just one of the countless faces she wears. The night becomes her cover, and her mask is the one truth she never sets aside.",
+      "ObtainDesc": "",
       "Image": "IconRole24"
     },
     "3112611": {
       "Name": "Jane: Nocturne of Light",
       "Desc": "Who says sunlight must accompany a seaside stroll? For lurkers with names unknown, the night is their most faithful companion. The anonymous lady says the evening sea holds unspeakable secrets — is this the truth, or another deception?",
+      "ObtainDesc": "",
       "Image": "IconRole24_01"
     }
   },
@@ -90,7 +92,10 @@
       "EtherEyesSize3"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -2063,8 +2068,13 @@
   "FairyRecommend": {
     "Slot4": 32600,
     "Slot2": 31300,
-    "SlotSub": 31400,
+    "SlotSub": 33000,
     "PartSubList": [31203, 12102],
+    "AltBuild": [
+      { "SuitList": [32600, 31300], "PartSubList": [31203] },
+      { "SuitList": [], "PartSubList": [31503, 12102] },
+      { "SuitList": [], "PartSubList": [31402] }
+    ],
     "Part4": {
       "Prop": 31203,
       "Name": "Anomaly Proficiency",
@@ -2078,16 +2088,16 @@
       "Icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconPhysDmg.png"
     },
     "Part6": {
+      "Prop": 31402,
+      "Name": "Anomaly Mastery",
+      "Format": "{0:0.#%}",
+      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementAbnormalPower.png"
+    },
+    "PartSub": {
       "Prop": 12102,
       "Name": "ATK",
       "Format": "{0:0.#%}",
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
-    },
-    "PartSub": {
-      "Prop": 20103,
-      "Name": "CRIT Rate",
-      "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
     }
   },
   "Strategy": [

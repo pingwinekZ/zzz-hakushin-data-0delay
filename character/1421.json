@@ -42,11 +42,13 @@
     "3114210": {
       "Name": "Pan Yinhu: Hundred Flavors",
       "Desc": "Yunkui Summit's largest disciple uniform, spacious enough for this senior brother's belly and all his seasonings. And that iron wok on top is a first of its kind. But... putting a pan you just used for stir-frying on your head? Doesn't it burn?",
+      "ObtainDesc": "",
       "Image": "IconRole45"
     },
     "3114211": {
       "Name": "Pan Yinhu: Culinary Jewel",
       "Desc": "Senior Yinhu once dreamed of becoming a renowned chef, but in this day and age, there's always some thug looking to smash your bowl.\n—\"Go on, try smashing one.\"",
+      "ObtainDesc": "",
       "Image": "IconRole45_01"
     }
   },
@@ -90,7 +92,10 @@
       "EtherEyesSize3"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1580,9 +1585,14 @@
   },
   "FairyRecommend": {
     "Slot4": 33700,
-    "Slot2": 31600,
-    "SlotSub": 31400,
-    "PartSubList": [12102, 20103],
+    "Slot2": 31400,
+    "SlotSub": 32800,
+    "PartSubList": [12102, 12103],
+    "AltBuild": [
+      { "SuitList": [32800, 31600], "PartSubList": [12102] },
+      { "SuitList": [], "PartSubList": [12102] },
+      { "SuitList": [], "PartSubList": [30502, 12102] }
+    ],
     "Part4": {
       "Prop": 12102,
       "Name": "ATK",
@@ -1609,7 +1619,7 @@
     }
   },
   "Strategy": [
-    "05",
+    "04",
     "<IconMap:Icon_GeneralBuff_PhysDmg>Physical, Rupture-based support",
     "Provides Sheer Force to squadmates"
   ],

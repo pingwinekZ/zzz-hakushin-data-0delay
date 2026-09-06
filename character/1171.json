@@ -42,6 +42,7 @@
     "3111710": {
       "Name": "Burnice: Wildfire Rave",
       "Desc": "An outfit hotter than any Nitro-Fuel. Wander into a party in the Outer Ring, and odds are you'll bump into Burnice... but drink her signature cocktails at your own risk...\nWait, you've already taken a sip? Well then — 3, 2, 1... fire!",
+      "ObtainDesc": "",
       "Image": "IconRole32"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1894,9 +1898,14 @@
   },
   "FairyRecommend": {
     "Slot4": 31800,
-    "Slot2": 31300,
-    "SlotSub": 31400,
+    "Slot2": 31600,
+    "SlotSub": 31300,
     "PartSubList": [31203, 12102],
+    "AltBuild": [
+      { "SuitList": [31800, 31300], "PartSubList": [31203] },
+      { "SuitList": [31800, 31600], "PartSubList": [31603, 12102] },
+      { "SuitList": [], "PartSubList": [31402, 30502] }
+    ],
     "Part4": {
       "Prop": 30502,
       "Name": "Energy Regen",
@@ -1910,16 +1919,16 @@
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementMystery.png"
     },
     "Part6": {
+      "Prop": 31603,
+      "Name": "Fire DMG Bonus",
+      "Format": "{0:0.#%}",
+      "Icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconFire.png"
+    },
+    "PartSub": {
       "Prop": 12102,
       "Name": "ATK",
       "Format": "{0:0.#%}",
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
-    },
-    "PartSub": {
-      "Prop": 20103,
-      "Name": "CRIT Rate",
-      "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCrit.png"
     }
   },
   "Strategy": [

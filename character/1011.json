@@ -41,6 +41,7 @@
     "3110110": {
       "Name": "Anby: Street Streak",
       "Desc": "These casual clothes were hand-picked and styled for Anby by Nicole. They're designed for easy movement and ideal for moving about the streets. The fabrics and accessories cost a lot more than they seem, so (?) Anby treats the outfit with real care.",
+      "ObtainDesc": "",
       "Image": "IconRole01"
     }
   },
@@ -84,7 +85,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1473,10 +1477,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 31200,
-    "Slot2": 32400,
+    "Slot4": 33200,
+    "Slot2": 31200,
     "SlotSub": 31600,
-    "PartSubList": [12102, 20103],
+    "PartSubList": [20103, 12102, 21103],
+    "AltBuild": [
+      { "SuitList": [31200, 32400], "PartSubList": [20103, 12102, 21103] },
+      { "SuitList": [31200, 31600], "PartSubList": [31803, 12102] },
+      { "SuitList": [], "PartSubList": [12202] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",

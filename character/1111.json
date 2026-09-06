@@ -42,6 +42,7 @@
     "3111110": {
       "Name": "Anton: Earthshaking Axle",
       "Desc": "The jackhammer's bearings rumble without pause, echoing the hot, thunderous beat of its wielder's heart.",
+      "ObtainDesc": "",
       "Image": "IconRole15"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1774,10 +1778,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 32400,
+    "Slot4": 33300,
     "Slot2": 31000,
-    "SlotSub": 31400,
+    "SlotSub": 32700,
     "PartSubList": [12102, 20103, 21103],
+    "AltBuild": [
+      { "SuitList": [32400, 31000], "PartSubList": [20103, 21103] },
+      { "SuitList": [], "PartSubList": [31803, 12102] },
+      { "SuitList": [], "PartSubList": [12102, 30502] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",

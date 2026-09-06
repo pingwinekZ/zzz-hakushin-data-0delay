@@ -6,7 +6,7 @@
       "Id": 31672,
       "CodeName": "Monster_GirReborn",
       "Icon": "Assets/NapResources/UI/Sprite/A1DynamicLoad/IconBossGeneral/UnPacker/IconMonster_GirReborn.png",
-      "Tag": ["Ether", "Large", "Boss", "GirReborn_P2"],
+      "Tag": ["Ether", "Large", "Boss", "GirReborn_P2", "MainStoryBoss"],
       "Type": "Monster",
       "Element": {
         "Ice": 0,
@@ -135,7 +135,8 @@
         "Large",
         "Boss",
         "HighCorruptiveBarrier",
-        "GirReborn_P2"
+        "GirReborn_P2",
+        "MainStoryBoss"
       ],
       "Type": "Monster",
       "Element": {

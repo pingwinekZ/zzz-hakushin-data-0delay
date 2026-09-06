@@ -42,11 +42,13 @@
     "3114410": {
       "Name": "Komano Manato: Loyal Wild Soul",
       "Desc": "The standard attire of the unofficial mediator in Sailume Bay, enough to intimidate petty thugs.\nStill, it sometimes draws wandering eyes.",
+      "ObtainDesc": "",
       "Image": "IconRole51"
     },
     "3114411": {
       "Name": "Komano Manato: White Heart Silhouette",
       "Desc": "A young Manato made a solitary vow to himself — and from his deep reverie, a lone pale shadow was born.\nMimicking his attire enhances Manato's already exceedingly intimidating presence.",
+      "ObtainDesc": "",
       "Image": "IconRole51_01"
     }
   },
@@ -90,7 +92,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 120,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -2127,6 +2132,11 @@
     "Slot2": 31000,
     "SlotSub": 32700,
     "PartSubList": [20103, 21103, 11102],
+    "AltBuild": [
+      { "SuitList": [33100, 32700], "PartSubList": [20103, 21103] },
+      { "SuitList": [33100, 31000], "PartSubList": [31603, 11102] },
+      { "SuitList": [], "PartSubList": [11102] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",
@@ -2140,16 +2150,16 @@
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCritDam.png"
     },
     "Part6": {
-      "Prop": 11102,
-      "Name": "HP",
-      "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconHpMax.png"
-    },
-    "PartSub": {
       "Prop": 31603,
       "Name": "Fire DMG Bonus",
       "Format": "{0:0.#%}",
       "Icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconFire.png"
+    },
+    "PartSub": {
+      "Prop": 11102,
+      "Name": "HP",
+      "Format": "{0:0.#%}",
+      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconHpMax.png"
     }
   },
   "Strategy": [

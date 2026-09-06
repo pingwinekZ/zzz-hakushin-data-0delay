@@ -17,6 +17,7 @@
     "3115510": {
       "Name": "Pyrois: Dawn's Guardian",
       "Desc": "The dying heat haze extinguished within the valley will one day be reborn from the sea. The beast that trampled fate beneath its feet will become the chariot that clears the path ahead.",
+      "ObtainDesc": "",
       "Image": "IconRole63"
     }
   },
@@ -60,7 +61,10 @@
       "EtherEyesSize3"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1790,6 +1794,11 @@
     "Slot2": 31000,
     "SlotSub": 32700,
     "PartSubList": [20103, 21103, 12102],
+    "AltBuild": [
+      { "SuitList": [34000, 31000], "PartSubList": [20103, 21103] },
+      { "SuitList": [34000, 32700], "PartSubList": [31903, 23103] },
+      { "SuitList": [], "PartSubList": [12102] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",

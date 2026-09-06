@@ -43,6 +43,7 @@
     "3112210": {
       "Name": "Tsukishiro Yanagi: Flowing Moonshade",
       "Desc": "Even reflective lenses can't hide the sharp gleam in the Deputy Chief's eyes. She has to constantly keep watch over a warrior obsessed with training, a scout who slacks off whenever possible, and a little one who's forever getting stomachaches.",
+      "ObtainDesc": "",
       "Image": "IconRole31"
     }
   },
@@ -86,7 +87,10 @@
       "EtherEyesSize3"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1771,10 +1775,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 31800,
-    "Slot2": 31300,
-    "SlotSub": 32400,
-    "PartSubList": [31203, 12102],
+    "Slot4": 31300,
+    "Slot2": 32400,
+    "SlotSub": 31800,
+    "PartSubList": [12102, 31203],
+    "AltBuild": [
+      { "SuitList": [31800, 31300], "PartSubList": [31203] },
+      { "SuitList": [], "PartSubList": [31803, 23103] },
+      { "SuitList": [], "PartSubList": [31402] }
+    ],
     "Part4": {
       "Prop": 31203,
       "Name": "Anomaly Proficiency",
@@ -1788,16 +1797,16 @@
       "Icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconThunder.png"
     },
     "Part6": {
-      "Prop": 12102,
-      "Name": "ATK",
-      "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
-    },
-    "PartSub": {
       "Prop": 31402,
       "Name": "Anomaly Mastery",
       "Format": "{0:0.#%}",
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconElementAbnormalPower.png"
+    },
+    "PartSub": {
+      "Prop": 12102,
+      "Name": "ATK",
+      "Format": "{0:0.#%}",
+      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconAttack.png"
     }
   },
   "Strategy": [

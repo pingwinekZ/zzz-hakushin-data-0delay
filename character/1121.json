@@ -42,6 +42,7 @@
     "3111210": {
       "Name": "Ben: Fluffy Beastking",
       "Desc": "Ignoring the intimidating look meant to cow outsiders, even the Beast King struggles with grooming his fur and sorting out the bills.",
+      "ObtainDesc": "",
       "Image": "IconRole16"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize3"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1555,10 +1559,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 31500,
-    "Slot2": 31600,
-    "SlotSub": 31300,
+    "Slot4": 33700,
+    "Slot2": 31900,
+    "SlotSub": 31500,
     "PartSubList": [13102, 12102],
+    "AltBuild": [
+      { "SuitList": [33700, 31900], "PartSubList": [13102] },
+      { "SuitList": [31500, 31600], "PartSubList": [13102] },
+      { "SuitList": [], "PartSubList": [13102] }
+    ],
     "Part4": {
       "Prop": 13102,
       "Name": "DEF",
@@ -1585,7 +1594,7 @@
     }
   },
   "Strategy": [
-    "05",
+    "04",
     "<IconMap:Icon_GeneralBuff_Fire>Fire, defense support",
     "Grants shield Retaliation to all squad members"
   ],

@@ -17,6 +17,7 @@
     "3115310": {
       "Name": "Starlight - Billy: Starlight Armaments",
       "Desc": "Those who always believe in hope will, in the end, become someone else's hope.",
+      "ObtainDesc": "",
       "Image": "IconRole62"
     }
   },
@@ -60,7 +61,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 120,
-    "RpRecover": 200
+    "RpRecover": 200,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1723,9 +1727,14 @@
   },
   "FairyRecommend": {
     "Slot4": 33100,
-    "Slot2": 31000,
-    "SlotSub": 32700,
+    "Slot2": 32700,
+    "SlotSub": 31000,
     "PartSubList": [20103, 21103, 11102],
+    "AltBuild": [
+      { "SuitList": [33100, 32700], "PartSubList": [20103, 21103] },
+      { "SuitList": [33100, 31000], "PartSubList": [31503, 11102] },
+      { "SuitList": [], "PartSubList": [11102] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",

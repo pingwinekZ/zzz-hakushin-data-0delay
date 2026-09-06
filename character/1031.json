@@ -41,11 +41,13 @@
     "3110310": {
       "Name": "Nicole: Lil Sassy",
       "Desc": "The classic outfit of the leader of the Cunning Hares, hiding a hint of playful cunning, both mischievous and cute.",
+      "ObtainDesc": "",
       "Image": "IconRole12"
     },
     "3110311": {
       "Name": "Nicole: Cunning Cutie",
       "Desc": "Pink! Pink! Pink! Pink is Nicole's signature color. So are you feeling it?",
+      "ObtainDesc": "",
       "Image": "IconRole12_01"
     }
   },
@@ -89,7 +91,10 @@
       "EtherEyesSize2"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -2347,10 +2352,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 32300,
+    "Slot4": 33400,
     "Slot2": 31600,
-    "SlotSub": 31000,
+    "SlotSub": 32300,
     "PartSubList": [12102, 31203],
+    "AltBuild": [
+      { "SuitList": [31600, 32300], "PartSubList": [31203, 20103] },
+      { "SuitList": [33400, 31600], "PartSubList": [31903, 12102] },
+      { "SuitList": [], "PartSubList": [30502] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",

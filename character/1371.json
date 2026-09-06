@@ -47,11 +47,13 @@
     "3113710": {
       "Name": "Yixuan: Summit of Clouds",
       "Desc": "As the Master of Yunkui Summit, one's fashion and accessories need only be what feels natural. Stay true to one's self.",
+      "ObtainDesc": "",
       "Image": "IconRole44"
     },
     "3113711": {
       "Name": "Yixuan: Trails of Ink",
       "Desc": "A custom attire in shades of ink. Like an elusive shadow, gone in a flash.",
+      "ObtainDesc": "",
       "Image": "IconRole44_01"
     }
   },
@@ -95,7 +97,10 @@
       "EtherEyesSize3"
     ],
     "RpMax": 120,
-    "RpRecover": 200
+    "RpRecover": 200,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -2049,6 +2054,11 @@
     "Slot2": 31000,
     "SlotSub": 32700,
     "PartSubList": [20103, 21103, 11102],
+    "AltBuild": [
+      { "SuitList": [33100, 31000], "PartSubList": [21103, 20103] },
+      { "SuitList": [33100, 31000], "PartSubList": [31903, 11102] },
+      { "SuitList": [], "PartSubList": [11102] }
+    ],
     "Part4": {
       "Prop": 20103,
       "Name": "CRIT Rate",
@@ -2062,16 +2072,16 @@
       "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconCritDam.png"
     },
     "Part6": {
-      "Prop": 11102,
-      "Name": "HP",
-      "Format": "{0:0.#%}",
-      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconHpMax.png"
-    },
-    "PartSub": {
       "Prop": 31903,
       "Name": "Ether DMG Bonus",
       "Format": "{0:0.#%}",
       "Icon": "UI/Sprite/A1DynamicLoad/IconGeneralBuff/Packer/IconDungeonBuffEther.png"
+    },
+    "PartSub": {
+      "Prop": 11102,
+      "Name": "HP",
+      "Format": "{0:0.#%}",
+      "Icon": "UI/Sprite/A1DynamicLoad/IconAttribute/UnPacker/Role/IconHpMax.png"
     }
   },
   "Strategy": [

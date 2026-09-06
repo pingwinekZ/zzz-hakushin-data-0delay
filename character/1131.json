@@ -42,6 +42,7 @@
     "3111310": {
       "Name": "Soukaku: Dance of Azure Ice",
       "Desc": "Swinging a blade-banner as tall as half a person, and with a stomach rumbling with just as big a sound: fwish fwish fwish fwish fwish — work's done! Time to head home for dinner!",
+      "ObtainDesc": "",
       "Image": "IconRole17"
     }
   },
@@ -85,7 +86,10 @@
       "EtherEyesSize1"
     ],
     "RpMax": 0,
-    "RpRecover": 0
+    "RpRecover": 0,
+    "EpMax": 0,
+    "EpRecover": 0,
+    "SharpCriticalDamage": 0
   },
   "Level": {
     "1": {
@@ -1903,10 +1907,15 @@
     }
   },
   "FairyRecommend": {
-    "Slot4": 31400,
-    "Slot2": 32500,
-    "SlotSub": 31600,
+    "Slot4": 33400,
+    "Slot2": 31600,
+    "SlotSub": 32500,
     "PartSubList": [12102, 31203],
+    "AltBuild": [
+      { "SuitList": [31600, 31400], "PartSubList": [12102] },
+      { "SuitList": [31300, 33000], "PartSubList": [12102] },
+      { "SuitList": [], "PartSubList": [12102, 31402, 30502] }
+    ],
     "Part4": {
       "Prop": 12102,
       "Name": "ATK",
